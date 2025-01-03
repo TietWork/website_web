@@ -34,11 +34,11 @@ function Challenge() {
                     Solution
                   </h6>
                   <p className="fz-18" style={{ color: '#555' }}>
-                    Thirdeye and ZyberTech collaborated to design and develop an AI-powered Face Detection Application for a leading Hollywood casting company. This innovative solution cross-referenced actors' resumes with an extensive movie database using facial recognition technology, ensuring authenticity and streamlining the submission process. Key features of the solution included:
+                    Thirdeye and ZyberTech collaborated to design and develop an AI-powered Face Detection Application for a leading Hollywood casting company. This innovative solution cross-referenced actors resumes with an extensive movie database using facial recognition technology, ensuring authenticity and streamlining the submission process. Key features of the solution included:
                   </p>
                   <ul className="fz-18" style={{ color: '#555', paddingLeft: '20px' }}>
                     <li>Casting Management System – Automated end-to-end workflows for efficient talent management.</li>
-                    <li>Face Detection API – Instantly verifies actors' authenticity by matching faces with a vast movie database.</li>
+                    <li>Face Detection API – Instantly verifies actors authenticity by matching faces with a vast movie database.</li>
                     <li>Automated Candidate Shortlisting – Reducing time spent on shortlisting by 80%.</li>
                     <li>Custom Software Enhancements – Tailored to meet the unique needs of our client.</li>
                   </ul>

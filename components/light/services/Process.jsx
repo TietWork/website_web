@@ -40,7 +40,7 @@ function Process() {
             <h5 className="mb-15">Development & Execution</h5>
             <p>
               Based on research, we develop creative concepts and user-centered
-              designs that reflect your brand's vision and meet customer
+              designs that reflect your brand&apos;s vision and meet customer
               expectations.{" "}
             </p>
             <div className="o-hidden">

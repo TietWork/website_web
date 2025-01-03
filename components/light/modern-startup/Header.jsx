@@ -133,7 +133,7 @@ function Header() {
           }}
         >
           We combine forward-thinking design with modern technology to craft
-          stories that empower and grow our partners' brands.
+          stories that empower and grow our partners brands.
           <br />
         </motion.p>
       </div>

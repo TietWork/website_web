@@ -92,8 +92,8 @@ function About() {
                     </div>
                     <div className="text">
                       <p>
-                        "A future built on integrity and innovation, shaping a
-                        sustainable and connected world."
+                        A future built on integrity and innovation, shaping a
+                        sustainable and connected world.
                       </p>
                     </div>
                     <a href="/light/page-services" className="mt-30">

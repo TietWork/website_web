@@ -22,15 +22,15 @@ function Solution() {
                     Client Testimonials
                   </h6>
                   <blockquote className="mb-30 fz-18" style={{ color: '#555', fontStyle: 'italic' }}>
-                    "The IoT smart locks have transformed our office security system. The ability to
+                    The IoT smart locks have transformed our office security system. The ability to
                     track and manage access remotely through the app has given us peace of mind and
-                    flexibility."
+                    flexibility.
                     <br />
                     <strong>– Facilities Manager, Leading IT Firm</strong>
                   </blockquote>
                   <blockquote className="mb-40 fz-18" style={{ color: '#555', fontStyle: 'italic' }}>
-                    "As a factory owner, tamper-proof locks are critical for our operations. These
-                    locks have proven to be resilient and reliable under tough conditions."
+                    As a factory owner, tamper-proof locks are critical for our operations. These
+                    locks have proven to be resilient and reliable under tough conditions.
                     <br />
                     <strong>– Operations Head, Manufacturing Unit</strong>
                   </blockquote>
