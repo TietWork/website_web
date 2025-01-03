@@ -20,7 +20,6 @@ Thumbs.db
 # Coverage directory
 coverage/
 
-
 # Build output
 dist/
 build/
@@ -53,5 +52,6 @@ bower_components/
 
 # Test coverage results
 .nyc_output/
-node_modules
-node_modules
+
+# Next.js build output
+.next/
