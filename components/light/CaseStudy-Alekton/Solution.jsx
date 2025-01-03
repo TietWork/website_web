@@ -27,7 +27,7 @@ function Solution() {
                       color: '#555',
                     }}
                   >
-                    “The Digital Job Card system transformed our production floor. Real-time updates have drastically cut down delays and improved our efficiency.” 
+                    The Digital Job Card system transformed our production floor. Real-time updates have drastically cut down delays and improved our efficiency.
                     <br />
                     <span style={{ fontWeight: 'bold', color: '#333' }}>
                       – Production Manager, Alekton
@@ -52,7 +52,7 @@ function Solution() {
                     className="fz-18"
                     style={{ color: '#555', marginTop: '20px' }}
                   >
-                    This case study highlights Thirdeye’s commitment to delivering transformative digital solutions tailored to the unique needs of the manufacturing sector.
+                    This case study highlights Thirdeye&apos;s commitment to delivering transformative digital solutions tailored to the unique needs of the manufacturing sector.
                   </p>
                 </div>
 
@@ -83,7 +83,7 @@ function Solution() {
                   Conclusion
                 </h6>
                 <p className="fz-18" style={{ color: '#555' }}>
-                  Thirdeye’s innovative Digital Job Card System has revolutionized Alekton’s manufacturing workflow, driving efficiency and enhancing operational transparency. By digitizing the job tracking process and integrating QR code technology, Alekton experienced faster production cycles, improved accuracy, and increased overall productivity. This project underscores Thirdeye's commitment to delivering transformative digital solutions tailored to the unique needs of the manufacturing sector.
+                  Thirdeye&apos;s innovative Digital Job Card System has revolutionized Alekton&apos;s manufacturing workflow, driving efficiency and enhancing operational transparency. By digitizing the job tracking process and integrating QR code technology, Alekton experienced faster production cycles, improved accuracy, and increased overall productivity. This project underscores Thirdeye&apos;s commitment to delivering transformative digital solutions tailored to the unique needs of the manufacturing sector.
                 </p>
               </div>
             </div>

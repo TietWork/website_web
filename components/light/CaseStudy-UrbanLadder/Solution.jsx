@@ -20,12 +20,12 @@ function Solution() {
                     Key Quotes from the Client
                   </h6>
                   <blockquote className="mb-30" style={{ fontStyle: 'italic', borderLeft: '4px solid #007bff', paddingLeft: '15px', color: '#555' }}>
-                    “The track and trace solution developed by Thirdeye has transformed how we manage production. Every stage is now visible and automated, reducing inefficiencies across our operations.”
+                    The track and trace solution developed by Thirdeye has transformed how we manage production. Every stage is now visible and automated, reducing inefficiencies across our operations.
                     <br />
                     <span style={{ fontWeight: 'bold', color: '#333' }}>– Production Head, UrbanLadder</span>
                   </blockquote>
                   <blockquote className="mb-30" style={{ fontStyle: 'italic', borderLeft: '4px solid #007bff', paddingLeft: '15px', color: '#555' }}>
-                    “With optimized cutting patterns and real-time inventory tracking, we’ve significantly reduced material wastage and increased productivity. This solution has positioned us to scale our operations seamlessly.”
+                    With optimized cutting patterns and real-time inventory tracking, we&apos;ve significantly reduced material wastage and increased productivity. This solution has positioned us to scale our operations seamlessly.
                     <br />
                     <span style={{ fontWeight: 'bold', color: '#333' }}>– Operations Manager</span>
                   </blockquote>
@@ -38,7 +38,7 @@ function Solution() {
                     The collaboration between Thirdeye and UrbanLadder stands as a testament to how digital transformation can drive efficiency and innovation in manufacturing processes. By integrating track and trace capabilities with ERP systems, Thirdeye empowered UrbanLadder to streamline workflows, optimize resource utilization, and deliver superior products to their clients.
                   </p>
                   <p className="fz-18" style={{ color: '#555', marginTop: '20px' }}>
-                    This case study reflects Thirdeye’s commitment to delivering high-impact solutions that enhance productivity and operational excellence in manufacturing and interior design industries.
+                    This case study reflects Thirdeye&apos;s commitment to delivering high-impact solutions that enhance productivity and operational excellence in manufacturing and interior design industries.
                   </p>
                 </div>
 

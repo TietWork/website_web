@@ -47,7 +47,7 @@ function Solution() {
                       color: '#555',
                     }}
                   >
-                    “The Digital Information Display System transformed our theatre’s operations. The real-time seat visualization has been a game-changer for our patrons.” 
+                    The Digital Information Display System transformed our theatre&apos;s operations. The real-time seat visualization has been a game-changer for our patrons. 
                     <br />
                     <span style={{ fontWeight: 'bold', color: '#333' }}>
                       – Operations Manager, Leading Theatre in the USA
@@ -62,7 +62,7 @@ function Solution() {
                       color: '#555',
                     }}
                   >
-                    “Partnering with Thirdeye brought innovative solutions to the forefront, significantly enhancing our client’s ability to manage their operations effectively.” 
+                    Partnering with Thirdeye brought innovative solutions to the forefront, significantly enhancing our client&apos;s ability to manage their operations effectively.
                     <br />
                     <span style={{ fontWeight: 'bold', color: '#333' }}>
                       – ZyberTech
@@ -74,7 +74,7 @@ function Solution() {
                     Conclusion
                   </h6>
                   <p className="fz-18" style={{ color: '#555' }}>
-                    Thirdeye’s innovative Digital Information Display System has revolutionized the theatre experience by automating real-time updates, enhancing operational efficiency, and improving patron satisfaction. This project reinforces Thirdeye’s dedication to leveraging technology for operational excellence and exceptional user experiences in the entertainment industry.
+                    Thirdeye&apos;s innovative Digital Information Display System has revolutionized the theatre experience by automating real-time updates, enhancing operational efficiency, and improving patron satisfaction. This project reinforces Thirdeye&apos;s dedication to leveraging technology for operational excellence and exceptional user experiences in the entertainment industry.
                   </p>
                 </div>
               </div>
