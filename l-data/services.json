@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Software Development",
+    "img": "/light/assets/imgs/serv-icons/SD.png",
+    "desc": "Custom web, mobile, and desktop applications to enhance operations and user experience.",
+    "link": "/light/page-services-details"
+  },
+  {
+    "title": "AI/ML & Blockchain",
+    "img": "/light/assets/imgs/serv-icons/Ai.png",
+    "desc": "Innovative AI analytics and secure blockchain for smarter, scalable solutions.",
+    "link": "/light/page-services-details"
+  },
+  {
+    "title": "IoT Development",
+    "img": "/light/assets/imgs/serv-icons/IOT.png",
+    "desc": "Smart IoT devices transforming spaces with automation and connectivity.",
+    "link": "/light/page-services-details"
+  },
+  {
+    "title": "Big Data & Business Intelliegence ",
+    "img": "/light/assets/imgs/serv-icons/BD.png",
+    "desc": "Data-driven insights using PowerBI, Tableau, and more for strategic growth.",
+    "link": "/light/page-services-details"
+  }
+]
