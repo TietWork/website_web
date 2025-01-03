@@ -320,11 +320,14 @@ function Navbar() {
                   <span className="rolling-text">Approach</span>
                 </a>
                 <div className="dropdown-menu">
-                  <a className="dropdown-item" href="/dark/blog-classic">
+                  <a className="dropdown-item" href="/light/page-FAQS">
                     FAQ
                   </a>
-                  <a className="dropdown-item" href="/dark/blog-list">
-                    Terms of Use and Privacy Policy
+                  <a className="dropdown-item" href="/light/page-TermsPolicy">
+                    Terms of Use 
+                  </a>
+                  <a className="dropdown-item" href="/light/page-PrivacyPolicy">
+                    Privacy Policy
                   </a>
                   <a className="dropdown-item" href="/dark/blog-list2">
                     Join Us!
@@ -596,7 +599,7 @@ function Navbar() {
                       <ul>
                         <li>
                           <a
-                            href="/dark/home-startup-onepage"
+                            href="/light/page-FAQS"
                             className="sub-link"
                           >
                             FAQs
@@ -604,10 +607,18 @@ function Navbar() {
                         </li>
                         <li>
                           <a
-                            href="/dark/home-creative-agency"
+                            href="/light/page-TermsPolicy"
                             className="sub-link"
                           >
-                            Terms of Use and Privacy Policy
+                            Terms of Use
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="/light/page-PrivacyPolicy"
+                            className="sub-link"
+                          >
+                            Privacy Policy
                           </a>
                         </li>
                         <li>

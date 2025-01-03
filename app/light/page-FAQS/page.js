@@ -1,18 +1,17 @@
 import generateStylesheetObject from '@/common/generateStylesheetsObject';
-import Footer from '@/components/light/modern-agency/Footer';
 import Lines from '@/components/light/common/Lines';
 import ProgressScroll from '@/components/light/common/ProgressScroll';
 import Cursor from '@/components/light/common/cusor';
 import LoadingScreen from '@/components/light/common/loader';
-import Navbar from '@/components/light/creative-agency/Navbar';
 import Script from 'next/script';
 import Header from '@/components/light/FAQS/Header';
+import Navbar from '@/components/light/modern-startup/Navbar';
+import Footer from '@/components/light/modern-startup/Footer';
 import FAQS from '@/components/light/FAQS/FAQS';
-import Testimonials from '@/components/light/FAQS/Testimonials';
-import Blog from '@/components/light/FAQS/Blog';
+
 
 export const metadata = {
-  title: 'Infolio',
+  title: 'Third Eye Info Technology',
   icons: {
     icon: '/light/assets/imgs/favicon.ico',
     shortcut: '/light/assets/imgs/favicon.ico',
@@ -25,7 +24,7 @@ export const metadata = {
   },
 };
 
-export default function Contact3Page() {
+export default function FAQ() {
   return (
     <body>
       <LoadingScreen />
@@ -39,8 +38,6 @@ export default function Contact3Page() {
           <main className="main-bg">
             <Header />
             <FAQS />
-            <Testimonials />
-            <Blog />
           </main>
           <Footer />
         </div>
