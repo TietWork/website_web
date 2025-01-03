@@ -18,11 +18,9 @@ function ServicesTab() {
               <div className="tab-content current" id="tabs-1">
                 <div className="item">
                   <div className="img">
-                    <img src="/light/assets/imgs/intro/03.jpg" alt="" />
                   </div>
                   <div className="cont sub-bg">
                     <div className="icon-img-60 mb-40">
-                      <img src="/light/assets/imgs/serv-icons/0.png" alt="" />
                     </div>
                     <div className="text">
                       <p>
@@ -41,11 +39,9 @@ function ServicesTab() {
               <div className="tab-content" id="tabs-2">
                 <div className="item">
                   <div className="img">
-                    <img src="/light/assets/imgs/intro/02.jpg" alt="" />
                   </div>
                   <div className="cont sub-bg">
                     <div className="icon-img-60 mb-40">
-                      <img src="/light/assets/imgs/serv-icons/1.png" alt="" />
                     </div>
                     <div className="text">
                       <p>
@@ -64,11 +60,9 @@ function ServicesTab() {
               <div className="tab-content" id="tabs-3">
                 <div className="item">
                   <div className="img">
-                    <img src="/light/assets/imgs/intro/03.jpg" alt="" />
                   </div>
                   <div className="cont sub-bg">
                     <div className="icon-img-60 mb-40">
-                      <img src="/light/assets/imgs/serv-icons/2.png" alt="" />
                     </div>
                     <div className="text">
                       <p>
@@ -87,7 +81,6 @@ function ServicesTab() {
               <div className="tab-content" id="tabs-4">
                 <div className="item">
                   <div className="img">
-                    <img src="/light/assets/imgs/intro/03.jpg" alt="" />
                   </div>
                   <div className="cont sub-bg">
                     <div className="icon-img-60 mb-40">
