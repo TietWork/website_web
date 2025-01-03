@@ -2,41 +2,40 @@
 import React from "react";
 import { motion } from "framer-motion";
 import {
-  FaStethoscope,
-  FaMoneyBillWave,
-  FaOilCan,
-  FaFilm,
-  FaIndustry,
-  FaGlobe,
-  FaTruck,
-  FaGraduationCap,
-  FaCoffee,
-  FaBuilding,
-  FaShoppingCart,
-  FaPhone,
-  FaSeedling,
-  FaBolt,
-  FaCar,
-  FaShippingFast,
-} from "react-icons/fa";
+  LocalHospital,
+  Business,
+  Engineering,
+  Movie,
+  Public,
+  LocalShipping,
+  School,
+  House,
+  Apartment,
+  ShoppingCart,
+  Phone,
+  Agriculture,
+  Bolt,
+  DirectionsCar,
+  SyncAlt,
+} from "@mui/icons-material";
 
 const industries = [
-  { title: "Healthcare", icon: FaStethoscope },
-  { title: "Finance & Insurance", icon: FaMoneyBillWave },
-  { title: "Oil & Gas", icon: FaOilCan },
-  { title: "Entertainment", icon: FaFilm },
-  { title: "Manufacturing", icon: FaIndustry },
-  { title: "Government", icon: FaGlobe },
-  { title: "Transportation", icon: FaTruck },
-  { title: "Education", icon: FaGraduationCap },
-  { title: "Hospitality", icon: FaCoffee },
-  { title: "Real Estate", icon: FaBuilding },
-  { title: "Retail & E-commerce", icon: FaShoppingCart },
-  { title: "Telecommunications", icon: FaPhone },
-  { title: "Agriculture & AgriTech", icon: FaSeedling },
-  { title: "Energy & Utilities", icon: FaBolt },
-  { title: "Automotive", icon: FaCar },
-  { title: "Logistics & Supply Chain", icon: FaShippingFast },
+  { title: "Healthcare", icon: LocalHospital },
+  { title: "Finance & Insurance", icon: Business },
+  { title: "Oil & Gas", icon: Engineering },
+  { title: "Entertainment", icon: Movie },
+  { title: "Manufacturing", icon: Public },
+  { title: "Government", icon: Apartment },
+  { title: "Transportation", icon: LocalShipping },
+  { title: "Education", icon: School },
+  { title: "Hospitality", icon: House },
+  { title: "Real Estate", icon: Apartment },
+  { title: "Retail & E-commerce", icon: ShoppingCart },
+  { title: "Telecommunications", icon: Phone },
+  { title: "Agriculture & AgriTech", icon: Agriculture },
+  { title: "Energy & Utilities", icon: Bolt },
+  { title: "Automotive", icon: DirectionsCar },
+  { title: "Logistics & Supply Chain", icon: SyncAlt },
 ];
 
 function IndustriesWeServe() {
@@ -104,7 +103,7 @@ function IndustriesWeServe() {
               <div
                 style={{
                   fontSize: "48px",
-                  color: "#007BFF",
+                  color: "#003049",
                   marginBottom: "10px",
                   transition: "color 0.2s ease",
                 }}
@@ -126,14 +125,14 @@ function IndustriesWeServe() {
 
         {/* Call-to-Action Button */}
         <motion.a
-          href="#"
+          href="/light/page-contact"
           whileHover={{ scale: 1.05, backgroundColor: "#0056B3" }}
           whileTap={{ scale: 0.95 }}
           style={{
             display: "inline-block",
             marginTop: "40px",
             padding: "12px 32px",
-            backgroundColor: "#007BFF",
+            backgroundColor: "#0077b6",
             color: "#FFFFFF",
             borderRadius: "25px",
             fontSize: "16px",

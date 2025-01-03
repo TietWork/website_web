@@ -9,37 +9,37 @@ function Marquee() {
             <div className="box">
               <div className="item">
                 <h4 className="d-flex align-items-center fw-800">
-                  <a href="/light/page-contac2">Get In Touch</a>
+                  <a href="/light/page-contact">Get In Touch</a>
                   <span className="fz-50 ml-50 stroke icon">*</span>
                 </h4>
               </div>
               <div className="item">
                 <h4 className="d-flex align-items-center fw-800">
-                  <a href="/light/page-contact2">Contact Us</a>{' '}
+                  <a href="/light/page-contact">Contact Us</a>{' '}
                   <span className="fz-50 ml-50 stroke icon">*</span>
                 </h4>
               </div>
               <div className="item">
                 <h4 className="d-flex align-items-center fw-800">
-                  <a href="/light/page-contact2">Get In Touch</a>
+                  <a href="/light/page-contact">Get In Touch</a>
                   <span className="fz-50 ml-50 stroke icon">*</span>
                 </h4>
               </div>
               <div className="item">
                 <h4 className="d-flex align-items-center fw-800">
-                  <a href="/light/page-contact2">Contact Us</a>{' '}
+                  <a href="/light/page-contact">Contact Us</a>{' '}
                   <span className="fz-50 ml-50 stroke icon">*</span>
                 </h4>
               </div>
               <div className="item">
                 <h4 className="d-flex align-items-center fw-800">
-                  <a href="/light/page-contact2">Get In Touch</a>
+                  <a href="/light/page-contact">Get In Touch</a>
                   <span className="fz-50 ml-50 stroke icon">*</span>
                 </h4>
               </div>
               <div className="item">
                 <h4 className="d-flex align-items-center fw-800">
-                  <a href="/light/page-contact2">Contact Us</a>{' '}
+                  <a href="/light/page-contact">Contact Us</a>{' '}
                   <span className="fz-50 ml-50 stroke icon">*</span>
                 </h4>
               </div>
@@ -47,37 +47,37 @@ function Marquee() {
             <div className="box">
               <div className="item">
                 <h4 className="d-flex align-items-center fw-800">
-                  <a href="/light/page-contact2">Get In Touch</a>
+                  <a href="/light/page-contact">Get In Touch</a>
                   <span className="fz-50 ml-50 stroke icon">*</span>
                 </h4>
               </div>
               <div className="item">
                 <h4 className="d-flex align-items-center fw-800">
-                  <a href="/light/page-contact2">Contact Us</a>{' '}
+                  <a href="/light/page-contact">Contact Us</a>{' '}
                   <span className="fz-50 ml-50 stroke icon">*</span>
                 </h4>
               </div>
               <div className="item">
                 <h4 className="d-flex align-items-center fw-800">
-                  <a href="/light/page-contact2">Get In Touch</a>
+                  <a href="/light/page-contact">Get In Touch</a>
                   <span className="fz-50 ml-50 stroke icon">*</span>
                 </h4>
               </div>
               <div className="item">
                 <h4 className="d-flex align-items-center fw-800">
-                  <a href="/light/page-contact2">Contact Us</a>{' '}
+                  <a href="/light/page-contact">Contact Us</a>{' '}
                   <span className="fz-50 ml-50 stroke icon">*</span>
                 </h4>
               </div>
               <div className="item">
                 <h4 className="d-flex align-items-center fw-800">
-                  <a href="/light/page-contact2">Get In Touch</a>
+                  <a href="/light/page-contact">Get In Touch</a>
                   <span className="fz-50 ml-50 stroke icon">*</span>
                 </h4>
               </div>
               <div className="item">
                 <h4 className="d-flex align-items-center fw-800">
-                  <a href="/light/page-contact2">Contact Us</a>{' '}
+                  <a href="/light/page-contact">Contact Us</a>{' '}
                   <span className="fz-50 ml-50 stroke icon">*</span>
                 </h4>
               </div>

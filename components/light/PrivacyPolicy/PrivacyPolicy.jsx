@@ -8,7 +8,6 @@ function PrivacyPolicy() {
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="terms-content">
-              <h2 className="mb-40 text-center main-color">Privacy Policy</h2>
 
               <p className="text-center">Last Updated: 14th April, 2021</p>
 

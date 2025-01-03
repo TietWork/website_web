@@ -79,7 +79,7 @@ function Header() {
             color: "#051923",
           }}
         >
-          Transforming Ideas Into
+          Innovating Tomorrow
         </motion.h1>
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -102,7 +102,7 @@ function Header() {
               textTransform: "uppercase",
             }}
           >
-            Digital Reality.
+            Simplifying Today.
           </motion.h2>
           <motion.span
             variants={starVariants}
@@ -123,7 +123,6 @@ function Header() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
           style={{
-            fontSize: "1.2rem",
             marginTop: "1.5rem",
             color: "#898989FF",
             lineHeight: "1.6",
@@ -132,8 +131,8 @@ function Header() {
             justifySelf: "center",
           }}
         >
-          We combine forward-thinking design with modern technology to craft
-          stories that empower and grow our partners brands.
+          Turning possibilities into groundbreaking solutions, we transform
+          ideas into reality with innovation and expertise.
           <br />
         </motion.p>
       </div>
@@ -152,52 +151,52 @@ function Header() {
       >
         {/* First Button */}
         <a href="/light/page-contact" style={{ textDecoration: "none" }}>
-        <motion.button
-          className="custom-button"
-          variants={buttonVariants}
-          initial="initial"
-          whileHover="hover"
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            padding: "1rem 3rem",
-            border: "none",
-            outline: "none",
-            cursor: "pointer",
-            borderRadius: "50px",
-            color: "#382b04",
-            fontSize: "16px",
-            fontWeight: "600",
-            gap: "10px",
-          }}
-        >
-          <motion.div
-            variants={dotArrowVariants}
+          <motion.button
+            className="custom-button"
+            variants={buttonVariants}
+            initial="initial"
+            whileHover="hover"
             style={{
               display: "flex",
-              justifyContent: "center",
               alignItems: "center",
-              backgroundColor: "#000",
-              borderRadius: "50%",
-              width: "10px",
-              height: "10px",
-              overflow: "hidden",
-            }}
-          />
-          <motion.div
-            variants={arrowVariants}
-            style={{
-              display: "flex",
               justifyContent: "center",
-              alignItems: "center",
-              color: "#fff",
+              padding: "1rem 3rem",
+              border: "none",
+              outline: "none",
+              cursor: "pointer",
+              borderRadius: "50px",
+              color: "#382b04",
+              fontSize: "16px",
+              fontWeight: "600",
+              gap: "10px",
             }}
           >
-            <BsArrowRight size={20} />
-          </motion.div>
-          Work With Us
-        </motion.button>
+            <motion.div
+              variants={dotArrowVariants}
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                backgroundColor: "#000",
+                borderRadius: "50%",
+                width: "10px",
+                height: "10px",
+                overflow: "hidden",
+              }}
+            />
+            <motion.div
+              variants={arrowVariants}
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                color: "#fff",
+              }}
+            >
+              <BsArrowRight size={20} />
+            </motion.div>
+            Work With Us
+          </motion.button>
         </a>
 
         {/* Second Button */}

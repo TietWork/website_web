@@ -1,6 +1,27 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import {
+  FolderOpen,
+  CalendarMonth,
+  Group,
+  CheckCircle,
+  WarningAmber,
+  Build,
+  Loop,
+  BarChart,
+} from "@mui/icons-material";
+
+const features = [
+  { text: "Project Organization", icon: FolderOpen },
+  { text: "Project Planning and Tracking", icon: CalendarMonth },
+  { text: "Resource Management", icon: Group },
+  { text: "Quality Compliance & Adherence", icon: CheckCircle },
+  { text: "Risk Management", icon: WarningAmber },
+  { text: "Issues Management", icon: Build },
+  { text: "Change Control and Management", icon: Loop },
+  { text: "Reporting and Escalation", icon: BarChart },
+];
 
 function WhyUs() {
   return (
@@ -137,7 +158,7 @@ function WhyUs() {
             >
               <h4
                 className="fz-24 font-weight-bold text-primary text-center"
-                style={{ color: "#007bff" }}
+                style={{ color: "#0077b6" }}
               >
                 Our Project Management Expertise
               </h4>
@@ -148,16 +169,7 @@ function WhyUs() {
 
               {/* Grid Layout for Features */}
               <div className="row mt-4">
-                {[
-                  { text: "Project Organization", icon: "📂" },
-                  { text: "Project Planning and Tracking", icon: "🗓️" },
-                  { text: "Resource Management", icon: "👥" },
-                  { text: "Quality Compliance & Adherence", icon: "✅" },
-                  { text: "Risk Management", icon: "⚠️" },
-                  { text: "Issues Management", icon: "🔧" },
-                  { text: "Change Control and Management", icon: "🔄" },
-                  { text: "Reporting and Escalation", icon: "📊" },
-                ].map((item, index) => (
+                {features.map((item, index) => (
                   <motion.div
                     key={index}
                     className="col-lg-3 col-md-4 col-sm-6 mt-3"
@@ -176,10 +188,10 @@ function WhyUs() {
                       }}
                     >
                       <div
-                        className="icon text-primary mb-3"
-                        style={{ fontSize: "2rem", color: "#007bff" }}
+                        className="icon text mb-3"
+                        style={{ fontSize: "2rem", color: "#000814" }}
                       >
-                        {item.icon}
+                        <item.icon fontSize="inherit" />
                       </div>
                       <h5 className="fz-16 font-weight-bold mb-0">
                         {item.text}

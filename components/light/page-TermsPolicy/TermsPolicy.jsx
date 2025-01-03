@@ -8,9 +8,6 @@ function TermsAndConditions() {
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="terms-content">
-              <h2 className="mb-40 text-center main-color">
-                Terms and conditions
-              </h2>
 
               {/* Section 1 */}
               <div className="term-section">

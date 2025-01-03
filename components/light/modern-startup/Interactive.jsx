@@ -155,7 +155,7 @@ const Interactive = () => {
           transition={{ duration: 0.8 }}
         >
           Our Featured <br />
-          <span style={{ color: "#2563eb" }}>Projects</span>
+          <span style={{ color: "#0077b6" }}>Projects</span>
         </motion.h2>
 
         <motion.div

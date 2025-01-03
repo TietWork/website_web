@@ -1,5 +1,5 @@
-import React from 'react';
-import data from '@/l-data/services.json';
+import React from "react";
+import data from "@/l-data/services.json";
 
 function Services() {
   return (
@@ -12,9 +12,30 @@ function Services() {
               What We Have <span className="fw-200">to Offer</span>
             </h2>
             <div className="ml-auto">
-              <a href="/light/page-services" className="go-more">
-                <span className="text">View all services</span>
-                <span className="icon ti-arrow-top-right"></span>
+              <a
+                href="/light/page-services"
+                className="go-more"
+                style={{
+                  display: "inline-flex",
+                  textDecoration: "none",
+                  color: "#000814", 
+                }}
+              >
+                <span
+                  className="text"
+                  style={{
+                    marginRight: "8px", 
+                    fontSize: "16px", 
+                  }}
+                >
+                  View all services
+                </span>
+                <span
+                  className="icon ti-arrow-top-right"
+                  style={{
+                    fontSize: "16px", 
+                  }}
+                ></span>
               </a>
             </div>
           </div>
@@ -27,7 +48,7 @@ function Services() {
                   <img src={item.img} alt="" />
                 </div>
                 <h5 className="mb-15 text-u">
-                  {item.title.split(' ')[0]} <br /> {item.title.split(' ')[1]}
+                  {item.title} <br />
                 </h5>
                 <p>{item.desc}</p>
                 <a href={item.link} className="rmore mt-30">

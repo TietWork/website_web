@@ -1,39 +1,35 @@
-"use client";
-import React, { useLayoutEffect } from "react";
+'use client';
+import React, { useEffect, useLayoutEffect } from 'react';
 
+import loadBackgroudImages from '@/common/loadBackgroudImages';
 function Header() {
   useLayoutEffect(() => {
     const tl = gsap.timeline();
-    tl.fromTo(".header", { y: 200 }, { y: 0 }, "+=2.5");
+    tl.fromTo('.header', { y: 200 }, { y: 0 }, '+=2.5');
     tl.fromTo(
-      ".header .container",
+      '.header .container',
       { opacity: 0, translateY: 40 },
       { opacity: 1, translateY: 0 },
-      "-=0"
+      '-=0'
     );
 
     // Cleanup function
     return () => tl.kill();
   }, []);
+  useEffect(() => {
+    loadBackgroudImages();
+  }, []);
   return (
-    <div className="header header-project1">
+    <div
+      className="header header-project3 bg-img d-flex align-items-end"
+      data-background="/light/assets/imgs/works/full/face.webp"
+      data-overlay-dark="9"
+    >
       <div className="container">
-        <div className="row align-items-end">
-          <div className="col-lg-7">
-            <div className="md-mb30">
-              <h3 className="">
-                Transforming Hollywood Casting with AI-Powered Solutions by Face
-                Detection.
-              </h3>
-            </div>
-          </div>
-          <div className="col-lg-4 offset-lg-1">
-            <div>
-              <p>
-                Our advanced facial recognition technology streamlines casting
-                by verifying actor resumes, reducing casting time by 80%, and
-                ensuring precision in talent selection.
-              </p>
+        <div className="row">
+          <div className="col-12">
+            <div className="caption">
+              <h1>Transforming Hollywood Casting with AI-Powered Solutions by Face Detection.</h1>
             </div>
           </div>
         </div>

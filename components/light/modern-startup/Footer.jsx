@@ -16,17 +16,17 @@ function Footer() {
               <div className="social-media d-flex justify-content-end">
                 <ul className="rest d-flex align-items-center fz-14">
                   <li>
-                    <a href="www.fb.com" className="hover-anim">
+                    <a href="#" className="hover-anim">
                       <i className="fab fa-facebook-f ml-20"></i> Facebook{" "}
                     </a>
                   </li>
                   <li>
-                    <a href="#0" className="hover-anim">
+                    <a href="https://www.linkedin.com/company/third-eye-info-technology/" className="hover-anim" target="_blank">
                       <i className="fab fa-linkedin-in ml-20"></i> LinkedIn
                     </a>
                   </li>
                   <li>
-                    <a href="#0" className="hover-anim">
+                    <a href="#" className="hover-anim">
                       <i className="fab fa-instagram ml-20"></i> Instagram
                     </a>
                   </li>
@@ -44,7 +44,7 @@ function Footer() {
                   <span className="sideup-text">
                     <span className="up-text underline">
                       <a
-                        href="/light/page-contact2"
+                        href="/light/page-contact"
                         style={{ color: "#007BFF" }}
                       >
                         Let&apos;s get to work.
@@ -63,7 +63,7 @@ function Footer() {
                   </div>
                   <div>
                     <a
-                      href="light/page-contact2"
+                      href="light/page-contact"
                       className="butn butn-md butn-bord-thin radius-30 ml-30"
                     >
                       <span className="text">+91 44 4207 2248</span>

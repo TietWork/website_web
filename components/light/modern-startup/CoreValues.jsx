@@ -70,7 +70,7 @@ function CoreValues() {
           transition={{ duration: 0.5 }}
         >
           Our Core Values at{" "}
-          <span style={{ color: "#007BFF" }}>Third Eye Info Technologies</span>
+          <span style={{ color: "#0077b6" }}>Third Eye Info Technologies</span>
         </motion.h2>
 
         {/* Core Values Grid */}
@@ -102,7 +102,7 @@ function CoreValues() {
                 style={{
                   fontSize: "20px",
                   fontWeight: "600",
-                  color: "#007BFF",
+                  color: "#0077b6",
                   marginBottom: "10px",
                 }}
               >
@@ -128,7 +128,7 @@ function CoreValues() {
           style={{
             marginTop: "50px",
             padding: "30px",
-            backgroundColor: "#007BFF",
+            backgroundColor: "#0077b6",
             borderRadius: "10px",
             color: "#FFFFFF",
             textAlign: "center",

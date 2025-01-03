@@ -1,16 +1,16 @@
-"use client";
-import React, { useEffect, useLayoutEffect } from "react";
+'use client';
+import React, { useEffect, useLayoutEffect } from 'react';
 
-import loadBackgroudImages from "@/common/loadBackgroudImages";
+import loadBackgroudImages from '@/common/loadBackgroudImages';
 function Header() {
   useLayoutEffect(() => {
     const tl = gsap.timeline();
-    tl.fromTo(".header", { y: 200 }, { y: 0 }, "+=2.5");
+    tl.fromTo('.header', { y: 200 }, { y: 0 }, '+=2.5');
     tl.fromTo(
-      ".header .container",
+      '.header .container',
       { opacity: 0, translateY: 40 },
       { opacity: 1, translateY: 0 },
-      "-=0"
+      '-=0'
     );
 
     // Cleanup function
@@ -20,15 +20,16 @@ function Header() {
     loadBackgroudImages();
   }, []);
   return (
-    <div className="header header-project1">
-      <div className="container pt-100">
-        <div className="row align-items-end">
-          <div className="col-lg-8 md-mb50">
-            <div>
-              <h3>
-                Enhancing Theatre Experience with Digital Information Displays
-                Challenge
-              </h3>
+    <div
+      className="header header-project3 bg-img d-flex align-items-end"
+      data-background="/light/assets/imgs/works/full/theatre.jpg"
+      data-overlay-dark="9"
+    >
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="caption">
+              <h1>Enhancing Theatre Experience with Digital Information Displays Challenge.</h1>
             </div>
           </div>
         </div>

@@ -1,6 +1,7 @@
 'use client';
-import React, { useLayoutEffect } from 'react';
+import React, { useEffect, useLayoutEffect } from 'react';
 
+import loadBackgroudImages from '@/common/loadBackgroudImages';
 function Header() {
   useLayoutEffect(() => {
     const tl = gsap.timeline();
@@ -15,22 +16,20 @@ function Header() {
     // Cleanup function
     return () => tl.kill();
   }, []);
+  useEffect(() => {
+    loadBackgroudImages();
+  }, []);
   return (
-    <div className="header header-project1">
-      <div className="container mt-100">
-        <div className="row align-items-end">
-          <div className="col-lg-7">
-            <div className="md-mb30">
-              <h1 className="fz-120">
-                IoT Based Smart Locks.
-              </h1>
-            </div>
-          </div>
-          <div className="col-lg-4 offset-lg-1">
-            <div>
-              <p>
-              Revolutionizing security with IoT-enabled smart locks for seamless access and control.
-              </p>
+    <div
+      className="header header-project3 bg-img d-flex align-items-end"
+      data-background="/light/assets/imgs/works/full/smart.webp"
+      data-overlay-dark="9"
+    >
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="caption">
+              <h1>IoT Based Smart Locks.</h1>
             </div>
           </div>
         </div>
@@ -40,3 +39,5 @@ function Header() {
 }
 
 export default Header;
+
+

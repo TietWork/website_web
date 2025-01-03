@@ -20,14 +20,16 @@ function Header() {
     loadBackgroudImages();
   }, []);
   return (
-    <div className="header header-project1">
-      <div className="container pt-100">
-        <div className="row align-items-end">
-          <div className="col-lg-8 md-mb50">
-            <div>
-              <h3 >
-              Real-Time Skin Radiation Detection for Early Cancer Diagnosis
-              </h3>
+    <div
+      className="header header-project3 bg-img d-flex align-items-end"
+      data-background="/light/assets/imgs/works/full/health.jpg"
+      data-overlay-dark="9"
+    >
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="caption">
+              <h1>Real-Time Skin Radiation Detection for Early Cancer Diagnosis.</h1>
             </div>
           </div>
         </div>
