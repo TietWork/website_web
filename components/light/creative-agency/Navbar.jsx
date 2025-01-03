@@ -638,7 +638,7 @@ function Navbar() {
                 <div className="item mb-50">
                   <h6 className="sub-title mb-15 opacity-7">Address</h6>
                   <h5>
-                    AE-176, Plot No. 2248, "Ramkrubha",
+                    AE-176, Plot No. 2248,
                     <br />
                     11th Main Road, Annanagar,
                     <br />

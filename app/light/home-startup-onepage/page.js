@@ -8,7 +8,6 @@ import Header from '@/components/light/modern-startup/Header';
 import Navbar from '@/components/light/modern-startup/Navbar';
 
 import Script from 'next/script';
-import About from '@/components/light/modern-startup/About';
 import Marquee from '@/components/light/modern-startup/Marquee';
 import Portfolio from '@/components/light/modern-startup/Portfolio';
 import ImageScale from '@/components/light/modern-startup/ImageScale';
@@ -52,7 +51,6 @@ export default function HomeModernStartup() {
             <Skills />
             <Testimonials />
             <Clients />
-            <Blog />
             <Contact />
           </main>
           <Footer />

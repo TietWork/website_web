@@ -14,14 +14,14 @@ function Contact() {
                 </span>
               </h2>
               <p className="mt-20 mb-20">
-                 If you're looking to collaborate with us on your next big idea, let's make it a reality together!
+                 If you&apos;re looking to collaborate with us on your next big idea, let&apos;s make it a reality together!
               </p>
               <div className="row">
                 <div className="col-md-6">
                   <div className="morinfo mt-30">
                     <h6 className="mb-15">Address</h6>
                     <p>
-                      AE-176, Plot No. 2248, "Ramkrubha", 11th Main Road,
+                      AE-176, Plot No. 2248, Ramkrubha, 11th Main Road,
                       Annanagar, Chennai - 600040. INDIA
                     </p>
                   </div>

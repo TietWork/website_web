@@ -116,7 +116,7 @@ function Challenge() {
                       <strong>Transparency:</strong> Real-time updates improved communication and coordination across teams.
                     </li>
                     <li>
-                      <strong>Scalability:</strong> The solution was scalable to support Alekton's expanding operations.
+                      <strong>Scalability:</strong> The solution was scalable to support Alekton&apos;s expanding operations.
                     </li>
                   </ul>
                 </div>

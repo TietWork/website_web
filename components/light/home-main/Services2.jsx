@@ -78,7 +78,6 @@ function Services2() {
               <SwiperSlide key={i} className="swiper-slide">
                 <div className="item-box radius-15">
                   <div className="icon mb-40 opacity-5">
-                    <img src={item.img} alt="" />
                   </div>
                   <h5 className="mb-15">{item.title}</h5>
                   <p>{item.desc}</p>
