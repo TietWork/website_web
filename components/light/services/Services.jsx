@@ -38,7 +38,7 @@ function Services() {
                   <img src={item.img} alt="" />
                 </div>
                 <h5 className="mb-15 text-u" style={{ color: '#007bff' }}>
-                  {item.title.split(' ')[0]} <br /> {item.title.split(' ')[1]}
+                  {item.title} <br /> 
                 </h5>
                 <p>{item.desc}</p>
                 <a href={item.link} className="rmore mt-30" style={{ color: '#007bff', fontWeight: '600' }}>

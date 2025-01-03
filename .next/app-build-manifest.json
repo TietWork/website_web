@@ -86,6 +86,16 @@
       "static/chunks/main-app.js",
       "static/chunks/app/light/page-PrivacyPolicy/page.js"
     ],
+    "/light/page-about/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/light/page-about/page.js"
+    ],
+    "/light/page-FAQS/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/light/page-FAQS/page.js"
+    ],
     "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",

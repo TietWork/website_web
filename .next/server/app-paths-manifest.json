@@ -1,9 +1,9 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/light/casestudy-theatre/page": "app/light/casestudy-theatre/page.js",
-  "/light/page-engage/page": "app/light/page-engage/page.js",
   "/page": "app/page.js",
   "/light/page-PrivacyPolicy/page": "app/light/page-PrivacyPolicy/page.js",
-  "/light/page-TermsPolicy/page": "app/light/page-TermsPolicy/page.js",
-  "/light/project-GeoSpatial/page": "app/light/project-GeoSpatial/page.js"
+  "/light/page-engage/page": "app/light/page-engage/page.js",
+  "/light/page-FAQS/page": "app/light/page-FAQS/page.js",
+  "/light/page-services/page": "app/light/page-services/page.js",
+  "/light/page-contact/page": "app/light/page-contact/page.js"
 }

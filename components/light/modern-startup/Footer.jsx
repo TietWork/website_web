@@ -79,32 +79,32 @@ function Footer() {
                   <div className="col-6">
                     <ul className="rest fz-14">
                       <li className="mb-15">
-                        <a href="/light/page-about3">About</a>
+                        <a href="/light/page-about">About Company</a>
                       </li>
                       <li className="mb-15">
                         <a href="/light/page-services">Services</a>
                       </li>
                       <li className="mb-15">
-                        <a href="/light/blog-list2">Blog</a>
+                        <a href="/light/page-whyus">Why Us?</a>
                       </li>
                       <li>
-                        <a href="/light/page-contact3">Contact</a>
+                        <a href="/light/page-contact">Contact US</a>
                       </li>
                     </ul>
                   </div>
                   <div className="col-6">
                     <ul className="rest fz-14">
+                    <li className="mb-15">
+                        <a href="/light/page-engage">Engagement Model</a>
+                      </li>
                       <li className="mb-15">
                         <a href="/light/page-FAQS">FAQS</a>
                       </li>
                       <li className="mb-15">
-                        <a href="/light/page-about2">Term & Conditions</a>
+                        <a href="/light/page-TermsPolicy">Term & Conditions</a>
                       </li>
                       <li className="mb-15">
-                        <a href="/light/page-about2">Privacy policy</a>
-                      </li>
-                      <li>
-                        <a href="/light/page-about2">Help</a>
+                        <a href="/light/page-PrivacyPolicy">Privacy policy</a>
                       </li>
                     </ul>
                   </div>
@@ -116,7 +116,7 @@ function Footer() {
             <p className="fz-14">
               © 2025 All rights reserved by{" "}
               <span className="underline main-color">
-                Third Eye Info Technology
+                Third Eye Info Technology Pvt.Ltd
               </span>
             </p>
           </div>
