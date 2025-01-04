@@ -96,6 +96,11 @@
       "static/chunks/main-app.js",
       "static/chunks/app/light/page-FAQS/page.js"
     ],
+    "/light/page-joinus/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/light/page-joinus/page.js"
+    ],
     "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",

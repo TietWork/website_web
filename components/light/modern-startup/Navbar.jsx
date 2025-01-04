@@ -131,11 +131,11 @@ function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg nav-crev">
         <div className="container">
-          <a className="logo icon-img-100" href="/">
+          <a className="logo icon-img-100 mr-30" href="/">
             <img
               src="/light/assets/imgs/logo-light.png"
               alt="logo"
-              style={{ width: "200px", height: "auto" }}
+              style={{ width: "200px", height: "auto" , }}
             />
           </a>
 
@@ -177,10 +177,7 @@ function Navbar() {
                   <a className="dropdown-item" href="/light/page-whyus">
                     Why us?
                   </a>
-                  <a
-                    className="dropdown-item"
-                    href="/light/page-engage"
-                  >
+                  <a className="dropdown-item" href="/light/page-engage">
                     Engagement Model
                   </a>
                 </div>
@@ -214,26 +211,16 @@ function Navbar() {
                   <span className="rolling-text">Our Projects</span>
                 </a>
                 <div className="dropdown-menu">
-                  <a className="dropdown-item" 
-                     href="/light/project-lpgVending">
+                  <a className="dropdown-item" href="/light/project-lpgVending">
                     LPG Automated Vending Machine
                   </a>
-                  <a
-                    className="dropdown-item"
-                    href="/light/project-Iot"
-                  >
+                  <a className="dropdown-item" href="/light/project-Iot">
                     IoT Smart Locks
                   </a>
-                  <a
-                    className="dropdown-item"
-                    href="/light/project-GeoSpatial"
-                  >
+                  <a className="dropdown-item" href="/light/project-GeoSpatial">
                     Geospatial Data Processing
                   </a>{" "}
-                  <a
-                    className="dropdown-item"
-                    href="/light/project-RFID"
-                  >
+                  <a className="dropdown-item" href="/light/project-RFID">
                     RFID-based Jewel Tracking
                   </a>{" "}
                   <a
@@ -242,10 +229,7 @@ function Navbar() {
                   >
                     Face Detection for Hollywood
                   </a>
-                  <a
-                    className="dropdown-item"
-                    href="/light/project-healthcare"
-                  >
+                  <a className="dropdown-item" href="/light/project-healthcare">
                     Healthcare Innovations
                   </a>
                 </div>
@@ -266,8 +250,7 @@ function Navbar() {
                   <span className="rolling-text">Case Studies</span>
                 </a>
                 <div className="dropdown-menu">
-                  <a className="dropdown-item" 
-                     href="/light/casestudy-alekton">
+                  <a className="dropdown-item" href="/light/casestudy-alekton">
                     Digitized Job Cards for Alekton
                   </a>
                   <a
@@ -276,22 +259,13 @@ function Navbar() {
                   >
                     AI in Hollywood Casting
                   </a>
-                  <a
-                    className="dropdown-item"
-                    href="/light/casestudy-theatre"
-                  >
+                  <a className="dropdown-item" href="/light/casestudy-theatre">
                     Digital Information Displays in Theatre
                   </a>{" "}
-                  <a
-                    className="dropdown-item"
-                    href="/light/project-healthcare"
-                  >
+                  <a className="dropdown-item" href="/light/project-healthcare">
                     Real-Time Skin Cancer Detection
                   </a>{" "}
-                  <a
-                    className="dropdown-item"
-                    href="/light/project-GeoSpatial"
-                  >
+                  <a className="dropdown-item" href="/light/project-GeoSpatial">
                     Geospatial Agriculture Solutions
                   </a>
                   <a
@@ -324,16 +298,23 @@ function Navbar() {
                     FAQ
                   </a>
                   <a className="dropdown-item" href="/light/page-TermsPolicy">
-                    Terms of Use 
+                    Terms of Use
                   </a>
                   <a className="dropdown-item" href="/light/page-PrivacyPolicy">
                     Privacy Policy
                   </a>
-                  <a className="dropdown-item" href="/dark/blog-list2">
-                    Join Us!
-                  </a>
                 </div>
               </li>
+
+              {/* join us */}
+
+              <ul className="navbar-nav">
+                <li>
+                  <a className="nav-link" href="/light/page-joinus">
+                    <span className="rolling-text">Join Us</span>
+                  </a>
+                </li>
+              </ul>
 
               {/* Contact Section */}
 
@@ -345,9 +326,9 @@ function Navbar() {
             </ul>
           </div>
 
-          <div className="topnav">
+          <div className="topnav" >
             <div onClick={toggleMenu} className="menu-icon cursor-pointer">
-              <span className="icon ti-align-right"></span>
+              <span className="icon ti-align-right mt-15" ></span>
             </div>
           </div>
         </div>
@@ -355,7 +336,6 @@ function Navbar() {
 
       <div className={`hamenu ${isOpen == true ? "open" : ""}`}>
         <div className="logo icon-img-100">
-          <img src="/dark/assets/imgs/logo-light.png" alt="" />
         </div>
         <div
           onClick={closeMenu}
@@ -412,18 +392,12 @@ function Navbar() {
                           </a>
                         </li>
                         <li>
-                          <a
-                            href="/light/page-whyus"
-                            className="sub-link"
-                          >
+                          <a href="/light/page-whyus" className="sub-link">
                             Why us?
                           </a>
                         </li>
                         <li>
-                          <a
-                            href="/light/page-engage"
-                            className="sub-link"
-                          >
+                          <a href="/light/page-engage" className="sub-link">
                             Engagement Model
                           </a>
                         </li>
@@ -465,15 +439,15 @@ function Navbar() {
                     <div className="sub-menu">
                       <ul>
                         <li>
-                          <a href="/light/project-lpgVending" className="sub-link">
+                          <a
+                            href="/light/project-lpgVending"
+                            className="sub-link"
+                          >
                             LPG Automated Vending Machine
                           </a>
                         </li>
                         <li>
-                          <a
-                            href="/light/project-Iot"
-                            className="sub-link"
-                          >
+                          <a href="/light/project-Iot" className="sub-link">
                             IoT Smart Locks
                           </a>
                         </li>
@@ -486,10 +460,7 @@ function Navbar() {
                           </a>
                         </li>
                         <li>
-                          <a
-                            href="/light/project-RFID"
-                            className="sub-link"
-                          >
+                          <a href="/light/project-RFID" className="sub-link">
                             RFID-based Jewel Tracking
                           </a>
                         </li>
@@ -531,8 +502,10 @@ function Navbar() {
                     <div className="sub-menu">
                       <ul>
                         <li>
-                          <a href="/light/casestudy-alekton" 
-                             className="sub-link">
+                          <a
+                            href="/light/casestudy-alekton"
+                            className="sub-link"
+                          >
                             Digitized Job Cards for Alekton
                           </a>
                         </li>
@@ -598,10 +571,7 @@ function Navbar() {
                     <div className="sub-menu">
                       <ul>
                         <li>
-                          <a
-                            href="/light/page-FAQS"
-                            className="sub-link"
-                          >
+                          <a href="/light/page-FAQS" className="sub-link">
                             FAQs
                           </a>
                         </li>
@@ -621,12 +591,23 @@ function Navbar() {
                             Privacy Policy
                           </a>
                         </li>
-                        <li>
-                          <a href="/dark/home-main" className="sub-link">
-                            Join Us!
-                          </a>
-                        </li>
                       </ul>
+                    </div>
+                  </li>
+
+                  {/* Career section */}
+
+                  <li
+                    onMouseLeave={handleMouseLeave}
+                    onMouseEnter={handleMouseEnter}
+                    onClick={toggleSubMenu}
+                  >
+                    <div className="o-hidden">
+                      <a href="/light/page-joinus" className="link">
+                        <span className="fill-text" data-text="Join Us">
+                          Join Us
+                        </span>
+                      </a>
                     </div>
                   </li>
 
@@ -675,13 +656,15 @@ function Navbar() {
                       <a href="#0" className="hover-this">
                         <span className="hover-anim">LinkedIn</span>
                       </a>
-                    </li> 
+                    </li>
                   </ul>
                 </div>
                 <div className="item mb-40">
                   <h6 className="sub-title mb-15 opacity-7">Contact Us</h6>
-                  <h5 style={{color: "#007BFF"}}>
-                  <a href="mailto:contact@thirdeyeinfotech.com">contact@thirdeyeinfotech.com</a>
+                  <h5 style={{ color: "#007BFF" }}>
+                    <a href="mailto:contact@thirdeyeinfotech.com">
+                      contact@thirdeyeinfotech.com
+                    </a>
                   </h5>
                   <h5 className="underline mt-10">
                     <a href="#0">+91 44 4207 2248</a>
