@@ -32,7 +32,7 @@ function Join() {
                 </p>
                 <p>
                   Our vision:{" "}
-                  <strong>"A Future Built on Integrity and Innovation"</strong>.
+                  <strong>A Future Built on Integrity and Innovation</strong>.
                 </p>
               </div>
 
