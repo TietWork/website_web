@@ -1,10 +1,5 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
-    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -16,90 +11,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/light/page-contact/page.js"
     ],
-    "/light/page-services-details/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/page-services-details/page.js"
-    ],
-    "/light/page-services/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/page-services/page.js"
-    ],
-    "/light/page-whyus/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/page-whyus/page.js"
-    ],
-    "/light/project-Iot/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/project-Iot/page.js"
-    ],
-    "/light/project-healthcare/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/project-healthcare/page.js"
-    ],
-    "/light/casestudy-urbanladder/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/casestudy-urbanladder/page.js"
-    ],
-    "/light/project-RFID/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/project-RFID/page.js"
-    ],
-    "/light/project-faceDetection/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/project-faceDetection/page.js"
-    ],
-    "/light/casestudy-alekton/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/casestudy-alekton/page.js"
-    ],
-    "/light/casestudy-theatre/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/casestudy-theatre/page.js"
-    ],
-    "/light/project-GeoSpatial/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/project-GeoSpatial/page.js"
-    ],
-    "/light/page-engage/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/page-engage/page.js"
-    ],
-    "/light/page-TermsPolicy/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/page-TermsPolicy/page.js"
-    ],
-    "/light/page-PrivacyPolicy/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/page-PrivacyPolicy/page.js"
-    ],
-    "/light/page-about/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/page-about/page.js"
-    ],
-    "/light/page-FAQS/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/page-FAQS/page.js"
-    ],
     "/light/page-joinus/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/light/page-joinus/page.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

@@ -41,46 +41,30 @@ function Join() {
                 <h4 className="sub-title mb-20">Current Openings</h4>
 
                 <div className="position">
-                  <h5>Software Developer</h5>
+                  <h5>Software Developer Trainee</h5>
                   <p>
                     Design, develop, test, and maintain software applications
                     using the latest technologies. Collaborate with
                     cross-functional teams to ensure high-quality deliverables.
                   </p>
                 </div>
-
                 <div className="position">
-                  <h5>Software Designer</h5>
+                  <h5>Mobile App Developer (2+ years)</h5>
                   <p>
-                    Create and implement intuitive UI/UX designs. Conduct user
-                    research, usability testing, and prototyping to deliver
-                    exceptional user experiences.
+                    Design and develop intuitive mobile applications with a
+                    strong focus on UI/UX. Conduct user research, usability
+                    testing, and prototyping to deliver seamless and engaging
+                    user experiences.
                   </p>
                 </div>
 
                 <div className="position">
-                  <h5>Software Tester</h5>
+                  <h5>.NET Developer (2+ years)</h5>
                   <p>
-                    Plan and execute testing strategies to ensure the
-                    reliability and quality of software products. Conduct
-                    functional, performance, and security testing.
-                  </p>
-                </div>
-
-                <div className="position">
-                  <h5>Software Project Manager</h5>
-                  <p>
-                    Manage project scope, schedule, and resources. Collaborate
-                    with stakeholders to deliver projects on time and within
-                    budget.
-                  </p>
-                </div>
-
-                <div className="position">
-                  <h5>Software Salesperson</h5>
-                  <p>
-                    Drive sales by identifying opportunities, building client
-                    relationships, and demonstrating the value of our solutions.
+                    Develop, test, and maintain reliable and high-quality
+                    software solutions using .NET technologies. Implement
+                    functional, performance, and security testing strategies to
+                    ensure optimal software performance and robustness.
                   </p>
                 </div>
               </div>
