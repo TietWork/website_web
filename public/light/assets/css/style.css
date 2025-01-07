@@ -6123,7 +6123,7 @@ footer.clean-footer.crev:before {
     font-size: 2rem; /* Smaller font size for mobile */
     display: flex;
     justify-content: center;
-    margin-top: 120px;
+    margin-top: 85px;
   } 
 
   .header-main h2 {
@@ -6145,6 +6145,7 @@ footer.clean-footer.crev:before {
     font-size: 16px; 
     text-align: center;
     justify-content: center;
+    margin-left: 18px;
   }
 
   .custom-button {
