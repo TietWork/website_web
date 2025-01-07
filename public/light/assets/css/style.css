@@ -6139,12 +6139,8 @@ footer.clean-footer.crev:before {
   }
 
   .header-main p {
-    display: flex;
     max-width: 90%;
-    align-items: center;
     font-size: 16px; 
-    text-align: center;
-    justify-content: center;
     margin-left: 18px;
   }
 
