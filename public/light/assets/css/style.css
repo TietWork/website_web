@@ -6138,14 +6138,13 @@ footer.clean-footer.crev:before {
     font-size: 2rem;
   }
 
-
-
   .header-main p {
+    display: flex;
+    max-width: 90%;
     align-items: center;
-    font-size: 16px; /* Smaller font size for mobile */
+    font-size: 16px; 
     text-align: center;
     justify-content: center;
-    margin-left: 15px;
   }
 
   .custom-button {
