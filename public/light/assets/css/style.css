@@ -3634,7 +3634,7 @@ h4 {
 }
 
 .navbar .menu-icon {
-  padding: 25px 30px;
+  padding: 20px 24px;
 }
 .main .navbar .menu-icon {
   color: #fff;
@@ -6141,8 +6141,9 @@ footer.clean-footer.crev:before {
 
 
   .header-main p {
+    align-items: center;
     font-size: 16px; /* Smaller font size for mobile */
-    max-width: 90%; /* Increased width to utilize more screen space */
+    text-align: center;
     justify-content: center;
     margin-left: 15px;
   }
