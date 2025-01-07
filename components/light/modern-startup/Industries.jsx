@@ -132,7 +132,7 @@ function IndustriesWeServe() {
             display: "inline-block",
             marginTop: "40px",
             padding: "12px 32px",
-            backgroundColor: "#0077b6",
+            backgroundColor: "#007BFF",
             color: "#FFFFFF",
             borderRadius: "25px",
             fontSize: "16px",
@@ -141,7 +141,7 @@ function IndustriesWeServe() {
             transition: "all 0.2s ease",
           }}
         >
-          Learn More
+          Contact Us
         </motion.a>
       </div>
     </section>

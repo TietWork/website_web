@@ -380,6 +380,27 @@ figure {
   background-repeat: repeat;
 }
 
+/* Default styling for desktop view */
+.social-media .social-name {
+  display: inline; /* Show text by default */
+  margin-left: 8px;
+}
+
+.social-media .rest li {
+  margin-right: 20px; /* Add spacing between icons */
+}
+
+/* Responsive styling for mobile view */
+@media (max-width: 768px) {
+  .social-media .social-name {
+    display: inline; /* Hide the text on smaller screens */
+  }
+  .social-media .rest li {
+    margin-right: 15px; /* Adjust spacing between icons */
+  }
+}
+
+
 .noise {
   -webkit-animation: grain 8s steps(10) infinite;
   animation: grain 8s steps(10) infinite;
@@ -3306,7 +3327,7 @@ h4 {
 
 .navbar.change.nav-scroll .navbar-nav .nav-link,
 .navbar.change.nav-scroll .menu-icon {
-  color: #1a1a1a;
+  color: #9c9c9c;
 }
 
 .navbar.change.nav-scroll .search-form .search-icon {
@@ -3420,6 +3441,30 @@ h4 {
   -o-transition: all 0.4s;
   transition: all 0.4s;
 }
+
+.nav-button-minimal {
+  display: inline-block;
+  padding: 8px 16px; /* Slightly larger padding for better balance */
+  background:  #1b263b; /* Modern, subtle gradient */
+  color: #ffffff; /* White text for contrast */
+  font-size: 13px; /* Slightly larger font for better readability */
+  font-weight: 600; /* Bold for emphasis */
+  border-radius: 40px; /* Rounded edges for a sleek appearance */
+  text-transform: uppercase; /* Keeps text uniform */
+  text-decoration: none; /* Removes underline */
+  transition: transform 0.2s ease, background 0.2s ease; /* Smooth hover effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-top: 6px !important;
+}
+
+.nav-button-minimal:hover {
+  background: linear-gradient(90deg, #1d3557, #457b9d); /* Slightly brighter gradient on hover */
+  transform: translateY(-2px); /* Lift effect on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Enhance shadow on hover */
+}
+
+
+
 
 .navbar .dropdown-menu .dropdown-item .dropdown-side.show {
   opacity: 1;
@@ -6099,6 +6144,7 @@ footer.clean-footer.crev:before {
     font-size: 16px; /* Smaller font size for mobile */
     max-width: 90%; /* Increased width to utilize more screen space */
     justify-content: center;
+    margin-left: 15px;
   }
 
   .custom-button {

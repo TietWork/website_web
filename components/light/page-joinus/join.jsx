@@ -1,6 +1,25 @@
 "use client";
 import React from "react";
 
+const positions = [
+  {
+    title: "Software Developer Trainee",
+    description:
+      "Design, develop, test, and maintain software applications using the latest technologies. Collaborate with cross-functional teams to ensure high-quality deliverables.",
+  },
+  {
+    title: "Mobile App Developer (2+ years)",
+    description:
+      "Design and develop intuitive mobile applications with a strong focus on UI/UX. Conduct user research, usability testing, and prototyping to deliver seamless and engaging user experiences.",
+  },
+  {
+    title: ".NET Developer (2+ years)",
+    description:
+      "Develop, test, and maintain reliable and high-quality software solutions using .NET technologies. Implement functional, performance, and security testing strategies to ensure optimal software performance and robustness.",
+  },
+  // Add more positions here
+];
+
 function Join() {
   return (
     <section className="careers section-padding">
@@ -39,34 +58,12 @@ function Join() {
               {/* Open Positions */}
               <div className="positions-section mb-50">
                 <h4 className="sub-title mb-20">Current Openings</h4>
-
-                <div className="position">
-                  <h5>Software Developer Trainee</h5>
-                  <p>
-                    Design, develop, test, and maintain software applications
-                    using the latest technologies. Collaborate with
-                    cross-functional teams to ensure high-quality deliverables.
-                  </p>
-                </div>
-                <div className="position">
-                  <h5>Mobile App Developer (2+ years)</h5>
-                  <p>
-                    Design and develop intuitive mobile applications with a
-                    strong focus on UI/UX. Conduct user research, usability
-                    testing, and prototyping to deliver seamless and engaging
-                    user experiences.
-                  </p>
-                </div>
-
-                <div className="position">
-                  <h5>.NET Developer (2+ years)</h5>
-                  <p>
-                    Develop, test, and maintain reliable and high-quality
-                    software solutions using .NET technologies. Implement
-                    functional, performance, and security testing strategies to
-                    ensure optimal software performance and robustness.
-                  </p>
-                </div>
+                {positions.map((position, index) => (
+                  <div key={index} className="position">
+                    <h5>{position.title}</h5>
+                    <p>{position.description}</p>
+                  </div>
+                ))}
               </div>
 
               {/* Application Section */}

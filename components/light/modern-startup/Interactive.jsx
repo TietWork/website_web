@@ -80,11 +80,13 @@ const Interactive = () => {
   };
 
   const titleStyle = {
+    fontFamily:"Poppins",
     fontSize: "3rem",
-    fontWeight: "800",
+    fontWeight: "500",
     color: "#CDCDCDFF",
     marginBottom: "40px",
     textAlign: "center"
+    
   };
 
   const listStyle = {
@@ -154,8 +156,8 @@ const Interactive = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Our Featured <br />
-          <span style={{ color: "#0077b6" }}>Projects</span>
+          OUR FEATURED {" "}
+          <span style={{ color: "#007BFF" }}>PROJECTS</span>
         </motion.h2>
 
         <motion.div

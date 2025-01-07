@@ -22,25 +22,24 @@ function Intro() {
                 </span>
                 <span className="sideup-text">
                   <span className="up-text">
-                    {" "}
-                    Reach us by clicking{" "}
+                     Contact us.{" "}
                     <a
                       href="/light/page-contact"
                       style={{
                         display: "inline-flex",
                         justifyContent: "center",
                         alignItems: "center",
-                        backgroundColor: "#000814", 
+                        backgroundColor: "#000814",
                         color: "#fff",
-                        width: "50px", 
+                        width: "50px",
                         height: "50px",
                         textAlign: "center",
                         textDecoration: "none",
-                        borderRadius: "50%", 
+                        borderRadius: "50px",
                         cursor: "pointer",
-                        boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)", 
+                        boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
                       }}
-                    >
+                    > 
                       <i
                         className="fas fa-arrow-right"
                         style={{
@@ -52,30 +51,35 @@ function Intro() {
                 </span>
               </h4>
               <div className="exp mt-20 md-mb15">
-                <h3
+                <h1
                   className=""
                   style={{
                     fontFamily: "'Poppins', sans-serif",
+                    fontSize: "94px",
                   }}
                 >
                   23+{" "}
                   <span className="sub-title main-font opacity-7 ml-15">
                     Years of Experience
                   </span>
-                </h3>
+                </h1>
               </div>
             </div>
           </div>
           <div className="col-lg-5">
             <div className="text">
               <p>
+                <strong>
+                  Empowering Businesses with Innovative Software Solutions
+                </strong><br/>
                 With over 23 years of experience, Third Eye Info Technology
-                delivers advanced software solutions to empower businesses
-                across industries. Our expertise spans AI, ML, blockchain, IoT,
-                big data, and business development, enabling us to craft
-                tailored solutions for modern challenges. We drive efficiency,
-                optimize processes, and foster sustainable growth through
-                innovation and cutting-edge technology.
+                delivers cutting-edge software solutions that drive growth and
+                efficiency. Our expertise spans custom software development, AI,
+                machine learning, blockchain, IoT, big data, and business
+                development. We craft tailored solutions to address modern
+                challenges, optimize processes, and unlock new opportunities. By
+                leveraging innovation and the latest technology, we empower
+                businesses to stay ahead in an ever-evolving digital landscape.
               </p>
             </div>
           </div>

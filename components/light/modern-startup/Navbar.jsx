@@ -135,7 +135,7 @@ function Navbar() {
             <img
               src="/light/assets/imgs/logo-light.png"
               alt="logo"
-              style={{ width: "200px", height: "auto" , }}
+              style={{ width: "200px", height: "auto" }}
             />
           </a>
 
@@ -154,35 +154,6 @@ function Navbar() {
             </ul>
 
             <ul className="navbar-nav">
-              {/* About us */}
-              <li
-                onMouseLeave={handleDropdownMouseLeave}
-                onMouseMove={handleDropdownMouseMove}
-                className="nav-item dropdown"
-              >
-                <a
-                  className="nav-link dropdown-toggle"
-                  data-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  <span className="rolling-text">About Us</span>
-                </a>
-                <div className="dropdown-menu">
-                  <a className="dropdown-item" href="/light/page-about">
-                    About Company
-                  </a>
-                  <a className="dropdown-item" href="/light/page-whyus">
-                    Why us?
-                  </a>
-                  <a className="dropdown-item" href="/light/page-engage">
-                    Engagement Model
-                  </a>
-                </div>
-              </li>
-
               {/* services */}
 
               <ul className="navbar-nav">
@@ -217,21 +188,12 @@ function Navbar() {
                   <a className="dropdown-item" href="/light/project-Iot">
                     IoT Smart Locks
                   </a>
-                  <a className="dropdown-item" href="/light/project-GeoSpatial">
-                    Geospatial Data Processing
+                  <a className="dropdown-item" href="/light/project-erp">
+                    ERP Solutions
                   </a>{" "}
                   <a className="dropdown-item" href="/light/project-RFID">
                     RFID-based Jewel Tracking
                   </a>{" "}
-                  <a
-                    className="dropdown-item"
-                    href="/light/project-faceDetection"
-                  >
-                    Face Detection for Hollywood
-                  </a>
-                  <a className="dropdown-item" href="/light/project-healthcare">
-                    Healthcare Innovations
-                  </a>
                 </div>
               </li>
               <li
@@ -254,30 +216,31 @@ function Navbar() {
                     Digitized Job Cards for Alekton
                   </a>
                   <a
-                    className="dropdown-item"
-                    href="/light/project-faceDetection"
+                    className="dropdown-item" href="/light/casestudy-faceDetection"
                   >
                     AI in Hollywood Casting
                   </a>
-                  <a className="dropdown-item" href="/light/casestudy-theatre">
+                  <a className="dropdown-item" href="/light/casestudy-theatre"
+                  >
                     Digital Information Displays in Theatre
                   </a>{" "}
-                  <a className="dropdown-item" href="/light/project-healthcare">
+                  <a className="dropdown-item" href="/light/casestudy-healthcare"
+                  >
                     Real-Time Skin Cancer Detection
                   </a>{" "}
-                  <a className="dropdown-item" href="/light/project-GeoSpatial">
+                  <a className="dropdown-item" href="/light/casestudy-GeoSpatial"
+                  >
                     Geospatial Agriculture Solutions
                   </a>
                   <a
-                    className="dropdown-item"
-                    href="/light/casestudy-urbanladder"
+                    className="dropdown-item" href="/light/casestudy-urbanladder"
                   >
                     UrbanLadder Digital Makeover
                   </a>
                 </div>
               </li>
 
-              {/* Approach section */}
+              {/* About us */}
               <li
                 onMouseLeave={handleDropdownMouseLeave}
                 onMouseMove={handleDropdownMouseMove}
@@ -291,17 +254,17 @@ function Navbar() {
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  <span className="rolling-text">Approach</span>
+                  <span className="rolling-text">About Us</span>
                 </a>
                 <div className="dropdown-menu">
-                  <a className="dropdown-item" href="/light/page-FAQS">
-                    FAQ
+                  <a className="dropdown-item" href="/light/page-about">
+                    About Company
                   </a>
-                  <a className="dropdown-item" href="/light/page-TermsPolicy">
-                    Terms of Use
+                  <a className="dropdown-item" href="/light/page-whyus">
+                    Why us?
                   </a>
-                  <a className="dropdown-item" href="/light/page-PrivacyPolicy">
-                    Privacy Policy
+                  <a className="dropdown-item" href="/light/page-engage">
+                    Engagement Model
                   </a>
                 </div>
               </li>
@@ -319,24 +282,33 @@ function Navbar() {
               {/* Contact Section */}
 
               <li className="nav-item">
-                <a className="nav-link" href="/light/page-contact">
-                  <span className="rolling-text">Get a Quote</span>
+                <a
+                  className="nav-link nav-button-minimal"
+                  href="/light/page-contact"
+                  style={{
+                    color:"#edede9"
+                  }}
+                >
+                  <span className="">Get a Quote</span>
                 </a>
               </li>
             </ul>
           </div>
 
-          <div className="topnav" >
-            <div onClick={toggleMenu} className="menu-icon cursor-pointer">
-              <span className="icon ti-align-right mt-15" ></span>
+          <div className="topnav">
+            <div
+              className="menu-icon cursor-pointer"
+              style={{ color: "#9E9E9EFF" }}
+              onMouseEnter={toggleMenu}
+            >
+              <span className="icon ti-align-right mt-15"></span>
             </div>
           </div>
         </div>
       </nav>
 
       <div className={`hamenu ${isOpen == true ? "open" : ""}`}>
-        <div className="logo icon-img-100">
-        </div>
+        <div className="logo icon-img-100"></div>
         <div
           onClick={closeMenu}
           className="close-menu cursor-pointer ti-close"
@@ -366,42 +338,6 @@ function Navbar() {
                           Home
                         </span>
                       </a>
-                    </div>
-                  </li>
-
-                  {/* About us section */}
-
-                  <li
-                    onMouseLeave={handleMouseLeave}
-                    onMouseEnter={handleMouseEnter}
-                    onClick={toggleSubMenu}
-                  >
-                    <div className="o-hidden">
-                      <div className="link cursor-pointer dmenu">
-                        <span className="fill-text" data-text="About Us">
-                          About Us
-                        </span>{" "}
-                        <i></i>
-                      </div>
-                    </div>
-                    <div className="sub-menu">
-                      <ul>
-                        <li>
-                          <a href="/light/page-about" className="sub-link">
-                            About Company
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/light/page-whyus" className="sub-link">
-                            Why us?
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/light/page-engage" className="sub-link">
-                            Engagement Model
-                          </a>
-                        </li>
-                      </ul>
                     </div>
                   </li>
 
@@ -453,31 +389,15 @@ function Navbar() {
                         </li>
                         <li>
                           <a
-                            href="/light/project-GeoSpatial"
+                            href="/light/project-erp"
                             className="sub-link"
                           >
-                            Geospatial Data Processing
+                            ERP Solutions
                           </a>
                         </li>
                         <li>
                           <a href="/light/project-RFID" className="sub-link">
                             RFID-based Jewel Tracking
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="/light/project-faceDetection"
-                            className="sub-link"
-                          >
-                            Face Detection for Hollywood
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="/light/project-healthcare"
-                            className="sub-link"
-                          >
-                            Healthcare Innovations
                           </a>
                         </li>
                       </ul>
@@ -511,7 +431,7 @@ function Navbar() {
                         </li>
                         <li>
                           <a
-                            href="/light/project-faceDetection"
+                            href="/light/casestudy-faceDetection"
                             className="sub-link"
                           >
                             AI in Hollywood Casting
@@ -527,7 +447,7 @@ function Navbar() {
                         </li>
                         <li>
                           <a
-                            href="/light/project-healthcare"
+                            href="/light/casestudy-healthcare"
                             className="sub-link"
                           >
                             Real-Time Skin Cancer Detection
@@ -535,7 +455,7 @@ function Navbar() {
                         </li>
                         <li>
                           <a
-                            href="/light/project-GeoSpatial"
+                            href="/light/casestudy-GeoSpatial"
                             className="sub-link"
                           >
                             Geospatial Agriculture Solutions
@@ -553,8 +473,7 @@ function Navbar() {
                     </div>
                   </li>
 
-                  {/* Approach section */}
-
+                  {/* About us section */}
                   <li
                     onMouseLeave={handleMouseLeave}
                     onMouseEnter={handleMouseEnter}
@@ -562,8 +481,8 @@ function Navbar() {
                   >
                     <div className="o-hidden">
                       <div className="link cursor-pointer dmenu">
-                        <span className="fill-text" data-text="Approach">
-                          Approach
+                        <span className="fill-text" data-text="About Us">
+                          About Us
                         </span>{" "}
                         <i></i>
                       </div>
@@ -571,24 +490,18 @@ function Navbar() {
                     <div className="sub-menu">
                       <ul>
                         <li>
-                          <a href="/light/page-FAQS" className="sub-link">
-                            FAQs
+                          <a href="/light/page-about" className="sub-link">
+                            About Company
                           </a>
                         </li>
                         <li>
-                          <a
-                            href="/light/page-TermsPolicy"
-                            className="sub-link"
-                          >
-                            Terms of Use
+                          <a href="/light/page-whyus" className="sub-link">
+                            Why us?
                           </a>
                         </li>
                         <li>
-                          <a
-                            href="/light/page-PrivacyPolicy"
-                            className="sub-link"
-                          >
-                            Privacy Policy
+                          <a href="/light/page-engage" className="sub-link">
+                            Engagement Model
                           </a>
                         </li>
                       </ul>
@@ -624,6 +537,8 @@ function Navbar() {
                       </a>
                     </div>
                   </li>
+
+                  {/* Address */}
                 </ul>
               </div>
             </div>
@@ -648,12 +563,12 @@ function Navbar() {
                       </a>
                     </li>
                     <li className="mb-10">
-                      <a href="#0" className="hover-this">
-                        <span className="hover-anim">Twitter</span>
+                      <a href="https://www.instagram.com/thirdeyeinfotechnology/profilecard/?igsh=d2Z3YXpoanZmZWI4" className="hover-this">
+                        <span className="hover-anim">Instagram</span>
                       </a>
                     </li>
                     <li className="mb-10">
-                      <a href="#0" className="hover-this">
+                      <a href="https://www.linkedin.com/company/third-eye-info-technology/" className="hover-this">
                         <span className="hover-anim">LinkedIn</span>
                       </a>
                     </li>

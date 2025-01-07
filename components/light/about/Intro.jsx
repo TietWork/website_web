@@ -8,19 +8,32 @@ function Intro() {
           <div className="col-lg-5">
             <h6 className="sub-title main-color">About Company</h6>
           </div>
-          <div className="col-lg-7">
+          <div className="">
             <div className="text">
               <h4>
-                Since 2001, Third Eye Infotech has been a trusted partner in
-                delivering innovative technology solutions. With a global
-                presence spanning the USA, Australia, and the UAE, we have
-                completed 100+ successful projects across 12+ industries,
-                positively impacting over 10 crore beneficiaries. Headquartered
-                in Chennai, our journey from a modest start to a global leader
-                reflects our commitment to innovation, integrity, and
-                collaboration. Driven by client-centricity and sustainability,
-                we simplify complexities, empower businesses, and create
-                scalable solutions for a better tomorrow.
+                Founded in 2001, Third Eye Infotech began as a small, ambitious
+                venture with a vision to transform businesses through
+                technology. Over the years, we&apos;ve grown into a global
+                powerhouse, delivering cutting-edge solutions that drive
+                innovation and success.
+                <br />
+                <br />
+                From our humble beginnings in Chennai, we&apos;ve expanded our
+                reach to the USA, Australia, Malaysia and the UAE, completing
+                over 100 transformative projects across 12+ industries. Our
+                solutions have positively impacted the lives of over 10 crore
+                beneficiaries, making a tangible difference in communities and
+                businesses worldwide. What sets us apart is not just our
+                technical expertise but our unwavering commitment to
+                collaboration, integrity, and sustainable growth. We believe in
+                simplifying the complex and empowering businesses to thrive in
+                an ever-evolving digital landscape.
+                <br />
+                <br />
+                At Third Eye Infotech, every project is more than just code –
+                it&apos;s a step towards a smarter, more connected future. Our
+                journey reflects the trust our clients place in us and the
+                passion we bring to every solution we craft.
               </h4>
             </div>
           </div>

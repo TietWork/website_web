@@ -14,20 +14,31 @@ function Footer() {
             </div>
             <div className="col-lg-7">
               <div className="social-media d-flex justify-content-end">
-                <ul className="rest d-flex align-items-center fz-14">
+                <ul className="rest d-flex align-items-center fz-14 social-icons">
                   <li>
-                    <a href="#" className="hover-anim">
-                      <i className="fab fa-facebook-f ml-20"></i> Facebook{" "}
+                    <a href="#0" className="hover-anim">
+                      <i className="fab fa-facebook-f ml-20"></i>
+                      <span className="social-name">Facebook</span>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/company/third-eye-info-technology/" className="hover-anim" target="_blank">
-                      <i className="fab fa-linkedin-in ml-20"></i> LinkedIn
+                    <a
+                      href="https://www.linkedin.com/company/third-eye-info-technology/"
+                      className="hover-anim"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="fab fa-linkedin-in ml-20"></i>
+                      <span className="social-name">LinkedIn</span>
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover-anim">
-                      <i className="fab fa-instagram ml-20"></i> Instagram
+                    <a
+                      href="https://www.instagram.com/thirdeyeinfotechnology/profilecard/?igsh=d2Z3YXpoanZmZWI4"
+                      className="hover-anim"
+                    >
+                      <i className="fab fa-instagram ml-20"></i>
+                      <span className="social-name">Instagram</span>
                     </a>
                   </li>
                 </ul>
@@ -75,28 +86,93 @@ function Footer() {
             <div className="col-lg-4 offset-lg-1 bord-left">
               <div className="column">
                 <h6 className="sub-title mb-30">Useful Links</h6>
+
                 <div className="row">
                   <div className="col-6">
                     <ul className="rest fz-14">
-                      <li className="mb-15">
-                        <a href="/light/page-about">About Company</a>
-                      </li>
+                    <strong>
+                        <p>Services.</p>
+                      </strong>
                       <li className="mb-15">
                         <a href="/light/page-services">Services</a>
                       </li>
+                      <strong>
+                        <p>About Us.</p>
+                      </strong>
+                      <li className="mb-15">
+                        <a href="/light/page-about">About Company</a>
+                      </li>
+
                       <li className="mb-15">
                         <a href="/light/page-whyus">Why Us?</a>
                       </li>
                       <li>
-                        <a href="/light/page-contact">Contact US</a>
+                        <a href="/light/page-engage">Engagement Model</a>
+                      </li>
+                    </ul>
+                    <br/>
+                  </div>
+                  <div className="col-6">
+                    <ul className="rest fz-14">
+                      <strong>
+                        <p>Our Projects</p>
+                      </strong>
+                      <li className="mb-15">
+                        <a href="/light/project-lpgVending">
+                          {" "}
+                          LPG Automated Vending Machine
+                        </a>
+                      </li>
+                      <li className="mb-15">
+                        <a href="/light/project-Iot">IoT Smart Locks
+                        </a>
+                      </li>
+                      <li className="mb-15">
+                        <a href="/light/project-erp">ERP Solutions</a>
+                      </li>
+                      <li>
+                        <a href="/light/project-RFID">RFID-based Jewel Tracking</a>
                       </li>
                     </ul>
                   </div>
                   <div className="col-6">
                     <ul className="rest fz-14">
-                    <li className="mb-15">
-                        <a href="/light/page-engage">Engagement Model</a>
+                      <strong>
+                        <p>Case Studies</p>
+                      </strong>
+                      <li className="mb-15">
+                        <a href="/light/casestudy-alekton">
+                          {" "}
+                          Digitized Job Cards for Alekton
+                        </a>
                       </li>
+                      <li className="mb-15">
+                        <a href="/light/casestudy-faceDetection">
+                        AI in Hollywood Casting
+                        </a>
+                      </li>
+                      <li className="mb-15">
+                        <a href="/light/casestudy-theatre">
+                        Digital Information Displays in Theatre</a>
+                      </li>
+                      <li>
+                        <a href="/light/casestudy-healthcare">Real-Time Skin Cancer Detection</a>
+                      </li>
+                      <br/>
+                      <li>
+                        <a href="/light/casestudy-GeoSpatial">Geospatial Agriculture Solutions</a>
+                      </li>
+                      <br/>
+                      <li>
+                        <a href="/light/casestudy-urbanladder">UrbanLadder Digital Makeover</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="col-6">
+                    <ul className="rest fz-14">
+                    <strong>
+                        <p>Approach.</p>
+                      </strong>
                       <li className="mb-15">
                         <a href="/light/page-FAQS">FAQS</a>
                       </li>
@@ -107,6 +183,12 @@ function Footer() {
                         <a href="/light/page-PrivacyPolicy">Privacy policy</a>
                       </li>
                     </ul>
+                    <strong>
+                        <p>Join Us.</p>
+                      </strong>
+                      <li className="mb-15">
+                        <a href="/light/page-joinus">Join Us.</a>
+                      </li>
                   </div>
                 </div>
               </div>

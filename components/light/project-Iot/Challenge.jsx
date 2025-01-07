@@ -7,7 +7,9 @@ function Challenge() {
         <div className="row">
           {/* Left Section - Subheadings */}
           <div className="col-lg-5">
-            <h4 className="mb-50">01 . The Case Study</h4>
+            <h4 className="mb-50">
+              01 . The <span style={{ color: "#007bff" }}>Project</span>
+            </h4>{" "}
             <h3 className="mb-20" style={{ color: "#333" }}>
               Key Features and Functionality
             </h3>

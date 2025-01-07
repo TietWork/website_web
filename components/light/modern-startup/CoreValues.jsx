@@ -36,11 +36,6 @@ function CoreValues() {
     },
   ];
 
-  const globalFootprint = {
-    title: "Global Footprint",
-    description:
-      "Headquartered in Chennai, with strong partnerships in the USA, Australia, and UAE, we deliver tailored solutions worldwide.",
-  };
 
   return (
     <section
@@ -70,7 +65,7 @@ function CoreValues() {
           transition={{ duration: 0.5 }}
         >
           Our Core Values at{" "}
-          <span style={{ color: "#0077b6" }}>Third Eye Info Technologies</span>
+          <span style={{ color: "#007BFF" }}>Third Eye Info Technologies</span>
         </motion.h2>
 
         {/* Core Values Grid */}
@@ -102,7 +97,7 @@ function CoreValues() {
                 style={{
                   fontSize: "20px",
                   fontWeight: "600",
-                  color: "#0077b6",
+                  color: "#007BFF",
                   marginBottom: "10px",
                 }}
               >
@@ -120,43 +115,6 @@ function CoreValues() {
             </motion.div>
           ))}
         </div>
-
-        {/* Global Footprint */}
-        <motion.div
-          whileHover={{ scale: 1.03 }}
-          transition={{ duration: 0.3 }}
-          style={{
-            marginTop: "50px",
-            padding: "30px",
-            backgroundColor: "#0077b6",
-            borderRadius: "10px",
-            color: "#FFFFFF",
-            textAlign: "center",
-            boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)",
-          }}
-        >
-          <h3
-            style={{
-              fontSize: "24px",
-              fontWeight: "700",
-              color: "#000000", // Black title
-              marginBottom: "10px",
-            }}
-          >
-            {globalFootprint.title}
-          </h3>
-          <p
-            style={{
-              fontSize: "16px",
-              lineHeight: "1.8",
-              maxWidth: "600px",
-              margin: "0 auto",
-              color: "#fff",
-            }}
-          >
-            {globalFootprint.description}
-          </p>
-        </motion.div>
       </div>
     </section>
   );

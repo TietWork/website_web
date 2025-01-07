@@ -34,86 +34,60 @@ function FAQS() {
           <div className="col-lg-7">
             <div className="list-serv">
               <div className="accordion bord">
-                {/* Question 1 */}
-                <div className="item mb-15 wow fadeInUp" data-wow-delay=".1s">
-                  <div onClick={openAccordion} className="title">
-                    <h6>What industries does your company specialize in?</h6>
-                    <span className="ico ti-plus"></span>
+                {[
+                  {
+                    question: "What industries does your company specialize in?",
+                    answer:
+                      "We specialize in serving diverse industries, including Healthcare, Finance & Insurance, Oil & Gas, Entertainment, Manufacturing, Government, Transportation, Education, Hospitality, and Real Estate. Our tailored solutions ensure that each industry’s unique challenges are effectively addressed.",
+                  },
+                  {
+                    question: "How do you ensure your solutions are industry-specific?",
+                    answer:
+                      "We conduct in-depth research and collaborate closely with our clients to understand their unique challenges and goals. This allows us to craft tailored solutions that leverage industry best practices and cutting-edge technology.",
+                  },
+                  {
+                    question: "What services do you offer to these industries?",
+                    answer:
+                      "We offer a range of services, including digital transformation, custom software development, system integration, data analytics, and process automation. Each service is tailored to the specific needs of the industry and client.",
+                  },
+                  {
+                    question: "Do you provide scalable solutions?",
+                    answer:
+                      "Yes, scalability is a core aspect of our solutions. Whether you need to expand your operations, integrate additional systems, or scale infrastructure, our solutions are designed to grow with your business.",
+                  },
+                  {
+                    question: "How long does it take to implement a solution?",
+                    answer:
+                      "Implementation timelines vary based on the complexity of the project and specific requirements. However, we strive to deliver efficient solutions within agreed timelines while maintaining high quality.",
+                  },
+                  {
+                    question: "Can you integrate with our existing systems?",
+                    answer:
+                      "Absolutely. We specialize in seamless system integration, ensuring that our solutions work harmoniously with your existing software, hardware, and workflows.",
+                  },
+                ].map((faq, index) => (
+                  <div
+                    key={index}
+                    className="item mb-20 wow fadeInUp"
+                    data-wow-delay={`.${index + 1}s`}
+                  >
+                    <div onClick={openAccordion} className="title">
+                      <h6>{faq.question}</h6>
+                      <span className="ico ti-plus"></span>
+                    </div>
+                    <div
+                      className="accordion-info"
+                      style={{
+                        padding: '10px 15px',
+                        marginTop: '10px',
+                        paddingLeft: '20px', // Left padding added
+                        paddingRight: '20px', // Right padding added
+                      }}
+                    >
+                      <p style={{ margin: 0 }}>{faq.answer}</p>
+                    </div>
                   </div>
-                  <div className="accordion-info">
-                    <p>
-                      We specialize in serving diverse industries, including Healthcare, Finance & Insurance, Oil & Gas, Entertainment, Manufacturing, Government, Transportation, Education, Hospitality, and Real Estate. Our tailored solutions ensure that each industry’s unique challenges are effectively addressed.
-                    </p>
-                  </div>
-                </div>
-
-                {/* Question 2 */}
-                <div
-                  className="item active mb-15 wow fadeInUp"
-                  data-wow-delay=".3s"
-                >
-                  <div onClick={openAccordion} className="title">
-                    <h6>How do you ensure your solutions are industry-specific?</h6>
-                    <span className="ico ti-plus"></span>
-                  </div>
-                  <div className="accordion-info">
-                    <p>
-                      We conduct in-depth research and collaborate closely with our clients to understand their unique challenges and goals. This allows us to craft tailored solutions that leverage industry best practices and cutting-edge technology.
-                    </p>
-                  </div>
-                </div>
-
-                {/* Question 3 */}
-                <div className="item mb-15 wow fadeInUp" data-wow-delay=".3s">
-                  <div onClick={openAccordion} className="title">
-                    <h6>What services do you offer to these industries?</h6>
-                    <span className="ico ti-plus"></span>
-                  </div>
-                  <div className="accordion-info">
-                    <p>
-                      We offer a range of services, including digital transformation, custom software development, system integration, data analytics, and process automation. Each service is tailored to the specific needs of the industry and client.
-                    </p>
-                  </div>
-                </div>
-
-                {/* Question 4 */}
-                <div className="item wow fadeInUp" data-wow-delay=".5s">
-                  <div onClick={openAccordion} className="title">
-                    <h6>Do you provide scalable solutions?</h6>
-                    <span className="ico ti-plus"></span>
-                  </div>
-                  <div className="accordion-info">
-                    <p>
-                      Yes, scalability is a core aspect of our solutions. Whether you need to expand your operations, integrate additional systems, or scale infrastructure, our solutions are designed to grow with your business.
-                    </p>
-                  </div>
-                </div>
-
-                {/* Question 5 */}
-                <div className="item wow fadeInUp" data-wow-delay=".7s">
-                  <div onClick={openAccordion} className="title">
-                    <h6>How long does it take to implement a solution?</h6>
-                    <span className="ico ti-plus"></span>
-                  </div>
-                  <div className="accordion-info">
-                    <p>
-                      Implementation timelines vary based on the complexity of the project and specific requirements. However, we strive to deliver efficient solutions within agreed timelines while maintaining high quality.
-                    </p>
-                  </div>
-                </div>
-
-                {/* Question 6 */}
-                <div className="item wow fadeInUp" data-wow-delay=".9s">
-                  <div onClick={openAccordion} className="title">
-                    <h6>Can you integrate with our existing systems?</h6>
-                    <span className="ico ti-plus"></span>
-                  </div>
-                  <div className="accordion-info">
-                    <p>
-                      Absolutely. We specialize in seamless system integration, ensuring that our solutions work harmoniously with your existing software, hardware, and workflows.
-                    </p>
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>

@@ -27,7 +27,7 @@ function MarqueeScroll() {
               </div>
               <div className="item">
                 <h4 className="d-flex align-items-center">
-                  <span>Big Data & Business Developement</span>{' '}
+                  <span>Big Data & Business Intelligence</span>{' '}
                   <span className="fz-50 ml-50 stroke icon">*</span>
                 </h4>
               </div>
@@ -53,7 +53,7 @@ function MarqueeScroll() {
               </div>
               <div className="item">
                 <h4 className="d-flex align-items-center">
-                  <span>Big Data & Business Developement</span>{' '}
+                  <span>Big Data & Business Intelligence</span>{' '}
                   <span className="fz-50 ml-50 stroke icon">*</span>
                 </h4>
               </div>

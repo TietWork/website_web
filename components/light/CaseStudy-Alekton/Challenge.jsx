@@ -11,7 +11,7 @@ function Challenge() {
               <div className="col-lg-5">
                 <h4 className="mb-50">01 . The Case Study</h4>
                 <h3 className="mb-20" style={{ color: '#333' }}>
-                  Project Overview
+                   Overview
                 </h3>
                 <h3 className="mb-20" style={{ color: '#333' }}>
                   Challenges

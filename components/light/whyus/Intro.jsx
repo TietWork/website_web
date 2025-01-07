@@ -8,14 +8,17 @@ function Intro() {
           <div className="col-lg-5">
             <h6 className="sub-title main-color">Why us?</h6>
           </div>
-          <div className="col-lg-7">
+          <div className="">
             <div className="text">
               <h4>
                 At Third Eye, we combine cutting-edge technology with an
                 unwavering commitment to innovation and quality. Our
                 experienced, multi-skilled workforce delivers scalable,
                 cost-effective solutions tailored to meet our clients unique
-                needs. With deep expertise in IT and web services, proven
+                needs.
+                <br/>
+                <br/>
+                 With deep expertise in IT and web services, proven
                 project management, and flexible business models, we bridge
                 big-picture goals with actionable results. Integrity,
                 transparency, and a customer-centric approach define our

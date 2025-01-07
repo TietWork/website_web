@@ -41,13 +41,6 @@ function Services() {
                   {item.title} <br /> 
                 </h5>
                 <p>{item.desc}</p>
-                <a href={item.link} className="rmore mt-30" style={{ color: '#007bff', fontWeight: '600' }}>
-                  <img
-                    src="/light/assets/imgs/arrow-right.png"
-                    alt=""
-                    className="icon-img-20 ml-5"
-                  />
-                </a>
               </div>
             </div>
           ))}
