@@ -1,15 +1,20 @@
 {
   "pages": {
-    "/light/casestudy-healthcare/page": [
+    "/light/page-services/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/light/casestudy-healthcare/page.js"
+      "static/chunks/app/light/page-services/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/css-app_globals_css.css",
       "static/chunks/app/layout.js"
+    ],
+    "/light/casestudy-urbanladder/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/light/casestudy-urbanladder/page.js"
     ],
     "/light/project-Iot/page": [
       "static/chunks/webpack.js",
@@ -41,15 +46,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/light/casestudy-GeoSpatial/page.js"
     ],
-    "/light/page-services/page": [
+    "/light/project-lpgVending/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/light/page-services/page.js"
+      "static/chunks/app/light/project-lpgVending/page.js"
     ],
-    "/light/casestudy-urbanladder/page": [
+    "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/light/casestudy-urbanladder/page.js"
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

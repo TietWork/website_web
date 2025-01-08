@@ -31,7 +31,7 @@ function Header() {
             <div className="caption">
               <h1>
                 Digital Transformation for Interior Design Operations Client:
-                UrbanLadder
+                Urban Ladder
               </h1>
             </div>
           </div>

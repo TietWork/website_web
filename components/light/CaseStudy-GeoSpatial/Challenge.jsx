@@ -10,10 +10,10 @@ function Challenge() {
               {/* Left Section - Title and Subheadings */}
               <div className="col-lg-5">
               <h4 className="mb-50">
-                  01 . <span style={{ color: "#007bff" }}>The Casestudy</span>
+                  01 . <span style={{ color: "#007bff" }}>Case study</span>
                 </h4>{" "}
                 <h3 className="mb-20">
-                  Casestudy Overview
+                   Overview
                 </h3>
                 <h3 className="mb-20" style={{ color: "#333" }}>
                   Challenges

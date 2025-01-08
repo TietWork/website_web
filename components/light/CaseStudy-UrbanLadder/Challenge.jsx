@@ -10,10 +10,10 @@ function Challenge() {
               {/* Left Section - Subheadings */}
               <div className="col-lg-5">
                 <h4 className="mb-50">
-                  01 . <span style={{ color: "#007bff" }}>The Casestudy</span>
+                  01 . <span style={{ color: "#007bff" }}>Case study</span>
                 </h4>{" "}
                 <h3 className="mb-20" style={{ color: "#333" }}>
-                  Casestudy Overview
+                  Overview
                 </h3>
                 <h3 className="mb-20" style={{ color: "#333" }}>
                   Our Solution
@@ -37,7 +37,7 @@ function Challenge() {
                     Overview
                   </h6>
                   <p className="fz-18 mb-40" style={{ color: "#555" }}>
-                    Thirdeye empowered UrbanLadder with a digital transformation
+                    Thirdeye empowered Urban Ladder with a digital transformation
                     solution, integrating a track-and-trace application and ERP
                     system. This streamlined production workflows, reduced
                     delays, optimized material usage by 30%, and improved
@@ -74,7 +74,7 @@ function Challenge() {
                     Our Solution
                   </h6>
                   <p className="fz-18 mb-40" style={{ color: "#555" }}>
-                    Thirdeye collaborated with UrbanLadder to develop a robust
+                    Thirdeye collaborated with Urban Ladder to develop a robust
                     Track and Trace Application along with a customized
                     ERP-Inventory Management System, streamlining their
                     operations and optimizing material usage.

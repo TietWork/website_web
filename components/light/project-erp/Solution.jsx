@@ -13,16 +13,14 @@ function Solution() {
                   02 . <span style={{ color: "#007bff" }}>The Quotes</span>
                 </h4>
                 <h4 className="mb-50">
-                  03 . <span style={{ color: "#007bff" }}>Technical Specifications</span>
+                  03 .{" "}
+                  <span style={{ color: "#007bff" }}>Benefits Delivered</span>
                 </h4>
                 <h4 className="mb-50">
-                  04 . <span style={{ color: "#007bff" }}>Benefits Delivered</span>
+                  04 . <span style={{ color: "#007bff" }}>Client Success</span>
                 </h4>
                 <h4 className="mb-50">
-                  05 . <span style={{ color: "#007bff" }}>Client Success</span>
-                </h4>
-                <h4 className="mb-50">
-                  06 . <span style={{ color: "#007bff" }}>Conclusion</span>
+                  05 . <span style={{ color: "#007bff" }}>Conclusion</span>
                 </h4>
               </div>
 
@@ -31,57 +29,38 @@ function Solution() {
                 <div className="text">
                   {/* Client Testimonials */}
                   <h6 style={{ color: "#007bff" }} className="mb-20">
-                  The Quotes
+                    The Quotes
                   </h6>
                   <blockquote
                     className="mb-30 fz-18"
                     style={{ color: "#555", fontStyle: "italic" }}
                   >
-                    The IoT smart locks have transformed our office security
-                    system. The ability to track and manage access remotely
-                    through the app has given us peace of mind and flexibility.
+                    The custom ERP solution has transformed our operations.
+                    From streamlined production scheduling to accurate payroll
+                    management, the system has eliminated inefficiencies and
+                    provided us with real-time insights that have been
+                    instrumental in driving our growth.
                     <br />
-                    <strong>– Facilities Manager, Leading IT Firm</strong>
+                    <strong>
+                      – Operations Manager, UAE-based Manufacturing Company
+                    </strong>
                   </blockquote>
+
                   <blockquote
                     className="mb-40 fz-18"
                     style={{ color: "#555", fontStyle: "italic" }}
                   >
-                    As a factory owner, tamper-proof locks are critical for our
-                    operations. These locks have proven to be resilient and
-                    reliable under tough conditions.
+                    With the ERP system in place, we&apos;ve reduced planning time
+                    by 90% and gained better control over our inventory and
+                    workforce management. The automated workflows and quality
+                    checklists have significantly boosted our productivity and
+                    ensured consistent product quality.
                     <br />
-                    <strong>– Operations Head, Manufacturing Unit</strong>
+                    <strong>
+                      – Production Supervisor, Bangalore-based Firm
+                    </strong>
                   </blockquote>
 
-                  {/* Technical Specifications */}
-                  <h6 style={{ color: "#007bff" }} className="mb-20">
-                    Technical Specifications
-                  </h6>
-                  <ul className="fz-18 mb-40" style={{ color: "#000" }}>
-                    <li>
-                      <strong>Material:</strong> Hardened Steel
-                    </li>
-                    <li>
-                      <strong>Access Modes:</strong> Keypad, Mobile App
-                    </li>
-                    <li>
-                      <strong>Security Levels:</strong> Dynamic Passcode,
-                      Proprietary Algorithm
-                    </li>
-                    <li>
-                      <strong>Connectivity:</strong> IoT-enabled, Mobile App
-                      Controlled
-                    </li>
-                    <li>
-                      <strong>Battery:</strong> Rechargeable with Low Battery
-                      Alerts
-                    </li>
-                    <li>
-                      <strong>Environmental Protection:</strong> Tamper-Proof,
-                      Dustproof, All-Weather Design
-                    </li>
-                  </ul>
 
                   {/* Benefits Delivered */}
                   <h6 style={{ color: "#007bff" }} className="mb-20">
@@ -89,14 +68,14 @@ function Solution() {
                   </h6>
                   <ul className="fz-18 mb-40" style={{ color: "#000" }}>
                     <li>
-                      <strong>90% Reduction in Planning Time:</strong> Streamlined
-                      processes allowed for faster decision-making and resource
-                      allocation.
+                      <strong>90% Reduction in Planning Time:</strong>{" "}
+                      Streamlined processes allowed for faster decision-making
+                      and resource allocation.
                     </li>
                     <li>
-                      <strong>Increased Productivity:</strong> Automated workflows
-                      minimized manual intervention, boosting operational
-                      efficiency.
+                      <strong>Increased Productivity:</strong> Automated
+                      workflows minimized manual intervention, boosting
+                      operational efficiency.
                     </li>
                     <li>
                       <strong>Reduced Inventory Costs:</strong> Improved stock
@@ -117,12 +96,12 @@ function Solution() {
                     Client Success
                   </h6>
                   <p className="fz-18 mb-40" style={{ color: "#555" }}>
-                    Since deploying the ERP solution, both clients have
-                    reported significant improvements in operational efficiency,
+                    Since deploying the ERP solution, both clients have reported
+                    significant improvements in operational efficiency,
                     workforce management, and inventory control. The automation
-                    and real-time reporting capabilities have empowered leadership
-                    to make data-driven decisions, leading to sustainable growth
-                    and cost savings.
+                    and real-time reporting capabilities have empowered
+                    leadership to make data-driven decisions, leading to
+                    sustainable growth and cost savings.
                   </p>
 
                   {/* Conclusion */}
