@@ -1564,8 +1564,8 @@ img.left {
 }
 
 .section-padding {
-  padding-top: 140px;
-  padding-bottom: 140px;
+  padding-top: 50px;
+  padding-bottom: 60px;
 }
 
 .section-ptb {
@@ -3359,9 +3359,9 @@ h4 {
 .navbar .navbar-nav .nav-link {
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 13px;
-  font-weight: 600;
-  color: #909090;
+  font-size: 14px;
+  font-weight: 700;
+  color: #c5c5c5;
   padding: 20px 10px ;
   margin: 0 10px;
 }
@@ -6252,7 +6252,7 @@ footer.clean-footer.crev:before {
 
 .page-header-cerv.section-padding,
 .page-header.section-padding {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 
 .header-project1 {
@@ -10190,8 +10190,8 @@ footer.clean-footer.crev:before {
     font-size: 20px;
   }
   .section-padding {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   .sec-head .bord {
     display: block !important;

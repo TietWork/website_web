@@ -8,8 +8,11 @@ function Challenge() {
           {/* Left Section - Subheadings */}
           <div className="col-lg-5">
             <h4 className="mb-50">
-              01 . The <span style={{ color: "#007bff" }}>Project</span>
+              01 .<span style={{ color: "#007bff" }}>The Project</span>
             </h4>{" "}
+            <h3 className="mb-20" style={{ color: "#333" }}>
+            Project Overview
+            </h3>
             <h3 className="mb-20" style={{ color: "#333" }}>
               Key Features and Functionality
             </h3>
@@ -28,7 +31,7 @@ function Challenge() {
                 className="mb-30 fw-400 line-height-40"
                 style={{ color: "#000" }}
               >
-                IoT-Based Digital Smart Locks – A New Era in Security
+                Overview
               </h3>
               <p className="fz-18 mb-40" style={{ color: "#555" }}>
                 Our IoT-based digital smart locks redefine modern security by

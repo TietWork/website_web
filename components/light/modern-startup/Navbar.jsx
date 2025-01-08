@@ -135,7 +135,7 @@ function Navbar() {
             <img
               src="/light/assets/imgs/logo-light.png"
               alt="logo"
-              style={{ width: "200px", height: "auto" }}
+              style={{ width: "70px", height: "auto" }}
             />
           </a>
 
@@ -557,11 +557,6 @@ function Navbar() {
                 <div className="item mb-50">
                   <h6 className="sub-title mb-15 opacity-7">Social Media</h6>
                   <ul className="rest social-text">
-                    <li className="mb-10">
-                      <a href="#0" className="hover-this">
-                        <span className="hover-anim">Facebook</span>
-                      </a>
-                    </li>
                     <li className="mb-10">
                       <a href="https://www.instagram.com/thirdeyeinfotechnology/profilecard/?igsh=d2Z3YXpoanZmZWI4" className="hover-this">
                         <span className="hover-anim">Instagram</span>

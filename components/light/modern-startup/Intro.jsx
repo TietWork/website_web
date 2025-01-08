@@ -21,25 +21,34 @@ function Intro() {
                   </span>
                 </span>
                 <span className="sideup-text">
-                  <span className="up-text">
-                     Contact us.{" "}
+                  <span
+                    style={{
+                      display: "inline-flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                      backgroundColor: "#000814",
+                      color: "#fff",
+                      padding: "14px 25px",
+                      borderRadius: "30px",
+                      textDecoration: "none",
+                      cursor: "pointer",
+                      boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
+                      fontSize: "16px",
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Contact us{" "}
                     <a
                       href="/light/page-contact"
                       style={{
                         display: "inline-flex",
                         justifyContent: "center",
                         alignItems: "center",
-                        backgroundColor: "#000814",
                         color: "#fff",
-                        width: "50px",
-                        height: "50px",
-                        textAlign: "center",
+                        marginLeft: "10px",
                         textDecoration: "none",
-                        borderRadius: "50px",
-                        cursor: "pointer",
-                        boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
                       }}
-                    > 
+                    >
                       <i
                         className="fas fa-arrow-right"
                         style={{
@@ -69,9 +78,10 @@ function Intro() {
           <div className="col-lg-5">
             <div className="text">
               <p>
-                <strong>
+                <strong style={{ color: "#001524", fontSize: "22px" }}>
                   Empowering Businesses with Innovative Software Solutions
-                </strong><br/>
+                </strong>
+                <br />
                 With over 23 years of experience, Third Eye Info Technology
                 delivers cutting-edge software solutions that drive growth and
                 efficiency. Our expertise spans custom software development, AI,

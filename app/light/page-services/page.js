@@ -12,7 +12,7 @@ import Marquee from '@/components/light/services/Marquee';
 import Process from '@/components/light/services/Process';
 
 export const metadata = {
-  title: 'Infolio',
+  title: 'Third Eye Info Technology',
   icons: {
     icon: '/light/assets/imgs/favicon.ico',
     shortcut: '/light/assets/imgs/favicon.ico',

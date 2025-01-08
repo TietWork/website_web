@@ -8,7 +8,7 @@ function Challenge() {
           {/* Left Section - Subheadings */}
           <div className="col-lg-5">
             <h4 className="mb-50">
-              01 . The <span style={{ color: "#007bff" }}>Project</span>
+              01 . <span style={{ color: "#007bff" }}>The Project</span>
             </h4>{" "}
             <h3 className="mb-20" style={{ color: "#333" }}>
               Project Overview
@@ -32,7 +32,7 @@ function Challenge() {
                 className="mb-30 fw-400 line-height-40"
                 style={{ color: "#000" }}
               >
-                ERP Solution for Streamlined Operations and Productivity
+                Overview
               </h3>
               <p className="fz-18 mb-40" style={{ color: "#555" }}>
                 We developed a medium-scale ERP solution tailored to the

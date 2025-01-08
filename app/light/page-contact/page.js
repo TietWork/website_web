@@ -11,7 +11,7 @@ import MapSection from '@/components/light/contact/MapSection'
 import Script from 'next/script';
 
 export const metadata = {
-  title: 'Infolio',
+  title: 'Third Eye Info Technology',
   icons: {
     icon: '/light/assets/imgs/favicon.ico',
     shortcut: '/light/assets/imgs/favicon.ico',

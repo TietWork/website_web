@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Challenge() {
   return (
@@ -9,45 +9,124 @@ function Challenge() {
             <div className="row">
               {/* Left Section - Subheading */}
               <div className="col-lg-5">
-                <h4 className="mb-50">01 . The CaseStudy</h4>
-                <h6 style={{ color: '#007bff' }} className="mb-30">
-                  Case Study: Real-Time Skin Radiation Detection for Early Cancer Diagnosis
-                </h6>
+                <h4 className="mb-50">
+                  01 . <span style={{ color: "#007bff" }}>The Casestudy</span>
+                </h4>{" "}
+                <h3 className="mb-20">
+                  Casestudy Overview
+                </h3>
+                <h3 className="mb-20" style={{ color: "#333" }}>
+                The Solution
+                </h3>
+                <h3 className="mb-20" style={{ color: "#333" }}>
+                Key Outcomes & Impact
+                </h3>
+                <h3 className="mb-20" style={{ color: "#333" }}>
+                Technology Stack
+                </h3>
               </div>
 
               {/* Right Section - Content */}
               <div className="col-lg-7">
                 <div className="text">
-                  <h5 className="mb-30 fw-400 line-height-40">
-                    Early detection of skin cancer is crucial for improving patient survival rates. However, traditional diagnostic methods often miss early-stage signs, delaying treatment. Healthcare providers sought a non-invasive, portable solution capable of detecting abnormal skin radiation levels in real time.
-                  </h5>
-                  <p className="fz-18" style={{ color: '#555' }}>
-                    Thirdeye collaborated with a medical device manufacturer to develop software for a pen-like device equipped with Bluetooth technology, designed to detect skin radiation in real time. Our software, utilizing Windows Surface technology, powers the device’s interface, enabling live visualization of radiation levels through a digital gauge. This allows healthcare providers to identify anomalies and initiate early intervention.
+                <h6 style={{ color: "#007bff" }} className="mb-20">
+                     Overview
+                  </h6>
+                  <p className="fz-18 mb-40" style={{ color: "#555" }}>
+                    Early detection of skin cancer is crucial for improving
+                    patient survival rates. However, traditional diagnostic
+                    methods often miss early-stage signs, delaying treatment.
+                    Healthcare providers sought a non-invasive, portable
+                    solution capable of detecting abnormal skin radiation levels
+                    in real time.<br/>
+                    Thirdeye collaborated with a medical device manufacturer to
+                    develop software for a pen-like device equipped with
+                    Bluetooth technology, designed to detect skin radiation in
+                    real time. Our software, utilizing Windows Surface
+                    technology, powers the device&apos;s interface, enabling live
+                    visualization of radiation levels through a digital gauge.
+                    This allows healthcare providers to identify anomalies and
+                    initiate early intervention.
                   </p>
 
-                  <h6 style={{ color: '#007bff' }} className="mt-40 mb-20">
-                    Solution
+                  <h6 style={{ color: "#007bff" }} className="mt-40 mb-20">
+                    The Solution
                   </h6>
-                  <p className="fz-18" style={{ color: '#555' }}>
-                    Thirdeye’s software solution powers the pen-like device, providing healthcare professionals with real-time, accurate radiation readings. Key features of the solution included:
+                  <p className="fz-18" style={{ color: "#555" }}>
+                    Thirdeye&apos;s software solution powers the pen-like device,
+                    providing healthcare professionals with real-time, accurate
+                    radiation readings. Key features of the solution included:
                   </p>
-                  <ul className="fz-18" style={{ color: '#555', paddingLeft: '20px' }}>
-                    <li><strong>Real-Time Radiation Detection</strong> – Instant feedback through a live gauge, providing visual cues of abnormal skin radiation.</li>
-                    <li><strong>Bluetooth Connectivity</strong> – Wireless data transmission to Windows Surface devices, ensuring mobility and ease of use.</li>
-                    <li><strong>Advanced Analytics</strong> – Analyzing radiation patterns to detect potential cancer cells, improving diagnostic accuracy.</li>
-                    <li><strong>User-Friendly Interface</strong> – Intuitive design for seamless operation by healthcare professionals in various environments.</li>
-                    <li><strong>Portability and Scalability</strong> – Designed to function in clinics, hospitals, and remote medical camps.</li>
+                  <ul
+                    className="fz-18"
+                    style={{ color: "#555", paddingLeft: "20px" }}
+                  >
+                    <li>
+                      <strong>Real-Time Radiation Detection</strong> – Instant
+                      feedback through a live gauge, providing visual cues of
+                      abnormal skin radiation.
+                    </li>
+                    <li>
+                      <strong>Bluetooth Connectivity</strong> – Wireless data
+                      transmission to Windows Surface devices, ensuring mobility
+                      and ease of use.
+                    </li>
+                    <li>
+                      <strong>Advanced Analytics</strong> – Analyzing radiation
+                      patterns to detect potential cancer cells, improving
+                      diagnostic accuracy.
+                    </li>
+                    <li>
+                      <strong>User-Friendly Interface</strong> – Intuitive
+                      design for seamless operation by healthcare professionals
+                      in various environments.
+                    </li>
+                    <li>
+                      <strong>Portability and Scalability</strong> – Designed to
+                      function in clinics, hospitals, and remote medical camps.
+                    </li>
                   </ul>
 
-                  <h6 style={{ color: '#007bff' }} className="mt-40 mb-20">
+                  <h6 style={{ color: "#007bff" }} className="mt-40 mb-20">
                     Key Outcomes & Impact
                   </h6>
-                  <ul className="fz-18" style={{ color: '#555', paddingLeft: '20px' }}>
-                    <li><strong>Enhanced Early Detection</strong> – Increased detection rates of early-stage skin cancer, enabling timely treatment and improving patient outcomes.</li>
-                    <li><strong>Operational Efficiency</strong> – Streamlined diagnostic processes, reducing the need for invasive biopsies.</li>
-                    <li><strong>Improved Patient Engagement</strong> – Real-time feedback offers transparency, enhancing patient trust and involvement in their healthcare journey.</li>
-                    <li><strong>Scalable Deployment</strong> – Successfully deployed across multiple healthcare facilities, with potential for expansion into dermatology clinics globally.</li>
+                  <ul
+                    className="fz-18"
+                    style={{ color: "#555", paddingLeft: "20px" }}
+                  >
+                    <li>
+                      <strong>Enhanced Early Detection</strong> – Increased
+                      detection rates of early-stage skin cancer, enabling
+                      timely treatment and improving patient outcomes.
+                    </li>
+                    <li>
+                      <strong>Operational Efficiency</strong> – Streamlined
+                      diagnostic processes, reducing the need for invasive
+                      biopsies.
+                    </li>
+                    <li>
+                      <strong>Improved Patient Engagement</strong> – Real-time
+                      feedback offers transparency, enhancing patient trust and
+                      involvement in their healthcare journey.
+                    </li>
+                    <li>
+                      <strong>Scalable Deployment</strong> – Successfully
+                      deployed across multiple healthcare facilities, with
+                      potential for expansion into dermatology clinics globally.
+                    </li>
                   </ul>
+
+                                    {/* Technology Stack */}
+                <h6 style={{ color: '#007bff' }} className="mt-40 mb-20">
+                  Technology Stack
+                </h6>
+                <ul className="fz-18" style={{ color: '#555', paddingLeft: '20px' }}>
+                  <li><strong>Software Platform:</strong> Windows Surface</li>
+                  <li><strong>Connectivity:</strong> Bluetooth Integration</li>
+                  <li><strong>Data Visualization:</strong> Real-time digital gauges and analytical dashboards</li>
+                  <li><strong>Security:</strong> HIPAA-compliant data handling and encryption protocols</li>
+                </ul>
+
                 </div>
               </div>
             </div>

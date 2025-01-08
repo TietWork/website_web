@@ -16,12 +16,6 @@ function Footer() {
               <div className="social-media d-flex justify-content-end">
                 <ul className="rest d-flex align-items-center fz-14 social-icons">
                   <li>
-                    <a href="#0" className="hover-anim">
-                      <i className="fab fa-facebook-f ml-20"></i>
-                      <span className="social-name">Facebook</span>
-                    </a>
-                  </li>
-                  <li>
                     <a
                       href="https://www.linkedin.com/company/third-eye-info-technology/"
                       className="hover-anim"
@@ -91,13 +85,13 @@ function Footer() {
                   <div className="col-6">
                     <ul className="rest fz-14">
                     <strong>
-                        <p>Services.</p>
+                        <p>Services</p>
                       </strong>
                       <li className="mb-15">
                         <a href="/light/page-services">Services</a>
                       </li>
                       <strong>
-                        <p>About Us.</p>
+                        <p>About Us</p>
                       </strong>
                       <li className="mb-15">
                         <a href="/light/page-about">About Company</a>
@@ -171,7 +165,7 @@ function Footer() {
                   <div className="col-6">
                     <ul className="rest fz-14">
                     <strong>
-                        <p>Approach.</p>
+                        <p>Approach</p>
                       </strong>
                       <li className="mb-15">
                         <a href="/light/page-FAQS">FAQS</a>
@@ -184,10 +178,10 @@ function Footer() {
                       </li>
                     </ul>
                     <strong>
-                        <p>Join Us.</p>
+                        <p>Join Us</p>
                       </strong>
                       <li className="mb-15">
-                        <a href="/light/page-joinus">Join Us.</a>
+                        <a href="/light/page-joinus">Join Us</a>
                       </li>
                   </div>
                 </div>

@@ -9,19 +9,18 @@ function Solution() {
             <div className="row">
               {/* Left Section - Title */}
               <div className="col-lg-5">
-                <h4 className="mb-30">02 . The <span style={{ color: '#007bff' }}>Conclusion</span></h4>
-                <h3 className="mb-20" style={{ color: '#333' }}>
-                  Key Outcomes
-                </h3>
-                <h3 className="mb-20" style={{ color: '#333' }}>
-                  Real-time Monitoring
-                </h3>
-                <h3 className="mb-20" style={{ color: '#333' }}>
-                  Sustainability Benefits
-                </h3>
-                <h3 className="mb-20" style={{ color: '#333' }}>
-                  Conclusion
-                </h3>
+              <h4 className="mb-50">
+                  02 . <span style={{ color: "#007bff" }}>Key Outcomes and Impact</span>
+                </h4>{" "}
+                <h4 className="mb-50">
+                  03 . <span style={{ color: "#007bff" }}>Real-time Monitoring & Response</span>
+                </h4>{" "}
+                <h4 className="mb-50">
+                  04 . <span style={{ color: "#007bff" }}>Sustainability & Environmental Benefits</span>
+                </h4>{" "}
+                <h4 className="mb-50">
+                  05 . <span style={{ color: "#007bff" }}>Conclusion</span>
+                </h4>{" "}
               </div>
 
               {/* Right Section - Content */}

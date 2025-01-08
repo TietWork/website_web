@@ -32,7 +32,7 @@ const Interactive = () => {
       description: "Advanced mapping solutions with AI-powered insights",
       icon: Globe,
       color: "#2563eb",
-      link: "/light/project-GeoSpatial"
+      link: "/light/casestudy-GeoSpatial"
     },
     {
       title: "RFID-based Jewel Tracking",
@@ -46,14 +46,14 @@ const Interactive = () => {
       description: "AI-powered facial recognition for entertainment industry",
       icon: Camera,
       color: "#2563eb",
-      link: "/light/project-faceDetection"
+      link: "/light/casestudy-faceDetection"
     },
     {
       title: "Healthcare Innovations",
       description: "Digital solutions transforming patient care",
       icon: Stethoscope,
       color: "#3b82f6",
-      link: "/light/project-healthcare"
+      link: "/light/casestudy-healthcare"
     }
   ];
 

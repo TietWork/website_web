@@ -29,7 +29,7 @@ function Header() {
         <div className="row">
           <div className="col-12">
             <div className="caption">
-              <h1>IoT Based Smart Locks.</h1>
+              <h1>IoT Based Smart Locks</h1>
             </div>
           </div>
         </div>

@@ -203,10 +203,7 @@ function Header() {
         <a href="/light/casestudy-alekton" style={{ textDecoration: "none" }}>
           <motion.button
             className="custom-button"
-            initial={{
-              backgroundColor: "#fff9f2",
-              border: "3px solid #43403f",
-            }}
+            initial="inital"
             whileHover="hover"
             style={{
               display: "flex",
@@ -243,10 +240,9 @@ function Header() {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
-                color: "#000",
               }}
             >
-              <BsArrowRight size={20} />
+              {/* <BsArrowRight size={20} /> */}
             </motion.div>
             Read case studies
           </motion.button>

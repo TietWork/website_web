@@ -2,20 +2,21 @@ import React from "react";
 
 function Challenge() {
   return (
-    <section className="section-padding">
+    <section className="section-padding bord-thin-bottom">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-11">
             <div className="row">
               {/* Left Section - Subheading */}
               <div className="col-lg-5">
-                <h4 className="mb-50">01 . The CaseStudy</h4>
-                <h6 style={{ color: "#007bff" }} className="mb-30">
-                  Case Study: Transforming Hollywood Casting with AI-Powered
-                  Solutions
-                </h6>
+                <h4 className="mb-50">
+                  01 . <span style={{ color: "#007bff" }}>The Casestudy</span>
+                </h4>{" "}
                 <h3 className="mb-20" style={{ color: "#333" }}>
-                  Solution
+                  Casestudy Overview
+                </h3>
+                <h3 className="mb-20" style={{ color: "#333" }}>
+                  The Solution
                 </h3>
                 <h3 className="mb-20" style={{ color: "#333" }}>
                   Key Outcomes & Impact
@@ -25,38 +26,22 @@ function Challenge() {
               {/* Right Section - Content */}
               <div className="col-lg-7">
                 <div className="text">
-                  <h5 className="mb-30 fw-400 line-height-40">
-                    The Hollywood casting process was plagued by outdated manual
-                    processes and paper-based record-keeping, which created
-                    inefficiencies and hindered talent submissions for casting
-                    roles.
-                  </h5>
+                  <h6 style={{ color: "#007bff" }} className="mb-20">
+                    Overview
+                  </h6>
                   <p className="fz-18" style={{ color: "#555" }}>
                     To address this, Thirdeye partnered with ZyberTech, a
                     pioneering tech company, to revolutionize the casting
                     submission process and make it accessible to actors
                     worldwide. Our primary objective was to develop a seamless
-                    online platform that would:
+                    online platform that would Enable actors globally to apply
+                    for Hollywood roles effortlessly, Manage talent portfolios
+                    and multimedia submissions and Facilitate smooth
+                    communication between talents and agents.
                   </p>
-                  <ul
-                    className="fz-18"
-                    style={{ color: "#555", paddingLeft: "20px" }}
-                  >
-                    <li>
-                      Enable actors globally to apply for Hollywood roles
-                      effortlessly.
-                    </li>
-                    <li>
-                      Manage talent portfolios and multimedia submissions.
-                    </li>
-                    <li>
-                      Facilitate smooth communication between talents and
-                      agents.
-                    </li>
-                  </ul>
 
                   <h6 style={{ color: "#007bff" }} className="mt-40 mb-20">
-                    Solution
+                    The Solution
                   </h6>
                   <p className="fz-18" style={{ color: "#555" }}>
                     Thirdeye and ZyberTech collaborated to design and develop an
@@ -72,20 +57,21 @@ function Challenge() {
                     style={{ color: "#555", paddingLeft: "20px" }}
                   >
                     <li>
-                      Casting Management System – Automated end-to-end workflows
-                      for efficient talent management.
+                      <strong>Casting Management System</strong> – Automated
+                      end-to-end workflows for efficient talent management.
                     </li>
                     <li>
-                      Face Detection API – Instantly verifies actors
-                      authenticity by matching faces with a vast movie database.
+                      <strong>Face Detection API</strong> – Instantly verifies
+                      actors authenticity by matching faces with a vast movie
+                      database.
                     </li>
                     <li>
-                      Automated Candidate Shortlisting – Reducing time spent on
-                      shortlisting by 80%.
+                      <strong>Automated Candidate Shortlisting</strong> –
+                      Reducing time spent on shortlisting by 80%.
                     </li>
                     <li>
-                      Custom Software Enhancements – Tailored to meet the unique
-                      needs of our client.
+                      <strong>Custom Software Enhancements</strong> – Tailored
+                      to meet the unique needs of our client.
                     </li>
                   </ul>
 

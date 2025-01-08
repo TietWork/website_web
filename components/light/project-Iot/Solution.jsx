@@ -7,10 +7,16 @@ function Solution() {
         <div className="row justify-content-center">
           <div className="col-lg-11">
             <div className="row">
-              {/* Left Section - Title */}
+              {/* Left Section - Headings */}
               <div className="col-lg-5">
                 <h4 className="mb-50">
-                  02 . The <span style={{ color: "#007bff" }}>Solution</span>
+                  02 . <span style={{ color: "#007bff" }}>The Quotes</span>
+                </h4>
+                <h4 className="mb-50">
+                  03 . <span style={{ color: "#007bff" }}>Technical Specifications</span>
+                </h4>
+                <h4 className="mb-50">
+                  04 . <span style={{ color: "#007bff" }}>Conclusion</span>
                 </h4>
               </div>
 
@@ -19,8 +25,9 @@ function Solution() {
                 <div className="text">
                   {/* Client Testimonials */}
                   <h6 style={{ color: "#007bff" }} className="mb-20">
-                    Client Testimonials
+                    The Quotes
                   </h6>
+                  
                   <blockquote
                     className="mb-30 fz-18"
                     style={{ color: "#555", fontStyle: "italic" }}

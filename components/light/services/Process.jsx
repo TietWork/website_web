@@ -95,7 +95,7 @@ function Process() {
           <h6 className="sub-title main-color mb-25">Our Process</h6>
           <div className="bord pt-25 bord-thin-top d-flex align-items-center">
             <h2 className="fw-600">
-              Business <span className="fw-200">Discovery & Research</span>
+            Step-by-Step  <span className="fw-200">Approach</span>
             </h2>
           </div>
         </div>
