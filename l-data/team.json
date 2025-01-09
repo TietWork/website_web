@@ -1,17 +1,45 @@
 [
   {
-    "img": "/light/assets/imgs/team/1.jpg",
-    "name": "Robert De Niro",
-    "subName": "Web Designer"
+    "img": "/light/assets/imgs/ourteam/jegan.png",
+    "name": "Jegan Jayachandran",
+    "subName": "Senior Program Manager"
   },
   {
-    "img": "/light/assets/imgs/team/2.jpg",
-    "name": "Brendan Fraser",
-    "subName": "Web Designer"
+    "img": "/light/assets/imgs/ourteam/parabaker.png",
+    "name": "Prabhakaran Rangabashyam",
+    "subName": "Senior Team Lead"
   },
   {
-    "img": "/light/assets/imgs/team/3.jpg",
-    "name": "Ahmed Khaled",
-    "subName": "Web Designer"
+    "img": "/light/assets/imgs/ourteam/raghu.png",
+    "name": "Ragu Veerappan",
+    "subName": "Lead UI/UX Developer"
+  },
+  {
+    "img": "/light/assets/imgs/ourteam/raja.png",
+    "name": "Raja",
+    "subName": "Senior Testing Engineer"
+  },
+  {
+    "img": "/light/assets/imgs/ourteam/vignesh.png",
+    "name": "Vignesh",
+    "subName": "Team Lead"
+  },
+  {
+    "img": "/light/assets/imgs/ourteam/deepak.png",
+    "name": "Deepak Prem",
+    "subName": "Team Lead"
+  },
+  {
+    "img": "/light/assets/imgs/ourteam/gokul.png",
+    "name": "Gokul",
+    "subName": "Senior Developer"
+  }, {
+    "img": "/light/assets/imgs/ourteam/ram.png",
+    "name": "Ram Kumar",
+    "subName": "Senior Developer"
+  }, {
+    "img": "/light/assets/imgs/ourteam/balaji.png",
+    "name": "Balaji",
+    "subName": "Senior UI/UX Developer"
   }
 ]

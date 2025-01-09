@@ -156,13 +156,33 @@ function Navbar() {
             <ul className="navbar-nav">
               {/* services */}
 
-              <ul className="navbar-nav">
-                <li>
-                  <a className="nav-link" href="/light/page-services">
-                    <span className="rolling-text">Services</span>
+              <li
+                onMouseLeave={handleDropdownMouseLeave}
+                onMouseMove={handleDropdownMouseMove}
+                className="nav-item dropdown"
+              >
+                <a
+                  className="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <span className="rolling-text">Services</span>
+                </a>
+                <div className="dropdown-menu">
+                  <a className="dropdown-item" href="/light/page-services">
+                    What We Offer
                   </a>
-                </li>
-              </ul>
+                  <a className="dropdown-item" href="/light/page-whyus">
+                    Why us?
+                  </a>
+                  <a className="dropdown-item" href="/light/page-engage">
+                    Engagement Model
+                  </a>
+                </div>
+              </li>
 
               {/* Projects */}
 
@@ -216,24 +236,29 @@ function Navbar() {
                     Digitized Job Cards for Alekton
                   </a>
                   <a
-                    className="dropdown-item" href="/light/casestudy-faceDetection"
+                    className="dropdown-item"
+                    href="/light/casestudy-faceDetection"
                   >
                     AI in Hollywood Casting
                   </a>
-                  <a className="dropdown-item" href="/light/casestudy-theatre"
-                  >
+                  <a className="dropdown-item" href="/light/casestudy-theatre">
                     Digital Information Displays in Theatre
                   </a>{" "}
-                  <a className="dropdown-item" href="/light/casestudy-healthcare"
+                  <a
+                    className="dropdown-item"
+                    href="/light/casestudy-healthcare"
                   >
                     Real-Time Skin Cancer Detection
                   </a>{" "}
-                  <a className="dropdown-item" href="/light/casestudy-GeoSpatial"
+                  <a
+                    className="dropdown-item"
+                    href="/light/casestudy-GeoSpatial"
                   >
                     Geospatial Agriculture Solutions
                   </a>
                   <a
-                    className="dropdown-item" href="/light/casestudy-urbanladder"
+                    className="dropdown-item"
+                    href="/light/casestudy-urbanladder"
                   >
                     UrbanLadder Digital Makeover
                   </a>
@@ -260,11 +285,11 @@ function Navbar() {
                   <a className="dropdown-item" href="/light/page-about">
                     About Company
                   </a>
-                  <a className="dropdown-item" href="/light/page-whyus">
-                    Why us?
+                  <a className="dropdown-item" href="/light/page-team">
+                    Our Team
                   </a>
-                  <a className="dropdown-item" href="/light/page-engage">
-                    Engagement Model
+                  <a className="dropdown-item" href="/light/page-ourClients">
+                    Our Clients
                   </a>
                 </div>
               </li>
@@ -286,7 +311,7 @@ function Navbar() {
                   className="nav-link nav-button-minimal"
                   href="/light/page-contact"
                   style={{
-                    color:"#edede9"
+                    color: "#edede9",
                   }}
                 >
                   <span className="">Get a Quote</span>
@@ -349,11 +374,31 @@ function Navbar() {
                     onClick={toggleSubMenu}
                   >
                     <div className="o-hidden">
-                      <a href="/light/page-services" className="link">
+                      <div className="link cursor-pointer dmenu">
                         <span className="fill-text" data-text="Services">
                           Services
-                        </span>
-                      </a>
+                        </span>{" "}
+                        <i></i>
+                      </div>
+                    </div>
+                    <div className="sub-menu">
+                      <ul>
+                        <li>
+                          <a href="/light/page-services" className="sub-link">
+                            What We Offer
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/light/page-whyus" className="sub-link">
+                            Why us?
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/light/page-engage" className="sub-link">
+                            Engagement Model
+                          </a>
+                        </li>
+                      </ul>
                     </div>
                   </li>
 
@@ -388,10 +433,7 @@ function Navbar() {
                           </a>
                         </li>
                         <li>
-                          <a
-                            href="/light/project-erp"
-                            className="sub-link"
-                          >
+                          <a href="/light/project-erp" className="sub-link">
                             ERP Solutions
                           </a>
                         </li>
@@ -495,13 +537,13 @@ function Navbar() {
                           </a>
                         </li>
                         <li>
-                          <a href="/light/page-whyus" className="sub-link">
-                            Why us?
+                          <a href="/light/page-team" className="sub-link">
+                            Our Team
                           </a>
                         </li>
                         <li>
-                          <a href="/light/page-engage" className="sub-link">
-                            Engagement Model
+                          <a href="/light/page-ourClients" className="sub-link">
+                            Our Clients
                           </a>
                         </li>
                       </ul>
@@ -558,12 +600,18 @@ function Navbar() {
                   <h6 className="sub-title mb-15 opacity-7">Social Media</h6>
                   <ul className="rest social-text">
                     <li className="mb-10">
-                      <a href="https://www.instagram.com/thirdeyeinfotechnology/profilecard/?igsh=d2Z3YXpoanZmZWI4" className="hover-this">
+                      <a
+                        href="https://www.instagram.com/thirdeyeinfotechnology/profilecard/?igsh=d2Z3YXpoanZmZWI4"
+                        className="hover-this"
+                      >
                         <span className="hover-anim">Instagram</span>
                       </a>
                     </li>
                     <li className="mb-10">
-                      <a href="https://www.linkedin.com/company/third-eye-info-technology/" className="hover-this">
+                      <a
+                        href="https://www.linkedin.com/company/third-eye-info-technology/"
+                        className="hover-this"
+                      >
                         <span className="hover-anim">LinkedIn</span>
                       </a>
                     </li>

@@ -84,27 +84,33 @@ function Footer() {
                 <div className="row">
                   <div className="col-6">
                     <ul className="rest fz-14">
-                    <strong>
+                      <strong>
                         <p>Services</p>
                       </strong>
                       <li className="mb-15">
-                        <a href="/light/page-services">Services</a>
+                        <a href="/light/page-services">What we Offer</a>
                       </li>
+                      <li className="mb-15">
+                        <a href="/light/page-whyus">Why us?</a>
+                      </li>{" "}
+                      <li className="mb-15">
+                        <a href="/light/page-engage">Engagement Model</a>
+                      </li>
+
                       <strong>
                         <p>About Us</p>
                       </strong>
                       <li className="mb-15">
                         <a href="/light/page-about">About Company</a>
                       </li>
-
                       <li className="mb-15">
-                        <a href="/light/page-whyus">Why Us?</a>
+                        <a href="/light/page-team">Our Team</a>
                       </li>
                       <li>
-                        <a href="/light/page-engage">Engagement Model</a>
+                        <a href="/light/page-ourClients">Our Clients</a>
                       </li>
                     </ul>
-                    <br/>
+                    <br />
                   </div>
                   <div className="col-6">
                     <ul className="rest fz-14">
@@ -118,14 +124,15 @@ function Footer() {
                         </a>
                       </li>
                       <li className="mb-15">
-                        <a href="/light/project-Iot">IoT Smart Locks
-                        </a>
+                        <a href="/light/project-Iot">IoT Smart Locks</a>
                       </li>
                       <li className="mb-15">
                         <a href="/light/project-erp">ERP Solutions</a>
                       </li>
                       <li>
-                        <a href="/light/project-RFID">RFID-based Jewel Tracking</a>
+                        <a href="/light/project-RFID">
+                          RFID-based Jewel Tracking
+                        </a>
                       </li>
                     </ul>
                   </div>
@@ -142,29 +149,36 @@ function Footer() {
                       </li>
                       <li className="mb-15">
                         <a href="/light/casestudy-faceDetection">
-                        AI in Hollywood Casting
+                          AI in Hollywood Casting
                         </a>
                       </li>
                       <li className="mb-15">
                         <a href="/light/casestudy-theatre">
-                        Digital Information Displays in Theatre</a>
+                          Digital Information Displays in Theatre
+                        </a>
                       </li>
                       <li>
-                        <a href="/light/casestudy-healthcare">Real-Time Skin Cancer Detection</a>
+                        <a href="/light/casestudy-healthcare">
+                          Real-Time Skin Cancer Detection
+                        </a>
                       </li>
-                      <br/>
+                      <br />
                       <li>
-                        <a href="/light/casestudy-GeoSpatial">Geospatial Agriculture Solutions</a>
+                        <a href="/light/casestudy-GeoSpatial">
+                          Geospatial Agriculture Solutions
+                        </a>
                       </li>
-                      <br/>
+                      <br />
                       <li>
-                        <a href="/light/casestudy-urbanladder">UrbanLadder Digital Makeover</a>
+                        <a href="/light/casestudy-urbanladder">
+                          UrbanLadder Digital Makeover
+                        </a>
                       </li>
                     </ul>
                   </div>
                   <div className="col-6">
                     <ul className="rest fz-14">
-                    <strong>
+                      <strong>
                         <p>Approach</p>
                       </strong>
                       <li className="mb-15">
@@ -178,11 +192,11 @@ function Footer() {
                       </li>
                     </ul>
                     <strong>
-                        <p>Join Us</p>
-                      </strong>
-                      <li className="mb-15">
-                        <a href="/light/page-joinus">Join Us</a>
-                      </li>
+                      <p>Join Us</p>
+                    </strong>
+                    <li className="mb-15">
+                      <a href="/light/page-joinus">Join Us</a>
+                    </li>
                   </div>
                 </div>
               </div>

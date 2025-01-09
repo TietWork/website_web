@@ -51,10 +51,25 @@
       "static/chunks/main-app.js",
       "static/chunks/app/light/project-lpgVending/page.js"
     ],
-    "/_not-found/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/app/page.js"
+    ],
+    "/light/page-whyus/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/light/page-whyus/page.js"
+    ],
+    "/light/page-ourClients/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/light/page-ourClients/page.js"
+    ],
+    "/light/page-team/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/light/page-team/page.js"
     ]
   }
 }

@@ -1,13 +1,13 @@
 import generateStylesheetObject from '@/common/generateStylesheetsObject';
-import Footer from '@/components/light/modern-agency/Footer';
+import Footer from '@/components/light/modern-startup/Footer';
 import Lines from '@/components/light/common/Lines';
 import ProgressScroll from '@/components/light/common/ProgressScroll';
 import Cursor from '@/components/light/common/cusor';
 import LoadingScreen from '@/components/light/common/loader';
-import Navbar from '@/components/light/creative-agency/Navbar';
+import Navbar from '@/components/light/modern-startup/Navbar';
 import Script from 'next/script';
 import Header from '@/components/light/team/Header';
-import Team from '@/components/light/team/Team';
+import OurTeam from '@/components/light/team/Team';
 
 export const metadata = {
   title: 'Infolio',
@@ -36,7 +36,7 @@ export default function ServicesPage() {
         <div id="smooth-content">
           <main className="main-bg">
             <Header />
-            <Team />
+            <OurTeam />
           </main>
           <Footer />
         </div>
