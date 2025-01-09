@@ -28,7 +28,7 @@ function OurTeam() {
 
           {/* Founder's Vision */}
           <div className="col-lg-7">
-            <h2 className="mb-20 fw-600 mt-25">Founder's Vision</h2>
+            <h2 className="mb-20 fw-600 mt-25">Founder&apos;s Vision</h2>
             <p className="fz-18" style={{ color: "#555", lineHeight: "1.8" }}>
               At the heart of our success lies our commitment to innovation,
               teamwork, and a relentless pursuit of excellence. Our founder
