@@ -133,9 +133,9 @@ function Navbar() {
         <div className="container">
           <a className="logo icon-img-100 mr-30" href="/">
             <img
-              src="/light/assets/imgs/logo-light.png"
+              src="/light/assets/imgs/logo2.png"
               alt="logo"
-              style={{ width: "70px", height: "auto" }}
+              style={{ width: "180px", height: "auto" }}
             />
           </a>
 

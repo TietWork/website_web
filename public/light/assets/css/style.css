@@ -237,6 +237,14 @@ img {
 figure {
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .title-text {
+    display: none; /* Hide the title on smaller screens */
+  }
+}
+
+
 .main-color {
   color: #007BFF !important;
 }

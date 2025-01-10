@@ -11,65 +11,20 @@
       "static/css/css-app_globals_css.css",
       "static/chunks/app/layout.js"
     ],
-    "/light/casestudy-urbanladder/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/casestudy-urbanladder/page.js"
-    ],
-    "/light/project-Iot/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/project-Iot/page.js"
-    ],
-    "/light/project-erp/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/project-erp/page.js"
-    ],
-    "/light/casestudy-alekton/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/casestudy-alekton/page.js"
-    ],
-    "/light/casestudy-faceDetection/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/casestudy-faceDetection/page.js"
-    ],
-    "/light/casestudy-theatre/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/casestudy-theatre/page.js"
-    ],
-    "/light/casestudy-GeoSpatial/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/casestudy-GeoSpatial/page.js"
-    ],
-    "/light/project-lpgVending/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/project-lpgVending/page.js"
-    ],
     "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
-    "/light/page-whyus/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/page-whyus/page.js"
-    ],
-    "/light/page-ourClients/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/page-ourClients/page.js"
-    ],
     "/light/page-team/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/light/page-team/page.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

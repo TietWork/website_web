@@ -1,7 +1,6 @@
 {
-  "/light/project-lpgVending/page": "app/light/project-lpgVending/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/light/page-services/page": "app/light/page-services/page.js",
   "/page": "app/page.js",
-  "/light/page-whyus/page": "app/light/page-whyus/page.js",
-  "/light/page-ourClients/page": "app/light/page-ourClients/page.js",
   "/light/page-team/page": "app/light/page-team/page.js"
 }

@@ -10,7 +10,7 @@ import Header from '@/components/light/team/Header';
 import OurTeam from '@/components/light/team/Team';
 
 export const metadata = {
-  title: 'Infolio',
+  title: 'Third Eye Info Technology',
   icons: {
     icon: '/light/assets/imgs/favicon.ico',
     shortcut: '/light/assets/imgs/favicon.ico',
