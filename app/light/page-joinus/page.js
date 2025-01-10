@@ -8,6 +8,7 @@ import Header from '@/components/light/page-joinus/Header';
 import Navbar from '@/components/light/modern-startup/Navbar';
 import Footer from '@/components/light/modern-startup/Footer';
 import Join from '@/components/light/page-joinus/join';
+import CareerForm from '@/components/light/page-joinus/CareerForm';
 
 
 export const metadata = {
@@ -38,6 +39,7 @@ export default function Careers() {
           <main className="main-bg">
             <Header />
             <Join />
+            <CareerForm/>
           </main>
           <Footer />
         </div>
