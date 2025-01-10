@@ -1,7 +1,7 @@
 {
-  "/light/page-PrivacyPolicy/page": "app/light/page-PrivacyPolicy/page.js",
+  "/light/page-ourClients/page": "app/light/page-ourClients/page.js",
   "/light/page-joinus/page": "app/light/page-joinus/page.js",
-  "/light/page-FAQS/page": "app/light/page-FAQS/page.js",
   "/light/page-TermsPolicy/page": "app/light/page-TermsPolicy/page.js",
-  "/light/page-ourClients/page": "app/light/page-ourClients/page.js"
+  "/light/page-PrivacyPolicy/page": "app/light/page-PrivacyPolicy/page.js",
+  "/light/page-FAQS/page": "app/light/page-FAQS/page.js"
 }

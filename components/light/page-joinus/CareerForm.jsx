@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React, { useState } from "react";
 
 function CareerForm() {
@@ -9,7 +9,7 @@ function CareerForm() {
     setResult("Sending...");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "317ba3f0-ba80-4dc5-8baa-419189a4cc24"); 
+    formData.append("access_key", "key"); // key to be added
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
@@ -40,12 +40,11 @@ function CareerForm() {
             <div className="sec-head md-mb80">
               <h2 className="text-u ls1 d-rotate wow">
                 <span className="rotate-text">
-                  Join <br /> Our{" "}
-                  <span className="fw-200">Dynamic Team!</span>
+                  Join <br /> Our <span className="fw-200">Dynamic Team!</span>
                 </span>
               </h2>
               <p className="mt-20 mb-20">
-                Ready to take the next step in your career? We're excited to
+                Ready to take the next step in your career? We&apos;re excited to
                 work with passionate and talented individuals who thrive on
                 innovation and collaboration.
               </p>
@@ -59,7 +58,10 @@ function CareerForm() {
             <div className="full-width">
               <div className="sec-head mb-50">
                 <h3 className="text-u ls1">
-                  Apply for a <span className="fw-200" style={{ color: "#007bff" }}>Career</span>
+                  Apply for a{" "}
+                  <span className="fw-200" style={{ color: "#007bff" }}>
+                    Career
+                  </span>
                 </h3>
               </div>
 
