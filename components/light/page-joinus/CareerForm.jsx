@@ -55,7 +55,7 @@ function CareerForm() {
                 </span>
               </h2>
               <p className="mt-20 mb-20">
-                Ready to take the next step in your career? We're excited to work
+                Ready to take the next step in your career? We&apos;re excited to work
                 with passionate and talented individuals who thrive on innovation
                 and collaboration.
               </p>
