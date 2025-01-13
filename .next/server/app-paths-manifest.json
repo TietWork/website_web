@@ -1,7 +1,5 @@
 {
-  "/light/page-ourClients/page": "app/light/page-ourClients/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/light/page-joinus/page": "app/light/page-joinus/page.js",
-  "/light/page-TermsPolicy/page": "app/light/page-TermsPolicy/page.js",
-  "/light/page-PrivacyPolicy/page": "app/light/page-PrivacyPolicy/page.js",
-  "/light/page-FAQS/page": "app/light/page-FAQS/page.js"
+  "/page": "app/page.js"
 }

@@ -1,34 +1,45 @@
 "use client";
 import React, { useState } from "react";
+import axios from "axios";
 
 function CareerForm() {
-  const [result, setResult] = useState("");
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    interest: "",
+    message: "",
+    resume: null
+  });
+  const [result, setResult] = useState(null);
 
-  const onSubmit = async (event) => {
-    event.preventDefault();
-    setResult("Sending...");
-    const formData = new FormData(event.target);
+  const handleChange = (e) => {
+    const { name, value, files } = e.target;
+    if (name === "resume") {
+      setFormData({ ...formData, [name]: files[0] });
+    } else {
+      setFormData({ ...formData, [name]: value });
+    }
+  };
 
-    formData.append("access_key", "key"); // key to be added
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const formDataObject = new FormData();
+    formDataObject.append("name", formData.name);
+    formDataObject.append("email", formData.email);
+    formDataObject.append("interest", formData.interest);
+    formDataObject.append("message", formData.message);
+    formDataObject.append("resume", formData.resume);
 
     try {
-      const response = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        body: formData,
-      });
-
-      const data = await response.json();
-
-      if (data.success) {
-        setResult("Form Submitted Successfully");
-        event.target.reset();
-      } else {
-        console.error("Error:", data);
-        setResult(data.message || "Something went wrong");
-      }
+      const response = await axios.post(
+        "https://tiet-back.onrender.com/form/submit",
+        formDataObject
+      );
+      console.log(response.data);
+      setResult(response.data.message);
     } catch (error) {
-      console.error("Fetch error:", error);
-      setResult("Error submitting the form. Please try again.");
+      console.error("Error submitting the form:", error);
+      setResult("An error occurred while submitting the form.");
     }
   };
 
@@ -44,9 +55,9 @@ function CareerForm() {
                 </span>
               </h2>
               <p className="mt-20 mb-20">
-                Ready to take the next step in your career? We&apos;re excited to
-                work with passionate and talented individuals who thrive on
-                innovation and collaboration.
+                Ready to take the next step in your career? We're excited to work
+                with passionate and talented individuals who thrive on innovation
+                and collaboration.
               </p>
               <div className="morinfo mt-30">
                 <h6 className="mb-15">Email</h6>
@@ -64,38 +75,39 @@ function CareerForm() {
                   </span>
                 </h3>
               </div>
-
-              {/* Career Form */}
-              <form id="career-form" onSubmit={onSubmit}>
+              <form id="career-form" onSubmit={handleSubmit}>
                 <div className="controls row">
                   <div className="col-lg-6">
                     <div className="form-group mb-30">
                       <input
-                        id="form_name"
+                        id="name"
                         type="text"
                         name="name"
                         placeholder="Full Name"
-                        required="required"
+                        required
+                        onChange={handleChange}
                       />
                     </div>
                   </div>
                   <div className="col-lg-6">
                     <div className="form-group mb-30">
                       <input
-                        id="form_email"
+                        id="email"
                         type="email"
                         name="email"
                         placeholder="Email Address"
-                        required="required"
+                        required
+                        onChange={handleChange}
                       />
                     </div>
                   </div>
                   <div className="col-12">
                     <div className="form-group mb-30">
                       <select
-                        id="form_interest"
+                        id="interest"
                         name="interest"
-                        required="required"
+                        required
+                        onChange={handleChange}
                         style={{
                           width: "100%",
                           padding: "10px 15px",
@@ -108,10 +120,6 @@ function CareerForm() {
                           outline: "none",
                           transition: "border-color 0.3s ease",
                         }}
-                        onFocus={(e) =>
-                          (e.target.style.borderColor = "#007bff")
-                        }
-                        onBlur={(e) => (e.target.style.borderColor = "#ddd")}
                       >
                         <option value="" disabled selected>
                           Select Your Interest
@@ -131,25 +139,27 @@ function CareerForm() {
                   <div className="col-12">
                     <div className="form-group mb-30">
                       <textarea
-                        id="form_message"
+                        id="message"
                         name="message"
                         placeholder="Tell us about yourself"
                         rows="4"
-                        required="required"
+                        required
+                        onChange={handleChange}
                       ></textarea>
                     </div>
                   </div>
-                  {/* <div className="col-12">
+                  <div className="col-12">
                     <div className="form-group mb-30">
-                      <label className="mb-10" htmlFor="form_resume">
+                      <label className="mb-10" htmlFor="resume">
                         Upload Resume:
                       </label>
                       <input
-                        id="form_resume"
+                        id="resume"
                         type="file"
                         name="resume"
                         accept=".pdf,.doc,.docx"
-                        required="required"
+                        required
+                        onChange={handleChange}
                         style={{
                           display: "block",
                           width: "100%",
@@ -160,7 +170,7 @@ function CareerForm() {
                         }}
                       />
                     </div>
-                  </div> */}
+                  </div>
                   <div className="col-12">
                     <div className="mt-30">
                       <button
