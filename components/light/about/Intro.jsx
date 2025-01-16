@@ -11,7 +11,7 @@ function Intro() {
           <div className="">
             <div className="text">
               <h4>
-                Founded in 2001, Third Eye Infotech began as a small, ambitious
+                Founded in 2001, Third Eye Info Technology began as a small, ambitious
                 venture with a vision to transform businesses through
                 technology. Over the years, we&apos;ve grown into a global
                 powerhouse, delivering cutting-edge solutions that drive
@@ -30,7 +30,7 @@ function Intro() {
                 an ever-evolving digital landscape.
                 <br />
                 <br />
-                At Third Eye Infotech, every project is more than just code –
+                At Third Eye Info Technology, every project is more than just code,
                 it&apos;s a step towards a smarter, more connected future. Our
                 journey reflects the trust our clients place in us and the
                 passion we bring to every solution we craft.

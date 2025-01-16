@@ -13,7 +13,8 @@ function Intro2() {
         {/* Main Heading and Subheading */}
         <div className="row align-items-center text-center">
           <div className="col-lg-12" data-aos="fade-up">
-            <h1 className="main-heading fz-50">Innovating Since 2001 – Your Tech Partner for the Future</h1>
+            <h2>Innovating Since 2001</h2>
+            <h3 className="main-color">Your Tech Partner for the Future</h3>
             <p className="subheading mt-20 fz-18">
               Over two decades of excellence, delivering cutting-edge solutions across industries and geographies.
             </p>

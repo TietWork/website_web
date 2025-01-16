@@ -10,8 +10,8 @@ const positions = [
   {
     title: "Mobile App Developer (2+ years)",
     description:
-      "Design and develop intuitive mobile applications with a strong focus on UI/UX. Conduct user research, usability testing, and prototyping to deliver seamless and engaging user experiences.",
-  },
+      "Build and enhance mobile applications for Android and iOS platforms in React Native or Flutter. Focus on clean, and optimize app performance for a seamless user experience.",
+  },  
   {
     title: ".NET Developer (2+ years)",
     description:
@@ -67,7 +67,7 @@ function Join() {
               </div>
 
               {/* Application Section */}
-              <div className="application-section">
+              {/* <div className="application-section">
                 <h4 className="sub-title mb-20">How to Apply?</h4>
                 <p>
                   If you are interested in any of these positions, send your
@@ -82,7 +82,7 @@ function Join() {
                   We thank all applicants for their interest, but only those
                   selected for an interview will be contacted.
                 </p>
-              </div>
+              </div> */}
 
               {/* Diversity Statement */}
               <div className="diversity-section mt-40">
@@ -112,21 +112,21 @@ function Join() {
         }
         .sub-title {
           color: #333;
-          border-bottom: 2px solid #ff7f50;
+          border-bottom: 2px solid #022D5BFF;
           padding-bottom: 10px;
         }
         .positions-section .position {
           margin-bottom: 20px;
         }
         .positions-section .position h5 {
-          color: #ff7f50;
+          color: #007bff;
           margin-bottom: 10px;
         }
         .application-section a {
           color: #007bff;
         }
         .diversity-section {
-          background-color: #e8f5e9;
+          background-color: #E8F1F5FF;
           padding: 20px;
           border-radius: 5px;
           text-align: center;

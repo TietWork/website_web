@@ -23,11 +23,11 @@ function Header() {
     >
       <div className="container pt-100">
         <div className="text-center">
-          <h1 className="fz-100 text-u">Contact Us.</h1>
+          <h1 className="fz-100 text-u">Let&apos;s Talk</h1>
           <div className="mt-15">
             <a href="/">Home</a>
             <span className="padding-rl-20">|</span>
-            <span className="main-color">Contact</span>
+            <span className="main-color">Let&apos;s Talk</span>
           </div>
         </div>
       </div>

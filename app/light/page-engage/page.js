@@ -7,7 +7,7 @@ import ProgressScroll from '@/components/light/common/ProgressScroll';
 import Cursor from '@/components/light/common/cusor';
 import LoadingScreen from '@/components/light/common/loader';
 import Script from 'next/script';
-import Intro from '@/components/light/engagementModel/Intro';
+import EngagementModels from '@/components/light/engagementModel/Intro';
 
 export const metadata = {
   title: 'Third Eye Info Technology ',
@@ -36,7 +36,7 @@ export default function EngagePage() {
         <div id="smooth-content">
           <main className="main-bg">
             <Header />
-            <Intro />
+            <EngagementModels />
 
           </main>
           <Footer />

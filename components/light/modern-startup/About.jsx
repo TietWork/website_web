@@ -30,7 +30,7 @@ function About() {
                         delivering transformative solutions across industries.
                       </p>
                     </div>
-                    <a href="/light/page-services" className="mt-30">
+                    <a href="/light/page-about" className="mt-30">
                       <span className="mr-15">Read More</span>
                       <i className="fas fa-long-arrow-alt-right"></i>
                     </a>
@@ -52,7 +52,7 @@ function About() {
                         grown through innovation, collaboration, and excellence.
                       </p>
                     </div>
-                    <a href="/light/page-services" className="mt-30">
+                    <a href="/light/page-about" className="mt-30">
                       <span className="mr-15">Read More</span>
                       <i className="fas fa-long-arrow-alt-right"></i>
                     </a>
@@ -74,7 +74,7 @@ function About() {
                         to empower businesses and drive success.
                       </p>
                     </div>
-                    <a href="/light/page-services" className="mt-30">
+                    <a href="/light/page-about" className="mt-30">
                       <span className="mr-15">Read More</span>
                       <i className="fas fa-long-arrow-alt-right"></i>
                     </a>
@@ -96,7 +96,7 @@ function About() {
                         sustainable and connected world.
                       </p>
                     </div>
-                    <a href="/light/page-services" className="mt-30">
+                    <a href="/light/page-about" className="mt-30">
                       <span className="mr-15">Read More</span>
                       <i className="fas fa-long-arrow-alt-right"></i>
                     </a>
@@ -115,7 +115,7 @@ function About() {
                 <div className="col-lg-11">
                   <div className="text mb-50">
                     <p>
-                      As the world evolves, so do we. At TEIT, we believe
+                      As the world evolves, so do we. At Third Eye Info Technology, we believe
                       technology has the power to transform the way businesses
                       operate and how people live. Our solutions are designed to
                       solve real-world problems with precision, speed, and

@@ -1,27 +1,6 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import {
-  FolderOpen,
-  CalendarMonth,
-  Group,
-  CheckCircle,
-  WarningAmber,
-  Build,
-  Loop,
-  BarChart,
-} from "@mui/icons-material";
-
-const features = [
-  { text: "Project Organization", icon: FolderOpen },
-  { text: "Project Planning and Tracking", icon: CalendarMonth },
-  { text: "Resource Management", icon: Group },
-  { text: "Quality Compliance & Adherence", icon: CheckCircle },
-  { text: "Risk Management", icon: WarningAmber },
-  { text: "Issues Management", icon: Build },
-  { text: "Change Control and Management", icon: Loop },
-  { text: "Reporting and Escalation", icon: BarChart },
-];
 
 function WhyUs() {
   return (
@@ -34,175 +13,232 @@ function WhyUs() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <div className="col-lg-12">
-            <h2 className="main-heading fz-50 font-weight-bold">
-              Why Third Eye
-            </h2>
-            <p
-              className="subheading mt-20 fz-18 text-primary"
-              style={{ color: "#007bff" }}
-            >
-              We are combined with technology, motivated with attitude, guided
-              with innovation, and supported with potential to deliver quality
-              products to market rapidly and in a cost-effective way.
-            </p>
-          </div>
         </motion.div>
 
-        {/* Redesigned Cards Section */}
-        <div className="row mt-50 justify-content-center">
-          {/* Why Choose Us Card */}
+        {/* Why Choose Third Eye Section */}
+        <div className="row justify-content-center">
           <motion.div
-            className="col-lg-4 col-md-6 mb-4"
+            className="col-lg-12"
             initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
           >
             <div
-              className="card shadow-sm p-4 text-center"
+              className="card  p-4"
               style={{
                 backgroundColor: "#fff",
-                borderRadius: "15px",
+                borderRadius: "20px",
                 transition: "transform 0.3s ease, box-shadow 0.3s ease",
+                boxShadow: "0px 12px 40px rgba(0, 0, 0, 0.1)",
+                border: "2px solid #49A1FFFF",
               }}
             >
-              <h4 className="fz-24 font-weight-bold">Why Choose Us?</h4>
-              <p className="mt-20">
-                Customers choose to work with us for the following reasons:
-              </p>
-              <ul className="list mt-20">
-                <li>A deep understanding of IT and web services</li>
-                <li>
-                  Proven experience in bridging “big picture” goals into reality
-                </li>
-                <li>Integrity and dedicated professionals</li>
-                <li>Quality at an effective cost</li>
-                <li>Transparent business relationships</li>
-                <li>Experienced workforce</li>
-              </ul>
-            </div>
-          </motion.div>
-
-          {/* Our Expertise Card */}
-          <motion.div
-            className="col-lg-4 col-md-6 mb-4"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            viewport={{ once: true }}
-          >
-            <div
-              className="card shadow-sm p-4 text-center"
-              style={{
-                backgroundColor: "#fff",
-                borderRadius: "15px",
-                transition: "transform 0.3s ease, box-shadow 0.3s ease",
-              }}
-            >
-              <h4 className="fz-24 font-weight-bold">Our Expertise</h4>
-              <p className="mt-20">
-                Third Eye has a highly experienced, multi-skilled workforce. We
-                bring greater domain experience and higher productivity to
-                customer engagements. Our team is committed to building
-                effective and high-performing solutions, with an uncompromising
-                attitude toward quality.
-              </p>
-            </div>
-          </motion.div>
-
-          {/* Flexible Business Models Card */}
-          <motion.div
-            className="col-lg-4 col-md-6 mb-4"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            viewport={{ once: true }}
-          >
-            <div
-              className="card shadow-sm p-4 text-center"
-              style={{
-                backgroundColor: "#fff",
-                borderRadius: "15px",
-                transition: "transform 0.3s ease, box-shadow 0.3s ease",
-              }}
-            >
-              <h4 className="fz-24 font-weight-bold">
-                Flexible Business Models
+              <h4
+                className="fz-30 font-weight-bold"
+                style={{ color: "#007bff" }}
+              >
+                Why Choose Third Eye?
               </h4>
-              <p className="mt-20">
-                We offer tailored engagement options to suit varied customer
-                needs, working with startups and large organizations to maximize
-                profits and drive success.
+              <p
+                className="mt-20 fz-18"
+              >
+                At Third Eye Info Technology, we blend cutting-edge technology with a steadfast
+                commitment to innovation and quality. Our dedicated team of
+                skilled professionals delivers scalable, cost-effective
+                solutions tailored to meet the unique needs of our clients.
               </p>
             </div>
           </motion.div>
         </div>
 
-        {/* Project Management Section */}
-        <motion.div
-          className="row mt-50 justify-content-center"
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-        >
-          <div className="col-lg-10">
+        {/* Our Commitment Section */}
+        <div className="row mt-50 justify-content-center">
+          <motion.div
+            className="col-lg-12"
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
             <div
-              className="card p-5 shadow-sm"
+              className="card p-5"
               style={{
                 backgroundColor: "#fff",
-                borderRadius: "15px",
-                border: "1px solid #e0e0e0",
+                borderRadius: "20px",
+                boxShadow: "0px 12px 40px rgba(0, 0, 0, 0.1)",
+                border: "2px solid #49A1FFFF",
               }}
             >
               <h4
-                className="fz-24 font-weight-bold text-primary text-center"
-                style={{ color: "#0077b6" }}
+                className="fz-30 font-weight-bold"
+                style={{ color: "#007bff" }}
               >
-                Our Project Management Expertise
+                Our Commitment
               </h4>
-              <p className="mt-3 text-center text-muted">
-                With a comprehensive approach to project management, we ensure
-                smooth execution and delivery through:
-              </p>
-
-              {/* Grid Layout for Features */}
-              <div className="row mt-4">
-                {features.map((item, index) => (
-                  <motion.div
-                    key={index}
-                    className="col-lg-3 col-md-4 col-sm-6 mt-3"
-                    initial={{ scale: 0.9, opacity: 0 }}
-                    whileInView={{ scale: 1, opacity: 1 }}
-                    transition={{ duration: 0.5, delay: index * 0.1 }}
-                    viewport={{ once: true }}
-                  >
-                    <div
-                      className="feature-card text-center shadow-sm p-3"
-                      style={{
-                        backgroundColor: "#f9f9f9",
-                        borderRadius: "10px",
-                        transition: "transform 0.3s ease, box-shadow 0.3s ease",
-                        border: "1px solid #e0e0e0",
-                      }}
-                    >
-                      <div
-                        className="icon text mb-3"
-                        style={{ fontSize: "2rem", color: "#000814" }}
-                      >
-                        <item.icon fontSize="inherit" />
-                      </div>
-                      <h5 className="fz-16 font-weight-bold mb-0">
-                        {item.text}
-                      </h5>
-                    </div>
-                  </motion.div>
-                ))}
-              </div>
+              <ul className="list mt-20">
+                <li>
+                  <strong>Technology Expertise:</strong> Deep understanding and
+                  proficiency in IT and web services.
+                </li>
+                <li>
+                  <strong>Strategic Execution:</strong> Proven track record in
+                  translating ambitious visions into tangible results.
+                </li>
+                <li>
+                  <strong>Integrity and Transparency:</strong> Upholding ethical
+                  standards and fostering trust through transparent business
+                  practices.
+                </li>
+                <li>
+                  <strong>Cost-Effective Excellence:</strong> Delivering
+                  high-quality solutions at competitive rates.
+                </li>
+                <li>
+                  <strong>Customer-Centric Approach:</strong> Prioritizing
+                  client needs and building long-term partnerships based on
+                  mutual success.
+                </li>
+              </ul>
             </div>
-          </div>
-        </motion.div>
+          </motion.div>
+        </div>
+
+        {/* Why Third Eye Section */}
+        <div className="row mt-50 justify-content-center">
+          <motion.div
+            className="col-lg-12"
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            <div
+              className="card p-5 "
+              style={{
+                backgroundColor: "#fff",
+                borderRadius: "20px",
+                boxShadow: "0px 12px 40px rgba(0, 0, 0, 0.1)",
+                border: "2px solid #49A1FFFF",
+              }}
+            >
+              <h4
+                className="fz-30 font-weight-bold"
+                style={{ color: "#007bff" }}
+              >
+                Why Third Eye?
+              </h4>
+              <ul className="list mt-20">
+                <li>
+                  <strong>Expertise and Experience:</strong> Extensive
+                  experience across diverse industries, ensuring robust and
+                  efficient solutions.
+                </li>
+                <li>
+                  <strong>Skilled Workforce:</strong> A talented team committed
+                  to excellence and continuous improvement.
+                </li>
+                <li>
+                  <strong>Proven Track Record:</strong> Successfully delivering
+                  projects that meet and exceed client expectations.
+                </li>
+                <li>
+                  <strong>Tailored Solutions:</strong> Offering customizable
+                  engagement options to cater to startups and large enterprises
+                  alike.
+                </li>
+                <li>
+                  <strong>Adaptive Approach:</strong> Adjusting strategies to
+                  maximize profitability and drive sustainable growth.
+                </li>
+                <li>
+                  <strong>Scalability:</strong> Seamlessly scaling resources to
+                  align with project demands and business objectives.
+                </li>
+              </ul>
+            </div>
+          </motion.div>
+        </div>
+
+        {/* Our Promise Section */}
+        <div className="row mt-50 ">
+          <motion.div
+            className="col-lg-12"
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            <div
+              className="card  p-5"
+              style={{
+                backgroundColor: "#fff",
+                borderRadius: "20px",
+                boxShadow: "0px 12px 40px rgba(0, 0, 0, 0.1)",
+                border: "2px solid #49A1FFFF",
+              }}
+            >
+              <h4
+                className="fz-30 font-weight-bold"
+                style={{ color: "#007bff" }}
+              >
+                Our Promise
+              </h4>
+              <p
+                className="mt-20"
+              >
+                Third Eye is dedicated to empowering businesses through
+                innovative solutions, reliable partnerships, and a relentless
+                pursuit of quality and value. Join us in shaping the future of
+                technology together.
+              </p>
+            </div>
+          </motion.div>
+        </div>
+
+        {/* Why Partner With Us Section */}
+        <div className="row mt-50 justify-content">
+          <motion.div
+            className="col-lg-12"
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            <div
+              className="card p-5"
+              style={{
+                backgroundColor: "#fff",
+                borderRadius: "20px",
+                boxShadow: "0px 12px 40px rgba(0, 0, 0, 0.1)",
+                border: "2px solid #49A1FFFF",
+              }}
+            >
+              <h4
+                className="fz-30 font-weight-bold"
+                style={{ color: "#007bff" }}
+              >
+                Why Partner with Us?
+              </h4>
+              <ul className="mt-20">
+                <li>
+                  <strong>Comprehensive Solutions:</strong> From concept to
+                  deployment, we offer end-to-end services that ensure your
+                  project&apos;s success.
+                </li>
+                <li>
+                  <strong>Global Standards:</strong> Adhering to international
+                  best practices to deliver solutions that meet global
+                  standards.
+                </li>
+                <li>
+                  <strong>Continuous Support:</strong> Providing ongoing support
+                  and maintenance to optimize and enhance your investment.
+                </li>
+                <li>
+                  <strong>Client Satisfaction:</strong> Prioritizing client
+                  satisfaction through proactive communication and responsive
+                  service.
+                </li>
+              </ul>
+            </div>
+          </motion.div>
+        </div>
       </div>
     </section>
   );

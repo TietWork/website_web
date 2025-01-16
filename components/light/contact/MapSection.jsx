@@ -44,9 +44,10 @@ function MapSection() {
           <span style={{ color: "#007BFF", fontWeight: "600" }}>Chennai</span>{" "}
           with offices in{" "}
           <span style={{ color: "#007BFF", fontWeight: "600" }}>Australia</span>
-          , <span style={{ color: "#007BFF", fontWeight: "600" }}>USA</span>,
-          and <span style={{ color: "#007BFF", fontWeight: "600" }}>UAE</span>,
-          connecting seamlessly with the world.
+          , <span style={{ color: "#007BFF", fontWeight: "600" }}>USA</span>,{" "}
+          <span style={{ color: "#007BFF", fontWeight: "600" }}>UAE</span> and 
+          {" "}<span style={{ color: "#007BFF", fontWeight: "600" }}>Malaysia</span>
+          {" "} connecting seamlessly with the world.
         </p>
 
         {/* World Map Section */}

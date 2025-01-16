@@ -98,25 +98,12 @@ function Header() {
               justifySelf: "center",
               fontWeight: "900",
               color: "#edede9",
-              marginLeft: "4rem",
+              marginLeft: "1rem",
               textTransform: "uppercase",
             }}
           >
             Simplifying Today.
           </motion.h2>
-          <motion.span
-            variants={starVariants}
-            initial="initial"
-            animate="animate"
-            style={{
-              fontSize: "6rem",
-              fontWeight: "bold",
-              marginLeft: "1rem",
-              color: "#FD8300FF",
-            }}
-          >
-            *
-          </motion.span>
         </motion.div>
         <motion.p
           initial={{ opacity: 0, y: 30 }}
@@ -195,7 +182,7 @@ function Header() {
             >
               <BsArrowRight size={20} />
             </motion.div>
-            Work With Us
+            Talk With Us
           </motion.button>
         </a>
 

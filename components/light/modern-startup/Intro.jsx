@@ -8,7 +8,7 @@ function Intro() {
         <div className="row justify-content-between">
           <div className="col-lg-6">
             <div className="cont">
-              <h4 className="d-slideup wow">
+              {/* <h4 className="d-slideup wow">
                 <span className="sideup-text">
                   <span className="up-text">At Third Eye Info Technology </span>
                 </span>
@@ -58,17 +58,17 @@ function Intro() {
                     </a>
                   </span>
                 </span>
-              </h4>
-              <div className="exp mt-20 md-mb15">
+              </h4> */}
+              <div className="exp mt-20">
                 <h1
                   className=""
                   style={{
-                    fontFamily: "'Poppins', sans-serif",
-                    fontSize: "94px",
+                    fontFamily: "Poppins, sans-serif",
+                    fontSize: "96px",
                   }}
                 >
                   23+{" "}
-                  <span className="sub-title main-font opacity-7 ml-15">
+                  <span className="sub-title opacity-7 ml-15" style={{fontFamily:'Satoshi-Variable'}}>
                     Years of Experience
                   </span>
                 </h1>
@@ -77,10 +77,10 @@ function Intro() {
           </div>
           <div className="col-lg-5">
             <div className="text">
-              <p>
-                <strong style={{ color: "#001524", fontSize: "22px" }}>
+            <p style={{ color: "#001524", fontSize: "22px" , textTransform: 'uppercase', fontFamily:'Satoshi-Variable', fontWeight:'600'}}>
                   Empowering Businesses with Innovative Software Solutions
-                </strong>
+                </p>
+              <p>
                 <br />
                 With over 23 years of experience, Third Eye Info Technology
                 delivers cutting-edge software solutions that drive growth and

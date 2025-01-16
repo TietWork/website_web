@@ -1,61 +1,62 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { 
-  Fuel, 
-  Lock, 
-  Globe, 
-  Diamond, 
-  Camera, 
-  Stethoscope,
-  ArrowUpRight 
-} from "lucide-react";
+import {
+  LocalGasStation, // Fuel
+  Lock, // Lock
+  Public, // Globe
+  Diamond, // Diamond
+  CameraAlt, // Camera
+  HealthAndSafety, // Stethoscope
+  ArrowOutward // ArrowUpRight equivalent
+} from "@mui/icons-material";
 
 const Interactive = () => {
   const projects = [
     {
       title: "LPG Automated Vending Machine",
       description: "Revolutionizing fuel distribution with smart vending solutions",
-      icon: Fuel,
-      color: "#2563eb",
+      icon: LocalGasStation,
+      color: "#333333",
       link: "/light/project-lpgVending"
     },
     {
       title: "IoT Smart Locks",
       description: "Next-generation security systems for modern infrastructure",
       icon: Lock,
-      color: "#3b82f6",
+      color: "#333333",
       link: "/light/project-Iot"
     },
     {
       title: "Geospatial Data Processing",
       description: "Advanced mapping solutions with AI-powered insights",
-      icon: Globe,
-      color: "#2563eb",
+      icon: Public,
+      color: "#333333",
       link: "/light/casestudy-GeoSpatial"
     },
     {
       title: "RFID-based Jewel Tracking",
       description: "Secure tracking system for high-value assets",
       icon: Diamond,
-      color: "#3b82f6",
+      color: "#333333",
       link: "/light/project-RFID"
     },
     {
       title: "Face Detection for Hollywood",
       description: "AI-powered facial recognition for entertainment industry",
-      icon: Camera,
-      color: "#2563eb",
+      icon: CameraAlt,
+      color: "#333333",
       link: "/light/casestudy-faceDetection"
     },
     {
       title: "Healthcare Innovations",
       description: "Digital solutions transforming patient care",
-      icon: Stethoscope,
-      color: "#3b82f6",
+      icon: HealthAndSafety,
+      color: "#333333",
       link: "/light/casestudy-healthcare"
     }
   ];
+
 
   const sectionStyle = {
     background: "#000814",
@@ -245,7 +246,7 @@ const Interactive = () => {
                   whileHover={{ opacity: 1 }}
                   transition={{ duration: 0.3 }}
                 >
-                  <ArrowUpRight size={24} />
+                  <ArrowOutward size={24} />
                 </motion.div>
               </motion.a>
             );

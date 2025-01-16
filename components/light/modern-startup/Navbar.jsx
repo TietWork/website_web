@@ -133,9 +133,9 @@ function Navbar() {
         <div className="container">
           <a className="logo icon-img-100 mr-30" href="/">
             <img
-              src="/light/assets/imgs/logo2.png"
+              src="/light/assets/imgs/logo3.png"
               alt="logo"
-              style={{ width: "180px", height: "auto" }}
+              style={{ width: "200px", height: "auto" }}
             />
           </a>
 
@@ -174,6 +174,9 @@ function Navbar() {
                 <div className="dropdown-menu">
                   <a className="dropdown-item" href="/light/page-services">
                     What We Offer
+                  </a>
+                  <a className="dropdown-item" href="/light/page-ourprocess">
+                    Our Process
                   </a>
                   <a className="dropdown-item" href="/light/page-whyus">
                     Why us?
@@ -260,7 +263,7 @@ function Navbar() {
                     className="dropdown-item"
                     href="/light/casestudy-urbanladder"
                   >
-                    UrbanLadder Digital Makeover
+                    Urban Ladder Digital Makeover
                   </a>
                 </div>
               </li>
@@ -314,7 +317,7 @@ function Navbar() {
                     color: "#edede9",
                   }}
                 >
-                  <span className="">Get a Quote</span>
+                  <span className="">Let&apos;s Talk</span>
                 </a>
               </li>
             </ul>
@@ -386,6 +389,11 @@ function Navbar() {
                         <li>
                           <a href="/light/page-services" className="sub-link">
                             What We Offer
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/light/page-ourprocess" className="sub-link">
+                            Our Process
                           </a>
                         </li>
                         <li>
@@ -508,7 +516,7 @@ function Navbar() {
                             href="/light/casestudy-urbanladder"
                             className="sub-link"
                           >
-                            UrbanLadder Digital Makeover
+                            Urban Ladder Digital Makeover
                           </a>
                         </li>
                       </ul>
@@ -573,8 +581,8 @@ function Navbar() {
                   >
                     <div className="o-hidden">
                       <a href="/light/page-contact" className="link">
-                        <span className="fill-text" data-text="Get a Quote">
-                          Get a Quote
+                        <span className="fill-text" data-text="Let&apos;s Talk">
+                          Let&apos;s Talk
                         </span>
                       </a>
                     </div>
@@ -593,7 +601,8 @@ function Navbar() {
                     <br />
                     11th Main Road, Annanagar,
                     <br />
-                    Chennai - 600040. INDIA
+                    Chennai, India <br/>
+                    600040
                   </h5>
                 </div>
                 <div className="item mb-50">
@@ -638,3 +647,6 @@ function Navbar() {
 }
 
 export default Navbar;
+
+
+

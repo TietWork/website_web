@@ -9,7 +9,6 @@ import Script from 'next/script';
 import Header from '@/components/light/services/Header';
 import Services from '@/components/light/services/Services';
 import Marquee from '@/components/light/services/Marquee';
-import Process from '@/components/light/services/Process';
 
 export const metadata = {
   title: 'Third Eye Info Technology',
@@ -40,8 +39,7 @@ export default function ServicesPage() {
             <Header />
             <Services />
             <Marquee />
-            <Process />
-          </main>
+=          </main>
           <Footer />
         </div>
       </div>

@@ -226,7 +226,7 @@ function PrivacyPolicy() {
         }
         .sub-title {
           color: #333;
-          border-bottom: 2px solid #ff7f50;
+          border-bottom: 2px solid #007bff;
           padding-bottom: 10px;
         }
         ul {

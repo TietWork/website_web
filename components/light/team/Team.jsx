@@ -21,7 +21,7 @@ function OurTeam() {
             />
             {/* Founder's Name */}
             <h5 className="mt-10 fw-600" style={{ color: "#000" }}>
-              Jayavasanth Jayaraman, <br />
+              Jayavasanth Jayaraman <br />
              <strong> Founder & Managing Director</strong>
             </h5>
           </div>
@@ -38,7 +38,7 @@ function OurTeam() {
               <br />
               <br />
               Third Eye Info Technology stands as a beacon of cutting-edge
-              solutions and customer-centric innovation. With expertise spanning
+              solutions and customer centric innovation. With expertise spanning
               web technologies, IT services, and automation, we are dedicated to
               delivering scalable, efficient, and transformative solutions for
               our global clients. Our mission is to bridge the gap between
