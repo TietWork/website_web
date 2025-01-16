@@ -131,11 +131,11 @@ function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg nav-crev">
         <div className="container">
-          <a className="logo icon-img-100 mr-30" href="/">
+          <a className="logo icon-img-100 mr-40" href="/">
             <img
-              src="/light/assets/imgs/logo3.png"
+              src="/light/assets/imgs/logo5.png"
               alt="logo"
-              style={{ width: "200px", height: "auto" }}
+              style={{ width: "250px", height: "auto" }}
             />
           </a>
 
@@ -602,7 +602,7 @@ function Navbar() {
                     11th Main Road, Annanagar,
                     <br />
                     Chennai, India <br/>
-                    600040
+                    PIN:600040
                   </h5>
                 </div>
                 <div className="item mb-50">

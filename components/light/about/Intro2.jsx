@@ -8,7 +8,7 @@ function Intro2() {
   }, []);
 
   return (
-    <section className="page-intro-about section-padding">
+    <section className="page-intro-about section-padding bord-thin-bottom mb-20">
       <div className="container">
         {/* Main Heading and Subheading */}
         <div className="row align-items-center text-center">

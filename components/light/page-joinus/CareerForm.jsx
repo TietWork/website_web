@@ -103,39 +103,6 @@ function CareerForm() {
                   </div>
                   <div className="col-12">
                     <div className="form-group mb-30">
-                      <select
-                        id="interest"
-                        name="interest"
-                        required
-                        onChange={handleChange}
-                        style={{
-                          width: "100%",
-                          padding: "10px 15px",
-                          border: "1px solid #ddd",
-                          borderRadius: "5px",
-                          fontSize: "16px",
-                          color: "#333",
-                          background: "#f8f9fa",
-                          boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",
-                          outline: "none",
-                          transition: "border-color 0.3s ease",
-                        }}
-                      >
-                        <option value="" disabled selected>
-                          Select Your Interest
-                        </option>
-                        <option value="Software Development">
-                          Technology
-                        </option>
-                        <option value="AI/ML & Blockchain">
-                          Media Creation
-                        </option>
-                        <option value="Other">Other</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div className="col-12">
-                    <div className="form-group mb-30">
                       <textarea
                         id="message"
                         name="message"

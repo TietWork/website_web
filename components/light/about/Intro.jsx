@@ -30,7 +30,7 @@ function Intro() {
                 an ever-evolving digital landscape.
                 <br />
                 <br />
-                At Third Eye Info Technology, every project is more than just code,
+                At Third Eye, every project is more than just code,
                 it&apos;s a step towards a smarter, more connected future. Our
                 journey reflects the trust our clients place in us and the
                 passion we bring to every solution we craft.

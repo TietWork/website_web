@@ -5,17 +5,17 @@ const positions = [
   {
     title: "Software Developer Trainee",
     description:
-      "Design, develop, test, and maintain software applications using the latest technologies. Collaborate with cross-functional teams to ensure high-quality deliverables.",
+      "Kickstart your software development career by contributing to the design, development, testing, and maintenance of cutting-edge applications. Collaborate with experienced teams to deliver high-quality software solutions while gaining hands-on experience with the latest technologies.",
   },
   {
     title: "Mobile App Developer (2+ years)",
     description:
-      "Build and enhance mobile applications for Android and iOS platforms in React Native or Flutter. Focus on clean, and optimize app performance for a seamless user experience.",
+      "Develop and enhance high-performance mobile applications for Android and iOS platforms using React Native. With a minimum of 2 years of experience, focus on delivering clean, maintainable code, optimizing app performance, and ensuring seamless user experiences. Collaborate with designers and backend developers to implement engaging and functional features.",
   },  
   {
     title: ".NET Developer (2+ years)",
     description:
-      "Develop, test, and maintain reliable and high-quality software solutions using .NET technologies. Implement functional, performance, and security testing strategies to ensure optimal software performance and robustness.",
+      "Design, develop, and maintain robust software solutions using .NET technologies. Bring at least 2 years of experience to the role, implementing scalable architectures, performance optimization, and security testing to ensure software reliability and quality. Collaborate with cross-functional teams to deliver effective and efficient solutions that meet business needs.",
   },
   // Add more positions here
 ];
@@ -28,7 +28,7 @@ function Join() {
           <div className="col-lg-10">
             <div className="careers-content">
               <h2 className="main-title mb-30">
-                Join Our Team at Third Eye Info Technology
+                Join Our Team at Third Eye
               </h2>
               <p className="intro-text mb-40">
                 Are you passionate about technology and innovation? At Third Eye
@@ -42,7 +42,7 @@ function Join() {
               <div className="about-section mb-50">
                 <h4 className="sub-title mb-20">About Us</h4>
                 <p>
-                  Innovating since 2001, Third Eye Info Technology has over 20
+                  Innovating since 2001, Third Eye has over 20
                   years of experience, catering to 100+ clients across 12+
                   industries. Headquartered in Chennai, with partnerships in the
                   USA, Australia, and UAE, we simplify complexities through
@@ -87,7 +87,7 @@ function Join() {
               {/* Diversity Statement */}
               <div className="diversity-section mt-40">
                 <p>
-                  <strong>Third Eye Info Technology</strong> is an equal
+                  <strong>Third Eye</strong> is an equal
                   opportunity employer that values diversity and inclusion. We
                   encourage applications from all qualified candidates,
                   regardless of race, color, religion, gender, or any other

@@ -49,28 +49,28 @@ function Challenge() {
               </h6>
               <ul className="fz-18 mb-40" style={{ color: "#000" }}>
                 <li>
-                  <strong>PHASE 1 – Designing:</strong> Comprehensive modeling
+                  <strong>PHASE 1: Designing:</strong> Comprehensive modeling
                   and simulation of machine architecture, development of
                   scalable tech-stack to support nationwide deployment, and
                   human-centered design ensuring ease of use and safety for
                   consumers.
                 </li>
                 <li>
-                  <strong>PHASE 2 – Technology Development:</strong> AI/ML
+                  <strong>PHASE 2: Technology Development:</strong> AI/ML
                   integration for advanced AI algorithms for cylinder
                   recognition, demand forecasting, and maintenance; IoT-enabled
                   infrastructure for real-time monitoring and remote diagnostics
                   to minimize downtime.
                 </li>
                 <li>
-                  <strong>PHASE 3 – Manufacturing:</strong> Establishment of a
+                  <strong>PHASE 3: Manufacturing:</strong> Establishment of a
                   state-of-the-art production facility in Chennai, India;
                   adherence to international manufacturing standards to ensure
                   durability and precision; sustainable production practices to
                   minimize environmental impact.
                 </li>
                 <li>
-                  <strong>PHASE 4 – Integration & Commissioning:</strong>{" "}
+                  <strong>PHASE 4: Integration & Commissioning:</strong>{" "}
                   Seamless integration with existing LPG supply chains;
                   deployment across key metropolitan and rural areas to ensure
                   widespread accessibility; full-scale testing and calibration

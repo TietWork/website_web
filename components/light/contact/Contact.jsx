@@ -74,7 +74,7 @@ function Contact() {
             <div className="full-width">
               <div className="sec-head mb-50">
                 <h3 className="text-u ls1">
-                  Request Service {" "}<span className="fw-200" style={{ color: "#007bff" }}> Details</span>
+                LET&apos;S WORK {" "}<span className="fw-200" style={{ color: "#007bff" }}>TOGETHER</span>
                 </h3>
               </div>
 

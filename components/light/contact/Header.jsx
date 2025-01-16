@@ -1,6 +1,7 @@
 'use client';
-import React, { useLayoutEffect } from 'react';
+import React, { useEffect, useLayoutEffect } from 'react';
 
+import loadBackgroudImages from '@/common/loadBackgroudImages';
 function Header() {
   useLayoutEffect(() => {
     const tl = gsap.timeline();
@@ -15,13 +16,16 @@ function Header() {
     // Cleanup function
     return () => tl.kill();
   }, []);
+  useEffect(() => {
+    loadBackgroudImages();
+  }, []);
   return (
     <div
       className="header page-header bg-img section-padding"
-      data-background="/light/assets/imgs/header/b5.jpg"
+      data-background="/light/assets/imgs/header/bg1.jpg"
       data-overlay-dark="9"
     >
-      <div className="container pt-100">
+      <div className="container pt-100 pb-100">
         <div className="text-center">
           <h1 className="fz-100 text-u">Let&apos;s Talk</h1>
           <div className="mt-15">

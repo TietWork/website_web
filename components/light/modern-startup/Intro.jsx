@@ -63,8 +63,8 @@ function Intro() {
                 <h1
                   className=""
                   style={{
-                    fontFamily: "Poppins, sans-serif",
-                    fontSize: "96px",
+                    fontFamily: "Satoshi-Variable, sans-serif",
+                    fontSize: "104px",
                   }}
                 >
                   23+{" "}

@@ -231,7 +231,7 @@ function Header() {
             >
               {/* <BsArrowRight size={20} /> */}
             </motion.div>
-            Read case studies
+            Read Case Studies
           </motion.button>
         </a>
       </div>

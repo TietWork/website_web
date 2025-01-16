@@ -13,9 +13,15 @@ function EngagementModels() {
               </h2>
               <p
                 className="subheading mt-20 fz-18"
-                style={{ color: "#007bff", maxWidth: "800px", margin: "0 auto" }}
+                style={{
+                  color: "#007bff",
+                  maxWidth: "800px",
+                  margin: "0 auto",
+                }}
               >
-                Explore our diverse engagement models crafted to deliver scalable, cost-effective, and high-quality software solutions throughout your project journey.
+                Explore our diverse engagement models crafted to deliver
+                scalable, cost-effective, and high-quality software solutions
+                throughout your project journey.
               </p>
             </div>
           </div>
@@ -31,9 +37,10 @@ function EngagementModels() {
               keyFeatures: [
                 "Comprehensive team of developers, designers, and QA engineers.",
                 "Scalable team size tailored to your evolving needs.",
-                "Rigorous project management with regular updates and transparent reporting.",
+                "Rigorous management with regular updates and clear reporting.",
               ],
-              bestFor: "Continuous development, enterprise-grade solutions, and ongoing support.",
+              bestFor:
+                "Continuous development, enterprise-grade solutions, and ongoing support.",
             },
             {
               title: "Fixed-Price Model",
@@ -44,7 +51,8 @@ function EngagementModels() {
                 "Detailed project planning and scope documentation.",
                 "Minimal financial risks with no cost overruns.",
               ],
-              bestFor: "MVP development, pilot projects, and projects with fixed requirements.",
+              bestFor:
+                "MVP development, pilot projects, and projects with fixed requirements.",
             },
             {
               title: "Time and Material (T&M) Model",
@@ -55,7 +63,8 @@ function EngagementModels() {
                 "Agile methodology for adaptive planning and continuous improvement.",
                 "Transparent billing with detailed timesheets and progress reports.",
               ],
-              bestFor: "Agile projects, research & development, and exploratory initiatives.",
+              bestFor:
+                "Agile projects, research & development, and exploratory initiatives.",
             },
             {
               title: "Offshore Development Center (ODC)",
@@ -64,9 +73,10 @@ function EngagementModels() {
               keyFeatures: [
                 "Access to skilled professionals in a secure, offshore environment.",
                 "Complete infrastructure setup and management by our team.",
-                "Long-term partnership with streamlined operations and reduced overheads.",
+                "Long-term partnership with streamlined operations.",
               ],
-              bestFor: "Scaling operations, accessing global talent, and ongoing project needs.",
+              bestFor:
+                "Scaling operations, global talent access, and ongoing needs.",
             },
           ].map((model, index) => (
             <div className="col-lg-6 mb-4" key={index}>
@@ -78,7 +88,10 @@ function EngagementModels() {
                   boxShadow: "0px 12px 40px rgba(0, 0, 0, 0.1)",
                 }}
               >
-                <h3 className="fz-30 font-weight-bold" style={{ color: "#007bff" }}>
+                <h3
+                  className="fz-30 font-weight-bold"
+                  style={{ color: "#007bff" }}
+                >
                   {model.title}
                 </h3>
                 <p className="fz-18 mt-3">{model.description}</p>
@@ -104,18 +117,52 @@ function EngagementModels() {
         {/* Proven Process Section */}
         <div className="row mt-50 justify-content-center">
           <div className="col-lg-8">
-            <div className="text-center">
+            <div
+              className="card p-5"
+              style={{
+                backgroundColor: "#fff",
+                borderRadius: "20px",
+                boxShadow: "0px 12px 40px rgba(0, 0, 0, 0.1)",
+                border: "2px solid #49A1FFFF",
+              }}
+            >
               <h3
-                className="font-weight-bold"
-                style={{ fontSize: "28px", marginBottom: "30px", color: "#007bff" }}
+                className="font-weight-bold text-center"
+                style={{ fontSize: "28px", color: "#007bff" }}
               >
                 Our Proven Process
               </h3>
-              <ol className="fz-18" style={{ lineHeight: "1.8" }}>
-                <li><strong>Step 1:</strong> Requirement Analysis – Collaborate with our experts to define project goals, objectives, and technical specifications.</li>
-                <li><strong>Step 2:</strong> Model Selection – Based on your requirements, we recommend the most suitable engagement model aligned with your business objectives.</li>
-                <li><strong>Step 3:</strong> Project Execution – Efficient and transparent execution using industry best practices, ensuring timely delivery and quality outcomes.</li>
-                <li><strong>Step 4:</strong> Evaluation & Optimization – Continuous monitoring, evaluation, and optimization to enhance performance and achieve measurable results.</li>
+              <ol
+                className="fz-18 mt-20"
+                style={{ lineHeight: "1.8", textAlign: "center" }}
+              >
+                <li>
+                  <strong>Step 1:</strong>
+                  <br />
+                  <strong>Requirement Analysis:</strong> Collaborate with our experts to define
+                  project goals, objectives, and technical specifications.
+                </li>
+                <li>
+                  <strong>Step 2:</strong>
+                  <br />
+                  <strong>Model Selection:</strong> Based on your requirements, we recommend the
+                  most suitable engagement model aligned with your business
+                  objectives.
+                </li>
+                <li>
+                  <strong>Step 3:</strong>
+                  <br />
+                  <strong>Project Execution:</strong> Efficient and transparent execution using
+                  industry best practices, ensuring timely delivery and quality
+                  outcomes.
+                </li>
+                <li>
+                  <strong>Step 4:</strong>
+                  <br />
+                  <strong>Evaluation & Optimization:</strong> Continuous monitoring, evaluation,
+                  and optimization to enhance performance and achieve measurable
+                  results.
+                </li>
               </ol>
             </div>
           </div>
@@ -124,23 +171,49 @@ function EngagementModels() {
         {/* Why Choose Our Engagement Models Section */}
         <div className="row mt-50 justify-content-center">
           <div className="col-lg-8">
-            <div className="text-center">
+            <div
+              className="card p-5"
+              style={{
+                backgroundColor: "#fff",
+                borderRadius: "20px",
+                boxShadow: "0px 12px 40px rgba(0, 0, 0, 0.1)",
+                border: "2px solid #49A1FFFF",
+              }}
+            >
               <h3
-                className="font-weight-bold"
-                style={{
-                  fontSize: "28px",
-                  marginBottom: "30px",
-                  textAlign: "center",
-                  color: "#007bff",
-                }}
+                className="font-weight-bold text-center"
+                style={{ fontSize: "28px", color: "#007bff" }}
               >
                 Why Choose Our Engagement Models?
               </h3>
-              <ul className="list-unstyled fz-18" style={{ lineHeight: "1.8" }}>
-                <li><strong>Commitment to Quality:</strong> Deliver high-quality solutions backed by rigorous testing and continuous improvement processes.</li>
-                <li><strong>Flexibility & Scalability:</strong> Adapt to changing business needs with flexible team structures and scalable solutions.</li>
-                <li><strong>Cost-Effectiveness:</strong> Optimize your budget with competitive pricing models and efficient resource allocation.</li>
-                <li><strong>Transparent Communication:</strong> Maintain clear and open communication throughout the project lifecycle, ensuring alignment and client satisfaction.</li>
+              <ul
+                className="fz-18 mt-20 list-unstyled"
+                style={{ lineHeight: "1.8", textAlign: "center" }}
+              >
+                <li>
+                  <strong>Commitment to Quality:</strong>
+                  <br />
+                  Deliver high-quality solutions backed by rigorous testing and
+                  continuous improvement processes.
+                </li>
+                <li>
+                  <strong>Flexibility & Scalability:</strong>
+                  <br />
+                  Adapt to changing business needs with flexible team structures
+                  and scalable solutions.
+                </li>
+                <li>
+                  <strong>Cost-Effectiveness:</strong>
+                  <br />
+                  Optimize your budget with competitive pricing models and
+                  efficient resource allocation.
+                </li>
+                <li>
+                  <strong>Transparent Communication:</strong>
+                  <br />
+                  Maintain clear and open communication throughout the project
+                  lifecycle, ensuring alignment and client satisfaction.
+                </li>
               </ul>
             </div>
           </div>
@@ -149,22 +222,43 @@ function EngagementModels() {
         {/* Value-Added Services Section */}
         <div className="row mt-50 justify-content-center">
           <div className="col-lg-8">
-            <div className="text-center">
+            <div
+              className="card p-5"
+              style={{
+                backgroundColor: "#fff",
+                borderRadius: "20px",
+                boxShadow: "0px 12px 40px rgba(0, 0, 0, 0.1)",
+                border: "2px solid #49A1FFFF",
+              }}
+            >
               <h3
-                className="font-weight-bold"
-                style={{
-                  fontSize: "28px",
-                  marginBottom: "30px",
-                  textAlign: "center",
-                  color: "#007bff",
-                }}
+                className="font-weight-bold text-center"
+                style={{ fontSize: "28px", color: "#007bff" }}
               >
                 Value-Added Services
               </h3>
-              <ul className="list-unstyled fz-18" style={{ lineHeight: "1.8" }}>
-                <li><strong>Consultation Services:</strong> Strategic advice to align technology solutions with your business strategy.</li>
-                <li><strong>Risk Management:</strong> Proven methodologies to mitigate risks and ensure project success.</li>
-                <li><strong>Post-Delivery Support:</strong> Comprehensive maintenance and support services to keep your systems optimized.</li>
+              <ul
+                className="fz-18 mt-20 list-unstyled"
+                style={{ lineHeight: "1.8", textAlign: "center" }}
+              >
+                <li>
+                  <strong>Consultation Services:</strong>
+                  <br />
+                  Strategic advice to align technology solutions with your
+                  business strategy.
+                </li>
+                <li>
+                  <strong>Risk Management:</strong>
+                  <br />
+                  Proven methodologies to mitigate risks and ensure project
+                  success.
+                </li>
+                <li>
+                  <strong>Post-Delivery Support:</strong>
+                  <br />
+                  Comprehensive maintenance and support services to keep your
+                  systems optimized.
+                </li>
               </ul>
             </div>
           </div>

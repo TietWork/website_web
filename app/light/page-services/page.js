@@ -39,7 +39,7 @@ export default function ServicesPage() {
             <Header />
             <Services />
             <Marquee />
-=          </main>
+          </main>
           <Footer />
         </div>
       </div>

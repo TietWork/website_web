@@ -115,7 +115,7 @@ function About() {
                 <div className="col-lg-11">
                   <div className="text mb-50">
                     <p>
-                      As the world evolves, so do we. At Third Eye Info Technology, we believe
+                      As the world evolves, so do we. At Third Eye, we believe
                       technology has the power to transform the way businesses
                       operate and how people live. Our solutions are designed to
                       solve real-world problems with precision, speed, and

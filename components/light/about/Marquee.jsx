@@ -2,7 +2,7 @@ import React from 'react';
 
 function MarqueeScroll() {
   return (
-    <section className="marquee bord-thin-bottom pt-30 pb-30 o-hidden">
+    <section className="marquee bord-thin-bottom pt-30 pb-30 o-hidden ">
       <div className="container-fluid">
         <div className="main-marq md-text text-u">
           <div className="slide-har st1">

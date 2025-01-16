@@ -31,7 +31,7 @@ function Header() {
           <div className="mt-15">
             <a href="/">Home</a>
             <span className="padding-rl-20">|</span>
-            <span className="main-color">How we Do it?</span>
+            <span className="main-color">Engagement Model</span>
           </div>
         </div>
       </div>

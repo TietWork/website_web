@@ -37,7 +37,7 @@ function OurTeam() {
               a meaningful impact, empowering businesses and shaping the future.
               <br />
               <br />
-              Third Eye Info Technology stands as a beacon of cutting-edge
+              Third Eye stands as a beacon of cutting-edge
               solutions and customer centric innovation. With expertise spanning
               web technologies, IT services, and automation, we are dedicated to
               delivering scalable, efficient, and transformative solutions for
