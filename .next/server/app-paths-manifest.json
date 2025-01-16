@@ -1,4 +1,8 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/light/page-services/page": "app/light/page-services/page.js"
+  "/light/casestudy-GeoSpatial/page": "app/light/casestudy-GeoSpatial/page.js",
+  "/light/project-lpgVending/page": "app/light/project-lpgVending/page.js",
+  "/light/project-Iot/page": "app/light/project-Iot/page.js",
+  "/light/page-services/page": "app/light/page-services/page.js",
+  "/light/project-RFID/page": "app/light/project-RFID/page.js"
 }

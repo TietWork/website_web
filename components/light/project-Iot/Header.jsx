@@ -22,7 +22,7 @@ function Header() {
   return (
     <div
       className="header header-project3 bg-img d-flex align-items-end"
-      data-background="/light/assets/imgs/works/full/smart.webp"
+      data-background="/light/assets/imgs/works/full/iot.png"
       data-overlay-dark="9"
     >
       <div className="container">

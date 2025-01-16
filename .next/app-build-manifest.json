@@ -1,9 +1,9 @@
 {
   "pages": {
-    "/page": [
+    "/light/page-services/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/light/page-services/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -11,10 +11,25 @@
       "static/css/css-app_globals_css.css",
       "static/chunks/app/layout.js"
     ],
-    "/light/page-services/page": [
+    "/light/project-lpgVending/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/light/page-services/page.js"
+      "static/chunks/app/light/project-lpgVending/page.js"
+    ],
+    "/light/project-Iot/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/light/project-Iot/page.js"
+    ],
+    "/light/casestudy-GeoSpatial/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/light/casestudy-GeoSpatial/page.js"
+    ],
+    "/light/project-RFID/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/light/project-RFID/page.js"
     ],
     "/_not-found/page": [
       "static/chunks/webpack.js",

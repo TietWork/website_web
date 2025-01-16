@@ -125,13 +125,11 @@ function CareerForm() {
                           Select Your Interest
                         </option>
                         <option value="Software Development">
-                          Software Development
+                          Technology
                         </option>
                         <option value="AI/ML & Blockchain">
-                          AI/ML & Blockchain
+                          Media Creation
                         </option>
-                        <option value="IoT Development">IoT Development</option>
-                        <option value="Big Data">Big Data</option>
                         <option value="Other">Other</option>
                       </select>
                     </div>

@@ -51,7 +51,7 @@ function Services() {
                   boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)',
                 }}
               >
-                <div className="icon mb-20 text-center">
+                <div className="icon mb-20">
                   <img src={item.img} alt={item.title} style={{ height: '60px' }} />
                 </div>
                 <h5
@@ -61,7 +61,7 @@ function Services() {
                 >
                   {item.title}
                 </h5>
-                <p className="text-center">{item.desc}</p>
+                <p>{item.desc}</p>
 
                 {/* Accordion Content */}
                 {activeIndex === i && item.details && (

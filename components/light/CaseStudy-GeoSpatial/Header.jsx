@@ -22,7 +22,7 @@ function Header() {
   return (
     <div
       className="header header-project3 bg-img d-flex align-items-end"
-      data-background="/light/assets/imgs/works/full/geo.png"
+      data-background="/light/assets/imgs/works/full/geoS.png"
       data-overlay-dark="9"
     >
       <div className="container">
