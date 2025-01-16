@@ -135,7 +135,7 @@ function Navbar() {
             <img
               src="/light/assets/imgs/logo5.png"
               alt="logo"
-              style={{ width: "250px", height: "auto" }}
+              style={{ width: "252px", height: "auto" }}
             />
           </a>
 
