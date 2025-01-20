@@ -85,7 +85,7 @@ function Footer() {
                     <a href="/light/page-services">What We Offer</a>
                   </li>
                   <li>
-                    <a href="/light/page-ourprocess">Our Process</a>
+                    <a href="/light/page-ourprocess">Process</a>
                   </li>
                   <li>
                     <a href="/light/page-whyus">Why Us?</a>
