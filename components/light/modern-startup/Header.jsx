@@ -118,10 +118,12 @@ function Header() {
             justifySelf: "center",
           }}
         >
-          With a trackrecord of over 150 successful projects, combined
+          Turning possibilities into groundbreaking solutions, we transform
+          ideas into reality with innovation and expertise.
+          {/* With a trackrecord of over 150 successful projects, combined
           experience of over 200 years, expertise in over 10 platforms and
           clients in over 15 countries, Third Eye Info Technology is committed
-          to transfer your businesses through innovative software solutions.
+          to transfer your businesses through innovative software solutions. */}
           <br />
         </motion.p>
       </div>
