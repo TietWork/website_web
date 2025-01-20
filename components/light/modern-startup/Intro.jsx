@@ -67,9 +67,9 @@ function Intro() {
                     fontSize: "104px",
                   }}
                 >
-                  23+{" "}
+                  200+{" "}
                   <span className="sub-title opacity-7 ml-15" style={{fontFamily:'Satoshi-Variable'}}>
-                    Years of Experience
+                    Combined Years of Experience
                   </span>
                 </h1>
               </div>
