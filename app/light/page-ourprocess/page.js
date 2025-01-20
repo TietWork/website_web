@@ -7,7 +7,6 @@ import LoadingScreen from '@/components/light/common/loader';
 import Navbar from '@/components/light/modern-startup/Navbar';
 import Script from 'next/script';
 import Header from '@/components/light/page-ourProcess/Header';
-import Marquee from '@/components/light/page-ourProcess/Marquee';
 import Process from '@/components/light/page-ourProcess/Process';
 import Management from '@/components/light/page-ourProcess/Management'
 
@@ -39,7 +38,6 @@ export default function OurProcessPage() {
           <main className="main-bg">
             <Header />
             <Process />
-            <Marquee />
             <Management />
           </main>
           <Footer />

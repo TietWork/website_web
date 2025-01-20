@@ -9,14 +9,11 @@ import Navbar from '@/components/light/modern-startup/Navbar';
 import Footer from '@/components/light/modern-startup/Footer';
 import Script from 'next/script';
 import Intro from '@/components/light/modern-startup/Intro';
-import MarqueeScroll from '@/components/light/modern-startup/MarqueeScroll';
 import About from '@/components/light/modern-startup/About';
 import IndustriesWeServe from '@/components/light/modern-startup/Industries';
-import Marquee from '@/components/light/modern-startup/Marquee';
 import CoreValues from '@/components/light/modern-startup/CoreValues'
 import Numbers from '@/components/light/modern-startup/Numbers';
 import Interactive from '@/components/light/modern-startup/Interactive';
-import Testimonials from '@/components/light/modern-startup/Testimonials';
 import Clients from '@/components/light/modern-startup/Clients';
 import MapSection from '@/components/light/modern-startup/MapSection'
 import ContactMarquee from '@/components/light/modern-startup/ContactMarquee'
@@ -49,17 +46,14 @@ export default function HomeModernStartup() {
           <main className="main-bg o-hidden">
             <Header />
             <Intro />
-            <MarqueeScroll/>
             <About />
             <Numbers />
             <Services />
             <CoreValues />
             <IndustriesWeServe/>
-            <Marquee />
             <Interactive/>
-            <Testimonials />
-            <Clients />
             <MapSection/>
+            <Clients />
             <ContactMarquee/>
           </main>
           <Footer />

@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import data from "@/l-data/services.json";
+import { BuildCircle, Computer, Security, Analytics, CurrencyBitcoin  } from '@mui/icons-material'; // Import MUI Icons
 
 function Services() {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -9,12 +10,28 @@ function Services() {
     setActiveIndex(activeIndex === index ? null : index);
   };
 
+  // Function to get icon based on service title
+  const getIcon = (title) => {
+    switch (title) {
+      case "Software Development":
+        return <Computer style={{ fontSize: 60 }} />;
+      case "AI/ML & Blockchain":
+        return <CurrencyBitcoin style={{ fontSize: 60 }} />;
+      case "IoT Development":
+        return <BuildCircle style={{ fontSize: 60 }} />;
+      case "Big Data & Business Intelligence":
+        return <Analytics style={{ fontSize: 60 }} />;
+      default:
+        return <BuildCircle style={{ fontSize: 60 }} />; // Default icon
+    }
+  };
+
   return (
     <section className="services-boxs section-padding">
       <div className="container">
         {/* Header */}
         <div className="sec-head mb-80">
-          <h6 className="sub-title main-color mb-25">Our Specialties</h6>
+          <h6 className="sub-title main-color mb-25">Our Services</h6>
           <div className="bord pt-25 bord-thin-top d-flex align-items-center">
             <h2 className="fw-600 text-u ls1">
               What We <span className="fw-200">Offer</span>
@@ -52,7 +69,7 @@ function Services() {
           {data.map((item, i) => (
             <div key={i} className="col-lg-6 col-md-12 items mb-30">
               <div
-                className="item-box bg"
+                className=" bg"
                 style={{
                   borderRadius: "10px",
                   border: "1px solid #f0f0f0",
@@ -61,15 +78,12 @@ function Services() {
                 }}
               >
                 <div className="icon mb-20">
-                  <img
-                    src={item.img}
-                    alt={item.title}
-                    style={{ height: "60px" }}
-                  />
+                  {/* Render Material UI Icon based on title */}
+                  {getIcon(item.title)}
                 </div>
                 <h5
                   className="mb-15 text-u text-center"
-                  style={{ color: "#007bff", cursor: "pointer" }}
+                  style={{ color: "#003049", cursor: "pointer" }}
                   onClick={() => toggleAccordion(i)}
                 >
                   {item.title}

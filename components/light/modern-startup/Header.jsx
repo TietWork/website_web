@@ -79,7 +79,7 @@ function Header() {
             color: "#051923",
           }}
         >
-          Innovating Tomorrow
+          INNOVATING TOMORROW&apos;S
         </motion.h1>
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -102,7 +102,7 @@ function Header() {
               textTransform: "uppercase",
             }}
           >
-            Simplifying Today.
+            TECHNOLOGY TODAY
           </motion.h2>
         </motion.div>
         <motion.p
@@ -111,15 +111,17 @@ function Header() {
           transition={{ duration: 0.8, delay: 0.6 }}
           style={{
             marginTop: "1.5rem",
-            color: "#898989FF",
+            color: "#C1C1C1FF",
             lineHeight: "1.6",
             display: "flex",
             alignSelf: "center",
             justifySelf: "center",
           }}
         >
-          Turning possibilities into groundbreaking solutions, we transform
-          ideas into reality with innovation and expertise.
+          With a trackrecord of over 150 successful projects, combined
+          experience of over 200 years, expertise in over 10 platforms and
+          clients in over 15 countries, Third Eye Info Technology is committed
+          to transfer your businesses through innovative software solutions.
           <br />
         </motion.p>
       </div>

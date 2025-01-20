@@ -10,7 +10,7 @@ function About() {
     document.querySelector(`.tab-content#${tabid}`).style.display = "block";
   };
   return (
-    <section className="services-tab section-padding mb-80">
+    <section className="services-tab section-padding mb-100">
       <div className="container">
         <div className="row lg-marg" id="tabs">
           <div className="col-lg-6 valign">
@@ -108,13 +108,12 @@ function About() {
           <div className="col-lg-6 valign">
             <div className="serv-tab-link tab-links full-width pt-40">
               <div className="sec-head mb-30">
-                <h6 className="sub-title mb-15 main-color">Who are we? </h6>
                 <h2>Where Tech meets vision</h2>
               </div>
               <div className="row justify-content-end">
                 <div className="col-lg-11">
                   <div className="text mb-50">
-                    <p>
+                    <p style={{color:"#001524"}}>
                       As the world evolves, so do we. At Third Eye, we believe
                       technology has the power to transform the way businesses
                       operate and how people live. Our solutions are designed to

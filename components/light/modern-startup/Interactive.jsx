@@ -2,61 +2,60 @@
 import React from "react";
 import { motion } from "framer-motion";
 import {
-  LocalGasStation, // Fuel
-  Lock, // Lock
-  Public, // Globe
-  Diamond, // Diamond
-  CameraAlt, // Camera
-  HealthAndSafety, // Stethoscope
   ArrowOutward // ArrowUpRight equivalent
 } from "@mui/icons-material";
+import PropaneTankIcon from '@mui/icons-material/PropaneTank';
+import PhonelinkLockIcon from '@mui/icons-material/PhonelinkLock';
+import LandscapeIcon from '@mui/icons-material/Landscape';
+import DiamondIcon from '@mui/icons-material/Diamond';
+import FaceIcon from '@mui/icons-material/Face';
+import HealthAndSafetyIcon from '@mui/icons-material/HealthAndSafety';
 
 const Interactive = () => {
   const projects = [
     {
       title: "LPG Automated Vending Machine",
       description: "Revolutionizing fuel distribution with smart vending solutions",
-      icon: LocalGasStation,
-      color: "#333333",
+      icon: PropaneTankIcon, // Reference to the icon
+      color: "#003049",
       link: "/light/project-lpgVending"
     },
     {
       title: "IoT Smart Locks",
-      description: "Next-generation security systems for modern infrastructure",
-      icon: Lock,
-      color: "#333333",
+      description: "Next-generation security systems for modern infrastructure and Industry",
+      icon: PhonelinkLockIcon, // Reference to the icon
+      color: "#003049",
       link: "/light/project-Iot"
     },
     {
       title: "Geospatial Data Processing",
       description: "Advanced mapping solutions with AI-powered insights",
-      icon: Public,
-      color: "#333333",
+      icon: LandscapeIcon, // Reference to the icon
+      color: "#003049",
       link: "/light/casestudy-GeoSpatial"
     },
     {
       title: "RFID-based Jewel Tracking",
       description: "Secure tracking system for high-value assets",
-      icon: Diamond,
-      color: "#333333",
+      icon: DiamondIcon, // Reference to the icon
+      color: "#003049",
       link: "/light/project-RFID"
     },
     {
       title: "Face Detection for Hollywood",
       description: "AI-powered facial recognition for entertainment industry",
-      icon: CameraAlt,
-      color: "#333333",
+      icon: FaceIcon, // Reference to the icon
+      color: "#003049",
       link: "/light/casestudy-faceDetection"
     },
     {
       title: "Healthcare Innovations",
-      description: "Digital solutions transforming patient care",
-      icon: HealthAndSafety,
-      color: "#333333",
+      description: "Digital solutions transforming patient care and enhancing healthcare efficiency",
+      icon: HealthAndSafetyIcon, // Reference to the icon
+      color: "#003049",
       link: "/light/casestudy-healthcare"
     }
   ];
-
 
   const sectionStyle = {
     background: "#000814",
@@ -81,13 +80,12 @@ const Interactive = () => {
   };
 
   const titleStyle = {
-    fontFamily:"Poppins",
+    fontFamily: "Poppins",
     fontSize: "3rem",
     fontWeight: "500",
     color: "#CDCDCDFF",
     marginBottom: "40px",
     textAlign: "center"
-    
   };
 
   const listStyle = {
@@ -209,7 +207,7 @@ const Interactive = () => {
               >
                 <motion.div 
                   style={iconStyle}
-                  whileHover={{ scale: 1.1, rotate: 360 }}
+                  whileHover={{ scale: 1.1}}
                   transition={{ duration: 0.3 }}
                 >
                   <Icon 

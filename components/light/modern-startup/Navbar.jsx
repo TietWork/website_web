@@ -131,28 +131,18 @@ function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg nav-crev">
         <div className="container">
-          <a className="logo icon-img-100 mr-40" href="/">
+          <a className="logo icon-img-100 mr-30 mb-5" href="/">
             <img
-              src="/light/assets/imgs/logo5.png"
+              src="/light/assets/imgs/logoF.png"
               alt="logo"
-              style={{ width: "252px", height: "auto" }}
+              style={{ width: "240px", height: "auto" }}
             />
           </a>
 
           <div
-            className="collapse navbar-collapse justify-content-center"
+            className="collapse navbar-collapse justify-content-center ml-50"
             id="navbarSupportedContent"
           >
-            {/* home */}
-
-            <ul className="navbar-nav">
-              <li>
-                <a className="nav-link" href="/">
-                  <span className="rolling-text">Home</span>
-                </a>
-              </li>
-            </ul>
-
             <ul className="navbar-nav">
               {/* services */}
 
@@ -202,7 +192,7 @@ function Navbar() {
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  <span className="rolling-text">Our Projects</span>
+                  <span className="rolling-text">Projects</span>
                 </a>
                 <div className="dropdown-menu">
                   <a className="dropdown-item" href="/light/project-lpgVending">
@@ -297,6 +287,16 @@ function Navbar() {
                 </div>
               </li>
 
+              {/* Testimotials */}
+
+              <ul className="navbar-nav">
+                <li>
+                  <a className="nav-link" href="/light/page-testimonials">
+                    <span className="rolling-text">Testimonials</span>
+                  </a>
+                </li>
+              </ul>
+
               {/* join us */}
 
               <ul className="navbar-nav">
@@ -317,7 +317,7 @@ function Navbar() {
                     color: "#edede9",
                   }}
                 >
-                  <span className="">Let&apos;s Talk</span>
+                  <span className="">Let&apos;s Connect</span>
                 </a>
               </li>
             </ul>
@@ -419,8 +419,8 @@ function Navbar() {
                   >
                     <div className="o-hidden">
                       <div className="link cursor-pointer dmenu">
-                        <span className="fill-text" data-text="Our Projects">
-                          Our Projects
+                        <span className="fill-text" data-text="Projects">
+                          Projects
                         </span>{" "}
                         <i></i>
                       </div>
@@ -558,6 +558,22 @@ function Navbar() {
                     </div>
                   </li>
 
+                  {/* testimonials section */}
+
+                  <li
+                    onMouseLeave={handleMouseLeave}
+                    onMouseEnter={handleMouseEnter}
+                    onClick={toggleSubMenu}
+                  >
+                    <div className="o-hidden">
+                      <a href="/light/page-testimonials" className="link">
+                        <span className="fill-text" data-text="Testimonials">
+                          Testimonials
+                        </span>
+                      </a>
+                    </div>
+                  </li>
+
                   {/* Career section */}
 
                   <li
@@ -581,8 +597,8 @@ function Navbar() {
                   >
                     <div className="o-hidden">
                       <a href="/light/page-contact" className="link">
-                        <span className="fill-text" data-text="Let&apos;s Talk">
-                          Let&apos;s Talk
+                        <span className="fill-text" data-text="Let's Connect">
+                          Let&apos;s Connect
                         </span>
                       </a>
                     </div>
@@ -601,7 +617,7 @@ function Navbar() {
                     <br />
                     11th Main Road, Annanagar,
                     <br />
-                    Chennai, India <br/>
+                    Chennai, India <br />
                     PIN:600040
                   </h5>
                 </div>
@@ -647,6 +663,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
-
-

@@ -12,7 +12,6 @@ import Marquee from '@/components/light/modern-startup/Marquee';
 import Portfolio from '@/components/light/modern-startup/Portfolio';
 import ImageScale from '@/components/light/modern-startup/ImageScale';
 import Skills from '@/components/light/modern-startup/Skills';
-import Testimonials from '@/components/light/modern-startup/Testimonials';
 import Clients from '@/components/light/modern-startup/Clients';
 import Contact from '@/components/light/modern-startup/Contact';
 import Footer from '@/components/light/modern-startup/Footer';
@@ -49,7 +48,6 @@ export default function HomeModernStartup() {
             <Portfolio />
             <ImageScale />
             <Skills />
-            <Testimonials />
             <Clients />
             <Contact />
           </main>

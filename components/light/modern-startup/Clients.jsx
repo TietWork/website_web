@@ -34,7 +34,7 @@ function Clients() {
     },
   };
   return (
-    <section className="clients-carso section-padding pt-0">
+    <section className="clients-carso section-padding pt-20">
       <div className="container">
         <div className="sec-bottom">
           <div className="main-bg d-flex align-items-center">

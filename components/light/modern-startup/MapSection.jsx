@@ -10,6 +10,7 @@ function MapSection() {
         padding: "10px 20px",
         textAlign: "center",
         position: "relative",
+        marginTop:"20px",
       }}
     >
       <div

@@ -5,10 +5,11 @@ import { motion } from "framer-motion";
 function Numbers() {
   return (
     <section
-      className="numbers"
+      className="numbers mb-40"
       style={{ fontFamily: "'Poppins', sans-serif" }}
+      
     >
-      <div className="container mb-60">
+      <div className="container">
         <div className="row justify-content-center">
           {/* Project Numbers */}
           <motion.div
@@ -26,7 +27,7 @@ function Numbers() {
                 }}
                 whileHover={{ color: "#4b89dc" }}
               >
-                100+
+                150+
               </motion.h2>
               <motion.span
                 className="sub-title opacity-7 ml-30"
@@ -59,7 +60,7 @@ function Numbers() {
                 }}
                 whileHover={{ color: "#4b89dc" }}
               >
-                12+
+                15+
               </motion.h2>
               <motion.span
                 className="sub-title opacity-7 ml-30"
@@ -92,7 +93,7 @@ function Numbers() {
                 }}
                 whileHover={{ color: "#4b89dc" }}
               >
-                10<span className="fz-50">Crore+</span>
+                100<span className="fz-50"></span>
               </motion.h2>
               <motion.span
                 className="sub-title opacity-7 ml-30"
@@ -103,7 +104,7 @@ function Numbers() {
                   fontSize: "12px",
                 }}
                 whileHover={{ color: "#4b89dc" }}
-              >
+              >   million
                 <br /> Beneficiaries
               </motion.span>
             </div>

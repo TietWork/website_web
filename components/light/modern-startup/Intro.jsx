@@ -80,14 +80,14 @@ function Intro() {
             <p style={{ color: "#001524", fontSize: "22px" , textTransform: 'uppercase', fontFamily:'Satoshi-Variable', fontWeight:'600'}}>
                   Empowering Businesses with Innovative Software Solutions
                 </p>
-              <p>
+              <p style={{color:"#001524"}}>
                 <br />
                 With over 23 years of experience, Third Eye Info Technology
                 delivers cutting-edge software solutions that drive growth and
                 efficiency. Our expertise spans custom software development, AI,
                 machine learning, blockchain, IoT, big data, and business
                 development. We craft tailored solutions to address modern
-                challenges, optimize processes, and unlock new opportunities. By
+                challenges, optimis e processes, and unlock new opportunities. By
                 leveraging innovation and the latest technology, we empower
                 businesses to stay ahead in an ever-evolving digital landscape.
               </p>

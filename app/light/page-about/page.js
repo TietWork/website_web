@@ -8,7 +8,6 @@ import LoadingScreen from '@/components/light/common/loader';
 import Navbar from '@/components/light/modern-startup/Navbar';
 import Script from 'next/script';
 import Intro from '@/components/light/about/Intro';
-import MarqueeScroll from '@/components/light/about/Marquee';
 import Intro2 from '@/components/light/about/Intro2';
 import Numbers from '@/components/light/about/Numbers'
 
@@ -40,7 +39,6 @@ export default function BlogList() {
           <main className="main-bg">
             <Header />
             <Intro />
-            <MarqueeScroll />
             <Intro2 />
             <Numbers />
 

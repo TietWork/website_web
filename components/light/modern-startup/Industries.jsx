@@ -1,41 +1,42 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import {
-  LocalHospital,
-  Business,
-  Engineering,
-  Movie,
-  Public,
-  LocalShipping,
-  School,
-  House,
-  Apartment,
-  ShoppingCart,
-  Phone,
-  Agriculture,
-  Bolt,
-  DirectionsCar,
-  SyncAlt,
-} from "@mui/icons-material";
+import { 
+  LocalHospital as HealthcareIcon, 
+  CreditCard as FinanceIcon, 
+  DataUsage as OilGasIcon, 
+  Movie as EntertainmentIcon, 
+  Computer as ManufacturingIcon, 
+  Public as GovernmentIcon, 
+  LocalShipping as TransportationIcon, 
+  School as EducationIcon, 
+  Hotel as HospitalityIcon, 
+  Business as RealEstateIcon, 
+  ShoppingCart as RetailIcon, 
+  Phone as TelecomIcon, 
+  Grass as AgricultureIcon, 
+  FlashOn as EnergyIcon, 
+  DirectionsCar as AutomotiveIcon, 
+  LocalLibrary as LogisticsIcon 
+} from '@mui/icons-material'; 
 
 const industries = [
-  { title: "Healthcare", icon: LocalHospital },
-  { title: "Finance & Insurance", icon: Business },
-  { title: "Oil & Gas", icon: Engineering },
-  { title: "Entertainment", icon: Movie },
-  { title: "Manufacturing", icon: Public },
-  { title: "Government", icon: Apartment },
-  { title: "Transportation", icon: LocalShipping },
-  { title: "Education", icon: School },
-  { title: "Hospitality", icon: House },
-  { title: "Real Estate", icon: Apartment },
-  { title: "Retail & E-commerce", icon: ShoppingCart },
-  { title: "Telecommunications", icon: Phone },
-  { title: "Agriculture & AgriTech", icon: Agriculture },
-  { title: "Energy & Utilities", icon: Bolt },
-  { title: "Automotive", icon: DirectionsCar },
-  { title: "Logistics & Supply Chain", icon: SyncAlt },
+  { title: "Healthcare", icon: <HealthcareIcon className="h-12 w-12 text-blue-500" /> },
+  { title: "Finance & Insurance", icon: <FinanceIcon className="h-12 w-12 text-blue-500" /> },
+  { title: "Oil & Gas", icon: <OilGasIcon className="h-12 w-12 text-blue-500" /> },
+  { title: "Entertainment", icon: <EntertainmentIcon className="h-12 w-12 text-blue-500" /> },
+  { title: "Manufacturing", icon: <ManufacturingIcon className="h-12 w-12 text-blue-500" /> },
+  { title: "Government", icon: <GovernmentIcon className="h-12 w-12 text-blue-500" /> },
+  { title: "Transportation", icon: <TransportationIcon className="h-12 w-12 text-blue-500" /> },
+  { title: "Education", icon: <EducationIcon className="h-12 w-12 text-blue-500" /> },
+  { title: "Hospitality", icon: <HospitalityIcon className="h-12 w-12 text-blue-500" /> },
+  { title: "Real Estate", icon: <RealEstateIcon className="h-12 w-12 text-blue-500" /> },
+  { title: "Retail & E-commerce", icon: <RetailIcon className="h-12 w-12 text-blue-500" /> },
+  { title: "Telecommunications", icon: <TelecomIcon className="h-12 w-12 text-blue-500" /> },
+  { title: "Agriculture & AgriTech", icon: <AgricultureIcon className="h-12 w-12 text-blue-500" /> },
+  { title: "Energy & Utilities", icon: <EnergyIcon className="h-12 w-12 text-blue-500" /> },
+  { title: "Automotive", icon: <AutomotiveIcon className="h-12 w-12 text-blue-500" /> },
+  { title: "Logistics & Supply Chain", icon: <LogisticsIcon className="h-12 w-12 text-blue-500" /> },
 ];
 
 function IndustriesWeServe() {
@@ -46,6 +47,7 @@ function IndustriesWeServe() {
         color: "#333333",
         padding: "60px 20px",
         textAlign: "center",
+        marginBottom:"20px",
       }}
     >
       <div className="container">
@@ -56,6 +58,7 @@ function IndustriesWeServe() {
             fontWeight: "700",
             color: "#333333",
             marginBottom: "20px",
+            textTransform:"uppercase",
           }}
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -72,6 +75,7 @@ function IndustriesWeServe() {
             maxWidth: "600px",
             margin: "0 auto",
             lineHeight: "1.6",
+            fontFamily:"Satoshi-Variable",
           }}
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -108,7 +112,7 @@ function IndustriesWeServe() {
                   transition: "color 0.2s ease",
                 }}
               >
-                <industry.icon />
+                {industry.icon}
               </div>
               <h5
                 style={{
@@ -123,7 +127,7 @@ function IndustriesWeServe() {
           ))}
         </div>
 
-        {/* Call-to-Action Button */}
+        {/* Call-to-Action Button
         <motion.a
           href="/light/page-contact"
           whileHover={{ scale: 1.05, backgroundColor: "#0056B3" }}
@@ -142,7 +146,7 @@ function IndustriesWeServe() {
           }}
         >
           Contact Us
-        </motion.a>
+        </motion.a> */}
       </div>
     </section>
   );

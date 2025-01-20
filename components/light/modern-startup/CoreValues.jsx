@@ -97,14 +97,17 @@ function CoreValues() {
                 style={{
                   fontSize: "20px",
                   fontWeight: "600",
-                  color: "#007BFF",
+                  color: "#001524",
                   marginBottom: "10px",
+                  textTransform:"uppercase"
+
                 }}
               >
                 {value.title}
               </h3>
               <p
                 style={{
+                  fontFamily:"Satoshi-Variable",
                   fontSize: "16px",
                   color: "#555555",
                   lineHeight: "1.6",

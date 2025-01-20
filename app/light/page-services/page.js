@@ -8,7 +8,6 @@ import Navbar from '@/components/light/modern-startup/Navbar';
 import Script from 'next/script';
 import Header from '@/components/light/services/Header';
 import Services from '@/components/light/services/Services';
-import Marquee from '@/components/light/services/Marquee';
 
 export const metadata = {
   title: 'Third Eye Info Technology',
@@ -38,7 +37,6 @@ export default function ServicesPage() {
           <main className="main-bg">
             <Header />
             <Services />
-            <Marquee />
           </main>
           <Footer />
         </div>

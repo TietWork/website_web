@@ -90,7 +90,7 @@ function Process() {
   ];
 
   return (
-    <section className="process section-padding">
+    <section className="process section-padding bord-thin-bottom">
       <div className="container">
         <div className="sec-head mb-80">
           <h6 className="sub-title main-color mb-25">Our Approach</h6>

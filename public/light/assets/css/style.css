@@ -3653,6 +3653,7 @@ h4 {
   vertical-align: 12px;
 }
 
+
 .hamenu {
   position: fixed;
   top: 0;
@@ -7938,8 +7939,6 @@ footer.clean-footer.crev:before {
   background: #fff;
   padding: 10px;
   border-radius: 0 0 0 30px;
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
   transition: all 0.4s;
   opacity: 0;
 }
@@ -7955,8 +7954,6 @@ footer.clean-footer.crev:before {
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 50%;
   text-align: center;
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
   transition: all 0.4s;
 }
 
@@ -8117,27 +8114,16 @@ footer.clean-footer.crev:before {
   background: rgba(0, 0, 0, 0.01);
 }
 
-.services-boxs .item-box h5,
+/* .services-boxs .item-box h5,
 .services-boxs .item-box p {
-  -webkit-transform: translateY(50px);
-  -ms-transform: translateY(50px);
-  transform: translateY(50px);
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
 }
 
 .services-boxs .item-box p {
-  opacity: 0;
 }
 
 .services-boxs .item-box:hover h5,
 .services-boxs .item-box:hover p {
-  -webkit-transform: translateY(0px);
-  -ms-transform: translateY(0px);
-  transform: translateY(0px);
-  opacity: 1;
-}
+} */
 
 .services-crev .item-box {
   padding: 40px 60px;

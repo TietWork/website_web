@@ -96,7 +96,7 @@ function Footer() {
                 </ul>
                 <ul className="rest fz-14 mr-50 mb-4">
                   <li>
-                    <strong>Our Projects</strong>
+                    <strong>Projects</strong>
                   </li>
                   <li>
                     <a href="/light/project-lpgVending">LPG Vending Machine</a>
@@ -157,6 +157,9 @@ function Footer() {
                   </li>
                   <li>
                     <a href="/light/page-ourClients">Our Clients</a>
+                  </li>
+                  <li>
+                    <a href="/light/page-testimonials">Testimonials</a>
                   </li>
                 </ul>
                 <ul className="rest fz-14 mr-50 mb-4">
