@@ -166,7 +166,7 @@ function Navbar() {
                     What We Offer
                   </a>
                   <a className="dropdown-item" href="/light/page-ourprocess">
-                    Our Process
+                    Process
                   </a>
                   <a className="dropdown-item" href="/light/page-whyus">
                     Why us?
@@ -393,7 +393,7 @@ function Navbar() {
                         </li>
                         <li>
                           <a href="/light/page-ourprocess" className="sub-link">
-                            Our Process
+                            Process
                           </a>
                         </li>
                         <li>

@@ -21,6 +21,21 @@
       "static/chunks/main-app.js",
       "static/chunks/app/light/page-about/page.js"
     ],
+    "/light/page-ourprocess/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/light/page-ourprocess/page.js"
+    ],
+    "/light/page-whyus/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/light/page-whyus/page.js"
+    ],
+    "/light/page-engage/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/light/page-engage/page.js"
+    ],
     "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",

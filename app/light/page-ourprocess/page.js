@@ -8,7 +8,7 @@ import Navbar from '@/components/light/modern-startup/Navbar';
 import Script from 'next/script';
 import Header from '@/components/light/page-ourProcess/Header';
 import Process from '@/components/light/page-ourProcess/Process';
-import Management from '@/components/light/page-ourProcess/Management'
+// import Management from '@/components/light/page-ourProcess/Management'
 
 export const metadata = {
   title: 'Third Eye Info Technology',
@@ -38,7 +38,6 @@ export default function OurProcessPage() {
           <main className="main-bg">
             <Header />
             <Process />
-            <Management />
           </main>
           <Footer />
         </div>

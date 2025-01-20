@@ -1,6 +1,7 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
+  "/light/page-about/page": "app/light/page-about/page.js",
   "/page": "app/page.js",
-  "/light/page-services/page": "app/light/page-services/page.js",
-  "/light/page-about/page": "app/light/page-about/page.js"
+  "/light/page-ourprocess/page": "app/light/page-ourprocess/page.js",
+  "/light/page-whyus/page": "app/light/page-whyus/page.js",
+  "/light/page-engage/page": "app/light/page-engage/page.js"
 }

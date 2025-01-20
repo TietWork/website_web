@@ -93,10 +93,9 @@ function Process() {
     <section className="process section-padding bord-thin-bottom">
       <div className="container">
         <div className="sec-head mb-80">
-          <h6 className="sub-title main-color mb-25">Our Approach</h6>
-          <div className="bord pt-25 bord-thin-top d-flex align-items-center">
+          <div className="bord d-flex align-items-center">
             <h2 className="fw-600">
-              Step-by-Step <span className="fw-200">Approach</span>
+             SYSTEMATIC APPROACH
             </h2>
           </div>
         </div>
@@ -108,17 +107,6 @@ function Process() {
                 style={{
                   borderRadius: "12px",
                   boxShadow: "0 2px 6px rgba(0, 0, 0, 0.08)",
-                  transition: "transform 0.2s, box-shadow 0.2s",
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.transform = "translateY(-8px)";
-                  e.currentTarget.style.boxShadow =
-                    "0 4px 12px rgba(0, 0, 0, 0.15)";
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.transform = "translateY(0)";
-                  e.currentTarget.style.boxShadow =
-                    "0 2px 6px rgba(0, 0, 0, 0.08)";
                 }}
               >
                 <div className="icon-img-60 mb-20">

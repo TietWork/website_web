@@ -5,27 +5,26 @@ function Intro() {
     <section className="page-intro position-re">
       <div className="container section-padding">
         <div className="row">
-          <div className="col-lg-5">
-            <h6 className="sub-title main-color">Why us?</h6>
-          </div>
-          <div className="">
-            <div className="text">
-              <h4>
-                At Third Eye, we combine cutting-edge technology with an
-                unwavering commitment to innovation and quality. Our
-                experienced, multi-skilled workforce delivers scalable,
-                cost-effective solutions tailored to meet our clients unique
-                needs.
-                <br/>
-                <br/>
-                 With deep expertise in IT and web services, proven
-                project management, and flexible business models, we bridge
-                big-picture goals with actionable results. Integrity,
-                transparency, and a customer-centric approach define our
-                relationships, enabling us to build enduring partnerships and
-                empower businesses to thrive.
-              </h4>
-            </div>
+          <div className="text">
+            <p
+              style={{
+                fontSize: "18px",
+                color: "#555",
+                textAlign: "left",
+              }}
+            >
+              At Third Eye, we combine cutting-edge technology with an
+              unwavering commitment to innovation and quality. Our experienced,
+              multi-skilled workforce delivers scalable, cost-effective
+              solutions tailored to meet our clients unique needs.
+              <br />
+              <br />
+              With deep expertise in IT and web services, proven project
+              management, and flexible business models, we bridge big-picture
+              goals with actionable results. Integrity, transparency, and a
+              customer-centric approach define our relationships, enabling us to
+              build enduring partnerships and empower businesses to thrive.
+            </p>
           </div>
         </div>
       </div>

@@ -6,16 +6,16 @@
     "details": {
       "overview": "Delivering tailor-made software solutions that empower businesses and transform user experiences. Whether you need a robust web platform, an intuitive mobile app, or a reliable desktop application, our team is equipped to bring your vision to life.",
       "expertise": [
-        "Web Applications: Fully responsive and user-friendly websites and web-based platforms designed to optimize business processes and improve user engagement.",
-        "Mobile Applications: Custom iOS and Android apps with seamless functionality, sleek design, and smooth performance to connect with your audience on the go.",
-        "Desktop Applications: Scalable, high-performance desktop software tailored for various operating systems to streamline your business operations."
+        "Web Applications: Fully responsive, dynamic, and user-friendly websites and web-based platforms, meticulously designed to optimize your business processes, enhance operational functionality, and significantly improve overall user engagement and satisfaction.",
+        "Mobile Applications: Custom-designed iOS and Android apps featuring seamless functionality, sleek and modern design, and exceptional performance, ensuring a remarkable user experience and helping you effectively connect with your audience anytime, anywhere.",
+        "Desktop Applications: Scalable, high-performance desktop software solutions, specifically tailored for various operating systems, offering robust functionality and advanced features to streamline your business operations and maximize organizational productivity and efficiency."
       ],
       "highlights": [
-        "Custom Solutions: Every business is unique, so we design software that fits your specific needs and goals.",
-        "Innovative Design: We blend creativity and technology to deliver visually appealing and easy-to-use applications.",
-        "End-to-End Development: From ideation to deployment, we manage every aspect of your project with precision.",
-        "Cross-Industry Expertise: Our team has successfully worked with diverse industries, ensuring adaptable and scalable solutions.",
-        "Ongoing Support: We are committed to ensuring your software continues to meet your needs with maintenance and updates."
+        "Custom Solutions: Every business is unique, so we design software that perfectly fits your specific needs, objectives, and long-term goals.",
+        "Innovative Design: We blend creativity, advanced technology, and user insights to deliver visually appealing, intuitive, and easy-to-use applications.",
+        "End-to-End Development: From initial ideation to final deployment, we manage every aspect of your project with precision and meticulous attention to detail.",
+        "Cross-Industry Expertise: Our team has successfully worked with diverse industries, delivering adaptable, scalable, and cutting-edge solutions tailored for growth.",
+        "Ongoing Support: We are fully committed to ensuring your software continues to meet your evolving needs with timely maintenance, updates, and enhancements with all the products and delivery."
       ]
     },
     "link": "/light/page-services"
@@ -26,18 +26,15 @@
     "desc": "Innovative AI analytics and secure blockchain for smarter, scalable and Decentralized Solutions.",
     "details": {
       "overview": "Harness the power of advanced technologies with our cutting-edge AI/ML and blockchain services. We help businesses transform operations, enhance decision-making, and ensure data integrity through innovative, scalable solutions.",
-      "ai_ml_expertise": [
+      "expertise": [
         "Data-Driven Insights: Leverage AI analytics to uncover patterns, trends, and actionable insights from your data.",
         "Predictive Models: Develop custom machine learning models for forecasting, optimization, and automated decision-making.",
         "Natural Language Processing (NLP): Create intelligent chatbots, sentiment analysis tools, and language-based automation.",
         "Computer Vision: Implement image recognition, video analytics, and object detection for enhanced visual intelligence.",
-        "Custom AI Solutions: Tailored AI tools to meet your industry-specific needs, driving efficiency and innovation."
-      ],
-      "blockchain_expertise": [
+        "Custom AI Solutions: Tailored AI tools to meet your industry-specific needs, driving efficiency and innovation.",
         "Smart Contracts: Automate processes and enforce agreements with precision and security.",
         "Decentralized Applications (DApps): Build scalable, user-friendly applications powered by blockchain.",
         "Secure Transactions: Enhance trust with encrypted, tamper-proof transaction records.",
-        "Blockchain Integration: Seamlessly integrate blockchain with your existing systems for added value and security.",
         "Custom Blockchain Development: Tailor blockchain technology to suit your business goals, from supply chain management to digital identity."
       ],
       "highlights": [

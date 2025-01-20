@@ -7,22 +7,28 @@ function EngagementModels() {
         {/* Row for Introductory Content */}
         <div className="row align-items-center mb-5">
           <div className="col-lg-12">
-            <div className="text text-center">
-              <h2 className="main-heading fz-50 font-weight-bold">
-                Engagement Models: Tailored Solutions for Success
-              </h2>
-              <p
-                className="subheading mt-20 fz-18"
-                style={{
-                  color: "#007bff",
-                  maxWidth: "800px",
-                  margin: "0 auto",
-                }}
+            <div className="text">
+              <h3
+                className="main-heading fz-50 font-weight-bold "
+                style={{ textTransform: "uppercase" }}
               >
-                Explore our diverse engagement models crafted to deliver
-                scalable, cost-effective, and high-quality software solutions
-                throughout your project journey.
-              </p>
+                Tailored Solutions for Success
+              </h3>
+              <div className="row">
+                <div className="col-12 text-center mb-50">
+                  <p
+                    style={{
+                      fontSize: "18px",
+                      color: "#555",
+                      textAlign: "left",
+                    }}
+                  >
+                    Explore our diverse engagement models crafted to deliver
+                    scalable, cost-effective, and high-quality software
+                    solutions throughout your project journey.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -112,156 +118,6 @@ function EngagementModels() {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Proven Process Section */}
-        <div className="row mt-50 justify-content-center">
-          <div className="col-lg-8">
-            <div
-              className="card p-5"
-              style={{
-                backgroundColor: "#fff",
-                borderRadius: "20px",
-                boxShadow: "0px 12px 40px rgba(0, 0, 0, 0.1)",
-                border: "2px solid #49A1FFFF",
-              }}
-            >
-              <h3
-                className="font-weight-bold text-center"
-                style={{ fontSize: "28px", color: "#007bff" }}
-              >
-                Our Proven Process
-              </h3>
-              <ol
-                className="fz-18 mt-20"
-                style={{ lineHeight: "1.8", textAlign: "center" }}
-              >
-                <li>
-                  <strong>Step 1:</strong>
-                  <br />
-                  <strong>Requirement Analysis:</strong> Collaborate with our experts to define
-                  project goals, objectives, and technical specifications.
-                </li>
-                <li>
-                  <strong>Step 2:</strong>
-                  <br />
-                  <strong>Model Selection:</strong> Based on your requirements, we recommend the
-                  most suitable engagement model aligned with your business
-                  objectives.
-                </li>
-                <li>
-                  <strong>Step 3:</strong>
-                  <br />
-                  <strong>Project Execution:</strong> Efficient and transparent execution using
-                  industry best practices, ensuring timely delivery and quality
-                  outcomes.
-                </li>
-                <li>
-                  <strong>Step 4:</strong>
-                  <br />
-                  <strong>Evaluation & Optimization:</strong> Continuous monitoring, evaluation,
-                  and optimization to enhance performance and achieve measurable
-                  results.
-                </li>
-              </ol>
-            </div>
-          </div>
-        </div>
-
-        {/* Why Choose Our Engagement Models Section */}
-        <div className="row mt-50 justify-content-center">
-          <div className="col-lg-8">
-            <div
-              className="card p-5"
-              style={{
-                backgroundColor: "#fff",
-                borderRadius: "20px",
-                boxShadow: "0px 12px 40px rgba(0, 0, 0, 0.1)",
-                border: "2px solid #49A1FFFF",
-              }}
-            >
-              <h3
-                className="font-weight-bold text-center"
-                style={{ fontSize: "28px", color: "#007bff" }}
-              >
-                Why Choose Our Engagement Models?
-              </h3>
-              <ul
-                className="fz-18 mt-20 list-unstyled"
-                style={{ lineHeight: "1.8", textAlign: "center" }}
-              >
-                <li>
-                  <strong>Commitment to Quality:</strong>
-                  <br />
-                  Deliver high-quality solutions backed by rigorous testing and
-                  continuous improvement processes.
-                </li>
-                <li>
-                  <strong>Flexibility & Scalability:</strong>
-                  <br />
-                  Adapt to changing business needs with flexible team structures
-                  and scalable solutions.
-                </li>
-                <li>
-                  <strong>Cost-Effectiveness:</strong>
-                  <br />
-                  Optimize your budget with competitive pricing models and
-                  efficient resource allocation.
-                </li>
-                <li>
-                  <strong>Transparent Communication:</strong>
-                  <br />
-                  Maintain clear and open communication throughout the project
-                  lifecycle, ensuring alignment and client satisfaction.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        {/* Value-Added Services Section */}
-        <div className="row mt-50 justify-content-center">
-          <div className="col-lg-8">
-            <div
-              className="card p-5"
-              style={{
-                backgroundColor: "#fff",
-                borderRadius: "20px",
-                boxShadow: "0px 12px 40px rgba(0, 0, 0, 0.1)",
-                border: "2px solid #49A1FFFF",
-              }}
-            >
-              <h3
-                className="font-weight-bold text-center"
-                style={{ fontSize: "28px", color: "#007bff" }}
-              >
-                Value-Added Services
-              </h3>
-              <ul
-                className="fz-18 mt-20 list-unstyled"
-                style={{ lineHeight: "1.8", textAlign: "center" }}
-              >
-                <li>
-                  <strong>Consultation Services:</strong>
-                  <br />
-                  Strategic advice to align technology solutions with your
-                  business strategy.
-                </li>
-                <li>
-                  <strong>Risk Management:</strong>
-                  <br />
-                  Proven methodologies to mitigate risks and ensure project
-                  success.
-                </li>
-                <li>
-                  <strong>Post-Delivery Support:</strong>
-                  <br />
-                  Comprehensive maintenance and support services to keep your
-                  systems optimized.
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
       </div>
     </section>
