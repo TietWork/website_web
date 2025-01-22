@@ -1,8 +1,8 @@
-'use client';
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper';
-import data from '@/l-data/testimonials.json';
+"use client";
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper";
+import data from "@/l-data/testimonials.json";
 
 function Testimonials() {
   const swiperOptions = {
@@ -13,8 +13,8 @@ function Testimonials() {
     centeredSlides: false,
     speed: 1000,
     navigation: {
-      nextEl: '.swiper-arrow-control .swiper-button-next',
-      prevEl: '.swiper-arrow-control .swiper-button-prev',
+      nextEl: ".swiper-arrow-control .swiper-button-next",
+      prevEl: ".swiper-arrow-control .swiper-button-prev",
     },
     breakpoints: {
       // when window width is >= 640px
@@ -44,15 +44,7 @@ function Testimonials() {
     <section className="testimonials section-padding">
       <div className="container">
         <div className="row">
-          <div className="col-lg-4">
-            <div className="sec-head">
-              <h6 className="sub-title main-color mb-15">Testimonials</h6>
-              <h3 className="fw-600">
-                What Customers <span className="fw-200">Say?</span>
-              </h3>
-            </div>
-          </div>
-          <div className="col-lg-8 position-re">
+          <div className="col-lg-12 position-re">
             <div className="testim-swiper">
               <Swiper
                 id="content-carousel-container-unq-testim"
@@ -83,13 +75,36 @@ function Testimonials() {
                               opacity="0.322"
                             ></path>
                           </svg>
-                          <p className="fz-30">{item.desc}</p>
+                          <p
+                            className="fz-30 "
+                            style={{
+                              color: "#000",
+                              textAlign: "left",
+                              fontFamily: "Satoshi-Variable",
+                            }}
+                          >
+                            {item.desc}
+                          </p>
                         </div>
                         <div className="info d-flex align-items-center pt-40 mt-40 bord-thin-top">
-
                           <div className="ml-20">
-                            <h5>{item.name}</h5>
-                            <span className="sub-title main-color">
+                            <h5
+                              style={{
+                                color: "#000",
+                                textAlign: "left",
+                                fontFamily: "Satoshi-Variable",
+                              }}
+                            >
+                              {item.name}
+                            </h5>
+                            <span
+                              className="sub-title main-color"
+                              style={{
+                                color: "#000",
+                                textAlign: "left",
+                                fontFamily: "Satoshi-Variable",
+                              }}
+                            >
                               {item.subName}
                             </span>
                           </div>

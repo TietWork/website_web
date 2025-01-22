@@ -43,7 +43,7 @@ function Services() {
             <p
               style={{
                 fontSize: "18px",
-                color: "#555",
+                color: "#000",
                 textAlign: "left",
               }}
             >

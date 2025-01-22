@@ -22,14 +22,14 @@ function Header() {
   return (
     <div
       className="header header-project3 bg-img d-flex align-items-end"
-      data-background="/light/assets/imgs/works/full/1.png"
+      data-background="/light/assets/imgs/works/full/lpg.png"
       data-overlay-dark="9"
     >
       <div className="container">
         <div className="row">
           <div className="col-12">
             <div className="caption">
-            <h1 className="fz-100">LPG Automamted vending Machine</h1>
+            <h1 style={{textTransform:"uppercase"}}>Smart LPG Cylinder Dispenser</h1>
             </div>
           </div>
         </div>

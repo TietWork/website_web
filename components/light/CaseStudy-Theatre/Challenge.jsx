@@ -7,53 +7,40 @@ function Challenge() {
         <div className="row justify-content-center">
           <div className="col-lg-11">
             <div className="row">
-              {/* Left Section - Subheadings */}
-              <div className="col-lg-5">
-                <h4 className="mb-50">
-                  01 . <span style={{ color: "#007bff" }}>Case study</span>
-                </h4>{" "}
-                <h3 className="mb-20" style={{ color: "#333" }}>
-                   Overview
-                </h3>
-                <h3 className="mb-20" style={{ color: "#333" }}>
-                  Challenges
-                </h3>
-                <h3 className="mb-20" style={{ color: "#333" }}>
-                  Key Issues
-                </h3>
-                <h3 className="mb-20" style={{ color: "#333" }}>
-                  The Solution
-                </h3>
-                <h3 className="mb-20" style={{ color: "#333" }}>
-                  Key Features
-                </h3>
-                <h3 className="mb-20" style={{ color: "#333" }}>
-                  Key Outcomes
-                </h3>
-              </div>
-
               {/* Right Section - Content */}
-              <div className="col-lg-7">
+              <div className="col-lg-12">
                 <div className="text">
                   {/* Project Overview Section */}
-                  <h6 style={{ color: "#007bff" }} className="mb-20">
-                     Overview
+                  <h6
+                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    className="mb-20"
+                  >
+                    Overview
                   </h6>
-                  <p className="fz-18 mb-40" style={{ color: "#555" }}>
+                  <p
+                    className="fz-18 mb-40"
+                    style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
+                  >
                     Thirdeye, in partnership with ZyberTech, collaborated with a
                     leading theatre in the USA to enhance user experience and
-                    operational efficiency through a cutting-edge{" "}
-                    <strong>Digital Information Display System</strong>. The
-                    project aimed to address communication delays and
-                    operational inefficiencies, transforming the theatre&apos;s
-                    management of real-time information.
+                    operational efficiency through a cutting-edge Digital
+                    Information Display System. The project aimed to address
+                    communication delays and operational inefficiencies,
+                    transforming the theatre&apos;s management of real-time
+                    information.
                   </p>
 
                   {/* Challenges Section */}
-                  <h6 style={{ color: "#007bff" }} className="mb-20">
+                  <h6
+                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    className="mb-20"
+                  >
                     Challenges
                   </h6>
-                  <p className="fz-18 mb-40" style={{ color: "#555" }}>
+                  <p
+                    className="fz-18 mb-40"
+                    style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
+                  >
                     The theatre faced significant challenges in providing
                     patrons and staff with real-time, accurate information.
                     These inefficiencies hindered the overall theatre experience
@@ -61,10 +48,16 @@ function Challenge() {
                   </p>
 
                   {/* Key Issues Section */}
-                  <h6 style={{ color: "#007bff" }} className="mb-20">
+                  <h6
+                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    className="mb-20"
+                  >
                     Key Issues
                   </h6>
-                  <ul className="fz-18 mb-40" style={{ color: "#000" }}>
+                  <ul
+                    className="fz-18 mb-40"
+                    style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
+                  >
                     <li>
                       <strong>Lack of Real-Time Seat Tracking:</strong> Patrons
                       and staff struggled with outdated seat availability
@@ -88,21 +81,29 @@ function Challenge() {
                   </ul>
 
                   {/* The Solution Section */}
-                  <h6 style={{ color: "#007bff" }} className="mb-20">
+                  <h6
+                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    className="mb-20"
+                  >
                     The Solution
                   </h6>
-                  <p className="fz-18 mb-40" style={{ color: "#555" }}>
-                    Thirdeye and ZyberTech developed a modern <strong>Digital
-                    Information Display System</strong> to automate and enhance
-                    real-time information communication within the theatre. This
-                    solution addressed the key issues by providing dynamic,
-                    consistent, and real-time updates across all display
-                    screens, significantly improving operational and user
-                    efficiency.
+                  <p
+                    className="fz-18 mb-40"
+                    style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
+                  >
+                    Thirdeye and ZyberTech developed a modern Digital
+                    Information Display System to automate and enhance real-time
+                    information communication within the theatre. This solution
+                    addressed the key issues by providing dynamic, consistent,
+                    and real-time updates across all display screens,
+                    significantly improving operational and user efficiency.
                   </p>
 
                   {/* Key Features Section */}
-                  <h6 style={{ color: "#007bff" }} className="mb-20">
+                  <h6
+                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    className="mb-20"
+                  >
                     Key Features
                   </h6>
                   <ul className="fz-18 mb-40" style={{ color: "#000" }}>
@@ -124,6 +125,55 @@ function Challenge() {
                       content management for theatre staff.
                     </li>
                   </ul>
+
+                  {/* Key Outcomes Section */}
+                  <h6
+                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    className="mt-20 mb-20"
+                  >
+                    Key Outcomes & Impact
+                  </h6>
+                  <ul className="fz-18 mb-40" style={{ color: "#000" }}>
+                    <li>
+                      <strong>Operational Efficiency:</strong> Automation
+                      reduced manual work, improving the overall operational
+                      workflow.
+                    </li>
+                    <li>
+                      <strong>Enhanced Patron Experience:</strong> Real-time
+                      seat filling visualization helped patrons make quicker and
+                      more informed decisions.
+                    </li>
+                    <li>
+                      <strong>Increased Revenue:</strong> Optimized seat filling
+                      through real-time tracking resulted in better occupancy
+                      management and increased ticket sales.
+                    </li>
+                    <li>
+                      <strong>Scalability:</strong> The solution can easily
+                      scale to accommodate additional screens and expand to
+                      other theatre locations.
+                    </li>
+                  </ul>
+                  {/* Conclusion */}
+                  <h6
+                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    className="mt-40 mb-20"
+                  >
+                    Conclusion
+                  </h6>
+                  <p
+                    className="fz-18"
+                    style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
+                  >
+                    Thirdeye&apos;s innovative Digital Information Display
+                    System has revolutionized the theatre experience by
+                    automating real-time updates, enhancing operational
+                    efficiency, and improving patron satisfaction. This project
+                    reinforces Thirdeye&apos;s dedication to leveraging
+                    technology for operational excellence and exceptional user
+                    experiences in the entertainment industry.
+                  </p>
                 </div>
               </div>
             </div>

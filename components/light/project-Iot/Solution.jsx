@@ -7,47 +7,10 @@ function Solution() {
         <div className="row justify-content-center">
           <div className="col-lg-11">
             <div className="row">
-              {/* Left Section - Headings */}
-              <div className="col-lg-5">
-                <h4 className="mb-50">
-                  02 . <span style={{ color: "#007bff" }}>The Quotes</span>
-                </h4>
-                <h4 className="mb-50">
-                  03 . <span style={{ color: "#007bff" }}>Technical Specifications</span>
-                </h4>
-                <h4 className="mb-50">
-                  04 . <span style={{ color: "#007bff" }}>Conclusion</span>
-                </h4>
-              </div>
 
               {/* Right Section - Content */}
               <div className="col-lg-7">
                 <div className="text">
-                  {/* Client Testimonials */}
-                  <h6 style={{ color: "#007bff" }} className="mb-20">
-                    The Quotes
-                  </h6>
-                  
-                  <blockquote
-                    className="mb-30 fz-18"
-                    style={{ color: "#555", fontStyle: "italic" }}
-                  >
-                    The IoT smart locks have transformed our office security
-                    system. The ability to track and manage access remotely
-                    through the app has given us peace of mind and flexibility.
-                    <br />
-                    <strong>– Facilities Manager, Leading IT Firm</strong>
-                  </blockquote>
-                  <blockquote
-                    className="mb-40 fz-18"
-                    style={{ color: "#555", fontStyle: "italic" }}
-                  >
-                    As a factory owner, tamper-proof locks are critical for our
-                    operations. These locks have proven to be resilient and
-                    reliable under tough conditions.
-                    <br />
-                    <strong>– Operations Head, Manufacturing Unit</strong>
-                  </blockquote>
 
                   {/* Technical Specifications */}
                   <h6 style={{ color: "#007bff" }} className="mb-20">

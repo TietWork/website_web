@@ -13,14 +13,15 @@ function Solution() {
                 alt="LPG Solution Illustration"
                 className="img-fluid"
                 style={{
+                  width:"650px",
                   borderRadius: '10px',
                   boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.1)',
                 }}
               />
-              <h6 className="mt-20" style={{ color: '#007bff' }}>
+              <h6 className="mt-20" style={{ color: '#007bff',textTransform:"uppercase" }}>
                 Empowering Communities with Technology
               </h6>
-              <p className="fz-18" style={{ color: '#555' }}>
+              <p className="fz-18" style={{ color: '#000' , fontFamily:"Satoshi-Variable"}}>
                 Transforming public service delivery with innovative automation solutions.
               </p>
             </div>
@@ -29,13 +30,10 @@ function Solution() {
           {/* Right Section - Solution Details */}
           <div className="col-lg-7">
             <div className="text">
-              <h2 className="mb-50">
+              <h2 className="mb-50" style={{fontFamily:"Satoshi-Variable" , textTransform:"uppercase"}}>
                 The <span style={{ color: '#007bff' }}>Solution</span>
               </h2>
-              <h5 className="mb-30 fw-400" style={{ color: '#000' }}>
-                Collaborating with global manufacturers to implement advanced LPG automation solutions.
-              </h5>
-              <p className="fz-18 mb-40" style={{ color: '#555' }}>
+              <p className="fz-18 mb-40" style={{ color: '#000', fontFamily:"Satoshi-Variable", justifyContent:"left", textAlign:"left"}}>
                 Our company has developed a cutting-edge automated vending machine system, 
                 revolutionizing LPG distribution through seamless integration of technology, 
                 safety, and accessibility. This solution represents a leap forward in 
@@ -43,10 +41,10 @@ function Solution() {
               </p>
 
               {/* Impact and Reach Section */}
-              <h6 style={{ color: '#007bff' }} className="mb-20">
+              <h6 style={{ color: '#007bff', textTransform:"uppercase" }} className="mb-20">
                 Impact and Reach
               </h6>
-              <ul className="fz-18 mb-40" style={{ color: '#000' }}>
+              <ul className="fz-18 mb-40" style={{ color: '#000' , fontFamily:"Satoshi-Variable"}}>
                 <li>
                   <strong>10+ Crore Citizens Benefited:</strong> Millions directly impacted, ensuring reliable and safe access to LPG.
                 </li>
@@ -58,7 +56,7 @@ function Solution() {
                 </li>
               </ul>
 
-              <p className="fz-18" style={{ color: '#555' }}>
+              <p className="fz-18" style={{ color: '#555', fontFamily:"Satoshi-Variable" }}>
                 This project not only establishes us as pioneers in LPG automation but also reflects our unwavering commitment to innovation, sustainability, and social responsibility.
               </p>
             </div>

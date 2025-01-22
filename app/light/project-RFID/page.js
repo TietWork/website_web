@@ -7,7 +7,6 @@ import Cursor from '@/components/light/common/cusor';
 import LoadingScreen from '@/components/light/common/loader';
 import Challenge from '@/components/light/project-RFID/Challenge';
 import Header from '@/components/light/project-RFID/Header';
-import Solution from '@/components/light/project-RFID/Solution';
 import Script from 'next/script';
 
 export const metadata = {
@@ -38,7 +37,6 @@ export default function RFIDProject() {
           <main className="main-bg">
             <Header />
             <Challenge />
-            <Solution />
           </main>
           <Footer />
         </div>

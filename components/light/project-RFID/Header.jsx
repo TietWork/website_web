@@ -29,7 +29,7 @@ function Header() {
         <div className="row">
           <div className="col-12">
             <div className="caption">
-              <h1>RFID-based Jewel Tracking and Locker Management System for ANL</h1>
+              <h1>RFID-based Jewel Tracking</h1>
             </div>
           </div>
         </div>

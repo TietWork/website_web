@@ -44,34 +44,16 @@ function CareerForm() {
   };
 
   return (
-    <section className="contact section-padding sub-bg">
+    <section className="contact section-padding sub-bg bord-thin-top">
       <div className="container">
         <div className="row">
-          <div className="col-lg-5 valign">
-            <div className="sec-head md-mb80">
-              <h2 className="text-u ls1 d-rotate wow">
-                <span className="rotate-text">
-                  Join <br /> Our <span className="fw-200">Dynamic Team!</span>
-                </span>
-              </h2>
-              <p className="mt-20 mb-20">
-                Ready to take the next step in your career? We&apos;re excited to work
-                with passionate and talented individuals who thrive on innovation
-                and collaboration.
-              </p>
-              <div className="morinfo mt-30">
-                <h6 className="mb-15">Email</h6>
-                <p className="main-color">career@thirdeyeinfotech.com</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-6 offset-lg-1 valign">
+          <div className="col-lg-12 valign">
             <div className="full-width">
               <div className="sec-head mb-50">
                 <h3 className="text-u ls1">
-                  Apply for a{" "}
+                  APPLY {" "}
                   <span className="fw-200" style={{ color: "#007bff" }}>
-                    Career
+                    NOW
                   </span>
                 </h3>
               </div>
@@ -142,7 +124,7 @@ function CareerForm() {
                         type="submit"
                         className="butn butn-full butn-bord radius-30"
                       >
-                        <span className="text">Submit Application</span>
+                        <span className="text">SUBMIT APPLICATION</span>
                       </button>
                     </div>
                   </div>

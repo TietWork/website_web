@@ -7,15 +7,6 @@ function Solution() {
         <div className="row justify-content-center">
           <div className="col-lg-11">
             <div className="row">
-              {/* Left Section - Subheading */}
-              <div className="col-lg-5">
-                <h4 className="mb-50">
-                  02 . <span style={{ color: "#007bff" }}>The Quotes</span>
-                </h4>{" "}
-                <h4 className="mb-50">
-                  03 . <span style={{ color: "#007bff" }}>Conclusion</span>
-                </h4>{" "}
-              </div>
 
               {/* Right Section - Content */}
               <div className="col-lg-7">

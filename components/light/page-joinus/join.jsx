@@ -11,7 +11,7 @@ const positions = [
     title: "Mobile App Developer (2+ years)",
     description:
       "Develop and enhance high-performance mobile applications for Android and iOS platforms using React Native. With a minimum of 2 years of experience, focus on delivering clean, maintainable code, optimizing app performance, and ensuring seamless user experiences. Collaborate with designers and backend developers to implement engaging and functional features.",
-  },  
+  },
   {
     title: ".NET Developer (2+ years)",
     description:
@@ -25,33 +25,43 @@ function Join() {
     <section className="careers section-padding">
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-lg-10">
+          <div className="col-lg-12">
             <div className="careers-content">
               <h2 className="main-title mb-30">
-                Join Our Team at Third Eye
+                Passionate about technology and innovation?
               </h2>
-              <p className="intro-text mb-40">
-                Are you passionate about technology and innovation? At Third Eye
-                Info Technology, we believe in pushing boundaries, creating
-                solutions, and making a difference in the tech world. Join a
-                dynamic and collaborative environment where growth, creativity,
-                and impact are at the heart of everything we do.
+              <p
+                className="intro-text mb-40"
+                style={{
+                  fontSize:"18px",
+                  // color: "#000",
+                  textAlign: "left",
+                  fontFamily: "Satoshi-Variable",
+                }}
+              >
+                At Third Eye Info Technology, we believe in pushing boundaries,
+                creating solutions, and making a difference in the tech world.
+                Join a dynamic and collaborative environment where growth,
+                creativity, and impact are at the heart of everything we do.
               </p>
 
               {/* About Us */}
               <div className="about-section mb-50">
                 <h4 className="sub-title mb-20">About Us</h4>
-                <p>
-                  Innovating since 2001, Third Eye has over 20
-                  years of experience, catering to 100+ clients across 12+
-                  industries. Headquartered in Chennai, with partnerships in the
-                  USA, Australia, and UAE, we simplify complexities through
+                <p
+                  style={{
+                    fontSize:"18px",
+                    // color: "#000",
+                    textAlign: "left",
+                    fontFamily: "Satoshi-Variable",
+                  }}
+                >
+                  Innovating since 2001, Third Eye has over 20 years of
+                  experience, catering to 150+ projects across 15+ industries.
+                  Headquartered in Chennai, India with partnerships in the USA,
+                  Australia, UAE and Malaysia, we simplify complexities through
                   smart technology and deliver scalable solutions that empower
                   businesses.
-                </p>
-                <p>
-                  Our vision:{" "}
-                  <strong>A Future Built on Integrity and Innovation</strong>.
                 </p>
               </div>
 
@@ -60,8 +70,21 @@ function Join() {
                 <h4 className="sub-title mb-20">Current Openings</h4>
                 {positions.map((position, index) => (
                   <div key={index} className="position">
-                    <h5>{position.title}</h5>
-                    <p>{position.description}</p>
+                    <h5
+                      style={{ textTransform: "uppercase", textAlign: "left" }}
+                    >
+                      {position.title}
+                    </h5>
+                    <p
+                      style={{
+                        fontSize:"18px",
+                        // color: "#000",
+                        textAlign: "left",
+                        fontFamily: "Satoshi-Variable",
+                      }}
+                    >
+                      {position.description}
+                    </p>
                   </div>
                 ))}
               </div>
@@ -87,11 +110,10 @@ function Join() {
               {/* Diversity Statement */}
               <div className="diversity-section mt-40">
                 <p>
-                  <strong>Third Eye</strong> is an equal
-                  opportunity employer that values diversity and inclusion. We
-                  encourage applications from all qualified candidates,
-                  regardless of race, color, religion, gender, or any other
-                  protected status.
+                  <strong>Third Eye</strong> is an equal opportunity employer
+                  that values diversity and inclusion. We encourage applications
+                  from all qualified candidates, regardless of race, color,
+                  religion, gender, or any other protected status.
                 </p>
               </div>
             </div>
@@ -112,7 +134,7 @@ function Join() {
         }
         .sub-title {
           color: #333;
-          border-bottom: 2px solid #022D5BFF;
+          border-bottom: 2px solid #022d5bff;
           padding-bottom: 10px;
         }
         .positions-section .position {
@@ -126,7 +148,7 @@ function Join() {
           color: #007bff;
         }
         .diversity-section {
-          background-color: #E8F1F5FF;
+          background-color: #e8f1f5ff;
           padding: 20px;
           border-radius: 5px;
           text-align: center;

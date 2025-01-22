@@ -5,36 +5,18 @@ function Challenge() {
     <section className="section-padding bord-thin-bottom">
       <div className="container">
         <div className="row">
-          {/* Left Section - Subheadings */}
-          <div className="col-lg-5">
-            <h4 className="mb-50">
-              01 . <span style={{ color: "#007bff" }}>The Project</span>
-            </h4>{" "}
-            <h3 className="mb-20" style={{ color: "#333" }}>
-              Project Overview
-            </h3>
-            <h3 className="mb-20" style={{ color: "#333" }}>
-              Key Features
-            </h3>
-            <h3 className="mb-20" style={{ color: "#333" }}>
-              How it Works
-            </h3>
-            <h3 className="mb-20" style={{ color: "#333" }}>
-              Technology Stack
-            </h3>
-          </div>
 
           {/* Right Section - Project Content */}
-          <div className="col-lg-7">
+          <div className="col-lg-12">
             <div className="text">
               {/* Project Overview */}
               <h3
                 className="mb-30 fw-400 line-height-40"
-                style={{ color: "#000" }}
+                style={{ color: "#000", textAlign: "left", fontFamily:"Satoshi-Variable" , textTransform:"uppercase"}}
               >
                 Overview
               </h3>
-              <p className="fz-18 mb-40" style={{ color: "#555" }}>
+              <p className="fz-18 mb-40" style={{ color: "#000" , textAlign: "left", fontFamily:"Satoshi-Variable" }}>
                 We developed a medium-scale ERP solution tailored to the
                 operational needs of two clients: a UAE-based manufacturing
                 company and a Bangalore-based firm. The system was designed to
@@ -44,7 +26,7 @@ function Challenge() {
               </p>
 
               {/* Key Features */}
-              <h6 style={{ color: "#007bff" }} className="mb-20">
+              <h6 style={{ color: "#007bff",  textTransform:"uppercase" }} className="mb-20">
                 Key Features
               </h6>
               <ul className="fz-18 mb-40" style={{ color: "#000" }}>
@@ -101,7 +83,7 @@ function Challenge() {
               </ul>
 
               {/* How it Works */}
-              <h6 style={{ color: "#007bff" }} className="mb-20">
+              <h6 style={{ color: "#007bff", textTransform:"uppercase" }} className="mb-20">
                 How it Works
               </h6>
               <ul className="fz-18 mb-40" style={{ color: "#000" }}>
@@ -133,7 +115,7 @@ function Challenge() {
               </ul>
 
               {/* Technology Stack */}
-              <h6 style={{ color: "#007bff" }} className="mb-20">
+              <h6 style={{ color: "#007bff" , textTransform:"uppercase"}} className="mb-20">
                 Technology Stack
               </h6>
               <ul className="fz-18 mb-40" style={{ color: "#000" }}>
@@ -155,7 +137,7 @@ function Challenge() {
                 </li>
               </ul>
 
-              <p className="fz-18" style={{ color: "#555" }}>
+              <p className="fz-18" style={{ color: "#000", fontFamily:"Satoshi-Variable"}}>
                 Our ERP solution is the ideal choice for businesses looking to
                 streamline operations, reduce inefficiencies, and improve overall
                 productivity. With its custom features and robust reporting, it

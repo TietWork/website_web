@@ -30,8 +30,7 @@ function Header() {
           <div className="col-12">
             <div className="caption">
               <h1>
-                Digitizing Job Cards for Alekton&apos;s Steel Component
-                Manufacturing
+              Digitised Job Cards
               </h1>
             </div>
           </div>

@@ -186,7 +186,7 @@ function Header() {
             >
               <BsArrowRight size={20} />
             </motion.div>
-            Talk With Us
+            Connect With Us
           </motion.button>
         </a>
 

@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React, { useState } from "react";
 
 function Contact() {
@@ -36,147 +36,121 @@ function Contact() {
     <section className="contact section-padding sub-bg">
       <div className="container">
         <div className="row">
-          <div className="col-lg-5 valign">
-            <div className="sec-head md-mb80">
-              <h2 className="text-u ls1 d-rotate wow">
-                <span className="rotate-text">
-                  Let&apos;s make your <br /> Idea{" "}
-                  <span className="fw-200">Into Reality!</span>
-                </span>
-              </h2>
-              <p className="mt-20 mb-20">
-                If you&apos;re looking to collaborate with us on your next big idea, let&apos;s make it a reality together!
-              </p>
-              <div className="row">
-                <div className="col-md-6">
-                  <div className="morinfo mt-30">
-                    <h6 className="mb-15">Address</h6>
-                    <p>
-                      AE-176, Plot No. 2248, Ramkrubha, 11th Main Road,
-                      Annanagar, Chennai, India <br/>
-                      Pincode : 600040
-                    </p>
-                  </div>
-                </div>
-                <div className="col-md-6">
-                  <div className="morinfo mt-30">
-                    <h6 className="mb-15">Email</h6>
-                    <p className="main-color">contact@thirdeyeinfotech.com</p>
-                  </div>
-                </div>
-              </div>
-              <div className="phone fz-30 fw-600 mt-30 underline main-color">
-                <a href="/light/page-contact">+91 44 4207 2248</a>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-6 offset-lg-1 valign">
-            <div className="full-width">
-              <div className="sec-head mb-50">
-                <h3 className="text-u ls1">
-                LET&apos;S WORK {" "}<span className="fw-200" style={{ color: "#007bff" }}>TOGETHER</span>
-                </h3>
-              </div>
-
-              {/* Form */}
+          {/* Form Section */}
+          <div className="col-12">
+            <div className="full-width mb-50">
+              <h4 className="text-u ls1 mb-30 text-center">
+                If you&apos;re looking to collaborate with us on your next big
+                idea, let&apos;s make it a reality together!
+              </h4>
               <form id="contact-form" onSubmit={onSubmit}>
-
-                <div className="controls row">
-                  <div className="col-lg-6">
-                    <div className="form-group mb-30">
-                      <input
-                        id="form_name"
-                        type="text"
-                        name="name"
-                        placeholder="Name"
-                        required="required"
-                      />
-                    </div>
+                <div className="controls">
+                  <div className="form-group mb-30">
+                    <input
+                      id="form_name"
+                      type="text"
+                      name="name"
+                      placeholder="Name"
+                      required
+                      className="full-width-input"
+                    />
                   </div>
-
-                  <div className="col-lg-6">
-                    <div className="form-group mb-30">
-                      <input
-                        id="form_email"
-                        type="email"
-                        name="email"
-                        placeholder="Email"
-                        required="required"
-                      />
-                    </div>
+                  <div className="form-group mb-30">
+                    <input
+                      id="form_email"
+                      type="email"
+                      name="email"
+                      placeholder="Email"
+                      required
+                      className="full-width-input"
+                    />
                   </div>
-
-                  <div className="col-12">
-                    <div className="form-group mb-30">
-                      <input
-                        id="form_subject"
-                        type="text"
-                        name="subject"
-                        placeholder="Subject"
-                      />
-                    </div>
+                  <div className="form-group mb-30">
+                    <input
+                      id="form_subject"
+                      type="text"
+                      name="subject"
+                      placeholder="Subject"
+                      className="full-width-input"
+                    />
                   </div>
-
-                  <div className="col-12">
-                    <div className="form-group mb-30">
-                      <select
-                        id="form_subject"
-                        name="service_type"
-                        required="required"
-                        style={{
-                          width: "100%",
-                          padding: "10px 15px",
-                          border: "1px solid #ddd",
-                          borderRadius: "5px",
-                          fontSize: "16px",
-                          color: "#333",
-                          background: "#f8f9fa",
-                          boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",
-                          outline: "none",
-                          transition: "border-color 0.3s ease",
-                        }}
-                        onFocus={(e) =>
-                          (e.target.style.borderColor = "#007bff")
-                        }
-                        onBlur={(e) => (e.target.style.borderColor = "#ddd")}
-                      >
-                        <option value="" disabled selected>
-                          Select Type of Service
-                        </option>
-                        <option value="Software Development">
-                          Software Development
-                        </option>
-                        <option value="AI/ML & Blockchain">
-                          AI/ML & Blockchain
-                        </option>
-                        <option value="IoT Development">IoT Development</option>
-                        <option value="Big Data">Big Data</option>
-                      </select>
-                    </div>
+                  <div className="form-group mb-30">
+                    <select
+                      id="form_service_type"
+                      name="service_type"
+                      required
+                      className="full-width-input"
+                    >
+                      <option value="" disabled selected>
+                        Select Type of Service
+                      </option>
+                      <option value="Software Development">
+                        Software Development
+                      </option>
+                      <option value="AI/ML & Blockchain">
+                        AI/ML & Blockchain
+                      </option>
+                      <option value="IoT Development">IoT Development</option>
+                      <option value="Big Data">Big Data</option>
+                    </select>
                   </div>
-
-                  <div className="col-12">
-                    <div className="form-group">
-                      <textarea
-                        id="form_message"
-                        name="message"
-                        placeholder="Message"
-                        rows="4"
-                        required="required"
-                      ></textarea>
-                    </div>
-                    <div className="mt-30">
-                      <button
-                        type="submit"
-                        className="butn butn-full butn-bord radius-30"
-                      >
-                        <span className="text">Let&apos;s Talk</span>
-                      </button>
-                    </div>
+                  <div className="form-group">
+                    <textarea
+                      id="form_message"
+                      name="message"
+                      placeholder="Message"
+                      rows="5"
+                      required
+                      className="full-width-input"
+                    ></textarea>
+                  </div>
+                  <div className="text-center mt-30">
+                    <button
+                      type="submit"
+                      className="butn butn-full butn-bord radius-30"
+                    >
+                      <span className="text">Let&apos;s Talk</span>
+                    </button>
                   </div>
                 </div>
               </form>
-              {result && <p className="mt-20">{result}</p>}
+              {result && <p className="mt-20 text-center">{result}</p>}
+            </div>
+          </div>
+
+          {/* Contact Details Section */}
+          <div className="col-12">
+            <div className="mt-50 text-center">
+              <h3 className="text-u ls1 mb-30">Contact Details</h3>
+              <div className="mt-30">
+                <h6
+                  className="mb-15"
+                  style={{ fontFamily: "Satoshi-Variable", fontSize: "22px" }}
+                >
+                  Address
+                </h6>
+                <p style={{ fontFamily: "Satoshi-Variable", fontSize: "18px" }}>
+                  AE-176, Plot No. 2248, Ramkrubha, 11th Main Road, Annanagar,
+                  Chennai, India
+                  <br />
+                  Pincode: 600040
+                </p>
+              </div>
+              <div className="mt-30">
+                <h6
+                  className="mb-15"
+                  style={{ fontFamily: "Satoshi-Variable", fontSize: "22px" }}
+                >
+                  Phone
+                </h6>
+                <p className="fz-18  underline main-color">+91 44 4207 2248</p>
+              </div>
+              <div className="mt-30">
+                <h6 className="mb-15">Email</h6>
+                <p className="fz-18  underline main-color">
+                  contact@thirdeyeinfotech.com
+                </p>
+              </div>
             </div>
           </div>
         </div>

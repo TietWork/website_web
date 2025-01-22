@@ -61,28 +61,7 @@ function Solution() {
                     </span>
                   </blockquote>
 
-                  {/* Conclusion Section */}
-                  <h6 style={{ color: "#007bff" }} className="mt-40 mb-20">
-                    Conclusion
-                  </h6>
-                  <p className="fz-18" style={{ color: "#555" }}>
-                    The collaboration between Thirdeye and Urban Ladder stands as
-                    a testament to how digital transformation can drive
-                    efficiency and innovation in manufacturing processes. By
-                    integrating track and trace capabilities with ERP systems,
-                    Thirdeye empowered Urban Ladder to streamline workflows,
-                    optimize resource utilization, and deliver superior products
-                    to their clients.
-                  </p>
-                  <p
-                    className="fz-18"
-                    style={{ color: "#555", marginTop: "20px" }}
-                  >
-                    This case study reflects Thirdeye&apos;s commitment to
-                    delivering high-impact solutions that enhance productivity
-                    and operational excellence in manufacturing and interior
-                    design industries.
-                  </p>
+                 
                 </div>
               </div>
             </div>

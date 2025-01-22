@@ -7,29 +7,27 @@ function Challenge() {
         <div className="row justify-content-center">
           <div className="col-lg-11">
             <div className="row">
-              {/* Left Section - Subheading */}
-              <div className="col-lg-5">
-                <h4 className="mb-50">
-                  01 . <span style={{ color: "#007bff" }}>Case study</span>
-                </h4>{" "}
-                <h3 className="mb-20" style={{ color: "#333" }}>
-                   Overview
-                </h3>
-                <h3 className="mb-20" style={{ color: "#333" }}>
-                  The Solution
-                </h3>
-                <h3 className="mb-20" style={{ color: "#333" }}>
-                  Key Outcomes & Impact
-                </h3>
-              </div>
-
               {/* Right Section - Content */}
-              <div className="col-lg-7">
+              <div className="col-lg-12">
                 <div className="text">
-                  <h6 style={{ color: "#007bff" }} className="mb-20">
+                  <h6
+                    style={{
+                      color: "#007bff",
+                      textAlign: "left",
+                      textTransform: "uppercase",
+                    }}
+                    className="mb-20"
+                  >
                     Overview
                   </h6>
-                  <p className="fz-18" style={{ color: "#555" }}>
+                  <p
+                    className="fz-18"
+                    style={{
+                      color: "#000",
+                      textAlign: "left",
+                      fontFamily: "Satoshi-Variable",
+                    }}
+                  >
                     To address this, Thirdeye partnered with ZyberTech, a
                     pioneering tech company, to revolutionize the casting
                     submission process and make it accessible to actors
@@ -43,7 +41,7 @@ function Challenge() {
                   <h6 style={{ color: "#007bff" }} className="mt-40 mb-20">
                     The Solution
                   </h6>
-                  <p className="fz-18" style={{ color: "#555" }}>
+                  <p className="fz-18" style={{ color: "#000", fontFamily: "Satoshi-Variable"}}>
                     Thirdeye and ZyberTech collaborated to design and develop an
                     AI-powered Face Detection Application for a leading
                     Hollywood casting company. This innovative solution
@@ -54,33 +52,33 @@ function Challenge() {
                   </p>
                   <ul
                     className="fz-18"
-                    style={{ color: "#555", paddingLeft: "20px" }}
+                    style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
                   >
                     <li>
-                      <strong>Casting Management System</strong> – Automated
+                      <strong>Casting Management System</strong> :Automated
                       end-to-end workflows for efficient talent management.
                     </li>
                     <li>
-                      <strong>Face Detection API</strong> – Instantly verifies
+                      <strong>Face Detection API</strong> : Instantly verifies
                       actors authenticity by matching faces with a vast movie
                       database.
                     </li>
                     <li>
-                      <strong>Automated Candidate Shortlisting</strong> –
+                      <strong>Automated Candidate Shortlisting</strong> :
                       Reducing time spent on shortlisting by 80%.
                     </li>
                     <li>
-                      <strong>Custom Software Enhancements</strong> – Tailored
+                      <strong>Custom Software Enhancements</strong> : Tailored
                       to meet the unique needs of our client.
                     </li>
                   </ul>
 
-                  <h6 style={{ color: "#007bff" }} className="mt-40 mb-20">
+                  <h6 style={{ color: "#007bff", textTransform: "uppercase", }} className="mt-40 mb-20">
                     Key Outcomes & Impact
                   </h6>
                   <ul
                     className="fz-18"
-                    style={{ color: "#555", paddingLeft: "20px" }}
+                    style={{ color: "#000",fontFamily: "Satoshi-Variable",   }}
                   >
                     <li>
                       80% Reduction in Time for Candidate Shortlisting –
@@ -104,6 +102,18 @@ function Challenge() {
                       interest and resulting in acquisition.
                     </li>
                   </ul>
+                  <h6 style={{ color: "#007bff" , textTransform: "uppercase",}} className="mt-40 mb-20">
+                    Conclusion
+                  </h6>
+                  <p
+                    className="fz-18"
+                    style={{ color: "#000",fontFamily: "Satoshi-Variable" }}
+                  >
+                    This case study highlights Thirdeye&apos;s commitment to
+                    delivering transformative digital solutions, driving
+                    innovation, and enhancing user experiences across
+                    industries.
+                  </p>
                 </div>
               </div>
             </div>

@@ -1,7 +1,8 @@
 {
-  "/page": "app/page.js",
-  "/light/page-about/page": "app/light/page-about/page.js",
-  "/light/page-whyus/page": "app/light/page-whyus/page.js",
-  "/light/page-ourprocess/page": "app/light/page-ourprocess/page.js",
-  "/light/page-engage/page": "app/light/page-engage/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/light/page-testimonials/page": "app/light/page-testimonials/page.js",
+  "/light/page-contact/page": "app/light/page-contact/page.js",
+  "/light/page-team/page": "app/light/page-team/page.js",
+  "/light/page-joinus/page": "app/light/page-joinus/page.js",
+  "/page": "app/page.js"
 }

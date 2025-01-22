@@ -226,7 +226,7 @@ function Navbar() {
                 </a>
                 <div className="dropdown-menu">
                   <a className="dropdown-item" href="/light/casestudy-alekton">
-                    Digitized Job Cards for Alekton
+                  Digitised Job Cards
                   </a>
                   <a
                     className="dropdown-item"
@@ -302,7 +302,7 @@ function Navbar() {
               <ul className="navbar-nav">
                 <li>
                   <a className="nav-link" href="/light/page-joinus">
-                    <span className="rolling-text">Join Us</span>
+                    <span className="rolling-text">Careers</span>
                   </a>
                 </li>
               </ul>
@@ -326,7 +326,7 @@ function Navbar() {
           <div className="topnav">
             <div
               className="menu-icon cursor-pointer"
-              style={{ color: "#9E9E9EFF" }}
+              style={{ color: "#D6D6D6FF" }}
               onMouseEnter={toggleMenu}
             >
               <span className="icon ti-align-right mt-15"></span>
@@ -476,7 +476,7 @@ function Navbar() {
                             href="/light/casestudy-alekton"
                             className="sub-link"
                           >
-                            Digitized Job Cards for Alekton
+                            Digitised Job Cards
                           </a>
                         </li>
                         <li>
@@ -583,8 +583,8 @@ function Navbar() {
                   >
                     <div className="o-hidden">
                       <a href="/light/page-joinus" className="link">
-                        <span className="fill-text" data-text="Join Us">
-                          Join Us
+                        <span className="fill-text" data-text="Careers">
+                          Careers
                         </span>
                       </a>
                     </div>

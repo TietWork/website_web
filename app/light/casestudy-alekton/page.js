@@ -7,7 +7,6 @@ import Cursor from "@/components/light/common/cusor";
 import LoadingScreen from "@/components/light/common/loader";
 import Challenge from "@/components/light/CaseStudy-Alekton/Challenge";
 import Header from "@/components/light/CaseStudy-Alekton/Header";
-import Solution from "@/components/light/CaseStudy-Alekton/Solution";
 import Script from "next/script";
 
 export const metadata = {
@@ -38,7 +37,6 @@ export default function CaseStudyAlekton() {
           <main className="main-bg">
             <Header />
             <Challenge />
-            <Solution />
           </main>
           <Footer />
         </div>
