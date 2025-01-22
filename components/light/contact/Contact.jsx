@@ -109,7 +109,7 @@ function Contact() {
                       type="submit"
                       className="butn butn-full butn-bord radius-30"
                     >
-                      <span className="text">Let&apos;s Talk</span>
+                      <span className="text">LET&apos;S CONNECT</span>
                     </button>
                   </div>
                 </div>
