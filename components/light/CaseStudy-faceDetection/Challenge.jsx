@@ -28,7 +28,7 @@ function Challenge() {
                       fontFamily: "Satoshi-Variable",
                     }}
                   >
-                    To address this, Thirdeye partnered with ZyberTech, a
+                    To address this, Third Eye partnered with ZyberTech, a
                     pioneering tech company, to revolutionize the casting
                     submission process and make it accessible to actors
                     worldwide. Our primary objective was to develop a seamless
@@ -42,7 +42,7 @@ function Challenge() {
                     The Solution
                   </h6>
                   <p className="fz-18" style={{ color: "#000", fontFamily: "Satoshi-Variable"}}>
-                    Thirdeye and ZyberTech collaborated to design and develop an
+                    Third Eye and ZyberTech collaborated to design and develop an
                     AI-powered Face Detection Application for a leading
                     Hollywood casting company. This innovative solution
                     cross-referenced actors resumes with an extensive movie
@@ -109,7 +109,7 @@ function Challenge() {
                     className="fz-18"
                     style={{ color: "#000",fontFamily: "Satoshi-Variable" }}
                   >
-                    This case study highlights Thirdeye&apos;s commitment to
+                    This case study highlights Third Eye&apos;s commitment to
                     delivering transformative digital solutions, driving
                     innovation, and enhancing user experiences across
                     industries.

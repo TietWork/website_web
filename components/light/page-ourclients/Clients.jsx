@@ -6,6 +6,8 @@ import { motion } from "framer-motion";
 const clients = [
   { name: "Parker, USA", image: "/light/assets/imgs/clients/parker.png" },
   { name: "FarmerBoys, USA", image: "/light/assets/imgs/clients/farmer.png" },
+  { name: "BPCL, India", image: "/light/assets/imgs/clients/bpcl.png" },
+  { name: "BMW, UK", image: "/light/assets/imgs/clients/bmw.png" },
   { name: "Cast It Talent, USA", image: "/light/assets/imgs/clients/case.png" },
   {
     name: "Halliburton, USA",
@@ -19,8 +21,6 @@ const clients = [
   { name: "Percept, Singapore", image: "/light/assets/imgs/clients/percept.png" },
   { name: "APAL, Australia", image: "/light/assets/imgs/clients/apal.png" },
   { name: "Urban Ladder, India", image: "/light/assets/imgs/clients/urban.png" },
-  { name: "BMW, UK", image: "/light/assets/imgs/clients/bmw.png" },
-  { name: "BPCL, India", image: "/light/assets/imgs/clients/bpcl.png" },
   { name: "FL Smith, Denmark", image: "/light/assets/imgs/clients/fls.png" },
   { name: "Tech Mahindra, India", image: "/light/assets/imgs/clients/techm.png" },
 ];
@@ -32,10 +32,7 @@ function Clients() {
         {/* Page Header */}
         <div className="row justify-content-center mb-50">
           <div className="col-lg-8 text-center">
-            <h2 className="mb-20 fw-600">Global Partners & Collaborations</h2>
-            <p className="fz-18" style={{ color: "#555" }}>
-              We are proud to collaborate with industry leaders, innovators, and trailblazers across various sectors. Our commitment to quality and excellence drives us to build enduring partnerships worldwide.
-            </p>
+            <h2 className="mb-20 fw-600">Some of Our Recent Clients</h2>
           </div>
         </div>
 

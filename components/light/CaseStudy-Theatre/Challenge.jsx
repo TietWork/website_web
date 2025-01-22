@@ -21,8 +21,8 @@ function Challenge() {
                     className="fz-18 mb-40"
                     style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
                   >
-                    Thirdeye, in partnership with ZyberTech, collaborated with a
-                    leading theatre in the USA to enhance user experience and
+                    Third Eye, in partnership with ZyberTech, collaborated with
+                    a leading theatre in the USA to enhance user experience and
                     operational efficiency through a cutting-edge Digital
                     Information Display System. The project aimed to address
                     communication delays and operational inefficiencies,
@@ -91,7 +91,7 @@ function Challenge() {
                     className="fz-18 mb-40"
                     style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
                   >
-                    Thirdeye and ZyberTech developed a modern Digital
+                    Third Eye and ZyberTech developed a modern Digital
                     Information Display System to automate and enhance real-time
                     information communication within the theatre. This solution
                     addressed the key issues by providing dynamic, consistent,
@@ -166,11 +166,11 @@ function Challenge() {
                     className="fz-18"
                     style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
                   >
-                    Thirdeye&apos;s innovative Digital Information Display
+                    Third Eye&apos;s innovative Digital Information Display
                     System has revolutionized the theatre experience by
                     automating real-time updates, enhancing operational
                     efficiency, and improving patron satisfaction. This project
-                    reinforces Thirdeye&apos;s dedication to leveraging
+                    reinforces Third Eye&apos;s dedication to leveraging
                     technology for operational excellence and exceptional user
                     experiences in the entertainment industry.
                   </p>

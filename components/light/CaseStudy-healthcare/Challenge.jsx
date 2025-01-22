@@ -16,7 +16,10 @@ function Challenge() {
                   >
                     Overview
                   </h6>
-                  <p className="fz-18 mb-40" style={{ color: "#000", fontFamily: "Satoshi-Variable" }}>
+                  <p
+                    className="fz-18 mb-40"
+                    style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
+                  >
                     Early detection of skin cancer is crucial for improving
                     patient survival rates. However, traditional diagnostic
                     methods often miss early-stage signs, delaying treatment.
@@ -24,7 +27,7 @@ function Challenge() {
                     solution capable of detecting abnormal skin radiation levels
                     in real time.
                     <br />
-                    Thirdeye collaborated with a medical device manufacturer to
+                    Third Eye collaborated with a medical device manufacturer to
                     develop software for a pen-like device equipped with
                     Bluetooth technology, designed to detect skin radiation in
                     real time. Our software, utilizing Windows Surface
@@ -34,19 +37,22 @@ function Challenge() {
                     anomalies and initiate early intervention.
                   </p>
 
-                  <h6 style={{ color: "#007bff", textTransform: "uppercase" }} className="mt-40 mb-20">
+                  <h6
+                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    className="mt-40 mb-20"
+                  >
                     The Solution
                   </h6>
-                  <p className="fz-18" style={{ color: "#000", fontFamily: "Satoshi-Variable" }}>
-                    Thirdeye&apos;s software solution powers the pen-like
+                  <p
+                    className="fz-18"
+                    style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
+                  >
+                    Third Eye&apos;s software solution powers the pen-like
                     device, providing healthcare professionals with real-time,
                     accurate radiation readings. Key features of the solution
                     included:
                   </p>
-                  <ul
-                    className="fz-18"
-                    style={{ color: "#000", }}
-                  >
+                  <ul className="fz-18" style={{ color: "#000" }}>
                     <li>
                       <strong>Real-Time Radiation Detection</strong> : Instant
                       feedback through a live gauge, providing visual cues of
@@ -73,7 +79,10 @@ function Challenge() {
                     </li>
                   </ul>
 
-                  <h6 style={{ color: "#007bff", textTransform: "uppercase" }} className="mt-40 mb-20">
+                  <h6
+                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    className="mt-40 mb-20"
+                  >
                     Key Outcomes & Impact
                   </h6>
                   <ul
@@ -103,13 +112,13 @@ function Challenge() {
                   </ul>
 
                   {/* Technology Stack */}
-                  <h6 style={{ color: "#007bff", textTransform: "uppercase" }} className="mt-40 mb-20">
+                  <h6
+                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    className="mt-40 mb-20"
+                  >
                     Technology Stack
                   </h6>
-                  <ul
-                    className="fz-18"
-                    style={{ color: "#000", }}
-                  >
+                  <ul className="fz-18" style={{ color: "#000" }}>
                     <li>
                       <strong>Software Platform:</strong> Windows Surface
                     </li>
@@ -125,18 +134,24 @@ function Challenge() {
                       and encryption protocols
                     </li>
                   </ul>
-                                  {/* Conclusion */}
-                <h6 style={{ color: "#007bff", textTransform: "uppercase" }} className="mt-40 mb-20">
-                  Conclusion
-                </h6>
-                <p className="fz-18" style={{ color: "#000" ,fontFamily: "Satoshi-Variable"}}>
-                  This project exemplifies Thirdeye&apos;s dedication to
-                  developing transformative healthcare solutions through
-                  advanced software. Our collaboration with medical device
-                  manufacturers demonstrates our ability to leverage technology
-                  to drive innovation, ultimately enhancing patient care and
-                  saving lives.
-                </p>
+                  {/* Conclusion */}
+                  <h6
+                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    className="mt-40 mb-20"
+                  >
+                    Conclusion
+                  </h6>
+                  <p
+                    className="fz-18"
+                    style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
+                  >
+                    This project exemplifies Third Eye&apos;s dedication to
+                    developing transformative healthcare solutions through
+                    advanced software. Our collaboration with medical device
+                    manufacturers demonstrates our ability to leverage
+                    technology to drive innovation, ultimately enhancing patient
+                    care and saving lives.
+                  </p>
                 </div>
               </div>
             </div>

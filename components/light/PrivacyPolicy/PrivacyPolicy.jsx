@@ -8,15 +8,14 @@ function PrivacyPolicy() {
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="terms-content">
-
               <p className="text-center">Last Updated: 14th April, 2021</p>
 
               {/* Section 1 */}
               <div className="term-section">
                 <h4 className="sub-title mb-20">Introduction</h4>
                 <p>
-                  Third Eye Info Technology (hereinafter referred to as
-                  ThirdEye, <strong>we</strong>, <strong>us</strong> or{" "}
+                  Third Eye Info Technology (hereinafter referred to as Third
+                  Eye, <strong>we</strong>, <strong>us</strong> or{" "}
                   <strong>our</strong>) provides these privacy policies to
                   inform website visitors and users of our product and services
                   with its policies and procedures regarding the collection, use
@@ -65,7 +64,7 @@ function PrivacyPolicy() {
               {/* Section 3 */}
               <div className="term-section">
                 <h4 className="sub-title mb-20">
-                  What Types of Information Does ThirdEye Gather About Its
+                  What Types of Information Does Third Eye Gather About Its
                   Users?
                 </h4>
                 <p>We collect and use the following personal data:</p>
@@ -114,7 +113,7 @@ function PrivacyPolicy() {
                   Cookies and Tracking Technologies
                 </h4>
                 <p>
-                  ThirdEye uses cookies to track your activities on the
+                  Third Eye uses cookies to track your activities on the
                   Platform. You may disable cookies via your browser settings,
                   but some features may not work without them.
                 </p>
@@ -123,7 +122,7 @@ function PrivacyPolicy() {
               {/* Section 7 */}
               <div className="term-section">
                 <h4 className="sub-title mb-20">
-                  How ThirdEye Uses and Processes the Information
+                  How Third Eye Uses and Processes the Information
                 </h4>
                 <p>We use personal data for the following purposes:</p>
                 <ul>
@@ -143,7 +142,7 @@ function PrivacyPolicy() {
               {/* Section 8 */}
               <div className="term-section">
                 <h4 className="sub-title mb-20">
-                  When ThirdEye Discloses or Shares Personal Information
+                  When Third Eye Discloses or Shares Personal Information
                 </h4>
                 <p>
                   We may transfer, store, use, and process your information
@@ -161,8 +160,8 @@ function PrivacyPolicy() {
                 <p>
                   You can review, update, correct, or delete your personal
                   information by logging into your account. You can also
-                  deactivate your account by contacting us at
-                  contact@thirdeyeinfotech.com.
+                  deactivate your account by contacting us at contact@Third
+                  Eyeinfotech.com.
                 </p>
               </div>
 
@@ -208,8 +207,8 @@ function PrivacyPolicy() {
                 <h4 className="sub-title mb-20">Got Feedback?</h4>
                 <p>
                   If you have feedback about this Privacy Policy, please contact
-                  our Data Protection Compliance Officer at:
-                  contact@thirdeyeinfotech.com
+                  our Data Protection Compliance Officer at: contact@Third
+                  Eyeinfotech.com
                 </p>
               </div>
             </div>
@@ -226,7 +225,7 @@ function PrivacyPolicy() {
         }
         .sub-title {
           color: #333;
-          border-bottom: 2px solid #022D5BFF;
+          border-bottom: 2px solid #022d5bff;
           padding-bottom: 10px;
         }
         ul {

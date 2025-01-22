@@ -4,24 +4,12 @@ import { color, motion } from "framer-motion";
 import { BsArrowRight } from "react-icons/bs";
 
 function Header() {
-  // Animation Variants
-  const starVariants = {
-    initial: { rotate: 0 },
-    animate: {
-      rotate: 360,
-      transition: {
-        repeat: Infinity,
-        repeatType: "loop",
-        duration: 4,
-        ease: "linear",
-      },
-    },
-  };
+
 
   const buttonVariants = {
-    initial: { borderRadius: "50px", backgroundColor: "#ffe594" },
+    initial: { borderRadius: "50px", backgroundColor: "#90e0ef" },
     hover: {
-      backgroundColor: "#FBD04FFF",
+      backgroundColor: "#00b4d8",
       transition: { duration: 0.3 },
     },
   };
@@ -60,7 +48,7 @@ function Header() {
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        backgroundImage: `url('/light/assets/imgs/background/Cover.png')`,
+        backgroundImage: `url('/light/assets/imgs/background/cover8.jpg')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -76,7 +64,7 @@ function Header() {
           transition={{ duration: 0.8 }}
           style={{
             fontWeight: "900",
-            color: "#051923",
+            color: "#FFFFFFFF",
           }}
         >
           INNOVATING TOMORROW&apos;S

@@ -7,16 +7,21 @@ function Challenge() {
         <div className="row justify-content-center">
           <div className="col-lg-11">
             <div className="row">
- 
               {/* Right Section - Content */}
               <div className="col-lg-12">
                 <div className="text">
                   {/* Casestudy Overview Section */}
-                  <h6 style={{ color: "#007bff", textTransform: "uppercase", }} className="mb-20">
+                  <h6
+                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    className="mb-20"
+                  >
                     Overview
                   </h6>
-                  <p className="fz-18 mb-40" style={{ color: "#000", fontFamily: "Satoshi-Variable",}}>
-                    Thirdeye revolutionized agriculture for an Australian
+                  <p
+                    className="fz-18 mb-40"
+                    style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
+                  >
+                    Third Eye revolutionized agriculture for an Australian
                     organization with a geospatial solution combining drone
                     imaging, real-time monitoring, and predictive analytics.
                     This streamlined operations, achieved 60% revenue growth,
@@ -25,10 +30,16 @@ function Challenge() {
                   </p>
 
                   {/* Challenge Section */}
-                  <h6 style={{ color: "#007bff", textTransform: "uppercase", }} className="mb-20">
+                  <h6
+                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    className="mb-20"
+                  >
                     Challenges
                   </h6>
-                  <p className="fz-18 mb-30" style={{ color: "#000" , fontFamily: "Satoshi-Variable",}}>
+                  <p
+                    className="fz-18 mb-30"
+                    style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
+                  >
                     Agricultural operations, especially at scale, face a
                     multitude of challenges driven by unpredictable
                     environmental factors, pest outbreaks, and inefficient data
@@ -61,11 +72,17 @@ function Challenge() {
                   </ul>
 
                   {/* Solution Section */}
-                  <h6 style={{ color: "#007bff", textTransform: "uppercase", }} className="mb-20">
+                  <h6
+                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    className="mb-20"
+                  >
                     Our Solution
                   </h6>
-                  <p className="fz-18 mb-30" style={{ color: "#000", fontFamily: "Satoshi-Variable" }}>
-                    In collaboration with Thirdeye, the client adopted a
+                  <p
+                    className="fz-18 mb-30"
+                    style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
+                  >
+                    In collaboration with Third Eye, the client adopted a
                     transformative geospatial data processing solution designed
                     to bridge the gap between data collection and actionable
                     insights. The solution integrated advanced drone technology,
@@ -73,7 +90,10 @@ function Challenge() {
                     seamless platform accessible via web and mobile
                     applications.
                   </p>
-                  <ul className="fz-18 mb-40" style={{ color: "#000" , fontFamily: "Satoshi-Variable"}}>
+                  <ul
+                    className="fz-18 mb-40"
+                    style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
+                  >
                     <li>
                       <strong>Data Acquisition and Processing:</strong>
                       <ul>
@@ -126,57 +146,98 @@ function Challenge() {
                       </ul>
                     </li>
                   </ul>
-                                    {/* Key Outcomes Section */}
-                                    <h6 style={{ color: '#007bff', textTransform: "uppercase" }} className="mb-20">
+                  {/* Key Outcomes Section */}
+                  <h6
+                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    className="mb-20"
+                  >
                     Key Outcomes and Impact
                   </h6>
-                  <ul className="fz-18 mb-40" style={{ color: '#000' }}>
+                  <ul className="fz-18 mb-40" style={{ color: "#000" }}>
                     <li>
-                      <strong>60% Increase in Revenue:</strong> Enhanced data-driven decision-making and reduced crop losses led to substantial revenue growth.
+                      <strong>60% Increase in Revenue:</strong> Enhanced
+                      data-driven decision-making and reduced crop losses led to
+                      substantial revenue growth.
                     </li>
                     <li>
-                      <strong>Pest Mitigation by 70%:</strong> Early detection and preemptive action resulted in a sharp decrease in pest-related damages.
+                      <strong>Pest Mitigation by 70%:</strong> Early detection
+                      and preemptive action resulted in a sharp decrease in
+                      pest-related damages.
                     </li>
                     <li>
-                      <strong>Automated Reporting:</strong> Streamlined reporting processes saved considerable time, reducing manual labor by 50%.
+                      <strong>Automated Reporting:</strong> Streamlined
+                      reporting processes saved considerable time, reducing
+                      manual labor by 50%.
                     </li>
                   </ul>
 
                   {/* Real-time Monitoring Section */}
-                  <h6 style={{ color: '#007bff' , textTransform: "uppercase"}} className="mb-20">
+                  <h6
+                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    className="mb-20"
+                  >
                     Real-time Monitoring and Response
                   </h6>
-                  <ul className="fz-18 mb-40" style={{ color: '#000' }}>
+                  <ul className="fz-18 mb-40" style={{ color: "#000" }}>
                     <li>
-                      <strong>Live Data Access:</strong> Managers could track agricultural performance across various sites in real time, improving response times to potential threats.
+                      <strong>Live Data Access:</strong> Managers could track
+                      agricultural performance across various sites in real
+                      time, improving response times to potential threats.
                     </li>
                     <li>
-                      <strong>Quick Turnaround for Pest Control:</strong> Pest outbreak notifications allowed for faster pesticide application, protecting crops at critical times.
+                      <strong>Quick Turnaround for Pest Control:</strong> Pest
+                      outbreak notifications allowed for faster pesticide
+                      application, protecting crops at critical times.
                     </li>
                   </ul>
 
                   {/* Sustainability Section */}
-                  <h6 style={{ color: '#007bff' , textTransform: "uppercase"}} className="mb-20">
+                  <h6
+                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    className="mb-20"
+                  >
                     Sustainability and Environmental Benefits
                   </h6>
-                  <ul className="fz-18 mb-40" style={{ color: '#000' }}>
+                  <ul className="fz-18 mb-40" style={{ color: "#000" }}>
                     <li>
-                      <strong>Optimized Resource Utilization:</strong> By monitoring soil health and crop growth, water and fertilizer usage was optimized, reducing wastage by 40%.
+                      <strong>Optimized Resource Utilization:</strong> By
+                      monitoring soil health and crop growth, water and
+                      fertilizer usage was optimized, reducing wastage by 40%.
                     </li>
                     <li>
-                      <strong>Reduced Carbon Footprint:</strong> Aircraft and drones replaced traditional ground surveillance methods, lowering fuel consumption and emissions.
+                      <strong>Reduced Carbon Footprint:</strong> Aircraft and
+                      drones replaced traditional ground surveillance methods,
+                      lowering fuel consumption and emissions.
                     </li>
                   </ul>
 
                   {/* Conclusion Section */}
-                  <h6 style={{ color: '#007bff',textTransform: "uppercase" }} className="mb-20">
+                  <h6
+                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    className="mb-20"
+                  >
                     Conclusion
                   </h6>
-                  <p className="fz-18" style={{ color: '#000' , fontFamily: "Satoshi-Variable"}}>
-                    This case study highlights Thirdeye&apos;s expertise in delivering innovative, technology-driven solutions that empower clients to tackle complex challenges head-on. By leveraging cutting-edge geospatial technology and real-time data processing, Thirdeye has played a pivotal role in transforming agricultural operations for this leading Australian organization.
+                  <p
+                    className="fz-18"
+                    style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
+                  >
+                    This case study highlights Third Eye&apos;s expertise in
+                    delivering innovative, technology-driven solutions that
+                    empower clients to tackle complex challenges head-on. By
+                    leveraging cutting-edge geospatial technology and real-time
+                    data processing, Third Eye has played a pivotal role in
+                    transforming agricultural operations for this leading
+                    Australian organization.
                   </p>
-                  <p className="fz-18" style={{ color: '#000', fontFamily: "Satoshi-Variable" }}>
-                    The success of this project underscores Thirdeye&apos;s commitment to developing tailored solutions that drive efficiency, enhance productivity, and foster sustainable practices in diverse industries.
+                  <p
+                    className="fz-18"
+                    style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
+                  >
+                    The success of this project underscores Third Eye&apos;s
+                    commitment to developing tailored solutions that drive
+                    efficiency, enhance productivity, and foster sustainable
+                    practices in diverse industries.
                   </p>
                 </div>
               </div>

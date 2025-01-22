@@ -9,7 +9,6 @@ import Navbar from '@/components/light/modern-startup/Navbar';
 import Footer from '@/components/light/modern-startup/Footer';
 import Script from 'next/script';
 import Intro from '@/components/light/modern-startup/Intro';
-import About from '@/components/light/modern-startup/About';
 import IndustriesWeServe from '@/components/light/modern-startup/Industries';
 import CoreValues from '@/components/light/modern-startup/CoreValues'
 import Numbers from '@/components/light/modern-startup/Numbers';
@@ -46,7 +45,6 @@ export default function HomeModernStartup() {
           <main className="main-bg o-hidden">
             <Header />
             <Intro />
-            <About />
             <Numbers />
             <Services />
             <CoreValues />

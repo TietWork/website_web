@@ -33,7 +33,7 @@ function Solution() {
                       color: "#555",
                     }}
                   >
-                    The track and trace solution developed by Thirdeye has
+                    The track and trace solution developed by Third Eye has
                     transformed how we manage production. Every stage is now
                     visible and automated, reducing inefficiencies across our
                     operations.
@@ -60,8 +60,6 @@ function Solution() {
                       – Operations Manager
                     </span>
                   </blockquote>
-
-                 
                 </div>
               </div>
             </div>

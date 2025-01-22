@@ -29,7 +29,7 @@ function Challenge() {
                     }}
                   >
                     A leading steel component manufacturer collaborated with
-                    Thirdeye to revolutionize their manufacturing workflow by
+                    Third Eye to revolutionize their manufacturing workflow by
                     implementing a Digital Job Card System. The
                     project aimed to address inefficiencies in component
                     tracking and enhance production transparency through a
@@ -99,7 +99,7 @@ function Challenge() {
                     className="fz-18 mb-40"
                     style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
                   >
-                    Thirdeye introduced a{" "}
+                    Third Eye introduced a{" "}
                     Digital Job Card System powered by QR code
                     technology to replace manual processes. This mobile-friendly
                     Android app provided real-time updates on job statuses and
@@ -207,13 +207,13 @@ function Challenge() {
                     className="fz-18"
                     style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
                   >
-                    Thirdeye&apos;s innovative Digital Job Card System has
+                    Third Eye&apos;s innovative Digital Job Card System has
                     revolutionized the manufacturing workflow, driving
                     efficiency and enhancing operational transparency. By
                     digitizing the job tracking process and integrating QR code
                     technology, the manufacturer experienced faster production
                     cycles, improved accuracy, and increased overall
-                    productivity. This project underscores Thirdeye&apos;s
+                    productivity. This project underscores Third Eye&apos;s
                     commitment to delivering transformative digital solutions
                     tailored to the unique needs of the manufacturing sector.
                   </p>

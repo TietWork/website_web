@@ -3367,7 +3367,7 @@ h4 {
 .navbar .navbar-nav .nav-link {
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   color: #c5c5c5;
   padding: 20px 10px ;
@@ -8854,18 +8854,6 @@ footer.clean-footer.crev:before {
   padding-right: 60px;
 }
 
-.team .item:hover .img .info {
-  bottom: 15px;
-  opacity: 1;
-}
-
-.team .item:hover .social {
-  right: 5px;
-  -webkit-transform: rotate(8deg);
-  -ms-transform: rotate(8deg);
-  transform: rotate(8deg);
-}
-
 .team .item .img {
   border-radius: 10px;
   overflow: hidden;
@@ -8877,19 +8865,16 @@ footer.clean-footer.crev:before {
   position: absolute;
   left: 15px;
   right: 15px;
-  bottom: -15px;
+  bottom: 15px; /* Adjusted to make it visible continuously */
   padding: 15px;
   text-align: center;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.1);
-  -webkit-backdrop-filter: blur(15px);
-  backdrop-filter: blur(15px);
+  color: #000000;
+  background: rgba(255, 255, 255, .7);
   border-radius: 10px;
-  opacity: 0;
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
+  opacity: 1; /* Set to 1 to make it visible by default */
+  transition: none; /* Keep as none since no hover effect is needed */
 }
+
 
 .team .item .social {
   position: absolute;

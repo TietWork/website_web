@@ -11,22 +11,29 @@ function Footer() {
             {/* Logo Section */}
             <div className="col-12 col-lg-4 text-left mb-4">
               <div className="logo icon-img-120">
-                <img src="/light/assets/imgs/logo-light.png" alt="Logo" />
+                <img
+                  src="/light/assets/imgs/logoF.png"
+                  alt="Logo"
+                  style={{ width: "240px", height: "auto" }}
+                />
               </div>
             </div>
 
             {/* Social Media Section */}
             <div className="col-12 col-lg-8 text-right">
-              <ul className="d-flex align-items-center justify-content-end social-icons fz-14">
+              <ul className="d-flex align-items-center justify-content-end social-icons fz-16">
                 <li className="ml-20">
                   <a
                     href="https://www.linkedin.com/company/third-eye-info-technology/"
                     className="hover-anim"
                     target="_blank"
                     rel="noopener noreferrer"
+                    style={{
+                      color: "#0077B5", // LinkedIn Blue
+                      fontSize: "24px", // Larger icon size
+                    }}
                   >
                     <i className="fab fa-linkedin-in"></i>
-                    <span className="social-name ml-10">LinkedIn</span>
                   </a>
                 </li>
                 <li className="ml-20">
@@ -35,9 +42,12 @@ function Footer() {
                     className="hover-anim"
                     target="_blank"
                     rel="noopener noreferrer"
+                    style={{
+                      color: "#E1306C", // Instagram Pink
+                      fontSize: "24px", // Larger icon size
+                    }}
                   >
                     <i className="fab fa-instagram"></i>
-                    <span className="social-name ml-10">Instagram</span>
                   </a>
                 </li>
               </ul>
@@ -51,7 +61,7 @@ function Footer() {
                 Have a project in mind?{" "}
                 <span className="underline">
                   <a href="/light/page-contact" style={{ color: "#007BFF" }}>
-                    Let&apos;s get to work.
+                    Let&apos;s Connect.
                   </a>
                 </span>
               </h2>
@@ -74,27 +84,10 @@ function Footer() {
 
           {/* Footer Links */}
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-10">
               <h6 className="sub-title mb-30">Quick Links</h6>
               <div className="d-flex flex-wrap">
-                <ul className="rest fz-14 mr-50 mb-4">
-                  <li>
-                    <strong>Services</strong>
-                  </li>
-                  <li>
-                    <a href="/light/page-services">What We Offer</a>
-                  </li>
-                  <li>
-                    <a href="/light/page-ourprocess">Process</a>
-                  </li>
-                  <li>
-                    <a href="/light/page-whyus">Why Us?</a>
-                  </li>
-                  <li>
-                    <a href="/light/page-engage">Engagement Models</a>
-                  </li>
-                </ul>
-                <ul className="rest fz-14 mr-50 mb-4">
+                <ul className="rest fz-14 mr-50 mb-10">
                   <li>
                     <strong>Projects</strong>
                   </li>
@@ -111,41 +104,24 @@ function Footer() {
                     <a href="/light/project-RFID">RFID Jewel Tracking</a>
                   </li>
                 </ul>
-                <ul className="rest fz-14 mb-10 mt-2">
+                <ul className="rest fz-14 mr-50 mb-10">
                   <li>
-                    <strong>Case Studies</strong>
+                    <strong>Services</strong>
                   </li>
                   <li>
-                    <a href="/light/casestudy-alekton">Digitized Job Cards</a>
+                    <a href="/light/page-services">What We Offer</a>
                   </li>
                   <li>
-                    <a href="/light/casestudy-faceDetection">AI in Casting</a>
+                    <a href="/light/page-ourprocess">Process</a>
                   </li>
                   <li>
-                    <a href="/light/casestudy-theatre">Digital Displays</a>
+                    <a href="/light/page-whyus">Why Us?</a>
                   </li>
                   <li>
-                    <a href="/light/casestudy-healthcare">
-                      Skin Cancer Detection
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/light/casestudy-GeoSpatial">
-                      Geospatial Solutions
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/light/casestudy-urbanladder">
-                      Urban Ladder Digital Makeover
-                    </a>
+                    <a href="/light/page-engage">Engagement Models</a>
                   </li>
                 </ul>
-              </div>
-            </div>
-            <div className="col-lg-6 ">
-              <h6 className="sub-title mb-30">More Links</h6>
-              <div className="d-flex flex-wrap">
-                <ul className="rest fz-14 mr-50 mb-4">
+                <ul className="rest fz-14 mr-50 mb-10">
                   <li>
                     <strong>About Us</strong>
                   </li>
@@ -162,26 +138,15 @@ function Footer() {
                     <a href="/light/page-testimonials">Testimonials</a>
                   </li>
                 </ul>
-                <ul className="rest fz-14 mr-50 mb-4">
+                <ul className="rest fz-14 mr-50 mb-10">
                   <li>
-                    <strong>Approach</strong>
-                  </li>
-                  <li>
-                    <a href="/light/page-FAQS">FAQs</a>
+                    <strong>Legal</strong>
                   </li>
                   <li>
                     <a href="/light/page-TermsPolicy">Terms & Conditions</a>
                   </li>
                   <li>
                     <a href="/light/page-PrivacyPolicy">Privacy Policy</a>
-                  </li>
-                </ul>
-                <ul className="rest fz-14">
-                  <li>
-                    <strong>Careers</strong>
-                  </li>
-                  <li>
-                    <a href="/light/page-joinus">Join us</a>
                   </li>
                 </ul>
               </div>

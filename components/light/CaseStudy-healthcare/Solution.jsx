@@ -32,10 +32,10 @@ function Solution() {
                       color: "#555",
                     }}
                   >
-                    The integration of Thirdeye&apos;s software with our device has
-                    revolutionized how we detect early-stage skin cancer. The
-                    live gauge and real-time feedback give us the confidence to
-                    act swiftly.
+                    The integration of Third Eye&apos;s software with our device
+                    has revolutionized how we detect early-stage skin cancer.
+                    The live gauge and real-time feedback give us the confidence
+                    to act swiftly.
                     <br />
                     <span style={{ fontWeight: "bold", color: "#333" }}>
                       – Product Lead, Medical Device Partner
@@ -50,19 +50,19 @@ function Solution() {
                       color: "#555",
                     }}
                   >
-                    By harnessing Windows Surface technology, we&apos;ve created a
-                    seamless solution that empowers medical professionals to
+                    By harnessing Windows Surface technology, we&apos;ve created
+                    a seamless solution that empowers medical professionals to
                     make life-saving decisions faster than ever before.
                     <br />
                     <span style={{ fontWeight: "bold", color: "#333" }}>
-                      – Thirdeye Development Team
+                      – Third Eye Development Team
                     </span>
                   </blockquote>
                   <p
                     className="fz-18"
                     style={{ color: "#555", marginTop: "20px" }}
                   >
-                    This case study highlights Thirdeye&apos;s commitment to
+                    This case study highlights Third Eye&apos;s commitment to
                     delivering transformative digital solutions, driving
                     innovation, and enhancing user experiences across
                     industries.
@@ -74,7 +74,7 @@ function Solution() {
                   Conclusion
                 </h6>
                 <p className="fz-18" style={{ color: "#555" }}>
-                  This project exemplifies Thirdeye&apos;s dedication to
+                  This project exemplifies Third Eye&apos;s dedication to
                   developing transformative healthcare solutions through
                   advanced software. Our collaboration with medical device
                   manufacturers demonstrates our ability to leverage technology

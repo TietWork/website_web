@@ -7,21 +7,26 @@ function Challenge() {
         <div className="row justify-content-center">
           <div className="col-lg-11">
             <div className="row">
-
               {/* Right Section - Content */}
               <div className="col-lg-12">
                 <div className="text">
                   {/* Challenge Section */}
-                  <h6 style={{ color: "#007bff" , textTransform: "uppercase",}} className="mb-20">
+                  <h6
+                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    className="mb-20"
+                  >
                     Overview
                   </h6>
-                  <p className="fz-18 mb-40" style={{ color: "#000", fontFamily: "Satoshi-Variable" }}>
-                    Thirdeye empowered Urban Ladder with a digital transformation
-                    solution, integrating a track-and-trace application and ERP
-                    system. This streamlined production workflows, reduced
-                    delays, optimized material usage by 30%, and improved
-                    inventory accuracy by 45%, enabling faster order fulfillment
-                    and scalable operations.
+                  <p
+                    className="fz-18 mb-40"
+                    style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
+                  >
+                    Third Eye empowered Urban Ladder with a digital
+                    transformation solution, integrating a track-and-trace
+                    application and ERP system. This streamlined production
+                    workflows, reduced delays, optimized material usage by 30%,
+                    and improved inventory accuracy by 45%, enabling faster
+                    order fulfillment and scalable operations.
                   </p>
                   <ul className="fz-18 mb-40" style={{ color: "#000" }}>
                     <li>
@@ -49,16 +54,22 @@ function Challenge() {
                   </ul>
 
                   {/* Solution Section */}
-                  <h6 style={{ color: "#007bff",textTransform: "uppercase", }} className="mb-20">
+                  <h6
+                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    className="mb-20"
+                  >
                     Our Solution
                   </h6>
                   <p className="fz-18 mb-40" style={{ color: "#000" }}>
-                    Thirdeye collaborated with Urban Ladder to develop a robust
+                    Third Eye collaborated with Urban Ladder to develop a robust
                     Track and Trace Application along with a customized
                     ERP-Inventory Management System, streamlining their
                     operations and optimizing material usage.
                   </p>
-                  <h6 className="fz-20 mb-20" style={{ color: "#007bff", textTransform: "uppercase", }}>
+                  <h6
+                    className="fz-20 mb-20"
+                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                  >
                     Key Components:
                   </h6>
                   <ul className="fz-18 mb-40" style={{ color: "#000" }}>
@@ -122,13 +133,13 @@ function Challenge() {
                   </ul>
 
                   {/* Technology Stack */}
-                  <h6 style={{ color: "#007bff" , textTransform: "uppercase",}} className="mt-40 mb-20">
+                  <h6
+                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    className="mt-40 mb-20"
+                  >
                     Technology Stack
                   </h6>
-                  <ul
-                    className="fz-18"
-                    style={{ color: "#000",  }}
-                  >
+                  <ul className="fz-18" style={{ color: "#000" }}>
                     <li>
                       <strong>Track and Trace:</strong> Real-time production
                       stage tracking and automation.
@@ -152,7 +163,10 @@ function Challenge() {
                   </ul>
 
                   {/* Key Outcomes and Impact Section */}
-                  <h6 style={{ color: "#007bff", textTransform: "uppercase", }} className="mb-20">
+                  <h6
+                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    className="mb-20"
+                  >
                     Key Outcomes and Impact
                   </h6>
                   <ul className="fz-18 mb-40" style={{ color: "#000" }}>
@@ -183,16 +197,22 @@ function Challenge() {
                       larger production capacities as operations expand.
                     </li>
                   </ul>
-                   {/* Conclusion Section */}
-                   <h6 style={{ color: "#007bff" , textTransform: "uppercase",}} className="mt-40 mb-20">
+                  {/* Conclusion Section */}
+                  <h6
+                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    className="mt-40 mb-20"
+                  >
                     Conclusion
                   </h6>
-                  <p className="fz-18" style={{ color: "#000", fontFamily: "Satoshi-Variable" }}>
-                    The collaboration between Thirdeye and Urban Ladder stands as
-                    a testament to how digital transformation can drive
+                  <p
+                    className="fz-18"
+                    style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
+                  >
+                    The collaboration between Third Eye and Urban Ladder stands
+                    as a testament to how digital transformation can drive
                     efficiency and innovation in manufacturing processes. By
                     integrating track and trace capabilities with ERP systems,
-                    Thirdeye empowered Urban Ladder to streamline workflows,
+                    Third Eye empowered Urban Ladder to streamline workflows,
                     optimize resource utilization, and deliver superior products
                     to their clients.
                   </p>
@@ -200,7 +220,7 @@ function Challenge() {
                     className="fz-18"
                     style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
                   >
-                    This case study reflects Thirdeye&apos;s commitment to
+                    This case study reflects Third Eye&apos;s commitment to
                     delivering high-impact solutions that enhance productivity
                     and operational excellence in manufacturing and interior
                     design industries.

@@ -23,7 +23,7 @@ function Solution() {
                       color: "#555",
                     }}
                   >
-                    Thirdeye&apos;s innovative solution empowered actors
+                    Third Eye&apos;s innovative solution empowered actors
                     globally while streamlining our internal processes.
                     <br />
                     <span style={{ fontWeight: "bold", color: "#333" }}>
@@ -40,7 +40,7 @@ function Solution() {
                     }}
                   >
                     With ZyberTech&apos;s technical expertise and
-                    Thirdeye&apos;s vision, we transformed the casting
+                    Third Eye&apos;s vision, we transformed the casting
                     experience, making it faster, more reliable, and inclusive.
                     <br />
                     <span style={{ fontWeight: "bold", color: "#333" }}>
@@ -70,7 +70,7 @@ function Solution() {
                     className="fz-18"
                     style={{ color: "#555", marginTop: "20px" }}
                   >
-                    This case study highlights Thirdeye&apos;s commitment to
+                    This case study highlights Third Eye&apos;s commitment to
                     delivering transformative digital solutions, driving
                     innovation, and enhancing user experiences across
                     industries.

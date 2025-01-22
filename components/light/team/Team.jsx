@@ -20,10 +20,11 @@ function OurTeam() {
               }}
             />
             {/* Founder's Name */}
-            <h5 className="mt-10 fw-600" style={{ color: "#000" }}>
+            <h5 className="mt-10 fw-600" style={{ color: "#000" , textTransform:"uppercase"}}>
               Jayavasanth Jayaraman <br />
-             <strong> Founder & Managing Director</strong>
+              
             </h5>
+            <h6 style={{ color: "#000" , textTransform:"uppercase"}}>Founder & Managing Director</h6>
           </div>
 
           {/* Founder's Vision */}
@@ -51,6 +52,10 @@ function OurTeam() {
         <section className="team section-padding pb-60">
           <div className="container ml-25">
             <div className="row">
+            <h3 className="mt-10 fw-600 mb-40" style={{ color: "#000" , textTransform:"uppercase" , textAlign:"center"}}>
+              Core team <br />
+              
+            </h3>
               {data.map((item, i) => (
                 <div key={i} className="col-lg-4">
                   <div className="item mb-80">
