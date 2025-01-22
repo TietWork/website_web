@@ -4,9 +4,8 @@ import data from "@/l-data/services.json";
 import {
   BuildCircle,
   Computer,
-  Security,
   Analytics,
-  CurrencyBitcoin,
+  Memory,
 } from "@mui/icons-material"; // Import MUI Icons
 
 function Services() {
@@ -16,7 +15,7 @@ function Services() {
       case "Software Development":
         return <Computer style={{ fontSize: 60 }} />;
       case "AI/ML & Blockchain":
-        return <CurrencyBitcoin style={{ fontSize: 60 }} />;
+        return <Memory style={{ fontSize: 60 }} />;
       case "IoT Development":
         return <BuildCircle style={{ fontSize: 60 }} />;
       case "Big Data & Business Intelligence":
@@ -68,7 +67,7 @@ function Services() {
         {/* Services */}
         <div className="row pt-30">
           {data.map((item, i) => (
-            <div key={i} className="col-lg-6 col-md-12 items mb-30">
+            <div key={i} className="col-lg-6 mb-15">
               <div
                 className="bg"
                 style={{
@@ -92,7 +91,7 @@ function Services() {
 
                 {/* Accordion Content */}
                 <div
-                  className="accordion-content mt-20"
+                  className="accordion-content"
                   style={{
                     padding: "10px 20px",
                     borderTop: "1px solid #ddd",
