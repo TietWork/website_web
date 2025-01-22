@@ -17,7 +17,7 @@ function Intro() {
               At Third Eye, we combine cutting-edge technology with an
               unwavering commitment to innovation and quality. Our experienced,
               multi-skilled workforce delivers scalable, cost-effective
-              solutions tailored to meet our clients' unique needs.
+              solutions tailored to meet our clients&apos; unique needs.
               <br />
               <br />
               With deep expertise in IT and web services, proven project
