@@ -64,7 +64,7 @@ function Header() {
           transition={{ duration: 0.8 }}
           style={{
             fontWeight: "900",
-            color: "#FFFFFFFF",
+            color: "#edede9",
           }}
         >
           INNOVATING TOMORROW&apos;S

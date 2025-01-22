@@ -1,7 +1,7 @@
 {
-  "/light/page-about/page": "app/light/page-about/page.js",
-  "/light/page-team/page": "app/light/page-team/page.js",
   "/light/page-ourClients/page": "app/light/page-ourClients/page.js",
+  "/light/page-about/page": "app/light/page-about/page.js",
   "/light/page-testimonials/page": "app/light/page-testimonials/page.js",
+  "/light/page-team/page": "app/light/page-team/page.js",
   "/page": "app/page.js"
 }
