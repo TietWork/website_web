@@ -28,12 +28,7 @@ function Header() {
     >
       <div className="container pt-100 ontop">
         <div className="text-center">
-          <h1 className="fz-100 text-u">Privacy Policy.</h1>
-          <div className="mt-15">
-            <a href="/">Home</a>
-            <span className="padding-rl-20">|</span>
-            <span className="main-color">Privacy Policy</span>
-          </div>
+          <h1 className="fz-100 text-u">Privacy Policy</h1>
         </div>
       </div>
     </div>

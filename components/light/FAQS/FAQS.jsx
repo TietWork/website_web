@@ -20,7 +20,6 @@ function FAQS() {
           {/* Left Section - Heading */}
           <div className="col-lg-4">
             <div className="sec-head md-mb80">
-              <h6 className="sub-title main-color mb-15">FAQS</h6>
               <h2>
                 Frequently <br /> Asked Questions
               </h2>
