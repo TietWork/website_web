@@ -15,7 +15,6 @@ import Numbers from '@/components/light/modern-startup/Numbers';
 import Interactive from '@/components/light/modern-startup/Interactive';
 import Clients from '@/components/light/modern-startup/Clients';
 import MapSection from '@/components/light/modern-startup/MapSection'
-import ContactMarquee from '@/components/light/modern-startup/ContactMarquee'
 
 export const metadata = {
   title: 'Third Eye Info Technology',
@@ -52,7 +51,6 @@ export default function HomeModernStartup() {
             <Interactive/>
             <MapSection/>
             <Clients />
-            <ContactMarquee/>
           </main>
           <Footer />
         </div>
