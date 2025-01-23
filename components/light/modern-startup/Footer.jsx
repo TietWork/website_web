@@ -83,11 +83,19 @@ function Footer() {
           </div>
 
           {/* Footer Links */}
+          {/* Footer Links */}
           <div className="row">
             <div className="col-lg-10">
               <h6 className="sub-title mb-30">Quick Links</h6>
-              <div className="d-flex flex-wrap">
-                <ul className="rest fz-14 mr-50 mb-10">
+              <div
+                className="footer-links d-grid"
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "repeat(4, 1fr)", // 4 columns for desktop
+                  gap: "20px", // Space between columns
+                }}
+              >
+                <ul className="rest fz-14">
                   <li>
                     <strong>Projects</strong>
                   </li>
@@ -104,7 +112,7 @@ function Footer() {
                     <a href="/light/project-RFID">RFID Jewel Tracking</a>
                   </li>
                 </ul>
-                <ul className="rest fz-14 mr-50 mb-10">
+                <ul className="rest fz-14">
                   <li>
                     <strong>Services</strong>
                   </li>
@@ -120,8 +128,11 @@ function Footer() {
                   <li>
                     <a href="/light/page-engage">Engagement Models</a>
                   </li>
+                  <li>
+                    <a href="/light/page-FAQS">FAQS</a>
+                  </li>
                 </ul>
-                <ul className="rest fz-14 mr-50 mb-10">
+                <ul className="rest fz-14">
                   <li>
                     <strong>About Us</strong>
                   </li>
@@ -138,7 +149,7 @@ function Footer() {
                     <a href="/light/page-testimonials">Testimonials</a>
                   </li>
                 </ul>
-                <ul className="rest fz-14 mr-50 mb-10">
+                <ul className="rest fz-14">
                   <li>
                     <strong>Legal</strong>
                   </li>

@@ -9,7 +9,7 @@ function Solution() {
           <div className="col-lg-5">
             <div className="solution-visual">
               <img
-                src="/light/assets/imgs/works/full/1.png"
+                src="/light/assets/imgs/works/full/smart.jpeg"
                 alt="LPG Solution Illustration"
                 className="img-fluid"
                 style={{

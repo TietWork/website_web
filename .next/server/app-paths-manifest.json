@@ -1,3 +1,7 @@
 {
-  "/page": "app/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js",
+  "/light/page-FAQS/page": "app/light/page-FAQS/page.js",
+  "/light/page-testimonials/page": "app/light/page-testimonials/page.js",
+  "/light/project-lpgVending/page": "app/light/project-lpgVending/page.js"
 }
