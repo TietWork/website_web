@@ -4,8 +4,6 @@ import { color, motion } from "framer-motion";
 import { BsArrowRight } from "react-icons/bs";
 
 function Header() {
-
-
   const buttonVariants = {
     initial: { borderRadius: "50px", backgroundColor: "#90e0ef" },
     hover: {
@@ -106,12 +104,10 @@ function Header() {
             justifySelf: "center",
           }}
         >
-          Turning possibilities into groundbreaking solutions, we transform
-          ideas into reality with innovation and expertise.
-          {/* With a trackrecord of over 150 successful projects, combined
-          experience of over 200 years, expertise in over 10 platforms and
-          clients in over 15 countries, Third Eye Info Technology is committed
-          to transfer your businesses through innovative software solutions. */}
+          With a track record of over 150 successful projects, combined
+          experience of 200 years, expertise in 10 platforms and clients in 15
+          countries, Third Eye Info Technology transforms your businesses
+          through innovative software solutions.
           <br />
         </motion.p>
       </div>
@@ -127,106 +123,7 @@ function Header() {
           marginTop: "2rem",
           flexWrap: "wrap",
         }}
-      >
-        {/* First Button */}
-        <a href="/light/page-contact" style={{ textDecoration: "none" }}>
-          <motion.button
-            className="custom-button"
-            variants={buttonVariants}
-            initial="initial"
-            whileHover="hover"
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              padding: "1rem 3rem",
-              border: "none",
-              outline: "none",
-              cursor: "pointer",
-              borderRadius: "50px",
-              color: "#382b04",
-              fontSize: "16px",
-              fontWeight: "600",
-              gap: "10px",
-            }}
-          >
-            <motion.div
-              variants={dotArrowVariants}
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                backgroundColor: "#000",
-                borderRadius: "50%",
-                width: "10px",
-                height: "10px",
-                overflow: "hidden",
-              }}
-            />
-            <motion.div
-              variants={arrowVariants}
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                color: "#fff",
-              }}
-            >
-              <BsArrowRight size={20} />
-            </motion.div>
-            Connect With Us
-          </motion.button>
-        </a>
-
-        {/* Second Button */}
-        <a href="/light/casestudy-alekton" style={{ textDecoration: "none" }}>
-          <motion.button
-            className="custom-button"
-            initial="inital"
-            whileHover="hover"
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              padding: "1rem 3rem",
-              border: "2px solid #43403f",
-              outline: "none",
-              cursor: "pointer",
-              borderRadius: "50px",
-              color: "#43403f",
-              backgroundColor: "#fff9f2",
-              fontSize: "16px",
-              fontWeight: "600",
-              gap: "10px",
-            }}
-          >
-            <motion.div
-              variants={dotArrowVariants}
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                backgroundColor: "#000",
-                borderRadius: "50%",
-                width: "10px",
-                height: "10px",
-                overflow: "hidden",
-              }}
-            />
-            <motion.div
-              variants={arrowVariants}
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-              }}
-            >
-              {/* <BsArrowRight size={20} /> */}
-            </motion.div>
-            Read Case Studies
-          </motion.button>
-        </a>
-      </div>
+      ></div>
     </div>
   );
 }
