@@ -6130,7 +6130,7 @@ footer.clean-footer.crev:before {
 
   .header-main p {
     font-size: 1.2rem;
-    max-width: 75%;
+    max-width: 68%;
     line-height: 1.6;
   }
 
@@ -6174,14 +6174,14 @@ footer.clean-footer.crev:before {
   }
 
   .header-main h1 {
-    font-size: 2rem; /* Smaller font size for mobile */
+    font-size: 2.3rem; /* Smaller font size for mobile */
     display: flex;
     justify-content: center;
     margin-top: 85px;
   } 
 
   .header-main h2 {
-    font-size: 3rem;
+    font-size: 2.3rem;
   }
 
   .header-main h1 span {
