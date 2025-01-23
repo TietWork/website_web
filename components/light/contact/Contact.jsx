@@ -148,7 +148,7 @@ function Contact() {
               <div className="mt-30">
                 <h6 className="mb-15">Email</h6>
                 <p className="fz-18  underline main-color">
-                  contact@Third Eyeinfotech.com
+                  contact@thirdeyeinfotech.com
                 </p>
               </div>
             </div>

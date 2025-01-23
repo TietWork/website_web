@@ -1,21 +1,25 @@
 [
   {
-    "name": "Manimaran",
+    "name": "Manimaran Balasubramaniyam",
+    "des": "President and CEO",
     "subName": "ZyberTech, USA",
     "desc": "What stands out about Thirdeye is their forward-thinking approach. Every product they deliver is not just a solution but a step forward in innovation. Their commitment to meeting deadlines while maintaining a focus on quality has made working with them a smooth and successful experience."
   },
   {
-    "name": "Shravan",
-    "subName": "Manager, Urban Ladder",
+    "name": "Sharavana CB",
+    "des": "Manager",
+    "subName": "Urban Ladder",
     "desc": "Thirdeye's track and trace application has been a game-changer for us. The seamless integration with our ERP system and the real-time monitoring capabilities have dramatically improved our workflow and visibility. We are now able to manage production stages efficiently and proactively address bottlenecks."
   },
   {
-    "name": "Madan",
+    "name": "Madan Kumar Narayanamurthy",
+    "des": "Founder",
     "subName": "NetConstructs, Australia",
     "desc": "From the first project we undertook with Thirdeye, their professionalism and attention to detail have been outstanding. They don't just meet expectations; they exceed them with inventive solutions that are delivered on time, every time. They’ve become a trusted partner for all our development needs."
   },
   {
-    "name": "Pandari",
+    "name": "Pandarinathan Kubendran",
+    "des": "Co founder",
     "subName": "Aaraa Software",
     "desc": "Collaborating with Thirdeye has been an absolute pleasure. Their creativity and ability to craft tailored solutions for us have been exceptional. Most importantly, they have consistently delivered on schedule, allowing us to move forward confidently with each project."
   }

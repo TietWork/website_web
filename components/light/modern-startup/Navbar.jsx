@@ -174,6 +174,9 @@ function Navbar() {
                   <a className="dropdown-item" href="/light/page-engage">
                     Engagement Model
                   </a>
+                  <a className="dropdown-item" href="/light/page-FAQS">
+                    FAQS
+                  </a>
                 </div>
               </li>
 
@@ -404,6 +407,11 @@ function Navbar() {
                         <li>
                           <a href="/light/page-engage" className="sub-link">
                             Engagement Model
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/light/page-FAQS" className="sub-link">
+                            FAQS
                           </a>
                         </li>
                       </ul>

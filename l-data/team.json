@@ -16,12 +16,12 @@
   },
   {
     "img": "/light/assets/imgs/ourteam/raja.png",
-    "name": "Raja",
+    "name": "Raja Ramachandran",
     "subName": "Senior Testing Engineer"
   },
   {
     "img": "/light/assets/imgs/ourteam/vignesh.png",
-    "name": "Vignesh",
+    "name": "Vignesh Sendhil",
     "subName": "Team Lead"
   },
   {
@@ -31,15 +31,15 @@
   },
   {
     "img": "/light/assets/imgs/ourteam/gokul.png",
-    "name": "Gokul",
+    "name": "Gokul Madhu",
     "subName": "Senior Developer"
   }, {
     "img": "/light/assets/imgs/ourteam/ram.png",
-    "name": "Ram Kumar",
+    "name": "Ram Kumar Krishnan",
     "subName": "Senior Developer"
   }, {
     "img": "/light/assets/imgs/ourteam/balaji.png",
-    "name": "Balaji",
+    "name": "Balaji Ramesh",
     "subName": "Senior UI/UX Developer"
   }
 ]
