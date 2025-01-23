@@ -133,7 +133,7 @@ function Navbar() {
         <div className="container">
           <a className="logo icon-img-100 mr-30 mb-5" href="/">
             <img
-              src="/light/assets/imgs/logoF.png"
+              src="/light/assets/imgs/logo-10.png"
               alt="logo"
               style={{ width: "240px", height: "auto" }}
             />

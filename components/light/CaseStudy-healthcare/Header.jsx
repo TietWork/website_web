@@ -29,9 +29,9 @@ function Header() {
         <div className="row">
           <div className="col-12">
             <div className="caption">
-              <h1>
-                Real-Time Skin Radiation Detection for Early Cancer Diagnosis.
-              </h1>
+              <h2  style={{textTransform:"uppercase"}}>
+                Real-Time Skin Radiation Detection for Early Cancer Diagnosis
+              </h2>
             </div>
           </div>
         </div>

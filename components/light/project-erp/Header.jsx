@@ -29,7 +29,7 @@ function Header() {
         <div className="row">
           <div className="col-12">
             <div className="caption">
-              <h1>ERP Solutions</h1>
+              <h1>ERP SOLUTIONS</h1>
             </div>
           </div>
         </div>

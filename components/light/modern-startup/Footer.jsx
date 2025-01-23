@@ -12,7 +12,7 @@ function Footer() {
             <div className="col-12 col-lg-4 text-left mb-4">
               <div className="logo icon-img-120">
                 <img
-                  src="/light/assets/imgs/logoF.png"
+                  src="/light/assets/imgs/logo-10.png"
                   alt="Logo"
                   style={{ width: "240px", height: "auto" }}
                 />

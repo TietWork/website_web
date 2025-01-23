@@ -29,10 +29,10 @@ function Header() {
         <div className="row">
           <div className="col-12">
             <div className="caption">
-              <h1>
+              <h2 style={{textTransform:"uppercase"}}> 
                 Enhancing Theatre Experience with Digital Information Displays
                 Challenge
-              </h1>
+              </h2>
             </div>
           </div>
         </div>

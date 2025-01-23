@@ -29,10 +29,10 @@ function Header() {
         <div className="row">
           <div className="col-12">
             <div className="caption">
-              <h1>
-                Digital Transformation for Interior Design Operations Client:
+              <h2 style={{textTransform:"uppercase"}}>
+                Digital Transformation for :
                 Urban Ladder
-              </h1>
+              </h2>
             </div>
           </div>
         </div>

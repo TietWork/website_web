@@ -53,6 +53,7 @@ function Header() {
             color: '#fff', // Ensures the title is visible
             wordWrap: 'break-word', // Prevents text overflow
             lineHeight: '1.2', // Adjusts spacing between lines
+            textTransform: "uppercase"
           }}
         >
           Testimonials

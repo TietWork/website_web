@@ -27,7 +27,7 @@ function Header() {
     >
       <div className="container pt-100 ">
         <div className="text-center">
-          <h1 className="fz-100 text-u">About Us.</h1>
+          <h1 className="fz-100 text-u" style={{textTransform:"uppercase"}}>About Us</h1>
         </div>
       </div>
     </div>

@@ -74,12 +74,12 @@ function Contact() {
                       className="full-width-input"
                     />
                   </div>
-                  <div className="form-group mb-30">
+                  {/* <div className="form-group mb-30">
                     <select
                       id="form_service_type"
                       name="service_type"
                       required
-                      className="full-width-input"
+                      className="custom-dropdown full-width-input"
                     >
                       <option value="" disabled selected>
                         Select Type of Service
@@ -93,7 +93,8 @@ function Contact() {
                       <option value="IoT Development">IoT Development</option>
                       <option value="Big Data">Big Data</option>
                     </select>
-                  </div>
+                  </div> */}
+
                   <div className="form-group">
                     <textarea
                       id="form_message"
