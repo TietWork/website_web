@@ -28,19 +28,13 @@ function Services() {
   return (
     <section className="services-boxs section-padding">
       <div className="container">
-        {/* Header */}
-        <div className="sec-head mb-80">
-          <h6 className="sub-title main-color mb-25">Our Services</h6>
-          <div className="bord pt-25 bord-thin-top d-flex align-items-center">
-            <h2 className="fw-600 text-u ls1">What We Offer</h2>
-          </div>
-        </div>
 
         {/* Introductory Paragraph */}
         <div className="row">
           <div className="col-12 text-center mb-50">
             <p
               style={{
+                fontFamily: "Satoshi-Variable",
                 fontSize: "18px",
                 color: "#000",
                 textAlign: "left",
@@ -48,19 +42,6 @@ function Services() {
             >
               At Third Eye, we are committed to providing high-quality, innovative services that are tailored to meet your unique business needs. Our offerings range from IT services to web solutions, all designed to help you achieve long-term success.
             </p>
-          </div>
-        </div>
-
-        {/* Blue Accent Line */}
-        <div className="row">
-          <div className="col-12 text-center">
-            <hr
-              style={{
-                width: "100px",
-                borderTop: "3px solid #007bff",
-                margin: "20px auto",
-              }}
-            />
           </div>
         </div>
 

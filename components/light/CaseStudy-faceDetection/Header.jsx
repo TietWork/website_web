@@ -29,9 +29,8 @@ function Header() {
         <div className="row">
           <div className="col-12">
             <div className="caption">
-              <h2 style={{textTransform:"uppercase"}}>
-                Transforming Hollywood Casting with AI-Powered Solutions by Face
-                Detection
+              <h2 style={{ textTransform: "uppercase" }}>
+                AI IN HOLLYWOOD CASTING
               </h2>
             </div>
           </div>

@@ -52,7 +52,7 @@ function OurTeam() {
         <section className="team section-padding pb-60">
           <div className="container ml-25">
             <div className="row">
-            <h3 className="mt-10 fw-600 mb-40" style={{ color: "#000" , textTransform:"uppercase" , textAlign:"center"}}>
+            <h3 className="mt-10 fw-600 mb-40 main-color" style={{ color: "#000" , textTransform:"uppercase" , textAlign:"center"}}>
               Core team <br />
               
             </h3>

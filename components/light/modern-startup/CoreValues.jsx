@@ -64,8 +64,7 @@ function CoreValues() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          Our Core Values at{" "}
-          <span style={{ color: "#007BFF" }}>Third Eye Info Technologies</span>
+          <span style={{ color: "#007BFF" }}>CORE VALUES</span>
         </motion.h2>
 
         {/* Core Values Grid */}

@@ -10,12 +10,18 @@ function Challenge() {
               {/* Right Section - Content */}
               <div className="col-lg-12">
                 <div className="text">
-                  <h6
-                    style={{ color: "#007bff", textTransform: "uppercase" }}
-                    className="mb-20"
+                  <h3
+                    style={{  
+                      color: "#007bff",
+                      textAlign: "left",
+                      textTransform: "uppercase",
+                      fontSize: "30px",
+                      fontWeight: "600",
+                    }}
+                    className="mb-30  line-height-40"
                   >
                     Overview
-                  </h6>
+                  </h3>
                   <p
                     className="fz-18 mb-40"
                     style={{ color: "#000", fontFamily: "Satoshi-Variable" }}

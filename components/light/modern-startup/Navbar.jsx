@@ -174,9 +174,6 @@ function Navbar() {
                   <a className="dropdown-item" href="/light/page-engage">
                     Engagement Model
                   </a>
-                  <a className="dropdown-item" href="/light/page-FAQS">
-                    FAQS
-                  </a>
                 </div>
               </li>
 
@@ -286,6 +283,9 @@ function Navbar() {
                   </a>
                   <a className="dropdown-item" href="/light/page-ourClients">
                     Our Clients
+                  </a>
+                  <a className="dropdown-item" href="/light/page-FAQS">
+                    FAQS
                   </a>
                 </div>
               </li>
@@ -407,11 +407,6 @@ function Navbar() {
                         <li>
                           <a href="/light/page-engage" className="sub-link">
                             Engagement Model
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/light/page-FAQS" className="sub-link">
-                            FAQS
                           </a>
                         </li>
                       </ul>
@@ -562,6 +557,11 @@ function Navbar() {
                             Our Clients
                           </a>
                         </li>
+                        <li>
+                          <a href="/light/page-FAQS" className="sub-link">
+                            FAQS
+                          </a>
+                        </li>
                       </ul>
                     </div>
                   </li>
@@ -621,12 +621,9 @@ function Navbar() {
                 <div className="item mb-50">
                   <h6 className="sub-title mb-15 opacity-7">Address</h6>
                   <h5>
-                    AE-176, Plot No. 2248, Ramkrubha,
-                    <br />
-                    11th Main Road, Annanagar,
-                    <br />
-                    Chennai, India <br />
-                    PIN:600040
+                    AE-176, Plot No. 2248 Ramkrubha,
+                    11th Main Road Annanagar,
+                    Chennai, 600040 India <br />
                   </h5>
                 </div>
                 <div className="item mb-50">
@@ -635,17 +632,17 @@ function Navbar() {
                     <li className="mb-10">
                       <a
                         href="https://www.instagram.com/thirdeyeinfotechnology/profilecard/?igsh=d2Z3YXpoanZmZWI4"
-                        className="hover-this"
+                        target="_blank"
                       >
-                        <span className="hover-anim">Instagram</span>
+                        <span className="">Instagram</span>
                       </a>
                     </li>
                     <li className="mb-10">
                       <a
                         href="https://www.linkedin.com/company/third-eye-info-technology/"
-                        className="hover-this"
+                        target="_blank"
                       >
-                        <span className="hover-anim">LinkedIn</span>
+                        <span className="">LinkedIn</span>
                       </a>
                     </li>
                   </ul>

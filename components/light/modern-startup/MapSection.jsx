@@ -28,26 +28,27 @@ function MapSection() {
             marginBottom: "20px",
           }}
         >
-          Our Global Presence
+          Discover our global footprint:
         </h2>
         <p
           style={{
             color: "#555555",
             fontSize: "18px",
             marginBottom: "40px",
-            maxWidth: "600px",
+            maxWidth: "700px",
             margin: "0 auto",
             lineHeight: "1.6",
           }}
         >
-          Discover our global footprint: Headquartered in{" "}
-          <span style={{ color: "#007BFF", fontWeight: "600" }}>Chennai</span>{" "}
-          with offices in{" "}
+          With Headquartered in{" "}
+          <span style={{ color: "#007BFF", fontWeight: "600" }}>Chennai, India</span>{" "}
+          with offices across{" "}
           <span style={{ color: "#007BFF", fontWeight: "600" }}>Australia</span>
           , <span style={{ color: "#007BFF", fontWeight: "600" }}>USA</span>,{" "}
           <span style={{ color: "#007BFF", fontWeight: "600" }}>UAE</span> and 
           {" "}<span style={{ color: "#007BFF", fontWeight: "600" }}>Malaysia</span>
-          {" "} connecting seamlessly with the world.
+          {" "} we connect wtih clients and partners 
+          across the the world.
         </p>
 
         {/* World Map Section */}

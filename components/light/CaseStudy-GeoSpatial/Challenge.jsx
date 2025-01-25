@@ -11,12 +11,18 @@ function Challenge() {
               <div className="col-lg-12">
                 <div className="text">
                   {/* Casestudy Overview Section */}
-                  <h6
-                    style={{ color: "#007bff", textTransform: "uppercase" }}
-                    className="mb-20"
+                  <h3
+                    style={{
+                      color: "#007bff",
+                      textAlign: "left",
+                      textTransform: "uppercase",
+                      fontSize: "30px",
+                      fontWeight: "600",
+                    }}
+                    className="mb-30  line-height-40"
                   >
                     Overview
-                  </h6>
+                  </h3>
                   <p
                     className="fz-18 mb-40"
                     style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
@@ -31,7 +37,8 @@ function Challenge() {
 
                   {/* Challenge Section */}
                   <h6
-                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    style={{ color: "#007bff", textTransform: "uppercase", fontSize: "30px",
+                      fontWeight: "600", }}
                     className="mb-20"
                   >
                     Challenges
@@ -50,22 +57,22 @@ function Challenge() {
                   </p>
                   <ul className="fz-18 mb-40" style={{ color: "#000" }}>
                     <li>
-                      <strong>Lack of Real-time Monitoring:</strong> The
+                      <strong>1. Lack of Real-time Monitoring:</strong> The
                       existing manual processes could not track environmental
                       changes in real time.
                     </li>
                     <li>
-                      <strong>Data Fragmentation:</strong> Agricultural data was
+                      <strong>2. Data Fragmentation:</strong> Agricultural data was
                       scattered across multiple platforms, making it difficult
                       to derive actionable insights.
                     </li>
                     <li>
-                      <strong>Pest Management Delays:</strong> Inadequate pest
+                      <strong>3. Pest Management Delays:</strong> Inadequate pest
                       tracking led to delayed responses, resulting in
                       significant crop losses.
                     </li>
                     <li>
-                      <strong>Operational Inefficiencies:</strong> Absence of a
+                      <strong>4. Operational Inefficiencies:</strong> Absence of a
                       centralized system to manage and analyze agricultural data
                       hindered productivity.
                     </li>
@@ -73,7 +80,8 @@ function Challenge() {
 
                   {/* Solution Section */}
                   <h6
-                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    style={{ color: "#007bff", textTransform: "uppercase",fontSize: "30px",
+                      fontWeight: "600", }}
                     className="mb-20"
                   >
                     Our Solution
@@ -95,7 +103,7 @@ function Challenge() {
                     style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
                   >
                     <li>
-                      <strong>Data Acquisition and Processing:</strong>
+                      <strong>1. Data Acquisition and Processing:</strong>
                       <ul>
                         <li>
                           High-resolution imagery captured across extensive
@@ -112,7 +120,7 @@ function Challenge() {
                       </ul>
                     </li>
                     <li>
-                      <strong>Predictive Analytics and Forecasting:</strong>
+                      <strong>2. Predictive Analytics and Forecasting:</strong>
                       <ul>
                         <li>
                           Utilized historical agricultural data to build
@@ -129,7 +137,7 @@ function Challenge() {
                       </ul>
                     </li>
                     <li>
-                      <strong>User Engagement and Automation:</strong>
+                      <strong>3. User Engagement and Automation:</strong>
                       <ul>
                         <li>
                           Farmers and managers could access data from anywhere
@@ -148,24 +156,25 @@ function Challenge() {
                   </ul>
                   {/* Key Outcomes Section */}
                   <h6
-                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    style={{ color: "#007bff", textTransform: "uppercase",fontSize: "30px",
+                      fontWeight: "600", }}
                     className="mb-20"
                   >
                     Key Outcomes and Impact
                   </h6>
                   <ul className="fz-18 mb-40" style={{ color: "#000" }}>
                     <li>
-                      <strong>60% Increase in Revenue:</strong> Enhanced
+                      <strong>1. 60% Increase in Revenue:</strong> Enhanced
                       data-driven decision-making and reduced crop losses led to
                       substantial revenue growth.
                     </li>
                     <li>
-                      <strong>Pest Mitigation by 70%:</strong> Early detection
+                      <strong>2. Pest Mitigation by 70%:</strong> Early detection
                       and preemptive action resulted in a sharp decrease in
                       pest-related damages.
                     </li>
                     <li>
-                      <strong>Automated Reporting:</strong> Streamlined
+                      <strong>3. Automated Reporting:</strong> Streamlined
                       reporting processes saved considerable time, reducing
                       manual labor by 50%.
                     </li>
@@ -173,19 +182,20 @@ function Challenge() {
 
                   {/* Real-time Monitoring Section */}
                   <h6
-                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    style={{ color: "#007bff", textTransform: "uppercase" ,fontSize: "30px",
+                      fontWeight: "600",}}
                     className="mb-20"
                   >
                     Real-time Monitoring and Response
                   </h6>
                   <ul className="fz-18 mb-40" style={{ color: "#000" }}>
                     <li>
-                      <strong>Live Data Access:</strong> Managers could track
+                      <strong>1. Live Data Access:</strong> Managers could track
                       agricultural performance across various sites in real
                       time, improving response times to potential threats.
                     </li>
                     <li>
-                      <strong>Quick Turnaround for Pest Control:</strong> Pest
+                      <strong>2. Quick Turnaround for Pest Control:</strong> Pest
                       outbreak notifications allowed for faster pesticide
                       application, protecting crops at critical times.
                     </li>
@@ -193,19 +203,20 @@ function Challenge() {
 
                   {/* Sustainability Section */}
                   <h6
-                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    style={{ color: "#007bff", textTransform: "uppercase",fontSize: "30px",
+                      fontWeight: "600", }}
                     className="mb-20"
                   >
                     Sustainability and Environmental Benefits
                   </h6>
                   <ul className="fz-18 mb-40" style={{ color: "#000" }}>
                     <li>
-                      <strong>Optimized Resource Utilization:</strong> By
+                      <strong>1. Optimized Resource Utilization:</strong> By
                       monitoring soil health and crop growth, water and
                       fertilizer usage was optimized, reducing wastage by 40%.
                     </li>
                     <li>
-                      <strong>Reduced Carbon Footprint:</strong> Aircraft and
+                      <strong>2. Reduced Carbon Footprint:</strong> Aircraft and
                       drones replaced traditional ground surveillance methods,
                       lowering fuel consumption and emissions.
                     </li>
@@ -213,14 +224,15 @@ function Challenge() {
 
                   {/* Conclusion Section */}
                   <h6
-                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    style={{ color: "#007bff", textTransform: "uppercase", fontSize: "30px",
+                      fontWeight: "600", }}
                     className="mb-20"
                   >
                     Conclusion
                   </h6>
                   <p
                     className="fz-18"
-                    style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
+                    style={{ color: "#000", fontFamily: "Satoshi-Variable", }}
                   >
                     This case study highlights Third Eye&apos;s expertise in
                     delivering innovative, technology-driven solutions that

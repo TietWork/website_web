@@ -7,17 +7,16 @@ function Numbers() {
     <section
       className="numbers mb-40"
       style={{ fontFamily: "'Poppins', sans-serif" }}
-      
     >
       <div className="container">
-        <div className="row justify-content-center">
+        <div className="row justify-content-between align-items-center">
           {/* Project Numbers */}
           <motion.div
-            className="col-lg-4 col-md-6"
-            whileHover={{ scale: 1.1 }}
-            transition={{ type: "spring", stiffness: 300, damping: 15 }}
+            className="col-lg-3 col-md-6 mb-4"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
           >
-            <div className="item d-flex align-items-center justify-content-center md-mb50">
+            <div className="item d-flex flex-column align-items-center text-center">
               <motion.h2
                 className="fz-80 line-height-1"
                 style={{
@@ -25,19 +24,48 @@ function Numbers() {
                   fontWeight: "500",
                   color: "#051923",
                 }}
-                whileHover={{ color: "#4b89dc" }}
               >
-                150+
+                200
               </motion.h2>
               <motion.span
-                className="sub-title opacity-7 ml-30"
+                className="sub-title opacity-7"
                 style={{
                   fontFamily: "'Poppins', sans-serif",
                   fontWeight: "400",
                   color: "#555",
                   fontSize: "18px",
                 }}
-                whileHover={{ color: "#4b89dc" }}
+              >
+                Combined Years <br /> of Experience
+              </motion.span>
+            </div>
+          </motion.div>
+
+          {/* Projects Completed */}
+          <motion.div
+            className="col-lg-3 col-md-6 mb-4"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <div className="item d-flex flex-column align-items-center text-center">
+              <motion.h2
+                className="fz-80 line-height-1"
+                style={{
+                  fontFamily: "'Poppins', sans-serif",
+                  fontWeight: "500",
+                  color: "#051923",
+                }}
+              >
+                150+
+              </motion.h2>
+              <motion.span
+                className="sub-title opacity-7"
+                style={{
+                  fontFamily: "'Poppins', sans-serif",
+                  fontWeight: "400",
+                  color: "#555",
+                  fontSize: "18px",
+                }}
               >
                 Projects <br /> Completed
               </motion.span>
@@ -46,11 +74,11 @@ function Numbers() {
 
           {/* Industries Served */}
           <motion.div
-            className="col-lg-4 col-md-6"
-            whileHover={{ scale: 1.1 }}
-            transition={{ type: "spring", stiffness: 300, damping: 15 }}
+            className="col-lg-3 col-md-6 mb-4"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
           >
-            <div className="item d-flex align-items-center justify-content-center md-mb50">
+            <div className="item d-flex flex-column align-items-center text-center">
               <motion.h2
                 className="fz-80 line-height-1"
                 style={{
@@ -58,19 +86,17 @@ function Numbers() {
                   fontWeight: "500",
                   color: "#051923",
                 }}
-                whileHover={{ color: "#4b89dc" }}
               >
                 15+
               </motion.h2>
               <motion.span
-                className="sub-title opacity-7 ml-30"
+                className="sub-title opacity-7"
                 style={{
                   fontFamily: "'Poppins', sans-serif",
                   fontWeight: "400",
                   color: "#555",
                   fontSize: "18px",
                 }}
-                whileHover={{ color: "#4b89dc" }}
               >
                 Industries <br /> Served
               </motion.span>
@@ -79,11 +105,11 @@ function Numbers() {
 
           {/* Beneficiaries */}
           <motion.div
-            className="col-lg-4 col-md-6"
-            whileHover={{ scale: 1.1 }}
-            transition={{ type: "spring", stiffness: 300, damping: 15 }}
+            className="col-lg-3 col-md-6 mb-4"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
           >
-            <div className="item d-flex align-items-center justify-content-center">
+            <div className="item d-flex flex-column align-items-center text-center">
               <motion.h2
                 className="fz-80 line-height-1"
                 style={{
@@ -91,27 +117,24 @@ function Numbers() {
                   fontWeight: "500",
                   color: "#051923",
                 }}
-                whileHover={{ color: "#4b89dc" }}
               >
-                100<span className="fz-50"></span>
+                100
               </motion.h2>
               <motion.span
-                className="sub-title opacity-7 ml-30"
+                className="sub-title opacity-7"
                 style={{
                   fontFamily: "'Poppins', sans-serif",
                   fontWeight: "400",
                   color: "#555",
-                  fontSize: "12px",
+                  fontSize: "18px",
                 }}
-                whileHover={{ color: "#4b89dc" }}
-              >   million
-                <br /> Beneficiaries
+              >
+                million <br /> Beneficiaries
               </motion.span>
             </div>
           </motion.div>
         </div>
       </div>
-    
     </section>
   );
 }

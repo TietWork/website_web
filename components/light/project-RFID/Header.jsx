@@ -23,7 +23,7 @@ function Header() {
     <div
       className="header header-project3 bg-img d-flex align-items-end"
       data-background="/light/assets/imgs/works/full/rfid.png"
-      data-overlay-dark="9"
+      data-overlay-dark="8"
     >
       <div className="container">
         <div className="row">

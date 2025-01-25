@@ -29,7 +29,7 @@ function Header() {
         <div className="row">
           <div className="col-12">
             <div className="caption">
-            <h1 style={{textTransform:"uppercase"}}>Smart LPG Cylinder Dispenser</h1>
+            <h1 style={{textTransform:"uppercase"}}>LPG Automated Vendoring Machine</h1>
             </div>
           </div>
         </div>

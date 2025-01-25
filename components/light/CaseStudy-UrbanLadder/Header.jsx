@@ -30,8 +30,7 @@ function Header() {
           <div className="col-12">
             <div className="caption">
               <h2 style={{textTransform:"uppercase"}}>
-                Digital Transformation for :
-                Urban Ladder
+              URBAN LADDER DIGITAL MAKEOVER
               </h2>
             </div>
           </div>

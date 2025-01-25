@@ -75,13 +75,13 @@ const Interactive = () => {
     maxWidth: "1200px",
     margin: "0 auto",
     width: "100%",
-    padding: "30px 20px",
+    padding: "0px 20px",
     position: "relative"
   };
 
   const titleStyle = {
-    fontFamily: "Poppins",
-    fontSize: "3rem",
+    fontFamily: "Satoshi-Variable",
+    fontSize: "32px",
     fontWeight: "500",
     color: "#CDCDCDFF",
     marginBottom: "40px",
@@ -155,8 +155,7 @@ const Interactive = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          OUR FEATURED {" "}
-          <span style={{ color: "#007BFF" }}>PROJECTS</span>
+          <span style={{ color: "#007BFF" }}>OUR FEATURED PROJECTS</span>
         </motion.h2>
 
         <motion.div

@@ -12,11 +12,13 @@ function Challenge() {
                 <div className="text">
                   {/* Project Overview Section */}
                   <h3
-                    className="mb-30 fw-400 line-height-40"
+                    className="mb-30 line-height-40"
                     style={{
-                      color: "#000",
+                      color: "#007BFF",
                       textAlign: "left",
                       textTransform: "uppercase",
+                      fontSize: "30px",
+                      fontWeight: "600",
                     }}
                   >
                     Overview
@@ -44,6 +46,8 @@ function Challenge() {
                       color: "#007bff",
                       textAlign: "left",
                       textTransform: "uppercase",
+                      fontSize: "30px",
+                      fontWeight: "600",
                     }}
                     className="mb-20"
                   >
@@ -91,6 +95,8 @@ function Challenge() {
                       color: "#007bff",
                       textAlign: "left",
                       textTransform: "uppercase",
+                      fontSize: "30px",
+                      fontWeight: "600",
                     }}
                     className="mb-20"
                   >
@@ -133,6 +139,8 @@ function Challenge() {
                       color: "#007bff",
                       textAlign: "left",
                       textTransform: "uppercase",
+                      fontSize: "30px",
+                      fontWeight: "600",
                     }}
                     className="mb-20"
                   >
@@ -172,6 +180,8 @@ function Challenge() {
                       color: "#007bff",
                       textAlign: "left",
                       textTransform: "uppercase",
+                      fontSize: "30px",
+                      fontWeight: "600",
                     }}
                     className="mb-20"
                   >
@@ -206,10 +216,15 @@ function Challenge() {
                   <div className="col-lg-12">
                     <div className="text">
                       <h6
-                        style={{ color: "#007bff", textTransform: "uppercase" }}
+                        style={{
+                          color: "#007bff",
+                          textTransform: "uppercase",
+                          fontSize: "30px",
+                          fontWeight: "600",
+                        }}
                         className="mb-20"
                       >
-                        Client Success
+                        Conclusion
                       </h6>
                       <p
                         className="fz-18"
@@ -225,19 +240,12 @@ function Challenge() {
                         The solution has empowered the organization to operate
                         with greater efficiency while ensuring the utmost
                         security for their valuable inventory.
-                      </p>
-                      <p
-                        className="fz-18"
-                        style={{
-                          color: "#000",
-                          fontFamily: "Satoshi-Variable",
-                        }}
-                      >
                         By adopting this innovative solution, ANL has taken
                         significant steps toward modernizing their operations
                         and meeting the demands of a dynamic, security-conscious
                         industry.
                       </p>
+                      <br/>
                     </div>
                   </div>
                 </div>

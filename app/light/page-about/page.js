@@ -8,7 +8,6 @@ import LoadingScreen from '@/components/light/common/loader';
 import Navbar from '@/components/light/modern-startup/Navbar';
 import Script from 'next/script';
 import Intro from '@/components/light/about/Intro';
-import Intro2 from '@/components/light/about/Intro2';
 import Numbers from '@/components/light/about/Numbers'
 
 export const metadata = {
@@ -39,7 +38,6 @@ export default function BlogList() {
           <main className="main-bg">
             <Header />
             <Intro />
-            <Intro2 />
             <Numbers />
 
           </main>

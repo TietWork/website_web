@@ -51,9 +51,9 @@ function CareerForm() {
             <div className="full-width">
               <div className="sec-head mb-50">
                 <h3 className="text-u ls1">
-                  APPLY {" "}
-                  <span className="fw-200" style={{ color: "#007bff" }}>
-                    NOW
+                  
+                  <span className="fw-600" style={{ color: "#007bff" }}>
+                  APPLY NOW !
                   </span>
                 </h3>
               </div>

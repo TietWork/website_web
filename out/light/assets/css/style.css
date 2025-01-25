@@ -244,6 +244,9 @@ figure {
   }
 }
 
+.black{
+  color: #000 !important;
+}
 
 .main-color {
   color: #007BFF !important;
@@ -254,7 +257,7 @@ figure {
 }
 
 .main-color2 {
-  color: #0077b6 !important;
+  color: #003049 !important;
 }
 
 .main-colorbg2 {
@@ -752,16 +755,16 @@ figure {
 
 /* Cursor
 -----------------------------------------------------------------*/
-.hover-this .hover-anim {
+/* .hover-this .hover-anim {
   pointer-events: none;
   -webkit-transition: -webkit-transform 0.2s linear;
   transition: -webkit-transform 0.2s linear;
   -o-transition: transform 0.2s linear;
   transition: transform 0.2s linear;
   transition: transform 0.2s linear, -webkit-transform 0.2s linear;
-}
+} */
 
-.cursor {
+/* .cursor {
   pointer-events: none;
   position: fixed;
   padding: 0.3rem;
@@ -775,7 +778,7 @@ figure {
   transition: transform 0.3s ease, opacity 0.4s ease,
     -webkit-transform 0.3s ease;
   z-index: 99999;
-}
+} */
 
 .cursor-active {
   -webkit-transform: translate(-50%, -50%) scale(8);
@@ -3498,7 +3501,7 @@ h4 {
 .nav-button-minimal {
   display: inline-block;
   padding: 8px 16px; /* Slightly larger padding for better balance */
-  background:  #1b263b; /* Modern, subtle gradient */
+  background:  #004a9a; /* Modern, subtle gradient */
   color: #ffffff; /* White text for contrast */
   font-size: 13px; /* Slightly larger font for better readability */
   font-weight: 600; /* Bold for emphasis */
@@ -5841,21 +5844,21 @@ footer.clean-footer.crev:before {
 }
 
 .modern-footer {
-  background: #1a1a1a;
+  background: #000814;
   color: #fff;
 }
 
 .modern-footer .sub-bg {
-  background: #1d1d1d !important;
+  background: #000814 !important;
 }
 
 .modern-footer.sub-bg {
-  background: #1d1d1d !important;
+  background: #000814 !important;
   color: #fff;
 }
 
 .modern-footer.sub-bg .main-bg {
-  background: #1a1a1a !important;
+  background: #000814 !important;
 }
 
 .modern-footer .bord-thin-top,

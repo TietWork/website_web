@@ -12,11 +12,13 @@ function Challenge() {
                   {/* Project Overview Section */}
                   <h3
                     style={{
-                      color: "#000",
+                      color: "#007bff",
                       textAlign: "left",
                       textTransform: "uppercase",
+                      fontSize: "30px",
+                      fontWeight: "600",
                     }}
-                    className="mb-30 fw-400 line-height-40"
+                    className="mb-30 line-height-40"
                   >
                     Overview
                   </h3>
@@ -30,11 +32,10 @@ function Challenge() {
                   >
                     A leading steel component manufacturer collaborated with
                     Third Eye to revolutionize their manufacturing workflow by
-                    implementing a Digital Job Card System. The
-                    project aimed to address inefficiencies in component
-                    tracking and enhance production transparency through a
-                    custom mobile application integrated with QR code
-                    technology.
+                    implementing a Digital Job Card System. The project aimed to
+                    address inefficiencies in component tracking and enhance
+                    production transparency through a custom mobile application
+                    integrated with QR code technology.
                   </p>
 
                   {/* Challenges Section */}
@@ -43,6 +44,8 @@ function Challenge() {
                       color: "#007bff",
                       textAlign: "left",
                       textTransform: "uppercase",
+                      fontSize: "30px",
+                      fontWeight: "600",
                     }}
                     className="mb-20"
                   >
@@ -61,7 +64,12 @@ function Challenge() {
 
                   {/* Key Issues Section */}
                   <h6
-                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    style={{
+                      color: "#007bff",
+                      textTransform: "uppercase",
+                      fontSize: "30px",
+                      fontWeight: "600",
+                    }}
                     className="mb-20"
                   >
                     Key Issues
@@ -71,26 +79,31 @@ function Challenge() {
                     style={{ color: "#000", textAlign: "left" }}
                   >
                     <li>
-                      <strong>Manual Tracking:</strong> Slowed production due to
+                      <strong>1. Manual Tracking:</strong> Slowed production due to
                       reliance on paper-based processes.
                     </li>
                     <li>
-                      <strong>Inaccurate Job Status Reporting:</strong> Frequent
+                      <strong>2. Inaccurate Job Status Reporting:</strong> Frequent
                       errors caused by manual data entries.
                     </li>
                     <li>
-                      <strong>Lack of Real-Time Visibility:</strong> Inefficient
+                      <strong>3. Lack of Real-Time Visibility:</strong> Inefficient
                       tracking of components across production stages.
                     </li>
                     <li>
-                      <strong>Bottlenecks:</strong> Delays in quality checks and
+                      <strong>4. Bottlenecks:</strong> Delays in quality checks and
                       inventory updates hindered workflow.
                     </li>
                   </ul>
 
                   {/* The Solution Section */}
                   <h6
-                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    style={{
+                      color: "#007bff",
+                      textTransform: "uppercase",
+                      fontSize: "30px",
+                      fontWeight: "600",
+                    }}
                     className="mb-20"
                   >
                     The Solution
@@ -99,17 +112,21 @@ function Challenge() {
                     className="fz-18 mb-40"
                     style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
                   >
-                    Third Eye introduced a{" "}
-                    Digital Job Card System powered by QR code
-                    technology to replace manual processes. This mobile-friendly
-                    Android app provided real-time updates on job statuses and
-                    improved communication between production teams,
-                    significantly enhancing operational efficiency.
+                    Third Eye introduced a Digital Job Card System powered by QR
+                    code technology to replace manual processes. This
+                    mobile-friendly Android app provided real-time updates on
+                    job statuses and improved communication between production
+                    teams, significantly enhancing operational efficiency.
                   </p>
 
                   {/* Key Features Section */}
                   <h6
-                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    style={{
+                      color: "#007bff",
+                      textTransform: "uppercase",
+                      fontSize: "30px",
+                      fontWeight: "600",
+                    }}
                     className="mb-20"
                   >
                     Key Features
@@ -119,60 +136,70 @@ function Challenge() {
                     style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
                   >
                     <li>
-                      <strong>Digital Job Cards:</strong> Transitioned from
+                      <strong>1. Digital Job Cards:</strong> Transitioned from
                       paper to a digital platform for streamlined workflows.
                     </li>
                     <li>
-                      <strong>QR Code Integration:</strong> Unique QR codes for
+                      <strong>2. QR Code Integration:</strong> Unique QR codes for
                       components to track progress at each stage.
                     </li>
                     <li>
-                      <strong>Automated Status Updates:</strong> Real-time
+                      <strong>3. Automated Status Updates:</strong> Real-time
                       updates via QR scans for every production checkpoint.
                     </li>
                     <li>
-                      <strong>Mobile App for Live Tracking:</strong> Supervisors
+                      <strong>4. Mobile App for Live Tracking:</strong> Supervisors
                       and managers accessed component statuses instantly.
                     </li>
                     <li>
-                      <strong>Reduced Processing Time:</strong> Automation
+                      <strong>5. Reduced Processing Time:</strong> Automation
                       minimized manual interventions and accelerated production.
                     </li>
                   </ul>
 
                   {/* Key Outcomes Section */}
                   <h6
-                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    style={{
+                      color: "#007bff",
+                      textTransform: "uppercase",
+                      fontSize: "30px",
+                      fontWeight: "600",
+                    }}
                     className="mb-20"
                   >
                     Key Outcomes & Impact
                   </h6>
                   <ul className="fz-18 mb-40" style={{ color: "#000" }}>
                     <li>
-                      <strong>Production Efficiency:</strong> Reduced process
+                      <strong>1. Production Efficiency:</strong> Reduced process
                       time by 40%, ensuring faster order fulfillment.
                     </li>
                     <li>
-                      <strong>Accuracy:</strong> Significant decrease in errors
+                      <strong>2. Accuracy:</strong> Significant decrease in errors
                       associated with manual job card entries.
                     </li>
                     <li>
-                      <strong>Enhanced Productivity:</strong> Streamlined
+                      <strong>3. Enhanced Productivity:</strong> Streamlined
                       workflows increased productivity by 35%.
                     </li>
                     <li>
-                      <strong>Transparency:</strong> Real-time updates improved
+                      <strong>4. Transparency:</strong> Real-time updates improved
                       communication and coordination across teams.
                     </li>
                     <li>
-                      <strong>Scalability:</strong> The solution was scalable to
+                      <strong>5. Scalability:</strong> The solution was scalable to
                       support the manufacturer&apos;s expanding operations.
                     </li>
                   </ul>
 
                   {/* Technology Stack */}
                   <h6
-                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    style={{
+                      color: "#007bff",
+                      textTransform: "uppercase",
+                      fontSize: "30px",
+                      fontWeight: "600",
+                    }}
                     className="mt-40 mb-20"
                   >
                     Technology Stack
@@ -182,23 +209,28 @@ function Challenge() {
                     style={{ color: "#000", paddingLeft: "20px" }}
                   >
                     <li>
-                      <strong>Platform:</strong> Android (Mobile App)
+                      <strong>1. Platform:</strong> Android (Mobile App)
                     </li>
                     <li>
-                      <strong>Tools:</strong> QR Code API, Firebase (for
+                      <strong>2. Tools:</strong> QR Code API, Firebase (for
                       real-time updates)
                     </li>
                     <li>
-                      <strong>Backend:</strong> Node.js, MongoDB
+                      <strong>3. Backend:</strong> Node.js, MongoDB
                     </li>
                     <li>
-                      <strong>Frontend:</strong> React Native
+                      <strong>4. Frontend:</strong> React Native
                     </li>
                   </ul>
 
                   {/* Conclusion */}
                   <h6
-                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    style={{
+                      color: "#007bff",
+                      textTransform: "uppercase",
+                      fontSize: "30px",
+                      fontWeight: "600",
+                    }}
                     className="mt-40 mb-20"
                   >
                     Conclusion

@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { motion } from "framer-motion";
 
 function Process() {
   const processData = [
@@ -93,10 +94,24 @@ function Process() {
     <section className="process section-padding bord-thin-bottom">
       <div className="container">
         <div className="sec-head mb-80">
-          <div className="bord d-flex align-items-center">
-            <h2 className="fw-600">
-             SYSTEMATIC APPROACH
-            </h2>
+          <div
+            className="bord d-flex justify-content-center align-items-center"
+            style={{ textAlign: "center" }}
+          >
+            {/* Heading */}
+            <motion.h2
+              style={{
+                fontSize: "32px",
+                fontWeight: "700",
+                color: "#333333",
+                textAlign: "center", // Centers the text within the heading
+              }}
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+            >
+              <span style={{ color: "#007BFF" }}>SYSTEMATIC APPROACH</span>
+            </motion.h2>
           </div>
         </div>
         <div className="row">
@@ -112,7 +127,7 @@ function Process() {
                 <div className="icon-img-60 mb-20">
                   <img src={process.icon} alt={process.title} />
                 </div>
-                <h5 className="mb-15 fw-600">{process.title}</h5>
+                <h5 className="mb-15 fw-600" style={{ color: "#007BFF" }}>{process.title}</h5>
                 <p style={{ fontSize: "14px", color: "#555" }}>
                   {process.description}
                 </p>

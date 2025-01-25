@@ -39,9 +39,10 @@ function Contact() {
           {/* Form Section */}
           <div className="col-12">
             <div className="full-width mb-50">
-              <h4 className="text-u ls1 mb-30 text-center">
+              <h4 className="text-u  mb-30 text-center" style={{fontSize:"30px"}}>
                 If you&apos;re looking to collaborate with us on your next big
-                idea, let&apos;s make it a reality together!
+                idea, <br/>
+                <span style={{color:"#007BFF"}}>let&apos;s make it a reality together!</span>
               </h4>
               <form id="contact-form" onSubmit={onSubmit}>
                 <div className="controls">
@@ -110,7 +111,7 @@ function Contact() {
                       type="submit"
                       className="butn butn-full butn-bord radius-30"
                     >
-                      <span className="text">LET&apos;S CONNECT</span>
+                      <span className="text">SUBMIT</span>
                     </button>
                   </div>
                 </div>
@@ -122,33 +123,33 @@ function Contact() {
           {/* Contact Details Section */}
           <div className="col-12">
             <div className="mt-50 text-center">
-              <h3 className="text-u ls1 mb-30">Contact Details</h3>
+              <h3 className="text-u ls1 mb-30 main-color">Contact Details</h3>
               <div className="mt-30">
                 <h6
-                  className="mb-15"
+                  className="mb-15 main-color"
                   style={{ fontFamily: "Satoshi-Variable", fontSize: "22px" }}
                 >
                   Address
                 </h6>
-                <p style={{ fontFamily: "Satoshi-Variable", fontSize: "18px" }}>
+                <p style={{ fontFamily: "Satoshi-Variable", fontSize: "18px" ,color:"#000"}} className="fw-500">
                   AE-176, Plot No. 2248, Ramkrubha, 11th Main Road, Annanagar,
-                  Chennai, India
+                  Chennai, 600040,  India
                   <br />
-                  Pincode: 600040
+                  
                 </p>
               </div>
               <div className="mt-30">
                 <h6
-                  className="mb-15"
+                  className="mb-15 main-color"
                   style={{ fontFamily: "Satoshi-Variable", fontSize: "22px" }}
                 >
-                  Phone
+                  PHONE
                 </h6>
-                <p className="fz-18  underline main-color">+91 44 4207 2248</p>
+                <p className="fz-18  underline fw-500 black">+91 44 4207 2248</p>
               </div>
               <div className="mt-30">
-                <h6 className="mb-15">Email</h6>
-                <p className="fz-18  underline main-color">
+                <h6 className="mb-15 main-color">EMAIL</h6>
+                <p className="fz-18  underline fw-500 black">
                   contact@thirdeyeinfotech.com
                 </p>
               </div>

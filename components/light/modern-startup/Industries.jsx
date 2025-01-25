@@ -54,9 +54,9 @@ function IndustriesWeServe() {
         {/* Heading */}
         <motion.h2
           style={{
-            fontSize: "36px",
+            fontSize: "32px",
             fontWeight: "700",
-            color: "#333333",
+            color: "#007BFF",
             marginBottom: "20px",
             textTransform:"uppercase",
           }}
@@ -72,7 +72,7 @@ function IndustriesWeServe() {
             color: "#555555",
             fontSize: "18px",
             marginBottom: "40px",
-            maxWidth: "600px",
+            maxWidth: "700px",
             margin: "0 auto",
             lineHeight: "1.6",
             fontFamily:"Satoshi-Variable",

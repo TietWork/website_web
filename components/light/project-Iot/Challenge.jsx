@@ -9,14 +9,19 @@ function Challenge() {
           <div className="col-lg-12">
             <div className="text">
               <h3
-                className="mb-30 fw-400 line-height-40"
-                style={{ color: "#000", textTransform: "uppercase" }}
+                className="mb-30  line-height-40"
+                style={{
+                  color: "#007BFF",
+                  textTransform: "uppercase",
+                  fontSize: "30px",
+                  fontWeight: "600",
+                }}
               >
                 Overview
               </h3>
               <p
                 className="fz-18 mb-40"
-                style={{ color: "#555", fontFamily: "Satoshi-Variable" }}
+                style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
               >
                 Our IoT-based digital smart locks redefine modern security by
                 offering dynamic, hack-proof, and user-friendly solutions for
@@ -28,7 +33,12 @@ function Challenge() {
 
               {/* Key Features and Functionality */}
               <h6
-                style={{ color: "#007bff", textTransform: "uppercase" }}
+                style={{
+                  color: "#007bff",
+                  textTransform: "uppercase",
+                  fontSize: "30px",
+                  fontWeight: "600",
+                }}
                 className="mb-20"
               >
                 Key Features and Functionality
@@ -64,14 +74,19 @@ function Challenge() {
                 <li>
                   <strong>Rechargeable Capability:</strong> Equipped with a
                   long-lasting rechargeable battery, our smart locks include
-                  low-battery alerts to ensure you’re always prepared and your
-                  security is never compromised.
+                  low-battery alerts to ensure you&apos;re always prepared and
+                  your security is never compromised.
                 </li>
               </ul>
 
               {/* Applications */}
               <h6
-                style={{ color: "#007bff", textTransform: "uppercase" }}
+                style={{
+                  color: "#007bff",
+                  textTransform: "uppercase",
+                  fontSize: "30px",
+                  fontWeight: "600",
+                }}
                 className="mb-20"
               >
                 Applications
@@ -101,7 +116,12 @@ function Challenge() {
 
               {/* Why Choose Us */}
               <h6
-                style={{ color: "#007bff", textTransform: "uppercase" }}
+                style={{
+                  color: "#007bff",
+                  textTransform: "uppercase",
+                  fontSize: "30px",
+                  fontWeight: "600",
+                }}
                 className="mb-20"
               >
                 Why Choose Our Smart Lock Solution?
@@ -134,7 +154,12 @@ function Challenge() {
 
               {/* Technical Specifications */}
               <h6
-                style={{ color: "#007bff", textTransform: "uppercase" }}
+                style={{
+                  color: "#007bff",
+                  textTransform: "uppercase",
+                  fontSize: "30px",
+                  fontWeight: "600",
+                }}
                 className="mb-20"
               >
                 Technical Specifications
@@ -165,20 +190,26 @@ function Challenge() {
 
               {/* Conclusion */}
               <h6
-                style={{ color: "#007bff", textTransform: "uppercase" }}
+                style={{
+                  color: "#007bff",
+                  textTransform: "uppercase",
+                  fontSize: "30px",
+                  fontWeight: "600",
+                }}
                 className="mb-20"
               >
                 Conclusion
               </h6>
-              <p className="fz-18" style={{ color: "#000", fontFamily: "Satoshi-Variable" }}>
-                    Our IoT-based digital smart locks redefine the security
-                    landscape by combining cutting-edge technology with robust
-                    physical protection. Designed to offer unmatched
-                    reliability, ease of use, and scalability, these locks
-                    empower users with enhanced control over their premises.
+              <p
+                className="fz-18"
+                style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
+              >
+                Our IoT-based digital smart locks redefine the security
+                landscape by combining cutting-edge technology with robust
+                physical protection. Designed to offer unmatched reliability,
+                ease of use, and scalability, these locks empower users with
+                enhanced control over their premises.
               </p>
-
-
             </div>
           </div>
         </div>

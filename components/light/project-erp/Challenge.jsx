@@ -2,21 +2,34 @@ import React from "react";
 
 function Challenge() {
   return (
-    <section className="section-padding bord-thin-bottom">
+    <section className="section-padding">
       <div className="container">
         <div className="row">
-
           {/* Right Section - Project Content */}
           <div className="col-lg-12">
             <div className="text">
               {/* Project Overview */}
               <h3
-                className="mb-30 fw-400 line-height-40"
-                style={{ color: "#000", textAlign: "left", fontFamily:"Satoshi-Variable" , textTransform:"uppercase"}}
+                className="mb-30  line-height-40"
+                style={{
+                  color: "#007BFF",
+                  textAlign: "left",
+                  fontFamily: "Satoshi-Variable",
+                  textTransform: "uppercase",
+                  fontSize: "30px",
+                  fontWeight: "600",
+                }}
               >
                 Overview
               </h3>
-              <p className="fz-18 mb-40" style={{ color: "#000" , textAlign: "left", fontFamily:"Satoshi-Variable" }}>
+              <p
+                className="fz-18 mb-40"
+                style={{
+                  color: "#000",
+                  textAlign: "left",
+                  fontFamily: "Satoshi-Variable",
+                }}
+              >
                 We developed a medium-scale ERP solution tailored to the
                 operational needs of two clients: a UAE-based manufacturing
                 company and a Bangalore-based firm. The system was designed to
@@ -26,7 +39,15 @@ function Challenge() {
               </p>
 
               {/* Key Features */}
-              <h6 style={{ color: "#007bff",  textTransform:"uppercase" }} className="mb-20">
+              <h6
+                style={{
+                  color: "#007bff",
+                  textTransform: "uppercase",
+                  fontSize: "30px",
+                  fontWeight: "600",
+                }}
+                className="mb-20"
+              >
                 Key Features
               </h6>
               <ul className="fz-18 mb-40" style={{ color: "#000" }}>
@@ -42,8 +63,8 @@ function Challenge() {
                 </li>
                 <li>
                   <strong>Vendor Management:</strong> The ERP system efficiently
-                  tracked and managed vendor interactions, ensuring smooth supply
-                  chain operations.
+                  tracked and managed vendor interactions, ensuring smooth
+                  supply chain operations.
                 </li>
                 <li>
                   <strong>Workforce Management:</strong> Employees were
@@ -57,8 +78,8 @@ function Challenge() {
                 </li>
                 <li>
                   <strong>Production Optimization:</strong> Automated production
-                  scheduling allowed for order-based production planning, leading
-                  to better resource utilization.
+                  scheduling allowed for order-based production planning,
+                  leading to better resource utilization.
                 </li>
                 <li>
                   <strong>Quality Control:</strong> Integrated checklists at key
@@ -83,7 +104,15 @@ function Challenge() {
               </ul>
 
               {/* How it Works */}
-              <h6 style={{ color: "#007bff", textTransform:"uppercase" }} className="mb-20">
+              <h6
+                style={{
+                  color: "#007bff",
+                  textTransform: "uppercase",
+                  fontSize: "30px",
+                  fontWeight: "600",
+                }}
+                className="mb-20"
+              >
                 How it Works
               </h6>
               <ul className="fz-18 mb-40" style={{ color: "#000" }}>
@@ -103,19 +132,27 @@ function Challenge() {
                   at each stage.
                 </li>
                 <li>
-                  <strong>Vendor Coordination:</strong> Vendors are tracked within
-                  the ERP system, ensuring supply chain efficiency and on-time
-                  deliveries.
+                  <strong>Vendor Coordination:</strong> Vendors are tracked
+                  within the ERP system, ensuring supply chain efficiency and
+                  on-time deliveries.
                 </li>
                 <li>
-                  <strong>Finance and Reporting:</strong> Automated invoicing and
-                  report generation provide leadership with valuable insights
-                  and oversight.
+                  <strong>Finance and Reporting:</strong> Automated invoicing
+                  and report generation provide leadership with valuable
+                  insights and oversight.
                 </li>
               </ul>
 
               {/* Technology Stack */}
-              <h6 style={{ color: "#007bff" , textTransform:"uppercase"}} className="mb-20">
+              <h6
+                style={{
+                  color: "#007bff",
+                  textTransform: "uppercase",
+                  fontSize: "30px",
+                  fontWeight: "600",
+                }}
+                className="mb-20"
+              >
                 Technology Stack
               </h6>
               <ul className="fz-18 mb-40" style={{ color: "#000" }}>
@@ -136,13 +173,64 @@ function Challenge() {
                   deployment.
                 </li>
               </ul>
+              {/* Benefits Delivered */}
+              <h6
+                style={{
+                  color: "#007bff",
+                  textTransform: "uppercase",
+                  fontSize: "30px",
+                  fontWeight: "600",
+                }}
+                className="mb-20"
+              >
+                Benefits Delivered
+              </h6>
+              <ul className="fz-18 mb-40" style={{ color: "#000" }}>
+                <li>
+                  <strong>90% Reduction in Planning Time:</strong> Streamlined
+                  processes allowed for faster decision-making and resource
+                  allocation.
+                </li>
+                <li>
+                  <strong>Increased Productivity:</strong> Automated workflows
+                  minimized manual intervention, boosting operational
+                  efficiency.
+                </li>
+                <li>
+                  <strong>Reduced Inventory Costs:</strong> Improved stock
+                  management reduced excess inventory and associated costs.
+                </li>
+                <li>
+                  <strong>Enhanced Workforce Management:</strong> Biometric
+                  tracking ensured accuracy in attendance and payroll.
+                </li>
+                <li>
+                  <strong>Improved Quality Control:</strong> Checklists at
+                  production stages guaranteed higher product quality.
+                </li>
+              </ul>
 
-              <p className="fz-18" style={{ color: "#000", fontFamily:"Satoshi-Variable"}}>
-                Our ERP solution is the ideal choice for businesses looking to
-                streamline operations, reduce inefficiencies, and improve overall
-                productivity. With its custom features and robust reporting, it
-                empowers organizations to manage resources effectively and ensure
-                smooth day-to-day operations.
+              {/* Conclusion */}
+              <h6
+                style={{
+                  color: "#007bff",
+                  textTransform: "uppercase",
+                  fontSize: "30px",
+                  fontWeight: "600",
+                }}
+                className="mb-20"
+              >
+                Conclusion
+              </h6>
+              <p
+                className="fz-18"
+                style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
+              >
+                Our ERP solution successfully addressed the operational needs of
+                both clients, enhancing productivity and efficiency. By
+                automating workflows, optimizing inventory management, and
+                improving workforce tracking, we delivered a system that
+                streamlined operations and reduced costs.
               </p>
             </div>
           </div>

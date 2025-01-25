@@ -29,12 +29,7 @@ function Clients() {
   return (
     <section className="section-padding bord-thin-top">
       <div className="container">
-        {/* Page Header */}
-        <div className="row justify-content-center mb-50">
-          <div className="col-lg-8 text-center">
-            <h2 className="mb-20 fw-600">Some of Our Recent Clients</h2>
-          </div>
-        </div>
+      
 
         {/* Clients Grid */}
         <div className="row gy-4 justify-content-center">

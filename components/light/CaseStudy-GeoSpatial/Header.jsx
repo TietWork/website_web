@@ -30,7 +30,7 @@ function Header() {
           <div className="col-12">
             <div className="caption">
               <h2 style={{ textTransform: "uppercase" }}>
-                Geospatial Data Processing for Agriculture
+                GEOSPATIAL AGRICULTURE SOLUTIONS
               </h2>
             </div>
           </div>

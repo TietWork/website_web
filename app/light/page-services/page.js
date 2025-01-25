@@ -26,8 +26,8 @@ export const metadata = {
 export default function ServicesPage() {
   return (
     <body>
-      <LoadingScreen />
       <Cursor />
+      <LoadingScreen />
       <ProgressScroll />
       <Lines />
 

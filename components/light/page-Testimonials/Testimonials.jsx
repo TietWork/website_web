@@ -40,7 +40,7 @@ function Testimonials() {
         <div className="row">
           <div className="col-lg-12">
             <div className="section-title text-center">
-              <p style={{ fontSize: "18px", color: "#555" }}>
+              <p style={{ fontSize: "22px", color: "#007BFF" }}>
                 Hear what our clients have to say about their experiences with us.
               </p>
             </div>
@@ -68,7 +68,6 @@ function Testimonials() {
                           className="fz-20"
                           style={{
                             color: "#333",
-                            fontStyle: "italic",
                             marginBottom: "20px",
                             padding: "0 20px",
                           }}
@@ -85,7 +84,7 @@ function Testimonials() {
                         >
                           <h5
                             style={{
-                              color: "#007BFF",
+                              color: "#000",
                               fontWeight: "bold",
                               marginBottom: "10px",
                             }}
@@ -95,7 +94,7 @@ function Testimonials() {
                           <span
                             className="sub-title"
                             style={{
-                              color: "#000",
+                              color: "#007BFF",
                               fontSize: "14px",
                               display: "block", // Forces `{item.des}` to be on a new line
                             }}
@@ -105,7 +104,7 @@ function Testimonials() {
                           <span
                             className="sub-title"
                             style={{
-                              color: "#000",
+                              color: "#007BFF",
                               fontSize: "14px",
                               marginTop: "5px", // Adds space between the lines
                               display: "block", // Forces `{item.subName}` to be on a new line
@@ -120,7 +119,7 @@ function Testimonials() {
                 ))}
               </Swiper>
             </div>
-            <div className="swiper-arrow-control control-abslout">
+            <div className="swiper-arrow-control justify-content-center d-flex">
               <div
                 className="swiper-button-prev"
                 style={{

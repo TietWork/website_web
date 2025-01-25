@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Solution() {
   return (
@@ -13,51 +13,89 @@ function Solution() {
                 alt="LPG Solution Illustration"
                 className="img-fluid"
                 style={{
-                  width:"650px",
-                  borderRadius: '10px',
-                  boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.1)',
+                  width: "650px",
+                  borderRadius: "10px",
+                  boxShadow: "0px 4px 20px rgba(0, 0, 0, 0.1)",
                 }}
               />
-              <h6 className="mt-20" style={{ color: '#007bff',textTransform:"uppercase" }}>
-                Empowering Communities with Technology
-              </h6>
-              <p className="fz-18" style={{ color: '#000' , fontFamily:"Satoshi-Variable"}}>
-                Transforming public service delivery with innovative automation solutions.
-              </p>
             </div>
           </div>
 
           {/* Right Section - Solution Details */}
           <div className="col-lg-7">
             <div className="text">
-              <h2 className="mb-50" style={{fontFamily:"Satoshi-Variable" , textTransform:"uppercase"}}>
-                The <span style={{ color: '#007bff' }}>Solution</span>
+              <h2
+                className="mb-20"
+                style={{
+                  fontFamily: "Satoshi-Variable",
+                  textTransform: "uppercase",
+                }}
+              >
+                <span
+                  style={{
+                    color: "#007bff",
+                    fontSize: "30px",
+                    fontWeight: "700",
+                  }}
+                >
+                  The Solution
+                </span>
               </h2>
-              <p className="fz-18 mb-40" style={{ color: '#000', fontFamily:"Satoshi-Variable", justifyContent:"left", textAlign:"left"}}>
-                Our company has developed a cutting-edge automated vending machine system, 
-                revolutionizing LPG distribution through seamless integration of technology, 
-                safety, and accessibility. This solution represents a leap forward in 
-                convenience and efficiency for millions across the nation.
+              <p
+                className="fz-18 mb-40"
+                style={{
+                  color: "#000",
+                  fontFamily: "Satoshi-Variable",
+                  justifyContent: "left",
+                  textAlign: "left",
+                }}
+              >
+                Our company has developed a cutting-edge automated vending
+                machine system, revolutionizing LPG distribution through
+                seamless integration of technology, safety, and accessibility.
+                This solution represents a leap forward in convenience and
+                efficiency for millions across the nation.
               </p>
 
               {/* Impact and Reach Section */}
-              <h6 style={{ color: '#007bff', textTransform:"uppercase" }} className="mb-20">
+              <h6
+                style={{
+                  color: "#007bff",
+                  fontSize: "30px",
+                  fontWeight: "700",
+                  textTransform: "uppercase",
+                }}
+                className="mb-20"
+              >
                 Impact and Reach
               </h6>
-              <ul className="fz-18 mb-40" style={{ color: '#000' , fontFamily:"Satoshi-Variable"}}>
+              <ul
+                className="fz-18 mb-40"
+                style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
+              >
                 <li>
-                  <strong>10+ Crore Citizens Benefited:</strong> Millions directly impacted, ensuring reliable and safe access to LPG.
+                  <strong>10+ Crore Citizens Benefited:</strong> Millions
+                  directly impacted, ensuring reliable and safe access to LPG.
                 </li>
                 <li>
-                  <strong>Enhanced Accessibility:</strong> Deployment in underserved regions, reducing manual distribution and increasing consumer convenience.
+                  <strong>Enhanced Accessibility:</strong> Deployment in
+                  underserved regions, reducing manual distribution and
+                  increasing consumer convenience.
                 </li>
                 <li>
-                  <strong>National Economic Growth:</strong> Generating employment, supporting local manufacturing, and strengthening digital public service infrastructure.
+                  <strong>National Economic Growth:</strong> Generating
+                  employment, supporting local manufacturing, and strengthening
+                  digital public service infrastructure.
                 </li>
               </ul>
 
-              <p className="fz-18" style={{ color: '#555', fontFamily:"Satoshi-Variable" }}>
-                This project not only establishes us as pioneers in LPG automation but also reflects our unwavering commitment to innovation, sustainability, and social responsibility.
+              <p
+                className="fz-18"
+                style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
+              >
+                This project not only establishes us as pioneers in LPG
+                automation but also reflects our unwavering commitment to
+                innovation, sustainability, and social responsibility.
               </p>
             </div>
           </div>

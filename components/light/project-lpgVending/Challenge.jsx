@@ -13,9 +13,11 @@ function Challenge() {
                 {/* Changed from col-lg-15 to col-lg-12 for correct alignment */}
                 <div className="text">
                   <h3
-                    className="mb-30 fw-400 line-height-40"
+                    className="mb-30  line-height-40"
                     style={{
-                      color: "#000",
+                      fontSize: "30px",
+                      fontWeight:"600",
+                      color: "#007BFF",
                       textAlign: "left",
                       textTransform: "uppercase",
                     }} // Ensures left alignment
@@ -44,6 +46,8 @@ function Challenge() {
                   <h6
                     style={{
                       color: "#007bff",
+                      fontSize: "30px",
+                      fontWeight:"600",
                       textAlign: "left",
                       textTransform: "uppercase",
                     }}
@@ -90,6 +94,8 @@ function Challenge() {
                   <h6
                     style={{
                       color: "#007bff",
+                      fontSize: "30px",
+                      fontWeight:"600",
                       textAlign: "left",
                       textTransform: "uppercase",
                     }}
@@ -132,6 +138,8 @@ function Challenge() {
                   <h6
                     style={{
                       color: "#007bff",
+                      fontSize: "30px",
+                      fontWeight:"600",
                       textAlign: "left",
                       textTransform: "uppercase",
                     }}

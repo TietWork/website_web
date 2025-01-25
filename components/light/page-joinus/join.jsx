@@ -27,13 +27,13 @@ function Join() {
         <div className="row justify-content-center">
           <div className="col-lg-12">
             <div className="careers-content">
-              <h2 className="main-title mb-30">
+              <h2 className="main-title mb-30 main-color">
                 Passionate about technology and innovation?
               </h2>
               <p
                 className="intro-text mb-40"
                 style={{
-                  fontSize:"18px",
+                  fontSize: "18px",
                   // color: "#000",
                   textAlign: "left",
                   fontFamily: "Satoshi-Variable",
@@ -44,24 +44,13 @@ function Join() {
                 Join a dynamic and collaborative environment where growth,
                 creativity, and impact are at the heart of everything we do.
               </p>
-
-              {/* About Us */}
-              <div className="about-section mb-50">
-                <h4 className="sub-title mb-20">About Us</h4>
-                <p
-                  style={{
-                    fontSize:"18px",
-                    // color: "#000",
-                    textAlign: "left",
-                    fontFamily: "Satoshi-Variable",
-                  }}
-                >
-                  Innovating since 2001, Third Eye has over 20 years of
-                  experience, catering to 150+ projects across 15+ industries.
-                  Headquartered in Chennai, India with partnerships in the USA,
-                  Australia, UAE and Malaysia, we simplify complexities through
-                  smart technology and deliver scalable solutions that empower
-                  businesses.
+              {/* Diversity Statement */}
+              <div className="diversity-section mt-40 mb-30">
+                <p>
+                  Third Eye is an equal opportunity employer that values
+                  diversity and inclusion. We encourage applications from all
+                  qualified candidates, regardless of race, color, religion,
+                  gender, or any other protected status.
                 </p>
               </div>
 
@@ -77,7 +66,7 @@ function Join() {
                     </h5>
                     <p
                       style={{
-                        fontSize:"18px",
+                        fontSize: "18px",
                         // color: "#000",
                         textAlign: "left",
                         fontFamily: "Satoshi-Variable",
@@ -87,34 +76,6 @@ function Join() {
                     </p>
                   </div>
                 ))}
-              </div>
-
-              {/* Application Section */}
-              {/* <div className="application-section">
-                <h4 className="sub-title mb-20">How to Apply?</h4>
-                <p>
-                  If you are interested in any of these positions, send your
-                  resume to{" "}
-                  <a href="mailto:career@thirdeyeinfotech.com">
-                    career@thirdeyeinfotech.com
-                  </a>
-                  . Please include your availability, salary expectations, and
-                  relevant skills and experience in your application.
-                </p>
-                <p>
-                  We thank all applicants for their interest, but only those
-                  selected for an interview will be contacted.
-                </p>
-              </div> */}
-
-              {/* Diversity Statement */}
-              <div className="diversity-section mt-40">
-                <p>
-                  <strong>Third Eye</strong> is an equal opportunity employer
-                  that values diversity and inclusion. We encourage applications
-                  from all qualified candidates, regardless of race, color,
-                  religion, gender, or any other protected status.
-                </p>
               </div>
             </div>
           </div>

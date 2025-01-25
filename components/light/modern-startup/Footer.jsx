@@ -7,7 +7,7 @@ function Footer() {
       <div className="footer-container">
         <div className="container">
           {/* Logo and Social Media */}
-          <div className="row pb-40 align-items-center justify-content-between">
+          <div className="row  align-items-center justify-content-between">
             {/* Logo Section */}
             <div className="col-12 col-lg-4 text-left mb-4">
               <div className="logo icon-img-120">
@@ -56,8 +56,8 @@ function Footer() {
 
           {/* Call to Action */}
           <div className="row pt-50 pb-50 align-items-center">
-            <div className="col-lg-7 mb-4 mb-lg-0">
-              <h2 className="fz-60 fw-600">
+            <div className="col-lg-7  mb-lg-0">
+              <h2 className="fw-600">
                 Have a project in mind?{" "}
                 <span className="underline">
                   <a href="/light/page-contact" style={{ color: "#007BFF" }}>
@@ -66,7 +66,7 @@ function Footer() {
                 </span>
               </h2>
             </div>
-            <div className="col-lg-5 ">
+            {/* <div className="col-lg-5 ">
               <a
                 href="mailto:contact@thirdeyeinfotech.com"
                 className="butn butn-md butn-bord-thin radius-30"
@@ -79,14 +79,13 @@ function Footer() {
               >
                 +91 44 4207 2248
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Footer Links */}
           {/* Footer Links */}
           <div className="row">
             <div className="col-lg-10">
-              <h6 className="sub-title mb-30">Quick Links</h6>
               <div
                 className="footer-links d-grid"
                 style={{
@@ -168,7 +167,7 @@ function Footer() {
           <div className="text-center pt-30 pb-30 sub-bg mt-50">
             <p className="fz-14">
               © 2025 All rights reserved by{" "}
-              <span className="underline main-color">
+              <span className="underline ">
                 Third Eye Info Technology Pvt. Ltd.
               </span>
             </p>

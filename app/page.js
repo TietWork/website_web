@@ -13,7 +13,6 @@ import IndustriesWeServe from '@/components/light/modern-startup/Industries';
 import CoreValues from '@/components/light/modern-startup/CoreValues'
 import Numbers from '@/components/light/modern-startup/Numbers';
 import Interactive from '@/components/light/modern-startup/Interactive';
-import Clients from '@/components/light/modern-startup/Clients';
 import MapSection from '@/components/light/modern-startup/MapSection'
 
 export const metadata = {
@@ -33,8 +32,6 @@ export const metadata = {
 export default function HomeModernStartup() {
   return (
     <body>
-      <LoadingScreen />
-      <Cursor />
       <ProgressScroll />
       <Lines />
 
@@ -50,7 +47,6 @@ export default function HomeModernStartup() {
             <IndustriesWeServe/>
             <Interactive/>
             <MapSection/>
-            <Clients />
           </main>
           <Footer />
         </div>

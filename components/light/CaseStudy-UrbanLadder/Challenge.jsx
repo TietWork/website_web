@@ -11,12 +11,18 @@ function Challenge() {
               <div className="col-lg-12">
                 <div className="text">
                   {/* Challenge Section */}
-                  <h6
-                    style={{ color: "#007bff", textTransform: "uppercase" }}
-                    className="mb-20"
+                  <h3
+                    style={{
+                      color: "#007bff",
+                      textAlign: "left",
+                      textTransform: "uppercase",
+                      fontSize: "30px",
+                      fontWeight: "600",
+                    }}
+                    className="mb-30  line-height-40"
                   >
                     Overview
-                  </h6>
+                  </h3>
                   <p
                     className="fz-18 mb-40"
                     style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
@@ -30,24 +36,24 @@ function Challenge() {
                   </p>
                   <ul className="fz-18 mb-40" style={{ color: "#000" }}>
                     <li>
-                      <strong>Limited Visibility:</strong> No centralized
+                      <strong>1. Limited Visibility:</strong> No centralized
                       platform to monitor production stages, leading to
                       bottlenecks.
                     </li>
                     <li>
-                      <strong>Manual Tracking:</strong> Processes were manually
-                      recorded, increasing the chances of errors.
+                      <strong>2. Manual Tracking:</strong> Processes were
+                      manually recorded, increasing the chances of errors.
                     </li>
                     <li>
-                      <strong>Inventory Mismanagement:</strong> Inaccurate
+                      <strong>3. Inventory Mismanagement:</strong> Inaccurate
                       tracking of inventory resulted in wastage or stockouts.
                     </li>
                     <li>
-                      <strong>Inefficient Material Usage:</strong> Suboptimal
+                      <strong>4. Inefficient Material Usage:</strong> Suboptimal
                       ply cutting led to material wastage and higher costs.
                     </li>
                     <li>
-                      <strong>Order Processing Delays:</strong> Lack of
+                      <strong>5. Order Processing Delays:</strong> Lack of
                       synchronization between departments caused slow order
                       fulfillment.
                     </li>
@@ -55,26 +61,36 @@ function Challenge() {
 
                   {/* Solution Section */}
                   <h6
-                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    style={{
+                      color: "#007bff",
+                      textTransform: "uppercase",
+                      fontSize: "30px",
+                      fontWeight: "600",
+                    }}
                     className="mb-20"
                   >
                     Our Solution
                   </h6>
-                  <p className="fz-18 mb-40" style={{ color: "#000" }}>
+                  <p className="fz-18 mb-40" style={{ color: "#000" , fontFamily: "Satoshi-Variable"}}>
                     Third Eye collaborated with Urban Ladder to develop a robust
                     Track and Trace Application along with a customized
                     ERP-Inventory Management System, streamlining their
                     operations and optimizing material usage.
                   </p>
                   <h6
-                    className="fz-20 mb-20"
-                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    style={{
+                      color: "#007bff",
+                      textTransform: "uppercase",
+                      fontSize: "30px",
+                      fontWeight: "600",
+                    }}
+                    className="mt-40 mb-20"
                   >
                     Key Components:
                   </h6>
                   <ul className="fz-18 mb-40" style={{ color: "#000" }}>
                     <li>
-                      <strong>Track and Trace Application:</strong>
+                      <strong>1. Track and Trace Application:</strong>
                       <ul>
                         <li>
                           Order lifecycle management with real-time tracking.
@@ -94,7 +110,7 @@ function Challenge() {
                       </ul>
                     </li>
                     <li>
-                      <strong>ERP-Inventory Management System:</strong>
+                      <strong>2. ERP-Inventory Management System:</strong>
                       <ul>
                         <li>
                           Material tracking for raw materials, in-process items,
@@ -118,7 +134,7 @@ function Challenge() {
                       </ul>
                     </li>
                     <li>
-                      <strong>Order Management and Logistics:</strong>
+                      <strong>3. Order Management and Logistics:</strong>
                       <ul>
                         <li>
                           Seamless integration for tracking loading, unloading,
@@ -134,72 +150,88 @@ function Challenge() {
 
                   {/* Technology Stack */}
                   <h6
-                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    style={{
+                      color: "#007bff",
+                      textTransform: "uppercase",
+                      fontSize: "30px",
+                      fontWeight: "600",
+                    }}
                     className="mt-40 mb-20"
                   >
                     Technology Stack
                   </h6>
                   <ul className="fz-18" style={{ color: "#000" }}>
                     <li>
-                      <strong>Track and Trace:</strong> Real-time production
+                      <strong>1. Track and Trace:</strong> Real-time production
                       stage tracking and automation.
                     </li>
                     <li>
-                      <strong>ERP System:</strong> Integrated inventory and
+                      <strong>2. ERP System:</strong> Integrated inventory and
                       resource management.
                     </li>
                     <li>
-                      <strong>Cutting Optimization:</strong> Algorithms to
+                      <strong>3. Cutting Optimization:</strong> Algorithms to
                       minimize material waste by up to 30%.
                     </li>
                     <li>
-                      <strong>Data Analytics:</strong> Dashboards for real-time
-                      insights and decision-making.
+                      <strong>4. Data Analytics:</strong> Dashboards for
+                      real-time insights and decision-making.
                     </li>
                     <li>
-                      <strong>Integration:</strong> Seamless collaboration with
-                      logistics and production teams.
+                      <strong>5. Integration:</strong> Seamless collaboration
+                      with logistics and production teams.
                     </li>
                   </ul>
 
                   {/* Key Outcomes and Impact Section */}
                   <h6
-                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    style={{
+                      color: "#007bff",
+                      textTransform: "uppercase",
+                      fontSize: "30px",
+                      fontWeight: "600",
+                    }}
                     className="mb-20"
                   >
                     Key Outcomes and Impact
                   </h6>
                   <ul className="fz-18 mb-40" style={{ color: "#000" }}>
                     <li>
-                      <strong>Operational Efficiency:</strong> Reduced
+                      <strong>1. Operational Efficiency:</strong> Reduced
                       production time by 40% and manual errors by 50%.
                     </li>
                     <li>
-                      <strong>Optimized Material Usage:</strong> Cutting
+                      <strong>2. Optimized Material Usage:</strong> Cutting
                       optimization reduced material wastage by 30%.
                     </li>
                     <li>
-                      <strong>Enhanced Visibility:</strong> Real-time monitoring
-                      improved transparency and foresight.
+                      <strong>3. Enhanced Visibility:</strong> Real-time
+                      monitoring improved transparency and foresight.
                     </li>
                     <li>
-                      <strong>Accurate Inventory Management:</strong> Reduced
+                      <strong>4. Accurate Inventory Management:</strong> Reduced
                       discrepancies by 45%, ensuring timely material
                       procurement.
                     </li>
                     <li>
-                      <strong>Increased Order Fulfillment:</strong> Faster
+                      <strong>5. Increased Order Fulfillment:</strong> Faster
                       cycles enabled handling of 20% more orders without
                       additional resources.
                     </li>
                     <li>
-                      <strong>Scalable System:</strong> Designed to accommodate
-                      larger production capacities as operations expand.
+                      <strong>6. Scalable System:</strong> Designed to
+                      accommodate larger production capacities as operations
+                      expand.
                     </li>
                   </ul>
                   {/* Conclusion Section */}
                   <h6
-                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    style={{
+                      color: "#007bff",
+                      textTransform: "uppercase",
+                      fontSize: "30px",
+                      fontWeight: "600",
+                    }}
                     className="mt-40 mb-20"
                   >
                     Conclusion
@@ -216,6 +248,7 @@ function Challenge() {
                     optimize resource utilization, and deliver superior products
                     to their clients.
                   </p>
+                  <br />
                   <p
                     className="fz-18"
                     style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
