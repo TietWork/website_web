@@ -2,7 +2,7 @@ import React from "react";
 
 function Challenge() {
   return (
-    <section className="section-padding bord-thin-bottom">
+    <section className="section-padding">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-11">
@@ -16,7 +16,7 @@ function Challenge() {
                     className="mb-30  line-height-40"
                     style={{
                       fontSize: "30px",
-                      fontWeight:"600",
+                      fontWeight: "600",
                       color: "#007BFF",
                       textAlign: "left",
                       textTransform: "uppercase",
@@ -47,7 +47,7 @@ function Challenge() {
                     style={{
                       color: "#007bff",
                       fontSize: "30px",
-                      fontWeight:"600",
+                      fontWeight: "600",
                       textAlign: "left",
                       textTransform: "uppercase",
                     }}
@@ -55,47 +55,49 @@ function Challenge() {
                   >
                     Scope of Work
                   </h6>
-                  <ul
+                  <p
                     className="fz-18 mb-40"
-                    style={{ color: "#000", textAlign: "left" }}
+                    style={{ color: "#000", textAlign: "left", fontFamily: "Satoshi-Variable" }}
                   >
                     <li>
-                      <strong>Phase 1: Designing:</strong> Comprehensive
-                      modeling and simulation of machine architecture,
-                      development of scalable tech-stack to support nationwide
-                      deployment, and human-centered design ensuring ease of use
-                      and safety for consumers.
+                      <strong>Phase 1</strong>
+                      <br />
+                      • Designing: Comprehensive modeling and simulation of
+                      machine architecture, development of scalable tech-stack
+                      to support nationwide deployment, and human-centered
+                      design ensuring ease of use and safety for consumers.
                     </li>
                     <li>
-                      <strong>Phase 2: Technology Development:</strong> AI/ML
-                      integration for advanced AI algorithms for cylinder
+                      <strong>Phase 2</strong> <br /> • Technology Development:
+                      AI/ML integration for advanced AI algorithms for cylinder
                       recognition, demand forecasting, and maintenance;
                       IoT-enabled infrastructure for real-time monitoring and
                       remote diagnostics to minimize downtime.
                     </li>
                     <li>
-                      <strong>Phase 3: Manufacturing:</strong> Establishment of
-                      a state-of-the-art production facility in Chennai, India;
-                      adherence to international manufacturing standards to
-                      ensure durability and precision; sustainable production
-                      practices to minimize environmental impact.
+                      <strong>Phase 3</strong> <br />
+                      • Manufacturing: Establishment of a state-of-the-art
+                      production facility in Chennai, India; adherence to
+                      international manufacturing standards to ensure durability
+                      and precision; sustainable production practices to
+                      minimize environmental impact.
                     </li>
                     <li>
-                      <strong>Phase 4: Integration & Commissioning:</strong>{" "}
-                      Seamless integration with existing LPG supply chains;
-                      deployment across key metropolitan and rural areas to
-                      ensure widespread accessibility; full-scale testing and
-                      calibration to ensure reliability under diverse
-                      conditions.
+                      <strong>Phase 4</strong> <br />
+                      • Integration & Commissioning: Seamless integration with
+                      existing LPG supply chains; deployment across key
+                      metropolitan and rural areas to ensure widespread
+                      accessibility; full-scale testing and calibration to
+                      ensure reliability under diverse conditions.
                     </li>
-                  </ul>
+                  </p>
 
                   {/* Key Features */}
                   <h6
                     style={{
                       color: "#007bff",
                       fontSize: "30px",
-                      fontWeight:"600",
+                      fontWeight: "600",
                       textAlign: "left",
                       textTransform: "uppercase",
                     }}
@@ -103,43 +105,43 @@ function Challenge() {
                   >
                     Key Features and Innovations
                   </h6>
-                  <ul
+                  <p
                     className="fz-18 mb-40"
-                    style={{ color: "#000", textAlign: "left" }}
+                    style={{ color: "#000", textAlign: "left" , fontFamily: "Satoshi-Variable"}}
                   >
                     <li>
-                      <strong>AI-Driven Decision Making:</strong> Dynamic AI
+                      <strong>• AI-Driven Decision Making:</strong> Dynamic AI
                       models analyze usage patterns and optimize distribution
                       routes. Automated alerts for system anomalies ensure rapid
                       response and increased uptime.
                     </li>
                     <li>
-                      <strong>Advanced Safety Mechanisms:</strong> Thermal
+                      <strong>• Advanced Safety Mechanisms:</strong> Thermal
                       Imaging Systems for continuous leak detection and
                       automated cylinder verification using weight sensors to
                       ensure safety standards compliance before dispensing.
                     </li>
                     <li>
-                      <strong>Enhanced Tracking and Traceability:</strong> QR
+                      <strong>• Enhanced Tracking and Traceability:</strong> QR
                       Code and RFID tracking with electroformed nickel stickers
                       on each cylinder, enabling seamless tracking from plant to
                       consumer. Real-time tracking provides supply chain
                       visibility and reduces loss or theft.
                     </li>
                     <li>
-                      <strong>User-Centric Design:</strong> An intuitive user
+                      <strong>• User-Centric Design:</strong> An intuitive user
                       interface available in multiple languages caters to
                       diverse demographics. Mobile app integration allows for
                       self-service bookings and real-time notifications.
                     </li>
-                  </ul>
+                  </p>
 
                   {/* Sustainability */}
                   <h6
                     style={{
                       color: "#007bff",
                       fontSize: "30px",
-                      fontWeight:"600",
+                      fontWeight: "600",
                       textAlign: "left",
                       textTransform: "uppercase",
                     }}

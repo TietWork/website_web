@@ -82,7 +82,7 @@ const Interactive = () => {
   const titleStyle = {
     fontFamily: "Satoshi-Variable",
     fontSize: "32px",
-    fontWeight: "500",
+    fontWeight: "600",
     color: "#CDCDCDFF",
     marginBottom: "40px",
     textAlign: "center"
@@ -125,8 +125,8 @@ const Interactive = () => {
   };
 
   const projectTitleStyle = {
-    fontSize: "22px",
-    fontWeight: "600",
+    fontSize: "25px",
+    fontWeight: "500",
     color: "#1E293B",
     marginBottom: "16px",
     transition: "color 0.3s ease",
@@ -134,7 +134,7 @@ const Interactive = () => {
 
   const descriptionStyle = {
     fontSize: "16px",
-    color: "#64748B",
+    color: "#000",
     lineHeight: 1.8,
     transition: "color 0.3s ease"
   };

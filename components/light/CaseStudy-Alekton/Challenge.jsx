@@ -74,27 +74,27 @@ function Challenge() {
                   >
                     Key Issues
                   </h6>
-                  <ul
+                  <p
                     className="fz-18 mb-40"
-                    style={{ color: "#000", textAlign: "left" }}
+                    style={{ color: "#000", textAlign: "left", fontFamily: "Satoshi-Variable" }}
                   >
                     <li>
-                      <strong>1. Manual Tracking:</strong> Slowed production due to
+                      <strong>• Manual Tracking:</strong> Slowed production due to
                       reliance on paper-based processes.
                     </li>
                     <li>
-                      <strong>2. Inaccurate Job Status Reporting:</strong> Frequent
+                      <strong>• Inaccurate Job Status Reporting:</strong> Frequent
                       errors caused by manual data entries.
                     </li>
                     <li>
-                      <strong>3. Lack of Real-Time Visibility:</strong> Inefficient
+                      <strong>• Lack of Real-Time Visibility:</strong> Inefficient
                       tracking of components across production stages.
                     </li>
                     <li>
-                      <strong>4. Bottlenecks:</strong> Delays in quality checks and
+                      <strong>• Bottlenecks:</strong> Delays in quality checks and
                       inventory updates hindered workflow.
                     </li>
-                  </ul>
+                  </p>
 
                   {/* The Solution Section */}
                   <h6
@@ -131,31 +131,31 @@ function Challenge() {
                   >
                     Key Features
                   </h6>
-                  <ul
+                  <p
                     className="fz-18 mb-40"
                     style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
                   >
                     <li>
-                      <strong>1. Digital Job Cards:</strong> Transitioned from
+                      <strong>• Digital Job Cards:</strong> Transitioned from
                       paper to a digital platform for streamlined workflows.
                     </li>
                     <li>
-                      <strong>2. QR Code Integration:</strong> Unique QR codes for
+                      <strong>• QR Code Integration:</strong> Unique QR codes for
                       components to track progress at each stage.
                     </li>
                     <li>
-                      <strong>3. Automated Status Updates:</strong> Real-time
+                      <strong>• Automated Status Updates:</strong> Real-time
                       updates via QR scans for every production checkpoint.
                     </li>
                     <li>
-                      <strong>4. Mobile App for Live Tracking:</strong> Supervisors
+                      <strong>• Mobile App for Live Tracking:</strong> Supervisors
                       and managers accessed component statuses instantly.
                     </li>
                     <li>
-                      <strong>5. Reduced Processing Time:</strong> Automation
+                      <strong>• Reduced Processing Time:</strong> Automation
                       minimized manual interventions and accelerated production.
                     </li>
-                  </ul>
+                  </p>
 
                   {/* Key Outcomes Section */}
                   <h6
@@ -169,28 +169,28 @@ function Challenge() {
                   >
                     Key Outcomes & Impact
                   </h6>
-                  <ul className="fz-18 mb-40" style={{ color: "#000" }}>
+                  <p className="fz-18 mb-40" style={{ color: "#000", fontFamily: "Satoshi-Variable" }}>
                     <li>
-                      <strong>1. Production Efficiency:</strong> Reduced process
+                      <strong>• Production Efficiency:</strong> Reduced process
                       time by 40%, ensuring faster order fulfillment.
                     </li>
                     <li>
-                      <strong>2. Accuracy:</strong> Significant decrease in errors
+                      <strong>• Accuracy:</strong> Significant decrease in errors
                       associated with manual job card entries.
                     </li>
                     <li>
-                      <strong>3. Enhanced Productivity:</strong> Streamlined
+                      <strong>• Enhanced Productivity:</strong> Streamlined
                       workflows increased productivity by 35%.
                     </li>
                     <li>
-                      <strong>4. Transparency:</strong> Real-time updates improved
+                      <strong>• Transparency:</strong> Real-time updates improved
                       communication and coordination across teams.
                     </li>
                     <li>
-                      <strong>5. Scalability:</strong> The solution was scalable to
+                      <strong>• Scalability:</strong> The solution was scalable to
                       support the manufacturer&apos;s expanding operations.
                     </li>
-                  </ul>
+                  </p>
 
                   {/* Technology Stack */}
                   <h6
@@ -204,24 +204,24 @@ function Challenge() {
                   >
                     Technology Stack
                   </h6>
-                  <ul
+                  <p
                     className="fz-18"
-                    style={{ color: "#000", paddingLeft: "20px" }}
+                    style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
                   >
                     <li>
-                      <strong>1. Platform:</strong> Android (Mobile App)
+                      <strong>• Platform:</strong> Android (Mobile App)
                     </li>
                     <li>
-                      <strong>2. Tools:</strong> QR Code API, Firebase (for
+                      <strong>• Tools:</strong> QR Code API, Firebase (for
                       real-time updates)
                     </li>
                     <li>
-                      <strong>3. Backend:</strong> Node.js, MongoDB
+                      <strong>• Backend:</strong> Node.js, MongoDB
                     </li>
                     <li>
-                      <strong>4. Frontend:</strong> React Native
+                      <strong>• Frontend:</strong> React Native
                     </li>
-                  </ul>
+                  </p>
 
                   {/* Conclusion */}
                   <h6

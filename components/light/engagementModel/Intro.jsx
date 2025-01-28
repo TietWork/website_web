@@ -117,7 +117,7 @@ function EngagementModels() {
                 </h3>
                 <p
                   style={{
-                    fontSize: "18px",
+                    fontSize: "16px",
                     color: "#000",
                     marginTop: "20px",
                   }}
@@ -137,7 +137,7 @@ function EngagementModels() {
                   </h5>
                   <ul className="list-unstyled">
                     {model.keyFeatures.map((feature, index) => (
-                      <li
+                      <p
                         key={index}
                         style={{
                           fontSize: "16px",
@@ -145,8 +145,8 @@ function EngagementModels() {
                           marginTop: "10px",
                         }}
                       >
-                        <strong>{feature}</strong>
-                      </li>
+                        {feature}
+                      </p>
                     ))}
                   </ul>
                 </div>
@@ -163,7 +163,7 @@ function EngagementModels() {
                   </h5>
                   <p
                     style={{
-                      fontSize: "18px",
+                      fontSize: "16px",
                       color: "#000",
                     }}
                   >

@@ -11,8 +11,8 @@ function TermsAndConditions() {
 
               {/* Section 1 */}
               <div className="term-section">
-                <h4 className="sub-title mb-20">1. Introduction</h4>
-                <p>
+                <h4 className="sub-title mb-20 main-color fz-18">1. Introduction</h4>
+                <p className="color-black">
                   These Website Terms And Conditions (these Terms or these
                   Website Standard Terms And Conditions) contained herein on
                   this webpage, shall govern your use of this website, including
@@ -33,7 +33,7 @@ function TermsAndConditions() {
 
               {/* Section 2 */}
               <div className="term-section">
-                <h4 className="sub-title mb-20">
+                <h4 className="sub-title mb-20 main-color fz-18">
                   2. Intellectual Property Rights
                 </h4>
                 <p>
@@ -50,7 +50,7 @@ function TermsAndConditions() {
 
               {/* Section 3 */}
               <div className="term-section">
-                <h4 className="sub-title mb-20">3. Restrictions</h4>
+                <h4 className="sub-title mb-20 main-color fz-18">3. Restrictions</h4>
                 <p>
                   You are expressly and emphatically restricted from all of the
                   following:
@@ -99,7 +99,7 @@ function TermsAndConditions() {
 
               {/* Section 4 */}
               <div className="term-section">
-                <h4 className="sub-title mb-20">4. Your Content</h4>
+                <h4 className="sub-title mb-20 main-color fz-18">4. Your Content</h4>
                 <p>
                   In these Website Standard Terms And Conditions, Your Content
                   shall mean any audio, video, text, images or other material
@@ -119,7 +119,7 @@ function TermsAndConditions() {
 
               {/* Section 5 */}
               <div className="term-section">
-                <h4 className="sub-title mb-20">5. No Warranties</h4>
+                <h4 className="sub-title mb-20 main-color fz-18">5. No Warranties</h4>
                 <p>
                   This Website is provided as is, with all faults, and Third Eye
                   Info Technology makes no express or implied representations or
@@ -132,7 +132,7 @@ function TermsAndConditions() {
 
               {/* Section 6 */}
               <div className="term-section">
-                <h4 className="sub-title mb-20">6. Limitation of Liability</h4>
+                <h4 className="sub-title mb-20 main-color fz-18">6. Limitation of Liability</h4>
                 <p>
                   In no event shall Third Eye Info Technology, nor any of its
                   officers, directors and employees, be liable to you for
@@ -147,7 +147,7 @@ function TermsAndConditions() {
 
               {/* Section 7 */}
               <div className="term-section">
-                <h4 className="sub-title mb-20">7. Indemnification</h4>
+                <h4 className="sub-title mb-20 main-color fz-18">7. Indemnification</h4>
                 <p>
                   You hereby indemnify to the fullest extent Third Eye Info
                   Technology from and against any and all liabilities, costs,
@@ -160,7 +160,7 @@ function TermsAndConditions() {
 
               {/* Section 8 */}
               <div className="term-section">
-                <h4 className="sub-title mb-20">8. Severability</h4>
+                <h4 className="sub-title mb-20 main-color fz-18">8. Severability</h4>
                 <p>
                   If any provision of these Terms is found to be unenforceable
                   or invalid under any applicable law, such unenforceability or
@@ -172,7 +172,7 @@ function TermsAndConditions() {
 
               {/* Section 9 */}
               <div className="term-section">
-                <h4 className="sub-title mb-20">9. Variation of Terms</h4>
+                <h4 className="sub-title mb-20 main-color fz-18">9. Variation of Terms</h4>
                 <p>
                   Third Eye Info Technology is permitted to revise these Terms
                   at any time as it sees fit, and by using this Website you are
@@ -184,7 +184,7 @@ function TermsAndConditions() {
 
               {/* Section 10 */}
               <div className="term-section">
-                <h4 className="sub-title mb-20">10. Assignment</h4>
+                <h4 className="sub-title mb-20 main-color fz-18">10. Assignment</h4>
                 <p>
                   Third Eye Info Technology shall be permitted to assign,
                   transfer, and subcontract its rights and/or obligations under
@@ -197,7 +197,7 @@ function TermsAndConditions() {
 
               {/* Section 11 */}
               <div className="term-section">
-                <h4 className="sub-title mb-20">11. Entire Agreement</h4>
+                <h4 className="sub-title mb-20 main-color fz-18">11. Entire Agreement</h4>
                 <p>
                   These Terms, including any legal notices and disclaimers
                   contained on this Website, constitute the entire agreement
@@ -209,7 +209,7 @@ function TermsAndConditions() {
 
               {/* Section 12 */}
               <div className="term-section">
-                <h4 className="sub-title mb-20">
+                <h4 className="sub-title mb-20 main-color fz-18">
                   12. Governing Law & Jurisdiction
                 </h4>
                 <p>

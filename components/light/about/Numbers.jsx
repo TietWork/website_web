@@ -13,8 +13,6 @@ function Numbers() {
           {/* Project Numbers */}
           <motion.div
             className="col-lg-3 col-md-6 mb-4"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
           >
             <div className="item d-flex flex-column align-items-center text-center">
               <motion.h2
@@ -25,7 +23,7 @@ function Numbers() {
                   color: "#051923",
                 }}
               >
-                200
+                200+
               </motion.h2>
               <motion.span
                 className="sub-title opacity-7"
@@ -44,8 +42,6 @@ function Numbers() {
           {/* Projects Completed */}
           <motion.div
             className="col-lg-3 col-md-6 mb-4"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
           >
             <div className="item d-flex flex-column align-items-center text-center">
               <motion.h2
@@ -75,8 +71,6 @@ function Numbers() {
           {/* Industries Served */}
           <motion.div
             className="col-lg-3 col-md-6 mb-4"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
           >
             <div className="item d-flex flex-column align-items-center text-center">
               <motion.h2
@@ -106,8 +100,6 @@ function Numbers() {
           {/* Beneficiaries */}
           <motion.div
             className="col-lg-3 col-md-6 mb-4"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
           >
             <div className="item d-flex flex-column align-items-center text-center">
               <motion.h2
@@ -118,7 +110,7 @@ function Numbers() {
                   color: "#051923",
                 }}
               >
-                100
+                100+
               </motion.h2>
               <motion.span
                 className="sub-title opacity-7"

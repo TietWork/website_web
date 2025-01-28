@@ -41,12 +41,12 @@ function Testimonials() {
           <div className="col-lg-12">
             <div className="section-title text-center">
               <p style={{ fontSize: "22px", color: "#007BFF" }}>
-                Hear what our clients have to say about their experiences with us.
+              Here is what our clients have to say about their experiences with us.
               </p>
             </div>
           </div>
           <div className="col-lg-12">
-            <div className="testim-swiper mb-15 pb-15">
+            <div className="testim-swiper mb-15">
               <Swiper {...swiperOptions} className="swiper-container">
                 {data.slice(0, 5).map((item, i) => (
                   <SwiperSlide key={i}>
@@ -56,8 +56,6 @@ function Testimonials() {
                         background: "#fff",
                         boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
                         borderRadius: "10px",
-                        marginRight:"25px",
-                        marginLeft:"25px",
                         padding: "40px", // Increased padding for proper spacing
                         margin: "30px 15px", // Adjust margin for better spacing between cards
                         minHeight: "300px", // Ensures no content gets cut off
@@ -67,7 +65,7 @@ function Testimonials() {
                         <p
                           className="fz-20"
                           style={{
-                            color: "#333",
+                            color: "#000",
                             marginBottom: "20px",
                             padding: "0 20px",
                           }}

@@ -27,7 +27,7 @@ function Join() {
         <div className="row justify-content-center">
           <div className="col-lg-12">
             <div className="careers-content">
-              <h2 className="main-title mb-30 main-color">
+              <h2 className="main-title mb-30 main-color" style={{textTransform: "uppercase" , fontSize: "30px", textAlign: "center"}}>
                 Passionate about technology and innovation?
               </h2>
               <p
@@ -44,15 +44,6 @@ function Join() {
                 Join a dynamic and collaborative environment where growth,
                 creativity, and impact are at the heart of everything we do.
               </p>
-              {/* Diversity Statement */}
-              <div className="diversity-section mt-40 mb-30">
-                <p>
-                  Third Eye is an equal opportunity employer that values
-                  diversity and inclusion. We encourage applications from all
-                  qualified candidates, regardless of race, color, religion,
-                  gender, or any other protected status.
-                </p>
-              </div>
 
               {/* Open Positions */}
               <div className="positions-section mb-50">

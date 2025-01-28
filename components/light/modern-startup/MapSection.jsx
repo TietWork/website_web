@@ -23,16 +23,18 @@ function MapSection() {
         {/* Heading */}
         <h2
           style={{
-            fontSize: "36px",
-            color: "#00171F",
+            fontSize: "32px",
+            fontWeight: "600",
+            color: "#007BFF",
             marginBottom: "20px",
+            textTransform: "uppercase",
           }}
         >
-          Discover our global footprint:
+          Discover our global footprint
         </h2>
         <p
           style={{
-            color: "#555555",
+            color: "#000",
             fontSize: "18px",
             marginBottom: "40px",
             maxWidth: "700px",
@@ -42,7 +44,7 @@ function MapSection() {
         >
           With Headquartered in{" "}
           <span style={{ color: "#007BFF", fontWeight: "600" }}>Chennai, India</span>{" "}
-          with offices across{" "}
+          and with offices across{" "}
           <span style={{ color: "#007BFF", fontWeight: "600" }}>Australia</span>
           , <span style={{ color: "#007BFF", fontWeight: "600" }}>USA</span>,{" "}
           <span style={{ color: "#007BFF", fontWeight: "600" }}>UAE</span> and 
@@ -62,7 +64,7 @@ function MapSection() {
         >
           {/* Map Image */}
           <img
-            src="/light/assets/imgs/worldmap/map.png"
+            src="/light/assets/imgs/worldmap/world.png"
             alt="World Map"
             style={{
               width: "100%",

@@ -5586,7 +5586,6 @@ h4 {
   margin-bottom: 20px;
   margin-right: 20px;
   border-radius: 15px;
-  float: left;
   position: relative;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -6109,7 +6108,7 @@ footer.clean-footer.crev:before {
 }
 
 /* For desktop and larger screens */
-@media (min-width: 1024px) {
+@media (min-width: 1022px) {
   .header-main {
     padding: 40px 60px;
   }
@@ -6132,8 +6131,11 @@ footer.clean-footer.crev:before {
   }
 
   .header-main p {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     font-size: 1.2rem;
-    max-width: 68%;
+    max-width: 60%;
     line-height: 1.6;
   }
 
@@ -7872,9 +7874,9 @@ footer.clean-footer.crev:before {
 
 /* Process
 -----------------------------------------------------------------*/
-.process .item {
+/* .process .item {
   border-right: 1px solid rgba(0, 0, 0, 0.08);
-}
+} */
 
 .process .item:last-of-type {
   border: 0;
@@ -8190,7 +8192,6 @@ footer.clean-footer.crev:before {
   font-size: 120px;
   font-weight: 800;
   line-height: 0.8;
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: cover;
   width: -webkit-max-content;

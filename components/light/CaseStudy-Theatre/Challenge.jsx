@@ -62,31 +62,31 @@ function Challenge() {
                   >
                     Key Issues
                   </h6>
-                  <ul
+                  <p
                     className="fz-18 mb-40"
                     style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
                   >
                     <li>
-                      <strong>1. Lack of Real-Time Seat Tracking:</strong> Patrons
+                      <strong>• Lack of Real-Time Seat Tracking:</strong> Patrons
                       and staff struggled with outdated seat availability
                       information.
                     </li>
                     <li>
-                      <strong>2. Manual Updates:</strong> The system required
+                      <strong>• Manual Updates:</strong> The system required
                       frequent manual updates, leading to delays and
                       inaccuracies.
                     </li>
                     <li>
-                      <strong>3. Inconsistent Information Across Screens:</strong>{" "}
+                      <strong>• Inconsistent Information Across Screens:</strong>{" "}
                       Multiple displays often showed conflicting data, causing
                       confusion.
                     </li>
                     <li>
-                      <strong>4. Poor User Experience:</strong> Inefficient
+                      <strong>• Poor User Experience:</strong> Inefficient
                       communication negatively impacted the overall
                       theatre-going experience.
                     </li>
-                  </ul>
+                  </p>
 
                   {/* The Solution Section */}
                   <h6
@@ -116,25 +116,25 @@ function Challenge() {
                   >
                     Key Features
                   </h6>
-                  <ul className="fz-18 mb-40" style={{ color: "#000" }}>
+                  <p className="fz-18 mb-40" style={{ color: "#000", fontFamily: "Satoshi-Variable" }}>
                     <li>
-                      <strong>1. Dynamic Seat Filling Visualization:</strong>{" "}
+                      <strong>• Dynamic Seat Filling Visualization:</strong>{" "}
                       Real-time seat occupancy tracking displayed with
                       intuitive, color-coded visuals.
                     </li>
                     <li>
-                      <strong>2. Multi-Screen Information Sync:</strong> Consistent
+                      <strong>• Multi-Screen Information Sync:</strong> Consistent
                       and synchronized information displayed across all screens.
                     </li>
                     <li>
-                      <strong>3. Automated Updates:</strong> Continuous, real-time
+                      <strong>• Automated Updates:</strong> Continuous, real-time
                       updates minimized manual intervention.
                     </li>
                     <li>
-                      <strong>4. User-Friendly Interface:</strong> Simplified
+                      <strong>• User-Friendly Interface:</strong> Simplified
                       content management for theatre staff.
                     </li>
-                  </ul>
+                  </p>
 
                   {/* Key Outcomes Section */}
                   <h6
@@ -144,28 +144,28 @@ function Challenge() {
                   >
                     Key Outcomes & Impact
                   </h6>
-                  <ul className="fz-18 mb-40" style={{ color: "#000" }}>
+                  <p className="fz-18 mb-40" style={{ color: "#000", fontFamily: "Satoshi-Variable" }}>
                     <li>
-                      <strong>1. Operational Efficiency:</strong> Automation
+                      <strong>• Operational Efficiency:</strong> Automation
                       reduced manual work, improving the overall operational
                       workflow.
                     </li>
                     <li>
-                      <strong>2. Enhanced Patron Experience:</strong> Real-time
+                      <strong>• Enhanced Patron Experience:</strong> Real-time
                       seat filling visualization helped patrons make quicker and
                       more informed decisions.
                     </li>
                     <li>
-                      <strong>3. Increased Revenue:</strong> Optimized seat filling
+                      <strong>• Increased Revenue:</strong> Optimized seat filling
                       through real-time tracking resulted in better occupancy
                       management and increased ticket sales.
                     </li>
                     <li>
-                      <strong>4. Scalability:</strong> The solution can easily
+                      <strong>• Scalability:</strong> The solution can easily
                       scale to accommodate additional screens and expand to
                       other theatre locations.
                     </li>
-                  </ul>
+                  </p>
                   {/* Conclusion */}
                   <h6
                     style={{ color: "#007bff", textTransform: "uppercase",fontSize: "30px",

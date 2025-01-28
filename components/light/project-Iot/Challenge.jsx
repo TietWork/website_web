@@ -43,41 +43,41 @@ function Challenge() {
               >
                 Key Features and Functionality
               </h6>
-              <ul
+              <p
                 className="fz-18 mb-40"
                 style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
               >
                 <li>
-                  <strong>Advanced Access Control:</strong> Dynamic passcodes,
+                  <strong>• Advanced Access Control:</strong> Dynamic passcodes,
                   encrypted for maximum security, with a user-friendly keypad
                   interface designed to simplify access while ensuring robust
                   protection against unauthorized entry.
                 </li>
                 <li>
-                  <strong>Mobile Integration:</strong> A dedicated app that
+                  <strong>• Mobile Integration:</strong> A dedicated app that
                   allows for seamless access management, time-controlled
                   permissions, multi-user management, and real-time
                   notifications to keep you informed about every access attempt.
                 </li>
                 <li>
-                  <strong>Anti-Theft Protection:</strong> Built-in alarm systems
+                  <strong>• Anti-Theft Protection:</strong> Built-in alarm systems
                   and tamper-resistant designs ensure uninterrupted security,
                   giving you peace of mind against break-in attempts or
                   tampering incidents.
                 </li>
                 <li>
-                  <strong>Durable Build:</strong> Crafted with weather-resistant
+                  <strong>• Durable Build:</strong> Crafted with weather-resistant
                   materials and high-grade hardened steel, these locks are
                   engineered to withstand harsh environmental conditions and
                   prolonged use without compromising functionality.
                 </li>
                 <li>
-                  <strong>Rechargeable Capability:</strong> Equipped with a
+                  <strong>• Rechargeable Capability:</strong> Equipped with a
                   long-lasting rechargeable battery, our smart locks include
                   low-battery alerts to ensure you&apos;re always prepared and
                   your security is never compromised.
                 </li>
-              </ul>
+              </p>
 
               {/* Applications */}
               <h6
@@ -91,28 +91,28 @@ function Challenge() {
               >
                 Applications
               </h6>
-              <ul className="fz-18 mb-40" style={{ color: "#000" }}>
+              <p className="fz-18 mb-40" style={{ color: "#000", fontFamily: "Satoshi-Variable" }}>
                 <li>
-                  <strong>Residential:</strong> Ideal for apartments, gated
+                  <strong>• Residential:</strong> Ideal for apartments, gated
                   communities, and standalone houses, providing reliable and
                   accessible security for modern living spaces.
                 </li>
                 <li>
-                  <strong>Commercial:</strong> Perfect for offices, warehouses,
+                  <strong>• Commercial:</strong> Perfect for offices, warehouses,
                   and retail outlets, offering advanced security features
                   tailored to protect valuable assets and business operations.
                 </li>
                 <li>
-                  <strong>Industrial:</strong> Designed for factories,
+                  <strong>• Industrial:</strong> Designed for factories,
                   manufacturing units, and storage facilities, ensuring robust
                   protection in high-demand, large-scale environments.
                 </li>
                 <li>
-                  <strong>Public Sector:</strong> Suited for government
+                  <strong>• Public Sector:</strong> Suited for government
                   buildings and facilities requiring advanced security measures,
                   ensuring compliance with stringent safety standards.
                 </li>
-              </ul>
+              </p>
 
               {/* Why Choose Us */}
               <h6
@@ -126,31 +126,31 @@ function Challenge() {
               >
                 Why Choose Our Smart Lock Solution?
               </h6>
-              <ul className="fz-18 mb-40" style={{ color: "#000" }}>
+              <p className="fz-18 mb-40" style={{ color: "#000", fontFamily: "Satoshi-Variable" }}>
                 <li>
-                  <strong>Proven Track Record:</strong> Secured over 5000+
+                  <strong>• Proven Track Record:</strong> Secured over 5000+
                   premises across various sectors with consistent reliability
                   and customer satisfaction, making us a trusted name in modern
                   security solutions.
                 </li>
                 <li>
-                  <strong>Cost-Effective:</strong> Offering affordable yet
+                  <strong>• Cost-Effective:</strong> Offering affordable yet
                   highly advanced security solutions that cater to diverse
                   budgets without compromising quality or performance.
                 </li>
                 <li>
-                  <strong>User-Friendly:</strong> An intuitive app interface
+                  <strong>• User-Friendly:</strong> An intuitive app interface
                   ensures effortless management and accessibility for users of
                   all technical skill levels, enhancing convenience and
                   usability.
                 </li>
                 <li>
-                  <strong>Enhanced Standards:</strong> Our proprietary
+                  <strong>• Enhanced Standards:</strong> Our proprietary
                   algorithms and cutting-edge engineering deliver unmatched
                   security, setting new benchmarks in the IoT smart lock
                   industry.
                 </li>
-              </ul>
+              </p>
 
               {/* Technical Specifications */}
               <h6
@@ -164,29 +164,29 @@ function Challenge() {
               >
                 Technical Specifications
               </h6>
-              <ul className="fz-18 mb-40" style={{ color: "#000" }}>
+              <p className="fz-18 mb-40" style={{ color: "#000", fontFamily: "Satoshi-Variable" }}>
                 <li>
-                  <strong>Material:</strong> Hardened Steel
+                  <strong>• Material:</strong> Hardened Steel
                 </li>
                 <li>
-                  <strong>Access Modes:</strong> Keypad, Mobile App
+                  <strong>• Access Modes:</strong> Keypad, Mobile App
                 </li>
                 <li>
-                  <strong>Security Levels:</strong> Dynamic Passcode,
+                  <strong>• Security Levels:</strong> Dynamic Passcode,
                   Proprietary Algorithm
                 </li>
                 <li>
-                  <strong>Connectivity:</strong> IoT-enabled, Mobile App
+                  <strong>• Connectivity:</strong> IoT-enabled, Mobile App
                   Controlled
                 </li>
                 <li>
-                  <strong>Battery:</strong> Rechargeable with Low Battery Alerts
+                  <strong>• Battery:</strong> Rechargeable with Low Battery Alerts
                 </li>
                 <li>
-                  <strong>Environmental Protection:</strong> Tamper-Proof,
+                  <strong>• Environmental Protection:</strong> Tamper-Proof,
                   Dustproof, All-Weather Design
                 </li>
-              </ul>
+              </p>
 
               {/* Conclusion */}
               <h6

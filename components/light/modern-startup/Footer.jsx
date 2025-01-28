@@ -11,11 +11,13 @@ function Footer() {
             {/* Logo Section */}
             <div className="col-12 col-lg-4 text-left mb-4">
               <div className="logo icon-img-120">
+                <a href="/">
                 <img
                   src="/light/assets/imgs/logo-10.png"
                   alt="Logo"
                   style={{ width: "240px", height: "auto" }}
                 />
+                </a>
               </div>
             </div>
 
@@ -127,9 +129,6 @@ function Footer() {
                   <li>
                     <a href="/light/page-engage">Engagement Models</a>
                   </li>
-                  <li>
-                    <a href="/light/page-FAQS">FAQS</a>
-                  </li>
                 </ul>
                 <ul className="rest fz-14">
                   <li>
@@ -145,7 +144,7 @@ function Footer() {
                     <a href="/light/page-ourClients">Our Clients</a>
                   </li>
                   <li>
-                    <a href="/light/page-testimonials">Testimonials</a>
+                    <a href="/light/page-FAQS">FAQS</a>
                   </li>
                 </ul>
                 <ul className="rest fz-14">

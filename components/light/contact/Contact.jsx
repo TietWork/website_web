@@ -123,19 +123,18 @@ function Contact() {
           {/* Contact Details Section */}
           <div className="col-12">
             <div className="mt-50 text-center">
-              <h3 className="text-u ls1 mb-30 main-color">Contact Details</h3>
+              <h3 className="fz-30 ls1 mb-30 main-color" style={{textTransform:"uppercase"}}>Contact Details</h3>
               <div className="mt-30">
                 <h6
                   className="mb-15 main-color"
-                  style={{ fontFamily: "Satoshi-Variable", fontSize: "22px" }}
+                  style={{ fontFamily: "Satoshi-Variable", fontSize: "22px", textTransform:"uppercase" }}
                 >
                   Address
                 </h6>
-                <p style={{ fontFamily: "Satoshi-Variable", fontSize: "18px" ,color:"#000"}} className="fw-500">
+                <p style={{ fontFamily: "Satoshi-Variable", fontSize: "18px" ,color:"#000", textTransform:"uppercase"}} className="fw-500">
                   AE-176, Plot No. 2248, Ramkrubha, 11th Main Road, Annanagar,
-                  Chennai, 600040,  India
+                  Chennai - 600040,  India
                   <br />
-                  
                 </p>
               </div>
               <div className="mt-30">

@@ -2,13 +2,14 @@
 import React, { useEffect, useLayoutEffect } from 'react';
 
 import loadBackgroudImages from '@/common/loadBackgroudImages';
+
 function Header() {
   useLayoutEffect(() => {
     const tl = gsap.timeline();
-    tl.fromTo('.header', { y: 200 }, { y: 0 }, '+=2.5');
+    tl.fromTo('.header', { y: 300 }, { y: 0 }, '+=2.5');
     tl.fromTo(
       '.header .container',
-      { opacity: 0, translateY: 40 },
+      { opacity: 0, translateY: 60 },
       { opacity: 1, translateY: 0 },
       '-=0'
     );
@@ -16,23 +17,46 @@ function Header() {
     // Cleanup function
     return () => tl.kill();
   }, []);
+
   useEffect(() => {
     loadBackgroudImages();
   }, []);
+
   return (
     <div
-      className="header header-project3 bg-img d-flex align-items-end"
-      data-background="/light/assets/imgs/works/full/lpg.png"
-      data-overlay-dark="9"
+      className="header section-padding"
+      style={{
+        backgroundImage: `url('/light/assets/imgs/works/full/lpg.png')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        height: '45vh',
+        minHeight: '500px',
+        display: 'flex',
+        alignItems: 'center', // Centers content vertically
+      }}
+      data-overlay-dark="4"
     >
-      <div className="container">
-        <div className="row">
-          <div className="col-12">
-            <div className="caption">
-            <h1 style={{textTransform:"uppercase"}}>LPG Automated Vendoring Machine</h1>
-            </div>
-          </div>
-        </div>
+      <div
+        className="container"
+        style={{
+          textAlign: 'left',
+          padding: '0 12px', // Adds responsive padding
+          maxWidth: '1200px', // Ensures proper alignment with below content
+        }}
+      >
+        <h1
+          className=""
+          style={{
+            fontSize: 'clamp(2.3rem, 3.5vw, 4.5rem)', // Responsive font size
+            color: '#fff', // Ensures the title is visible
+            wordWrap: 'break-word', // Prevents text overflow
+            lineHeight: '1.2', // Adjusts spacing between lines
+            textTransform: 'uppercase',
+          }}
+        >
+          LPG Automated Vending Machine
+        </h1>
       </div>
     </div>
   );

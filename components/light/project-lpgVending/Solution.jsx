@@ -2,7 +2,7 @@ import React from "react";
 
 function Solution() {
   return (
-    <section className="section-padding bord-thin-top">
+    <section className="section-padding">
       <div className="container">
         <div className="row">
           {/* Left Section - Visual or Icon */}
@@ -69,25 +69,25 @@ function Solution() {
               >
                 Impact and Reach
               </h6>
-              <ul
+              <p
                 className="fz-18 mb-40"
                 style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
               >
                 <li>
-                  <strong>10+ Crore Citizens Benefited:</strong> Millions
+                  <strong>• 10+ Crore Citizens Benefited:</strong> Millions
                   directly impacted, ensuring reliable and safe access to LPG.
                 </li>
                 <li>
-                  <strong>Enhanced Accessibility:</strong> Deployment in
+                  <strong>• Enhanced Accessibility:</strong> Deployment in
                   underserved regions, reducing manual distribution and
                   increasing consumer convenience.
                 </li>
                 <li>
-                  <strong>National Economic Growth:</strong> Generating
+                  <strong>• National Economic Growth:</strong> Generating
                   employment, supporting local manufacturing, and strengthening
                   digital public service infrastructure.
                 </li>
-              </ul>
+              </p>
 
               <p
                 className="fz-18"

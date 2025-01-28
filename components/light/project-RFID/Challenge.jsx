@@ -53,41 +53,41 @@ function Challenge() {
                   >
                     Key Features
                   </h6>
-                  <ul className="fz-18 mb-40" style={{ color: "#000" }}>
+                  <p className="fz-18 mb-40" style={{ color: "#000", fontFamily: "Satoshi-Variable" }}>
                     <li>
-                      <strong>Real-time Jewel Tracking:</strong> RFID tags and
+                      <strong>• Real-time Jewel Tracking:</strong> RFID tags and
                       readers ensure the accurate and immediate tracking of
                       jewels, providing complete visibility into their location
                       at all times. This eliminates the risk of misplacement and
                       ensures operational transparency.
                     </li>
                     <li>
-                      <strong>Web-Based Interface:</strong> A user-friendly,
+                      <strong>• Web-Based Interface:</strong> A user-friendly,
                       responsive dashboard offers tools for locker management,
                       detailed transaction logs, and advanced audit trails,
                       making it easy for staff to manage and track jewels.
                     </li>
                     <li>
-                      <strong>Inventory & Security Management:</strong> The
+                      <strong>• Inventory & Security Management:</strong> The
                       system combines role-based access control with automated
                       alerts to enhance security. Real-time tracking and
                       inventory updates reduce errors and maintain data
                       integrity.
                     </li>
                     <li>
-                      <strong>Efficient Check-In/Check-Out Process:</strong> The
+                      <strong>• Efficient Check-In/Check-Out Process:</strong> The
                       RFID-based system accelerates transaction processes,
                       ensuring that jewel movements are quick and accurately
                       recorded without manual intervention, saving time and
                       reducing errors.
                     </li>
                     <li>
-                      <strong>Reporting & Analytics:</strong> Detailed reports
+                      <strong>• Reporting & Analytics:</strong> Detailed reports
                       and data visualizations provide insights into inventory
                       trends, operational efficiency, and security performance,
                       empowering data-driven decision-making.
                     </li>
-                  </ul>
+                  </p>
 
                   {/* How it Works Section */}
                   <h6
@@ -102,36 +102,36 @@ function Challenge() {
                   >
                     How it Works
                   </h6>
-                  <ul className="fz-18 mb-40" style={{ color: "#000" }}>
+                  <p className="fz-18 mb-40" style={{ color: "#000", fontFamily: "Satoshi-Variable" }}>
                     <li>
-                      <strong>Jewel Registration:</strong> Jewels are equipped
+                      <strong>• Jewel Registration:</strong> Jewels are equipped
                       with unique RFID tags containing essential information
                       such as ownership, value, and location. This ensures
                       detailed identification for every item in the inventory.
                     </li>
                     <li>
-                      <strong>Locker Tracking:</strong> RFID-enabled lockers
+                      <strong>• Locker Tracking:</strong> RFID-enabled lockers
                       automatically detect when jewels are added or removed,
                       instantly updating the system and providing a complete log
                       of all movements.
                     </li>
                     <li>
-                      <strong>Check-In/Check-Out:</strong> Transactions are
+                      <strong>• Check-In/Check-Out:</strong> Transactions are
                       streamlined with RFID scanning, automatically updating
                       inventory and ensuring precise tracking without manual
                       entry errors.
                     </li>
                     <li>
-                      <strong>Monitoring:</strong> Real-time updates allow
+                      <strong>• Monitoring:</strong> Real-time updates allow
                       managers to monitor the exact location and status of every
                       jewel, ensuring operational visibility and accountability.
                     </li>
                     <li>
-                      <strong>Security:</strong> Comprehensive audit trails and
+                      <strong>• Security:</strong> Comprehensive audit trails and
                       real-time alerts ensure enhanced security by identifying
                       any discrepancies or unauthorized actions immediately.
                     </li>
-                  </ul>
+                  </p>
 
                   {/* Technology Stack Section */}
                   <h6
@@ -146,7 +146,7 @@ function Challenge() {
                   >
                     Technology Stack
                   </h6>
-                  <ul
+                  <p
                     className="fz-18 mb-40"
                     style={{
                       color: "#000",
@@ -155,24 +155,24 @@ function Challenge() {
                     }}
                   >
                     <li>
-                      <strong>Hardware:</strong> RFID Tags, Readers, and
+                      <strong>• Hardware:</strong> RFID Tags, Readers, and
                       Antennas for seamless tracking and reliable data
                       collection.
                     </li>
                     <li>
-                      <strong>Software:</strong> A robust web application built
+                      <strong>• Software:</strong> A robust web application built
                       with React and Node.js, fully integrated with RFID SDKs
                       for exceptional performance.
                     </li>
                     <li>
-                      <strong>Database:</strong> MySQL/SQL Server for secure and
+                      <strong>• Database:</strong> MySQL/SQL Server for secure and
                       efficient data storage and retrieval.
                     </li>
                     <li>
-                      <strong>Cloud/Hosting:</strong> Scalable and secure
+                      <strong>• Cloud/Hosting:</strong> Scalable and secure
                       infrastructure powered by AWS or Azure.
                     </li>
-                  </ul>
+                  </p>
 
                   {/* Benefits to ANL Section */}
                   <h6
@@ -187,30 +187,30 @@ function Challenge() {
                   >
                     Benefits to Businesses
                   </h6>
-                  <ul className="fz-18 mb-40" style={{ color: "#000" }}>
+                  <p className="fz-18 mb-40" style={{ color: "#000" , fontFamily: "Satoshi-Variable"}}>
                     <li>
-                      <strong>Enhanced Security:</strong> Real-time tracking
+                      <strong>• Enhanced Security:</strong> Real-time tracking
                       ensures that all jewels are accounted for, significantly
                       reducing risks associated with theft or loss.
                     </li>
                     <li>
-                      <strong>Improved Operational Efficiency:</strong> By
+                      <strong>• Improved Operational Efficiency:</strong> By
                       automating time-consuming tasks, the system enhances
                       workflow and enables staff to focus on more critical
                       activities.
                     </li>
                     <li>
-                      <strong>Accurate Inventory Management:</strong> The system
+                      <strong>• Accurate Inventory Management:</strong> The system
                       maintains up-to-date records with precise, real-time
                       updates, ensuring that inventory levels are always
                       accurate.
                     </li>
                     <li>
-                      <strong>Cost Savings:</strong> Reduces financial losses
+                      <strong>• Cost Savings:</strong> Reduces financial losses
                       caused by misplaced or stolen jewels while minimizing
                       operational overhead with automated processes.
                     </li>
-                  </ul>
+                  </p>
 
                   {/* Right Section - Content */}
                   <div className="col-lg-12">

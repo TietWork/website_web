@@ -253,7 +253,7 @@ function Navbar() {
                     className="dropdown-item"
                     href="/light/casestudy-urbanladder"
                   >
-                    Urban Ladder Digital Makeover
+                    Digital Transformation
                   </a>
                 </div>
               </li>
@@ -519,7 +519,7 @@ function Navbar() {
                             href="/light/casestudy-urbanladder"
                             className="sub-link"
                           >
-                            Urban Ladder Digital Makeover
+                            Digital Transformation
                           </a>
                         </li>
                       </ul>
@@ -623,7 +623,7 @@ function Navbar() {
                   <h5>
                     AE-176, Plot No. 2248 Ramkrubha,
                     11th Main Road Annanagar,
-                    Chennai, 600040 India <br />
+                    Chennai - 600040 India <br />
                   </h5>
                 </div>
                 <div className="item mb-50">
@@ -634,7 +634,7 @@ function Navbar() {
                         href="https://www.instagram.com/thirdeyeinfotechnology/profilecard/?igsh=d2Z3YXpoanZmZWI4"
                         target="_blank"
                       >
-                        <span className="">Instagram</span>
+                        <h5 className="" style={{fontFamily:"Satoshi-Variable"}}>Instagram</h5>
                       </a>
                     </li>
                     <li className="mb-10">
@@ -642,19 +642,19 @@ function Navbar() {
                         href="https://www.linkedin.com/company/third-eye-info-technology/"
                         target="_blank"
                       >
-                        <span className="">LinkedIn</span>
+                        <h5 className="" style={{fontFamily:"Satoshi-Variable"}}>LinkedIn</h5>
                       </a>
                     </li>
                   </ul>
                 </div>
                 <div className="item mb-40">
                   <h6 className="sub-title mb-15 opacity-7">Contact Us</h6>
-                  <h5 style={{ color: "#007BFF" }}>
+                  <h5 style={{ color: "#000" }}>
                     <a href="mailto:contact@thirdeyeinfotech.com">
                       contact@thirdeyeinfotech.com
                     </a>
                   </h5>
-                  <h5 className="underline mt-10">
+                  <h5 className=" mt-10" style={{ color: "#000" }}>
                     <a href="#0">+91 44 4207 2248</a>
                   </h5>
                 </div>

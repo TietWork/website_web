@@ -50,58 +50,58 @@ function Challenge() {
               >
                 Key Features
               </h6>
-              <ul className="fz-18 mb-40" style={{ color: "#000" }}>
+              <p className="fz-18 mb-40" style={{ color: "#000", fontFamily: "Satoshi-Variable" }}>
                 <li>
-                  <strong>Operational Efficiency:</strong> By defining standard
+                  <strong>• Operational Efficiency:</strong> By defining standard
                   items, workflows, and production processes, we reduced
                   operational complexities for both clients.
                 </li>
                 <li>
-                  <strong>Inventory Control:</strong> The system maintained
+                  <strong>• Inventory Control:</strong> The system maintained
                   optimal stock levels based on production requirements,
                   reducing overstocking and minimizing shortages.
                 </li>
                 <li>
-                  <strong>Vendor Management:</strong> The ERP system efficiently
+                  <strong>• Vendor Management:</strong> The ERP system efficiently
                   tracked and managed vendor interactions, ensuring smooth
                   supply chain operations.
                 </li>
                 <li>
-                  <strong>Workforce Management:</strong> Employees were
+                  <strong>• Workforce Management:</strong> Employees were
                   registered with biometric data for accurate tracking of
                   check-in/check-out times in line with shift schedules.
                 </li>
                 <li>
-                  <strong>Payroll Integration:</strong> The ERP solution
+                  <strong>• Payroll Integration:</strong> The ERP solution
                   automated payroll generation based on attendance records,
                   reducing administrative overhead.
                 </li>
                 <li>
-                  <strong>Production Optimization:</strong> Automated production
+                  <strong>• Production Optimization:</strong> Automated production
                   scheduling allowed for order-based production planning,
                   leading to better resource utilization.
                 </li>
                 <li>
-                  <strong>Quality Control:</strong> Integrated checklists at key
+                  <strong>• Quality Control:</strong> Integrated checklists at key
                   production stages ensured compliance with quality standards
                   throughout the manufacturing process.
                 </li>
                 <li>
-                  <strong>Finance and Invoicing:</strong> The system monitored
+                  <strong>• Finance and Invoicing:</strong> The system monitored
                   orders across various stages, enabling timely invoicing and
                   order tracking.
                 </li>
                 <li>
-                  <strong>Real-Time Reporting:</strong> Detailed real-time
+                  <strong>• Real-Time Reporting:</strong> Detailed real-time
                   reports provided top management with actionable insights for
                   strategic decision-making and oversight.
                 </li>
                 <li>
-                  <strong>Automation and Alerts:</strong> Automated alerts and
+                  <strong>• Automation and Alerts:</strong> Automated alerts and
                   reminders were implemented to prompt timely actions, reducing
                   delays and enhancing productivity.
                 </li>
-              </ul>
+              </p>
 
               {/* How it Works */}
               <h6
@@ -115,33 +115,33 @@ function Challenge() {
               >
                 How it Works
               </h6>
-              <ul className="fz-18 mb-40" style={{ color: "#000" }}>
+              <p className="fz-18 mb-40" style={{ color: "#000" , fontFamily: "Satoshi-Variable"}}>
                 <li>
-                  <strong>Employee Onboarding:</strong> Employees are registered
+                  <strong>• Employee Onboarding:</strong> Employees are registered
                   with biometric information for automated time tracking and
                   payroll integration.
                 </li>
                 <li>
-                  <strong>Inventory Management:</strong> Stock levels are
+                  <strong>• Inventory Management:</strong> Stock levels are
                   monitored and adjusted based on real-time data from production
                   planning.
                 </li>
                 <li>
-                  <strong>Production Workflow:</strong> Orders are scheduled
+                  <strong>• Production Workflow:</strong> Orders are scheduled
                   through the ERP system, with checklists guiding quality checks
                   at each stage.
                 </li>
                 <li>
-                  <strong>Vendor Coordination:</strong> Vendors are tracked
+                  <strong>• Vendor Coordination:</strong> Vendors are tracked
                   within the ERP system, ensuring supply chain efficiency and
                   on-time deliveries.
                 </li>
                 <li>
-                  <strong>Finance and Reporting:</strong> Automated invoicing
+                  <strong>• Finance and Reporting:</strong> Automated invoicing
                   and report generation provide leadership with valuable
                   insights and oversight.
                 </li>
-              </ul>
+              </p>
 
               {/* Technology Stack */}
               <h6
@@ -155,24 +155,24 @@ function Challenge() {
               >
                 Technology Stack
               </h6>
-              <ul className="fz-18 mb-40" style={{ color: "#000" }}>
+              <p className="fz-18 mb-40" style={{ color: "#000", fontFamily: "Satoshi-Variable" }}>
                 <li>
-                  <strong>Frontend:</strong> React for user interface and
+                  <strong>• Frontend:</strong> React for user interface and
                   dashboard management.
                 </li>
                 <li>
-                  <strong>Backend:</strong> Node.js and .NET Core for ERP logic
+                  <strong>• Backend:</strong> Node.js and .NET Core for ERP logic
                   and business processes.
                 </li>
                 <li>
-                  <strong>Database:</strong> SQL Server for robust data
+                  <strong>• Database:</strong> SQL Server for robust data
                   management and reporting.
                 </li>
                 <li>
-                  <strong>Cloud/Hosting:</strong> Azure for secure, scalable
+                  <strong>• Cloud/Hosting:</strong> Azure for secure, scalable
                   deployment.
                 </li>
-              </ul>
+              </p>
               {/* Benefits Delivered */}
               <h6
                 style={{
@@ -185,30 +185,30 @@ function Challenge() {
               >
                 Benefits Delivered
               </h6>
-              <ul className="fz-18 mb-40" style={{ color: "#000" }}>
+              <p className="fz-18 mb-40" style={{ color: "#000" , fontFamily: "Satoshi-Variable"}}>
                 <li>
-                  <strong>90% Reduction in Planning Time:</strong> Streamlined
+                  <strong>• 90% Reduction in Planning Time:</strong> Streamlined
                   processes allowed for faster decision-making and resource
                   allocation.
                 </li>
                 <li>
-                  <strong>Increased Productivity:</strong> Automated workflows
+                  <strong>• Increased Productivity:</strong> Automated workflows
                   minimized manual intervention, boosting operational
                   efficiency.
                 </li>
                 <li>
-                  <strong>Reduced Inventory Costs:</strong> Improved stock
+                  <strong>• Reduced Inventory Costs:</strong> Improved stock
                   management reduced excess inventory and associated costs.
                 </li>
                 <li>
-                  <strong>Enhanced Workforce Management:</strong> Biometric
+                  <strong>• Enhanced Workforce Management:</strong> Biometric
                   tracking ensured accuracy in attendance and payroll.
                 </li>
                 <li>
-                  <strong>Improved Quality Control:</strong> Checklists at
+                  <strong>• Improved Quality Control:</strong> Checklists at
                   production stages guaranteed higher product quality.
                 </li>
-              </ul>
+              </p>
 
               {/* Conclusion */}
               <h6

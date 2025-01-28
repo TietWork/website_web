@@ -26,7 +26,7 @@ function Header() {
     <div
       className="header section-padding"
       style={{
-        backgroundImage: `url('/light/assets/imgs/background/cover4.jpg')`,
+        backgroundImage: `url('/light/assets/imgs/header/engage.jpg')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
@@ -53,10 +53,10 @@ function Header() {
             color: '#fff', // Ensures the title is visible
             wordWrap: 'break-word', // Prevents text overflow
             lineHeight: '1.2', // Adjusts spacing between lines
-            textTransform: 'uppercase', 
+            textTransform: 'uppercase',
           }}
         >
-           Engagement Model
+          Engagement Model
         </h1>
       </div>
     </div>

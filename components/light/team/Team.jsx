@@ -20,17 +20,26 @@ function OurTeam() {
               }}
             />
             {/* Founder's Name */}
-            <h5 className="mt-10 fw-600" style={{ color: "#000" , textTransform:"uppercase"}}>
+            <h5
+              className="mt-10 fw-600"
+              style={{ color: "#000", textTransform: "uppercase" }}
+            >
               Jayavasanth Jayaraman <br />
-              
             </h5>
-            <h6 style={{ color: "#000" , textTransform:"uppercase"}}>Founder & Managing Director</h6>
+            <h6 style={{ color: "#000", textTransform: "uppercase" }}>
+              Founder & Managing Director
+            </h6>
           </div>
 
           {/* Founder's Vision */}
           <div className="col-lg-7">
-            <h2 className="mb-20 fw-600 mt-25">Founder&apos;s Vision</h2>
-            <p className="fz-18" style={{ color: "#555", lineHeight: "1.8" }}>
+            <h2
+              className="mb-20 fw-600 mt-25 fz-30 main-color"
+              style={{ textTransform: "uppercase" }}
+            >
+              Founder&apos;s Vision
+            </h2>
+            <p className="fz-18" style={{ color: "#000", lineHeight: "1.8" }}>
               At the heart of our success lies our commitment to innovation,
               teamwork, and a relentless pursuit of excellence. Our founder
               envisioned a company where talent thrives, and collaboration fuels
@@ -38,9 +47,9 @@ function OurTeam() {
               a meaningful impact, empowering businesses and shaping the future.
               <br />
               <br />
-              Third Eye stands as a beacon of cutting-edge
-              solutions and customer centric innovation. With expertise spanning
-              web technologies, IT services, and automation, we are dedicated to
+              Third Eye stands as a beacon of cutting-edge solutions and
+              customer centric innovation. With expertise spanning web
+              technologies, IT services, and automation, we are dedicated to
               delivering scalable, efficient, and transformative solutions for
               our global clients. Our mission is to bridge the gap between
               technology and business, fostering growth, and driving excellence.
@@ -52,10 +61,16 @@ function OurTeam() {
         <section className="team section-padding pb-60">
           <div className="container ml-25">
             <div className="row">
-            <h3 className="mt-10 fw-600 mb-40 main-color" style={{ color: "#000" , textTransform:"uppercase" , textAlign:"center"}}>
-              Core team <br />
-              
-            </h3>
+              <h3
+                className="mt-10 fw-600 mb-40 main-color"
+                style={{
+                  color: "#000",
+                  textTransform: "uppercase",
+                  textAlign: "center",
+                }}
+              >
+                Core team <br />
+              </h3>
               {data.map((item, i) => (
                 <div key={i} className="col-lg-4">
                   <div className="item mb-80">

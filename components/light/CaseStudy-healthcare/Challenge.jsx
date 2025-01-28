@@ -58,32 +58,32 @@ function Challenge() {
                     accurate radiation readings. Key features of the solution
                     included:
                   </p>
-                  <ul className="fz-18" style={{ color: "#000" }}>
+                  <p className="fz-18" style={{ color: "#000", fontFamily: "Satoshi-Variable" }}>
                     <li>
-                      <strong>Real-Time Radiation Detection</strong> : Instant
+                      <strong>• Real-Time Radiation Detection</strong> : Instant
                       feedback through a live gauge, providing visual cues of
                       abnormal skin radiation.
                     </li>
                     <li>
-                      <strong>Bluetooth Connectivity</strong> : Wireless data
+                      <strong>• Bluetooth Connectivity</strong> : Wireless data
                       transmission to Windows Surface devices, ensuring mobility
                       and ease of use.
                     </li>
                     <li>
-                      <strong>Advanced Analytics</strong> : Analyzing radiation
+                      <strong>• Advanced Analytics</strong> : Analyzing radiation
                       patterns to detect potential cancer cells, improving
                       diagnostic accuracy.
                     </li>
                     <li>
-                      <strong>User-Friendly Interface</strong> : Intuitive
+                      <strong>• User-Friendly Interface</strong> : Intuitive
                       design for seamless operation by healthcare professionals
                       in various environments.
                     </li>
                     <li>
-                      <strong>Portability and Scalability</strong> : Designed to
+                      <strong>• Portability and Scalability</strong> : Designed to
                       function in clinics, hospitals, and remote medical camps.
                     </li>
-                  </ul>
+                  </p>
 
                   <h6
                     style={{ color: "#007bff", textTransform: "uppercase" }}
@@ -91,31 +91,31 @@ function Challenge() {
                   >
                     Key Outcomes & Impact
                   </h6>
-                  <ul
+                  <p
                     className="fz-18"
                     style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
                   >
                     <li>
-                      <strong>Enhanced Early Detection</strong> : Increased
+                      <strong>• Enhanced Early Detection</strong> : Increased
                       detection rates of early-stage skin cancer, enabling
                       timely treatment and improving patient outcomes.
                     </li>
                     <li>
-                      <strong>Operational Efficiency</strong> : Streamlined
+                      <strong>• Operational Efficiency</strong> : Streamlined
                       diagnostic processes, reducing the need for invasive
                       biopsies.
                     </li>
                     <li>
-                      <strong>Improved Patient Engagement</strong> : Real-time
+                      <strong>• Improved Patient Engagement</strong> : Real-time
                       feedback offers transparency, enhancing patient trust and
                       involvement in their healthcare journey.
                     </li>
                     <li>
-                      <strong>Scalable Deployment</strong> : Successfully
+                      <strong>• Scalable Deployment</strong> : Successfully
                       deployed across multiple healthcare facilities, with
                       potential for expansion into dermatology clinics globally.
                     </li>
-                  </ul>
+                  </p>
 
                   {/* Technology Stack */}
                   <h6
@@ -124,22 +124,22 @@ function Challenge() {
                   >
                     Technology Stack
                   </h6>
-                  <ul className="fz-18" style={{ color: "#000" }}>
+                  <p className="fz-18" style={{ color: "#000", fontFamily: "Satoshi-Variable" }}>
                     <li>
-                      <strong>Software Platform:</strong> Windows Surface
+                      <strong>• Software Platform:</strong> Windows Surface
                     </li>
                     <li>
-                      <strong>Connectivity:</strong> Bluetooth Integration
+                      <strong>• Connectivity:</strong> Bluetooth Integration
                     </li>
                     <li>
-                      <strong>Data Visualization:</strong> Real-time digital
+                      <strong>• Data Visualization:</strong> Real-time digital
                       gauges and analytical dashboards
                     </li>
                     <li>
-                      <strong>Security:</strong> HIPAA-compliant data handling
+                      <strong>• Security:</strong> HIPAA-compliant data handling
                       and encryption protocols
                     </li>
-                  </ul>
+                  </p>
                   {/* Conclusion */}
                   <h6
                     style={{ color: "#007bff", textTransform: "uppercase" }}

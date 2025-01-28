@@ -3,7 +3,7 @@ import React from "react";
 function Intro() {
   return (
     <section className="page-intro position-re">
-      <div className="container section-padding">
+      <div className="container mt-40">
         <div className="row">
           <div className="text">
             <p

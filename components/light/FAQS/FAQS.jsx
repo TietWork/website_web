@@ -61,10 +61,7 @@ function FAQS() {
         <div className="row justify-content-center">
           {/* Heading Section */}
           <div className="col-lg-8 text-center mb-50">
-            <h2 className="fz-36">
-              Frequently <br /> Asked Questions
-            </h2>
-            <p className="fz-18 mt-10" style={{ color: '#555' }}>
+            <p className="fz-18 mt-10" style={{ color: '#000' }}>
               Learn more about our solutions and how we serve diverse industries with tailored approaches.
             </p>
           </div>
@@ -79,7 +76,7 @@ function FAQS() {
                   <h6
                     style={{
                       color: '#007BFF',
-                      fontSize: '18px',
+                      fontSize: '22px',
                       fontWeight: '600',
                     }}
                   >
@@ -87,8 +84,8 @@ function FAQS() {
                   </h6>
                   <p
                     style={{
-                      fontSize: '16px',
-                      color: '#333',
+                      fontSize: '18px',
+                      color: '#000',
                       marginTop: '10px',
                       lineHeight: '1.8',
                     }}

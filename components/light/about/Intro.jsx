@@ -57,7 +57,7 @@ function Intro() {
                 <div className="icon mb-20">
                   <Visibility fontSize="large" style={{ color: "#000" }} />
                 </div>
-                <h4>Our Vision</h4>
+                <h4 className="main-color fz-30">Our Vision</h4>
                 <p
                   className="mt-20"
                   style={{
@@ -80,7 +80,7 @@ function Intro() {
                 <div className="icon mb-20">
                   <Flag fontSize="large" style={{ color: "#000" }} />
                 </div>
-                <h4>Our Mission</h4>
+                <h4 className="main-color fz-30">Our Mission</h4>
                 <p
                   className="mt-20"
                   style={{
@@ -103,7 +103,7 @@ function Intro() {
                 <div className="icon mb-20">
                   <Verified fontSize="large" style={{ color: "#000" }} />
                 </div>
-                <h4>Our Values</h4>
+                <h4 className="main-color fz-30">Our Values</h4>
                 <p
                   className="mt-20"
                   style={{

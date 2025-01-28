@@ -62,28 +62,28 @@ function Challenge() {
                     authenticity and streamlining the submission process. Key
                     features of the solution included:
                   </p>
-                  <ul
+                  <p
                     className="fz-18"
                     style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
                   >
                     <li>
-                      <strong>1. Casting Management System</strong> :Automated
+                      <strong>• Casting Management System</strong> :Automated
                       end-to-end workflows for efficient talent management.
                     </li>
                     <li>
-                      <strong>2. Face Detection API</strong> : Instantly verifies
+                      <strong>• Face Detection API</strong> : Instantly verifies
                       actors authenticity by matching faces with a vast movie
                       database.
                     </li>
                     <li>
-                      <strong>3. Automated Candidate Shortlisting</strong> :
+                      <strong>• Automated Candidate Shortlisting</strong> :
                       Reducing time spent on shortlisting by 80%.
                     </li>
                     <li>
-                      <strong>4. Custom Software Enhancements</strong> : Tailored
+                      <strong>• Custom Software Enhancements</strong> : Tailored
                       to meet the unique needs of our client.
                     </li>
-                  </ul>
+                  </p>
 
                   <h6
                     style={{
@@ -96,32 +96,32 @@ function Challenge() {
                   >
                     Key Outcomes & Impact
                   </h6>
-                  <ul
+                  <p
                     className="fz-18"
                     style={{ color: "#000", fontFamily: "Satoshi-Variable" }}
                   >
                     <li>
-                    <strong>1. 80% Reduction in Time for Candidate Shortlisting:
+                    <strong>• 80% Reduction in Time for Candidate Shortlisting:
                     </strong> Streamlined processes allowed casting agents to focus on
                       selecting the best talent rather than administrative
                       tasks.
                     </li>
                     <li>
-                    <strong>2. Increased Casting Turnaround: </strong> Faster verification and
+                    <strong>• Increased Casting Turnaround: </strong> Faster verification and
                     submission processes significantly improved overall
                       casting timelines.
                     </li>
                     <li>
-                    <strong>3. Global Talent Access: </strong> The platform enabled actors from
+                    <strong>• Global Talent Access: </strong> The platform enabled actors from
                       around the world to access Hollywood casting
                       opportunities, democratizing the process.
                     </li>
                     <li>
-                    <strong>4. Growth and Acquisition : </strong>Over a decade, the platform grew
+                    <strong>• Growth and Acquisition : </strong>Over a decade, the platform grew
                       to over 100,000 active subscribers, drawing investor
                       interest and resulting in acquisition.
                     </li>
-                  </ul>
+                  </p>
                   <h6
                     style={{
                       color: "#007bff",

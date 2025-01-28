@@ -94,7 +94,7 @@ function CoreValues() {
             >
               <h3
                 style={{
-                  fontSize: "20px",
+                  fontSize: "25px",
                   fontWeight: "600",
                   color: "#001524",
                   marginBottom: "10px",
@@ -108,7 +108,7 @@ function CoreValues() {
                 style={{
                   fontFamily:"Satoshi-Variable",
                   fontSize: "16px",
-                  color: "#555555",
+                  color: "#000",
                   lineHeight: "1.6",
                 }}
               >

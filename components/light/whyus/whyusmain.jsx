@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 
 function WhyUs() {
   return (
-    <section className="why-us section-padding">
+    <section className="why-us mt-40 mb-40">
       <div className="container">
         {/* Our Promise Section */}
-        <div className="row ">
+        <div className="row">
           <motion.div
             className="col-lg-12"
             initial={{ opacity: 0, y: 50 }}
@@ -16,7 +16,7 @@ function WhyUs() {
           >
             <h4
               className="fz-30 font-weight-bold"
-              style={{ color: "#007bff", marginBottom: "20px" }}
+              style={{ color: "#007bff", marginBottom: "20px" , textTransform: "uppercase"}}
             >
               Our Promise
             </h4>
@@ -37,7 +37,7 @@ function WhyUs() {
         </div>
 
         {/* Our Team Section */}
-        <div className="row mt-50">
+        <div className="row mt-20">
           <motion.div
             className="col-lg-12"
             initial={{ opacity: 0, y: 50 }}
@@ -46,7 +46,7 @@ function WhyUs() {
           >
             <h4
               className="fz-30 font-weight-bold"
-              style={{ color: "#007bff", marginBottom: "20px" }}
+              style={{ color: "#007bff", marginBottom: "20px", textTransform: "uppercase" }}
             >
               Our Team
             </h4>
@@ -88,7 +88,7 @@ function WhyUs() {
         </div>
 
         {/* Our Strengths Section */}
-        <div className="row mt-50">
+        <div className="row">
           <motion.div
             className="col-lg-12"
             initial={{ opacity: 0, y: 50 }}
@@ -97,7 +97,7 @@ function WhyUs() {
           >
             <h4
               className="fz-30 font-weight-bold"
-              style={{ color: "#007bff", marginBottom: "20px" }}
+              style={{ color: "#007bff", marginBottom: "20px", textTransform: "uppercase" }}
             >
               Our Strengths
             </h4>

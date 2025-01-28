@@ -12,7 +12,7 @@ function PrivacyPolicy() {
 
               {/* Section 1 */}
               <div className="term-section">
-                <h4 className="sub-title mb-20">Introduction</h4>
+                <h4 className="sub-title mb-20 main-color fz-18">Introduction</h4>
                 <p>
                   Third Eye Info Technology (hereinafter referred to as Third
                   Eye, <strong>we</strong>, <strong>us</strong> or{" "}
@@ -39,7 +39,7 @@ function PrivacyPolicy() {
 
               {/* Section 2 */}
               <div className="term-section">
-                <h4 className="sub-title mb-20">Definitions</h4>
+                <h4 className="sub-title mb-20 main-color fz-18">Definitions</h4>
                 <ul>
                   <li>
                     <strong>Aggregated Information:</strong> Information about
@@ -63,7 +63,7 @@ function PrivacyPolicy() {
 
               {/* Section 3 */}
               <div className="term-section">
-                <h4 className="sub-title mb-20">
+                <h4 className="sub-title mb-20 main-color fz-18">
                   What Types of Information Does Third Eye Gather About Its
                   Users?
                 </h4>
@@ -87,7 +87,7 @@ function PrivacyPolicy() {
 
               {/* Section 4 */}
               <div className="term-section">
-                <h4 className="sub-title mb-20">Mobile Data</h4>
+                <h4 className="sub-title mb-20 main-color fz-18">Mobile Data</h4>
                 <p>
                   When you use certain features of the Platform, especially
                   mobile applications, we may collect location data. If you do
@@ -99,7 +99,7 @@ function PrivacyPolicy() {
 
               {/* Section 5 */}
               <div className="term-section">
-                <h4 className="sub-title mb-20">Log Data</h4>
+                <h4 className="sub-title mb-20 main-color fz-18">Log Data</h4>
                 <p>
                   We collect Log Data automatically when you access or use the
                   Platform. This includes IP address, access times, and pages
@@ -109,7 +109,7 @@ function PrivacyPolicy() {
 
               {/* Section 6 */}
               <div className="term-section">
-                <h4 className="sub-title mb-20">
+                <h4 className="sub-title mb-20 main-color fz-18">
                   Cookies and Tracking Technologies
                 </h4>
                 <p>
@@ -121,7 +121,7 @@ function PrivacyPolicy() {
 
               {/* Section 7 */}
               <div className="term-section">
-                <h4 className="sub-title mb-20">
+                <h4 className="sub-title mb-20 main-color fz-18">
                   How Third Eye Uses and Processes the Information
                 </h4>
                 <p>We use personal data for the following purposes:</p>
@@ -141,7 +141,7 @@ function PrivacyPolicy() {
 
               {/* Section 8 */}
               <div className="term-section">
-                <h4 className="sub-title mb-20">
+                <h4 className="sub-title mb-20 main-color fz-18">
                   When Third Eye Discloses or Shares Personal Information
                 </h4>
                 <p>
@@ -154,7 +154,7 @@ function PrivacyPolicy() {
 
               {/* Section 9 */}
               <div className="term-section">
-                <h4 className="sub-title mb-20">
+                <h4 className="sub-title mb-20 main-color fz-18">
                   How to Change or Delete Your Information
                 </h4>
                 <p>
@@ -167,7 +167,7 @@ function PrivacyPolicy() {
 
               {/* Section 10 */}
               <div className="term-section">
-                <h4 className="sub-title mb-20">
+                <h4 className="sub-title mb-20 main-color fz-18">
                   Securing Your Personal Information
                 </h4>
                 <p>
@@ -179,7 +179,7 @@ function PrivacyPolicy() {
 
               {/* Section 11 */}
               <div className="term-section">
-                <h4 className="sub-title mb-20">
+                <h4 className="sub-title mb-20 main-color fz-18">
                   Your Privacy When You Access Third-Party Websites and
                   Resources
                 </h4>
@@ -192,23 +192,13 @@ function PrivacyPolicy() {
 
               {/* Section 12 */}
               <div className="term-section">
-                <h4 className="sub-title mb-20">
+                <h4 className="sub-title mb-20 main-color fz-18">
                   Changes to This Privacy Policy
                 </h4>
                 <p>
                   We may update this Privacy Policy at any time. We will notify
                   you of material changes by posting on the Platform or via
                   email.
-                </p>
-              </div>
-
-              {/* Section 13 */}
-              <div className="term-section">
-                <h4 className="sub-title mb-20">Got Feedback?</h4>
-                <p>
-                  If you have feedback about this Privacy Policy, please contact
-                  our Data Protection Compliance Officer at: contact@Third
-                  Eyeinfotech.com
                 </p>
               </div>
             </div>

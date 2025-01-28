@@ -1,6 +1,12 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import ConstructionIcon from "@mui/icons-material/Construction";
+import DesignServicesIcon from "@mui/icons-material/DesignServices";
+import CodeIcon from "@mui/icons-material/Code";
+import BugReportIcon from "@mui/icons-material/BugReport";
+import CloudUploadIcon from "@mui/icons-material/CloudUpload";
+import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 
 function Process() {
   const processData = [
@@ -8,7 +14,7 @@ function Process() {
       title: "Discovery & Planning",
       description:
         "We begin by understanding your goals, conducting research, and defining strategies, covering system planning, data collection, and feasibility analysis.",
-      icon: "/light/assets/imgs/serv-icons/1.png",
+      icon: <ConstructionIcon style={{ fontSize: "48px", color: "#000" }} />,
       details: "/light/page-about",
       detailsList: [
         "Software Development: Requirement analysis and system architecture planning.",
@@ -22,11 +28,13 @@ function Process() {
       title: "Design & Prototyping",
       description:
         "We craft intuitive designs and create detailed prototypes, including thorough UI/UX design, wireframing, and initial data modeling to ensure alignment.",
-      icon: "/light/assets/imgs/serv-icons/2.png",
+      icon: (
+        <DesignServicesIcon style={{ fontSize: "48px", color: "#000" }} />
+      ),
       details: "/light/page-about",
       detailsList: [
         "Software Development: Wireframing and creating mockups.",
-        "AI/ML: Testing datasets and creating algorithms.",
+        "AI/ML: Testing datasets and creating algorithms and models for prototyping.",
         "Blockchain: Smart contract design and network architecture.",
         "IoT: Designing device interfaces and communication protocols.",
         "Big Data: Designing data pipelines and visualization interfaces.",
@@ -36,7 +44,7 @@ function Process() {
       title: "Development & Execution",
       description:
         "Bringing designs to life using agile practices. This includes frontend/backend development, seamless API integration, scalable system architecture, and rigorous testing.",
-      icon: "/light/assets/imgs/serv-icons/3.png",
+      icon: <CodeIcon style={{ fontSize: "48px", color: "#000" }} />,
       details: "/light/page-about",
       detailsList: [
         "Software Development: Frontend and backend development with database integration.",
@@ -50,7 +58,7 @@ function Process() {
       title: "Testing & Quality Assurance",
       description:
         "Ensuring quality with rigorous testing for performance, security, and usability. Includes user acceptance testing, system validation, and stress testing for robustness and reliability of the system under various conditions.",
-      icon: "/light/assets/imgs/serv-icons/4.png",
+      icon: <BugReportIcon style={{ fontSize: "48px", color: "#000" }} />,
       details: "/light/page-about",
       detailsList: [
         "Software Development: Unit testing, integration testing, and security audits.",
@@ -64,7 +72,7 @@ function Process() {
       title: "Deployment & Integration",
       description:
         "Seamless deployment into your ecosystem with cloud or on-premise solutions. Includes CI/CD pipeline setup and workflow integration. We ensure minimal downtime during the deployment process to avoid disruptions.",
-      icon: "/light/assets/imgs/serv-icons/5.png",
+      icon: <CloudUploadIcon style={{ fontSize: "48px", color: "#000" }} />,
       details: "/light/page-about",
       detailsList: [
         "Software Development: Cloud deployment and CI/CD integration.",
@@ -78,7 +86,7 @@ function Process() {
       title: "Ongoing Support & Optimization",
       description:
         "Continuous monitoring and optimization for sustained performance. Includes feature updates, bug fixes, and scalability improvements.",
-      icon: "/light/assets/imgs/serv-icons/6.png",
+      icon: <SupportAgentIcon style={{ fontSize: "48px", color: "#000" }} />,
       details: "/light/page-about",
       detailsList: [
         "Software Development: Feature Update, performance optimization and bug fixes.",
@@ -95,7 +103,7 @@ function Process() {
       <div className="container">
         <div className="sec-head mb-80">
           <div
-            className="bord d-flex justify-content-center align-items-center"
+            className=" d-flex justify-content-center align-items-center"
             style={{ textAlign: "center" }}
           >
             {/* Heading */}
@@ -124,11 +132,11 @@ function Process() {
                   boxShadow: "0 2px 6px rgba(0, 0, 0, 0.08)",
                 }}
               >
-                <div className="icon-img-60 mb-20">
-                  <img src={process.icon} alt={process.title} />
-                </div>
-                <h5 className="mb-15 fw-600" style={{ color: "#007BFF" }}>{process.title}</h5>
-                <p style={{ fontSize: "14px", color: "#555" }}>
+                <div className="icon-img-60 mb-20">{process.icon}</div>
+                <h5 className="mb-15 fw-600" style={{ color: "#007BFF" }}>
+                  {process.title}
+                </h5>
+                <p style={{ fontSize: "14px", color: "#000" }}>
                   {process.description}
                 </p>
                 <ul
@@ -136,7 +144,7 @@ function Process() {
                     fontSize: "13px",
                     marginTop: "10px",
                     paddingLeft: "18px",
-                    color: "#666",
+                    color: "#000",
                   }}
                 >
                   {process.detailsList.map((detail, i) => (

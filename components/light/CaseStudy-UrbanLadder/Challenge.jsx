@@ -34,30 +34,30 @@ function Challenge() {
                     and improved inventory accuracy by 45%, enabling faster
                     order fulfillment and scalable operations.
                   </p>
-                  <ul className="fz-18 mb-40" style={{ color: "#000" }}>
+                  <p className="fz-18 mb-40" style={{ color: "#000", fontFamily: "Satoshi-Variable" }}>
                     <li>
-                      <strong>1. Limited Visibility:</strong> No centralized
+                      <strong>• Limited Visibility:</strong> No centralized
                       platform to monitor production stages, leading to
                       bottlenecks.
                     </li>
                     <li>
-                      <strong>2. Manual Tracking:</strong> Processes were
+                      <strong>• Manual Tracking:</strong> Processes were
                       manually recorded, increasing the chances of errors.
                     </li>
                     <li>
-                      <strong>3. Inventory Mismanagement:</strong> Inaccurate
+                      <strong>• Inventory Mismanagement:</strong> Inaccurate
                       tracking of inventory resulted in wastage or stockouts.
                     </li>
                     <li>
-                      <strong>4. Inefficient Material Usage:</strong> Suboptimal
+                      <strong>• Inefficient Material Usage:</strong> Suboptimal
                       ply cutting led to material wastage and higher costs.
                     </li>
                     <li>
-                      <strong>5. Order Processing Delays:</strong> Lack of
+                      <strong>• Order Processing Delays:</strong> Lack of
                       synchronization between departments caused slow order
                       fulfillment.
                     </li>
-                  </ul>
+                  </p>
 
                   {/* Solution Section */}
                   <h6
@@ -86,11 +86,11 @@ function Challenge() {
                     }}
                     className="mt-40 mb-20"
                   >
-                    Key Components:
+                    Key Components
                   </h6>
-                  <ul className="fz-18 mb-40" style={{ color: "#000" }}>
+                  <p className="fz-18 mb-40" style={{ color: "#000", fontFamily: "Satoshi-Variable" }}>
                     <li>
-                      <strong>1. Track and Trace Application:</strong>
+                      <strong>• Track and Trace Application:</strong>
                       <ul>
                         <li>
                           Order lifecycle management with real-time tracking.
@@ -110,7 +110,7 @@ function Challenge() {
                       </ul>
                     </li>
                     <li>
-                      <strong>2. ERP-Inventory Management System:</strong>
+                      <strong>• ERP-Inventory Management System:</strong>
                       <ul>
                         <li>
                           Material tracking for raw materials, in-process items,
@@ -134,7 +134,7 @@ function Challenge() {
                       </ul>
                     </li>
                     <li>
-                      <strong>3. Order Management and Logistics:</strong>
+                      <strong>• Order Management and Logistics:</strong>
                       <ul>
                         <li>
                           Seamless integration for tracking loading, unloading,
@@ -146,7 +146,7 @@ function Challenge() {
                         </li>
                       </ul>
                     </li>
-                  </ul>
+                  </p>
 
                   {/* Technology Stack */}
                   <h6
@@ -160,28 +160,28 @@ function Challenge() {
                   >
                     Technology Stack
                   </h6>
-                  <ul className="fz-18" style={{ color: "#000" }}>
+                  <p className="fz-18" style={{ color: "#000" , fontFamily: "Satoshi-Variable"}}>
                     <li>
-                      <strong>1. Track and Trace:</strong> Real-time production
+                      <strong>• Track and Trace:</strong> Real-time production
                       stage tracking and automation.
                     </li>
                     <li>
-                      <strong>2. ERP System:</strong> Integrated inventory and
+                      <strong>• ERP System:</strong> Integrated inventory and
                       resource management.
                     </li>
                     <li>
-                      <strong>3. Cutting Optimization:</strong> Algorithms to
+                      <strong>• Cutting Optimization:</strong> Algorithms to
                       minimize material waste by up to 30%.
                     </li>
                     <li>
-                      <strong>4. Data Analytics:</strong> Dashboards for
+                      <strong>• Data Analytics:</strong> Dashboards for
                       real-time insights and decision-making.
                     </li>
                     <li>
-                      <strong>5. Integration:</strong> Seamless collaboration
+                      <strong>• Integration:</strong> Seamless collaboration
                       with logistics and production teams.
                     </li>
-                  </ul>
+                  </p>
 
                   {/* Key Outcomes and Impact Section */}
                   <h6
@@ -195,35 +195,35 @@ function Challenge() {
                   >
                     Key Outcomes and Impact
                   </h6>
-                  <ul className="fz-18 mb-40" style={{ color: "#000" }}>
+                  <p className="fz-18 mb-40" style={{ color: "#000", fontFamily: "Satoshi-Variable" }}>
                     <li>
-                      <strong>1. Operational Efficiency:</strong> Reduced
+                      <strong>• Operational Efficiency:</strong> Reduced
                       production time by 40% and manual errors by 50%.
                     </li>
                     <li>
-                      <strong>2. Optimized Material Usage:</strong> Cutting
+                      <strong>• Optimized Material Usage:</strong> Cutting
                       optimization reduced material wastage by 30%.
                     </li>
                     <li>
-                      <strong>3. Enhanced Visibility:</strong> Real-time
+                      <strong>• Enhanced Visibility:</strong> Real-time
                       monitoring improved transparency and foresight.
                     </li>
                     <li>
-                      <strong>4. Accurate Inventory Management:</strong> Reduced
+                      <strong>• Accurate Inventory Management:</strong> Reduced
                       discrepancies by 45%, ensuring timely material
                       procurement.
                     </li>
                     <li>
-                      <strong>5. Increased Order Fulfillment:</strong> Faster
+                      <strong>• Increased Order Fulfillment:</strong> Faster
                       cycles enabled handling of 20% more orders without
                       additional resources.
                     </li>
                     <li>
-                      <strong>6. Scalable System:</strong> Designed to
+                      <strong>• Scalable System:</strong> Designed to
                       accommodate larger production capacities as operations
                       expand.
                     </li>
-                  </ul>
+                  </p>
                   {/* Conclusion Section */}
                   <h6
                     style={{

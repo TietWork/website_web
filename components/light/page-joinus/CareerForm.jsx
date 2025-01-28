@@ -53,7 +53,7 @@ function CareerForm() {
                 <h3 className="text-u ls1">
                   
                   <span className="fw-600" style={{ color: "#007bff" }}>
-                  APPLY NOW !
+                  APPLY NOW!
                   </span>
                 </h3>
               </div>
