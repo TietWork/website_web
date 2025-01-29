@@ -34,7 +34,7 @@ function Solution() {
                 <span
                   style={{
                     color: "#007bff",
-                    fontSize: "30px",
+                    fontSize: "25px",
                     fontWeight: "700",
                   }}
                 >
@@ -61,7 +61,7 @@ function Solution() {
               <h6
                 style={{
                   color: "#007bff",
-                  fontSize: "30px",
+                  fontSize: "25px",
                   fontWeight: "700",
                   textTransform: "uppercase",
                 }}

@@ -15,7 +15,7 @@ function Challenge() {
                       color: "#007bff",
                       textAlign: "left",
                       textTransform: "uppercase",
-                      fontSize: "30px",
+                      fontSize: "25px",
                       fontWeight: "600",
                     }}
                     className="mb-30  line-height-40"
@@ -44,7 +44,8 @@ function Challenge() {
                   </p>
 
                   <h6
-                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    style={{ color: "#007bff", textTransform: "uppercase",fontSize: "25px",
+                      fontWeight: "600", }}
                     className="mt-40 mb-20"
                   >
                     The Solution
@@ -86,7 +87,8 @@ function Challenge() {
                   </p>
 
                   <h6
-                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    style={{ color: "#007bff", textTransform: "uppercase",fontSize: "25px",
+                      fontWeight: "600", }}
                     className="mt-40 mb-20"
                   >
                     Key Outcomes & Impact
@@ -119,7 +121,8 @@ function Challenge() {
 
                   {/* Technology Stack */}
                   <h6
-                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    style={{ color: "#007bff", textTransform: "uppercase",fontSize: "25px",
+                      fontWeight: "600", }}
                     className="mt-40 mb-20"
                   >
                     Technology Stack
@@ -142,7 +145,8 @@ function Challenge() {
                   </p>
                   {/* Conclusion */}
                   <h6
-                    style={{ color: "#007bff", textTransform: "uppercase" }}
+                    style={{ color: "#007bff", textTransform: "uppercase",fontSize: "25px",
+                      fontWeight: "600", }}
                     className="mt-40 mb-20"
                   >
                     Conclusion

@@ -16,7 +16,7 @@ function Challenge() {
                       color: "#007bff",
                       textAlign: "left",
                       textTransform: "uppercase",
-                      fontSize: "30px",
+                      fontSize: "25px",
                       fontWeight: "600",
                     }}
                     className="mb-30  line-height-40"
@@ -38,7 +38,7 @@ function Challenge() {
 
                   {/* Challenges Section */}
                   <h6
-                    style={{ color: "#007bff", textTransform: "uppercase",fontSize: "30px",
+                    style={{ color: "#007bff", textTransform: "uppercase",fontSize: "25px",
                       fontWeight: "600", }}
                     className="mb-20"
                   >
@@ -56,7 +56,7 @@ function Challenge() {
 
                   {/* Key Issues Section */}
                   <h6
-                    style={{ color: "#007bff", textTransform: "uppercase" ,fontSize: "30px",
+                    style={{ color: "#007bff", textTransform: "uppercase" ,fontSize: "25px",
                       fontWeight: "600",}}
                     className="mb-20"
                   >
@@ -90,7 +90,7 @@ function Challenge() {
 
                   {/* The Solution Section */}
                   <h6
-                    style={{ color: "#007bff", textTransform: "uppercase" ,fontSize: "30px",
+                    style={{ color: "#007bff", textTransform: "uppercase" ,fontSize: "25px",
                       fontWeight: "600",}}
                     className="mb-20"
                   >
@@ -110,7 +110,7 @@ function Challenge() {
 
                   {/* Key Features Section */}
                   <h6
-                    style={{ color: "#007bff", textTransform: "uppercase" ,fontSize: "30px",
+                    style={{ color: "#007bff", textTransform: "uppercase" ,fontSize: "25px",
                       fontWeight: "600",}}
                     className="mb-20"
                   >
@@ -138,7 +138,7 @@ function Challenge() {
 
                   {/* Key Outcomes Section */}
                   <h6
-                    style={{ color: "#007bff", textTransform: "uppercase",fontSize: "30px",
+                    style={{ color: "#007bff", textTransform: "uppercase",fontSize: "25px",
                       fontWeight: "600", }}
                     className="mt-20 mb-20"
                   >
@@ -168,7 +168,7 @@ function Challenge() {
                   </p>
                   {/* Conclusion */}
                   <h6
-                    style={{ color: "#007bff", textTransform: "uppercase",fontSize: "30px",
+                    style={{ color: "#007bff", textTransform: "uppercase",fontSize: "25px",
                       fontWeight: "600", }}
                     className="mt-40 mb-20"
                   >

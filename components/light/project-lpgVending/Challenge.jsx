@@ -15,7 +15,7 @@ function Challenge() {
                   <h3
                     className="mb-30  line-height-40"
                     style={{
-                      fontSize: "30px",
+                      fontSize: "25px",
                       fontWeight: "600",
                       color: "#007BFF",
                       textAlign: "left",
@@ -46,7 +46,7 @@ function Challenge() {
                   <h6
                     style={{
                       color: "#007bff",
-                      fontSize: "30px",
+                      fontSize: "25px",
                       fontWeight: "600",
                       textAlign: "left",
                       textTransform: "uppercase",
@@ -96,7 +96,7 @@ function Challenge() {
                   <h6
                     style={{
                       color: "#007bff",
-                      fontSize: "30px",
+                      fontSize: "25px",
                       fontWeight: "600",
                       textAlign: "left",
                       textTransform: "uppercase",
@@ -140,7 +140,7 @@ function Challenge() {
                   <h6
                     style={{
                       color: "#007bff",
-                      fontSize: "30px",
+                      fontSize: "25px",
                       fontWeight: "600",
                       textAlign: "left",
                       textTransform: "uppercase",

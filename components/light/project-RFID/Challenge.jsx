@@ -17,7 +17,7 @@ function Challenge() {
                       color: "#007BFF",
                       textAlign: "left",
                       textTransform: "uppercase",
-                      fontSize: "30px",
+                      fontSize: "25px",
                       fontWeight: "600",
                     }}
                   >
@@ -46,7 +46,7 @@ function Challenge() {
                       color: "#007bff",
                       textAlign: "left",
                       textTransform: "uppercase",
-                      fontSize: "30px",
+                      fontSize: "25px",
                       fontWeight: "600",
                     }}
                     className="mb-20"
@@ -95,7 +95,7 @@ function Challenge() {
                       color: "#007bff",
                       textAlign: "left",
                       textTransform: "uppercase",
-                      fontSize: "30px",
+                      fontSize: "25px",
                       fontWeight: "600",
                     }}
                     className="mb-20"
@@ -139,7 +139,7 @@ function Challenge() {
                       color: "#007bff",
                       textAlign: "left",
                       textTransform: "uppercase",
-                      fontSize: "30px",
+                      fontSize: "25px",
                       fontWeight: "600",
                     }}
                     className="mb-20"
@@ -180,7 +180,7 @@ function Challenge() {
                       color: "#007bff",
                       textAlign: "left",
                       textTransform: "uppercase",
-                      fontSize: "30px",
+                      fontSize: "25px",
                       fontWeight: "600",
                     }}
                     className="mb-20"
@@ -219,7 +219,7 @@ function Challenge() {
                         style={{
                           color: "#007bff",
                           textTransform: "uppercase",
-                          fontSize: "30px",
+                          fontSize: "25px",
                           fontWeight: "600",
                         }}
                         className="mb-20"
