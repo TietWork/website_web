@@ -1,9 +1,9 @@
 {
   "pages": {
-    "/page": [
+    "/light/casestudy-GeoSpatial/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/light/casestudy-GeoSpatial/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -11,40 +11,20 @@
       "static/css/css-app_globals_css.css",
       "static/chunks/app/layout.js"
     ],
-    "/light/project-lpgVending/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/light/project-lpgVending/page.js"
+      "static/chunks/app/page.js"
     ],
-    "/light/casestudy-healthcare/page": [
+    "/light/page-joinus/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/light/casestudy-healthcare/page.js"
+      "static/chunks/app/light/page-joinus/page.js"
     ],
-    "/light/casestudy-alekton/page": [
+    "/light/page-contact/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/light/casestudy-alekton/page.js"
-    ],
-    "/light/casestudy-faceDetection/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/casestudy-faceDetection/page.js"
-    ],
-    "/light/casestudy-urbanladder/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/casestudy-urbanladder/page.js"
-    ],
-    "/light/project-RFID/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/project-RFID/page.js"
-    ],
-    "/light/project-erp/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/light/project-erp/page.js"
+      "static/chunks/app/light/page-contact/page.js"
     ],
     "/_not-found/page": [
       "static/chunks/webpack.js",

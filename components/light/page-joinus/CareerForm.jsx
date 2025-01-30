@@ -122,9 +122,9 @@ function CareerForm() {
                     <div className="mt-30">
                       <button
                         type="submit"
-                        className="butn butn-full butn-bord radius-30"
+                        className="butn butn-full butn-bord radius-30 gradient-button"
                       >
-                        <span className="text">SUBMIT APPLICATION</span>
+                        <span className="text ">SUBMIT APPLICATION</span>
                       </button>
                     </div>
                   </div>
