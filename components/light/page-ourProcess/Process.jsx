@@ -13,7 +13,7 @@ function Process() {
     {
       title: "Discovery & Planning",
       description:
-        "We begin by understanding your goals, conducting research, and defining strategies, covering system planning, data collection, and feasibility analysis.",
+        "We begin by understanding your goals, conducting research, and defining strategies, covering system planning, data collection, feasibility analysis and Delivery Roadmap.",
       icon: <ConstructionIcon style={{ fontSize: "48px", color: "#000" }} />,
       details: "/light/page-about",
       detailsList: [
@@ -27,7 +27,7 @@ function Process() {
     {
       title: "Design & Prototyping",
       description:
-        "We craft intuitive designs and create detailed prototypes, including thorough UI/UX design, wireframing, and initial data modeling to ensure alignment.",
+        "We craft intuitive designs and create detailed prototypes, including thorough UI/UX design, wireframing, and initial data modeling.",
       icon: (
         <DesignServicesIcon style={{ fontSize: "48px", color: "#000" }} />
       ),
@@ -50,8 +50,8 @@ function Process() {
         "Software Development: Frontend and backend development with database integration.",
         "AI/ML: Model training, preprocessing, and performance tuning.",
         "Blockchain: Smart contract development and ledger setup.",
-        "IoT: Device firmware development and connectivity setup.",
-        "Big Data: Building ETL pipelines and real-time analytics systems.",
+        "IoT: Device firmware development and connectivity.",
+        "Big Data: Building ETL pipelines and real-time analytics.",
       ],
     },
     {
@@ -71,7 +71,7 @@ function Process() {
     {
       title: "Deployment & Integration",
       description:
-        "Seamless deployment into your ecosystem with cloud or on-premise solutions. Includes CI/CD pipeline setup and workflow integration. We ensure minimal downtime during the deployment process to avoid disruptions.",
+        "Seamless deployment into your ecosystem with cloud or on-premise solutions. Includes CI/CD pipeline setup and workflow integration. We ensure minimal downtime during the deployment..",
       icon: <CloudUploadIcon style={{ fontSize: "48px", color: "#000" }} />,
       details: "/light/page-about",
       detailsList: [
@@ -85,7 +85,7 @@ function Process() {
     {
       title: "Ongoing Support & Optimization",
       description:
-        "Continuous monitoring and optimization for sustained performance. Includes feature updates, bug fixes, and scalability improvements.",
+        "Continuous monitoring and optimization for sustained performance. Includes feature updates, bug fixes, and scalability improvements to ensure your system is always up-to-date..",
       icon: <SupportAgentIcon style={{ fontSize: "48px", color: "#000" }} />,
       details: "/light/page-about",
       detailsList: [
@@ -139,18 +139,17 @@ function Process() {
                 <p style={{ fontSize: "14px", color: "#000" }}>
                   {process.description}
                 </p>
-                <ul
+                <p
                   style={{
                     fontSize: "13px",
                     marginTop: "10px",
-                    paddingLeft: "18px",
                     color: "#000",
                   }}
                 >
                   {process.detailsList.map((detail, i) => (
-                    <li key={i}>{detail}</li>
+                    <li key={i}>• {detail}</li>
                   ))}
-                </ul>
+                </p>
               </div>
             </div>
           ))}

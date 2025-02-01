@@ -244,6 +244,10 @@ figure {
   }
 }
 
+.navy{
+  color: #003049 !important
+ }
+
 .black{
   color: #000 !important;
 }
@@ -3417,7 +3421,7 @@ h4 {
   letter-spacing: 1px;
   font-size: 13px;
   font-weight: 700;
-  color: #c5c5c5;
+  color: #000000;
   padding: 20px 10px ;
   margin: 0 10px;
 }

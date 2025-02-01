@@ -172,7 +172,7 @@ function Navbar() {
                     Why us?
                   </a>
                   <a className="dropdown-item" href="/light/page-engage">
-                    Engagement Model
+                    Engagement Models
                   </a>
                 </div>
               </li>
@@ -285,7 +285,7 @@ function Navbar() {
                     Our Clients
                   </a>
                   <a className="dropdown-item" href="/light/page-FAQS">
-                    FAQS
+                    FAQ
                   </a>
                 </div>
               </li>
@@ -406,7 +406,7 @@ function Navbar() {
                         </li>
                         <li>
                           <a href="/light/page-engage" className="sub-link">
-                            Engagement Model
+                            Engagement Models
                           </a>
                         </li>
                       </ul>
@@ -559,7 +559,7 @@ function Navbar() {
                         </li>
                         <li>
                           <a href="/light/page-FAQS" className="sub-link">
-                            FAQS
+                            FAQ
                           </a>
                         </li>
                       </ul>
@@ -621,22 +621,12 @@ function Navbar() {
                 <div className="item mb-50">
                   <h6 className="sub-title mb-15 opacity-7">Address</h6>
                   <h5>
-                    AE-176, Plot No. 2248 Ramkrubha,
-                    11th Main Road Annanagar,
-                    Chennai - 600040 India <br />
+                  AE-176, Plot No. 2248, Ramkrubha, 11th Main Road, Annanagar, Chennai - 600040, India <br />
                   </h5>
                 </div>
                 <div className="item mb-50">
                   <h6 className="sub-title mb-15 opacity-7">Social Media</h6>
                   <ul className="rest social-text">
-                    <li className="mb-10">
-                      <a
-                        href="https://www.instagram.com/thirdeyeinfotechnology/profilecard/?igsh=d2Z3YXpoanZmZWI4"
-                        target="_blank"
-                      >
-                        <h5 className="" style={{fontFamily:"Satoshi-Variable"}}>Instagram</h5>
-                      </a>
-                    </li>
                     <li className="mb-10">
                       <a
                         href="https://www.linkedin.com/company/third-eye-info-technology/"
@@ -645,17 +635,25 @@ function Navbar() {
                         <h5 className="" style={{fontFamily:"Satoshi-Variable"}}>LinkedIn</h5>
                       </a>
                     </li>
+                    <li className="mb-10">
+                      <a
+                        href="https://www.instagram.com/thirdeyeinfotechnology/profilecard/?igsh=d2Z3YXpoanZmZWI4"
+                        target="_blank"
+                      >
+                        <h5 className="" style={{fontFamily:"Satoshi-Variable"}}>Instagram</h5>
+                      </a>
+                    </li>
                   </ul>
                 </div>
                 <div className="item mb-40">
                   <h6 className="sub-title mb-15 opacity-7">Contact Us</h6>
+                  <h5 className=" mt-10" style={{ color: "#000" }}>
+                    <a href="#0">+91 44 4207 2248</a>
+                  </h5>
                   <h5 style={{ color: "#000" }}>
                     <a href="mailto:contact@thirdeyeinfotech.com">
                       contact@thirdeyeinfotech.com
                     </a>
-                  </h5>
-                  <h5 className=" mt-10" style={{ color: "#000" }}>
-                    <a href="#0">+91 44 4207 2248</a>
                   </h5>
                 </div>
               </div>

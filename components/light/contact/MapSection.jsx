@@ -10,6 +10,7 @@ function MapSection() {
         padding: "10px 20px",
         textAlign: "center",
         position: "relative",
+        marginTop:"20px",
       }}
     >
       <div
@@ -22,32 +23,34 @@ function MapSection() {
         {/* Heading */}
         <h2
           style={{
-            fontSize: "36px",
-            color: "#00171F",
+            fontSize: "32px",
+            fontWeight: "600",
+            color: "#007BFF",
             marginBottom: "20px",
-            marginTop: "20px",
+            textTransform: "uppercase",
           }}
         >
-          Our Global Presence
+          Discover our global footprint
         </h2>
         <p
           style={{
-            color: "#555555",
+            color: "#000",
             fontSize: "18px",
             marginBottom: "40px",
-            maxWidth: "600px",
+            maxWidth: "700px",
             margin: "0 auto",
             lineHeight: "1.6",
           }}
         >
-          Discover our global footprint: Headquartered in{" "}
-          <span style={{ color: "#007BFF", fontWeight: "600" }}>Chennai</span>{" "}
-          with offices in{" "}
+          Headquartered in{" "}
+          <span style={{ color: "#007BFF", fontWeight: "600" }}>Chennai, India</span>{" "}
+          and with offices across{" "}
           <span style={{ color: "#007BFF", fontWeight: "600" }}>Australia</span>
           , <span style={{ color: "#007BFF", fontWeight: "600" }}>USA</span>,{" "}
           <span style={{ color: "#007BFF", fontWeight: "600" }}>UAE</span> and 
           {" "}<span style={{ color: "#007BFF", fontWeight: "600" }}>Malaysia</span>
-          {" "} connecting seamlessly with the world.
+          {" "} we connect wtih clients and partners 
+          across the the world.
         </p>
 
         {/* World Map Section */}
@@ -61,7 +64,7 @@ function MapSection() {
         >
           {/* Map Image */}
           <img
-            src="/light/assets/imgs/worldmap/map.png"
+            src="/light/assets/imgs/worldmap/main-map.png"
             alt="World Map"
             style={{
               width: "100%",

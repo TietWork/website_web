@@ -42,7 +42,7 @@ function MapSection() {
             lineHeight: "1.6",
           }}
         >
-          With Headquartered in{" "}
+          Headquartered in{" "}
           <span style={{ color: "#007BFF", fontWeight: "600" }}>Chennai, India</span>{" "}
           and with offices across{" "}
           <span style={{ color: "#007BFF", fontWeight: "600" }}>Australia</span>
@@ -64,7 +64,7 @@ function MapSection() {
         >
           {/* Map Image */}
           <img
-            src="/light/assets/imgs/worldmap/world.png"
+            src="/light/assets/imgs/worldmap/main-map.png"
             alt="World Map"
             style={{
               width: "100%",

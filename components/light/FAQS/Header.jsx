@@ -26,7 +26,7 @@ function Header() {
     <div
       className="header section-padding"
       style={{
-        backgroundImage: `url('/light/assets/imgs/header/faq.jpg')`,
+        backgroundImage: `url('/light/assets/imgs/background/img6.jpg')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
@@ -55,7 +55,7 @@ function Header() {
             lineHeight: '1.2', // Adjusts spacing between lines
           }}
         >
-          FAQS
+          FAQ
         </h1>
       </div>
     </div>

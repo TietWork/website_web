@@ -45,6 +45,7 @@ function Challenge() {
                       color: "#007bff",
                       fontSize: "25px",
                       fontWeight: "600",
+                      textTransform: "uppercase",
                     }}
                     className="mt-40 mb-20"
                   >

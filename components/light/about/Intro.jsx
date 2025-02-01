@@ -90,7 +90,7 @@ function Intro() {
                     fontFamily: "Satoshi-Variable",
                   }}
                 >
-                  We aim to simplify complexities with intelligent technology,
+                  Simplify complexities with intelligent technology,
                   crafting scalable solutions that empower businesses to thrive
                   in dynamic environments.
                 </p>

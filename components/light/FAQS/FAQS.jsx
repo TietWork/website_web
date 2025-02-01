@@ -58,18 +58,18 @@ function FAQS() {
   return (
     <section className="faqs section-padding position-re">
       <div className="container">
-        <div className="row justify-content-center">
+        <div className="row ">
           {/* Heading Section */}
-          <div className="col-lg-8 text-center mb-50">
-            <p className="fz-18 mt-10" style={{ color: '#000' }}>
+          <div className="col-lg-12 mb-50">
+            <p className="fz-18 mt-10" style={{ color: '#000', textAlign: 'left' }}>
               Learn more about our solutions and how we serve diverse industries with tailored approaches.
             </p>
           </div>
         </div>
 
         {/* FAQ Section */}
-        <div className="row justify-content-center">
-          <div className="col-lg-10">
+        <div className="row ">
+          <div className="col-lg-12">
             <div className="faq-list">
               {faqs.map((faq, index) => (
                 <div key={index} className="faq-item mb-30">

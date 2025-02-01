@@ -28,7 +28,7 @@ const Interactive = () => {
       link: "/light/project-Iot"
     },
     {
-      title: "Geospatial Data Processing",
+      title: "Geospatial Agriculture Solutions",
       description: "Advanced mapping solutions with AI-powered insights",
       icon: LandscapeIcon, // Reference to the icon
       color: "#003049",
@@ -42,14 +42,14 @@ const Interactive = () => {
       link: "/light/project-RFID"
     },
     {
-      title: "Face Detection for Hollywood",
+      title: "AI in Hollywood Casting",
       description: "AI-powered facial recognition for entertainment industry",
       icon: FaceIcon, // Reference to the icon
       color: "#003049",
       link: "/light/casestudy-faceDetection"
     },
     {
-      title: "Healthcare Innovations",
+      title: "Real-time Skin Cancer Detection",
       description: "Digital solutions transforming patient care and enhancing healthcare efficiency",
       icon: HealthAndSafetyIcon, // Reference to the icon
       color: "#003049",
@@ -155,7 +155,7 @@ const Interactive = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <span style={{ color: "#007BFF" }}>OUR FEATURED PROJECTS</span>
+          <span style={{ color: "#007BFF" }}>OUR FEATURED PROJECTS & CASE STUDIES</span>
         </motion.h2>
 
         <motion.div

@@ -46,7 +46,7 @@ function Header() {
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        backgroundImage: `url('/light/assets/imgs/background/cover8.jpg')`,
+        backgroundImage: `url('/light/assets/imgs/background/img4.jpg')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -62,7 +62,7 @@ function Header() {
           transition={{ duration: 0.8 }}
           style={{
             fontWeight: "900",
-            color: "#edede9",
+            color: "#f5f7f9",
           }}
         >
           INNOVATING TOMORROW&apos;S
@@ -83,7 +83,7 @@ function Header() {
               alignSelf: "center",
               justifySelf: "center",
               fontWeight: "900",
-              color: "#edede9",
+              color: "#f5f7f9",
               marginLeft: "1rem",
               textTransform: "uppercase",
             }}
@@ -97,7 +97,7 @@ function Header() {
           transition={{ duration: 0.8, delay: 0.6 }}
           style={{
             marginTop: "1.5rem",
-            color: "#C1C1C1FF",
+            color: "#f5f7f9",
             lineHeight: "1.6",
             display: "flex",
             alignSelf: "center",

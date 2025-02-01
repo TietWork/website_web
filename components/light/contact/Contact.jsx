@@ -132,9 +132,14 @@ function Contact() {
                   Address
                 </h6>
                 <p style={{ fontFamily: "Satoshi-Variable", fontSize: "18px" ,color:"#000", textTransform:"uppercase"}} className="fw-500">
-                  AE-176, Plot No. 2248, Ramkrubha, 11th Main Road, Annanagar,
-                  Chennai - 600040,  India
+                AE-176, Plot No. 2248, Ramkrubha, 11th Main Road, Annanagar, Chennai - 600040, India
                   <br />
+                </p>
+              </div>
+              <div className="mt-30">
+                <h6 className="mb-15 main-color">EMAIL</h6>
+                <p className="fz-18  underline fw-500 black">
+                  contact@thirdeyeinfotech.com
                 </p>
               </div>
               <div className="mt-30">
@@ -145,12 +150,6 @@ function Contact() {
                   PHONE
                 </h6>
                 <p className="fz-18  underline fw-500 black">+91 44 4207 2248</p>
-              </div>
-              <div className="mt-30">
-                <h6 className="mb-15 main-color">EMAIL</h6>
-                <p className="fz-18  underline fw-500 black">
-                  contact@thirdeyeinfotech.com
-                </p>
               </div>
             </div>
           </div>

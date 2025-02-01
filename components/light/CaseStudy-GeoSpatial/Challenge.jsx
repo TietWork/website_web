@@ -117,15 +117,15 @@ function Challenge() {
                       <strong>• Data Acquisition and Processing:</strong>
                       <ul>
                         <li>
-                          High-resolution imagery captured across extensive
+                        • High-resolution imagery captured across extensive
                           farmlands using drones and aircraft.
                         </li>
                         <li>
-                          Comprehensive mapping of agricultural zones to track
+                        • Comprehensive mapping of agricultural zones to track
                           soil health, vegetation growth, and land usage.
                         </li>
                         <li>
-                          Real-time synchronization of geospatial data across
+                        • Real-time synchronization of geospatial data across
                           devices, ensuring accuracy and accessibility.
                         </li>
                       </ul>
@@ -134,15 +134,15 @@ function Challenge() {
                       <strong>• Predictive Analytics and Forecasting:</strong>
                       <ul>
                         <li>
-                          Utilized historical agricultural data to build
+                        • Utilized historical agricultural data to build
                           predictive models for future performance.
                         </li>
                         <li>
-                          Monitored climate patterns and provided insights on
+                        • Monitored climate patterns and provided insights on
                           how weather changes might affect crop yields.
                         </li>
                         <li>
-                          AI algorithms tracked pest behavior, helping to
+                        • AI algorithms tracked pest behavior, helping to
                           predict and prevent infestations.
                         </li>
                       </ul>
@@ -151,15 +151,15 @@ function Challenge() {
                       <strong>• User Engagement and Automation:</strong>
                       <ul>
                         <li>
-                          Farmers and managers could access data from anywhere
+                        • Farmers and managers could access data from anywhere
                           through mobile or desktop platforms.
                         </li>
                         <li>
-                          Real-time alerts for pest outbreaks, adverse weather,
+                        • Real-time alerts for pest outbreaks, adverse weather,
                           and pesticide application needs.
                         </li>
                         <li>
-                          Customized reports and tailored recommendations based
+                        • Customized reports and tailored recommendations based
                           on data patterns to enhance decision-making.
                         </li>
                       </ul>

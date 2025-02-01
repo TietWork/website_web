@@ -135,6 +135,7 @@ function Challenge() {
                       content management for theatre staff.
                     </li>
                   </p>
+                  <br />
 
                   {/* Key Outcomes Section */}
                   <h6

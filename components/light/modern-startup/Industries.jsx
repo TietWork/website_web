@@ -165,7 +165,7 @@ function  IndustriesWeServe() {
               </div>
               <h5
                 style={{
-                  fontSize: "16px",
+                  fontSize: "21px",
                   fontWeight: "600",
                   color: "#333333",
                 }}
