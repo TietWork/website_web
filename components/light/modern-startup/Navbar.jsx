@@ -133,7 +133,7 @@ function Navbar() {
         <div className="container">
           <a className="logo icon-img-100 mr-30 mb-5" href="/">
             <img
-              src="/light/assets/imgs/logo-10.png"
+              src="/light/assets/imgs/logo-11.png"
               alt="logo"
               style={{ width: "240px", height: "auto" }}
             />
@@ -329,7 +329,7 @@ function Navbar() {
           <div className="topnav">
             <div
               className="menu-icon cursor-pointer"
-              style={{ color: "#D6D6D6FF" }}
+              style={{ color: "#000000FF" }}
               onMouseEnter={toggleMenu}
             >
               <span className="icon ti-align-right mt-15"></span>

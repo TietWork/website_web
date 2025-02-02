@@ -14,6 +14,7 @@ import CoreValues from '@/components/light/modern-startup/CoreValues'
 import Numbers from '@/components/light/modern-startup/Numbers';
 import Interactive from '@/components/light/modern-startup/Interactive';
 import MapSection from '@/components/light/modern-startup/MapSection'
+import CookieConsent from '@/components/light/cookieConsent/cookie';
 
 export const metadata = {
   title: 'Third Eye Info Technology',
@@ -35,7 +36,10 @@ export default function HomeModernStartup() {
       <ProgressScroll />
       <Lines />
 
+
+
       <div id="smooth-wrapper">
+
         <Navbar />
         <div id="smooth-content">
           <main className="main-bg o-hidden">
@@ -48,9 +52,13 @@ export default function HomeModernStartup() {
             <Interactive/>
             <MapSection/>
           </main>
+          <CookieConsent />
+
           <Footer />
         </div>
       </div>
+
+
 
       <Script
         src="/light/assets/js/ScrollTrigger.min.js"
