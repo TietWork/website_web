@@ -21,93 +21,30 @@ import {
 } from "@mui/icons-material";
 
 const industries = [
-  {
-    title: "Healthcare",
-    icon: <HealthcareIcon className="h-12 w-12 text-blue-500" style={{fontSize:"35px"}}/>,
-  },
-  {
-    title: "Finance & Insurance",
-    icon: <FinanceIcon className="h-12 w-12 text-blue-500"  style={{fontSize:"35px"}}/>,
-  },
-  {
-    title: "Oil & Gas",
-    icon: <OilGasIcon className="h-12 w-12 text-blue-500"  style={{fontSize:"35px"}}/>,
-  },
-  {
-    title: "Entertainment",
-    icon: <EntertainmentIcon className="h-12 w-12 text-blue-500"  style={{fontSize:"35px"}}/>,
-  },
-  {
-    title: "Manufacturing",
-    icon: <ManufacturingIcon className="h-12 w-12 text-blue-500"  style={{fontSize:"35px"}}/>,
-  },
-  {
-    title: "Government",
-    icon: <GovernmentIcon className="h-12 w-12 text-blue-500"  style={{fontSize:"35px"}}/>,
-  },
-  {
-    title: "Transportation",
-    icon: <TransportationIcon className="h-12 w-12 text-blue-500"  style={{fontSize:"35px"}}/>,
-  },
-  {
-    title: "Education",
-    icon: <EducationIcon className="h-12 w-12 text-blue-500"  style={{fontSize:"35px"}}/>,
-  },
-  {
-    title: "Hospitality",
-    icon: <HospitalityIcon className="h-12 w-12 text-blue-500"  style={{fontSize:"35px"}}/>,
-  },
-  {
-    title: "Real Estate",
-    icon: <RealEstateIcon className="h-12 w-12 text-blue-500"  style={{fontSize:"35px"}}/>,
-  },
-  {
-    title: "Retail & E-commerce",
-    icon: <RetailIcon className="h-12 w-12 text-blue-500"  style={{fontSize:"35px"}}/>,
-  },
-  {
-    title: "Telecommunications",
-    icon: <TelecomIcon className="h-12 w-12 text-blue-500"  style={{fontSize:"35px"}}/>,
-  },
-  {
-    title: "Agriculture & AgriTech",
-    icon: <AgricultureIcon className="h-12 w-12 text-blue-500"  style={{fontSize:"35px"}}/>,
-  },
-  {
-    title: "Energy & Utilities",
-    icon: <EnergyIcon className="h-12 w-12 text-blue-500"  style={{fontSize:"35px"}}/>,
-  },
-  {
-    title: "Automotive",
-    icon: <AutomotiveIcon className="h-12 w-12 text-blue-500"  style={{fontSize:"35px"}}/>,
-  },
-  {
-    title: "Logistics & Supply Chain",
-    icon: <LogisticsIcon className="h-12 w-12 text-blue-500"  style={{fontSize:"35px"}}/>,
-  },
+  { title: "Healthcare", icon: <HealthcareIcon style={{ fontSize: "35px", color: "#003049" }} /> },
+  { title: "Finance & Insurance", icon: <FinanceIcon style={{ fontSize: "35px", color: "#003049" }} /> },
+  { title: "Oil & Gas", icon: <OilGasIcon style={{ fontSize: "35px", color: "#003049" }} /> },
+  { title: "Entertainment", icon: <EntertainmentIcon style={{ fontSize: "35px", color: "#003049" }} /> },
+  { title: "Manufacturing", icon: <ManufacturingIcon style={{ fontSize: "35px", color: "#003049" }} /> },
+  { title: "Government", icon: <GovernmentIcon style={{ fontSize: "35px", color: "#003049" }} /> },
+  { title: "Transportation", icon: <TransportationIcon style={{ fontSize: "35px", color: "#003049" }} /> },
+  { title: "Education", icon: <EducationIcon style={{ fontSize: "35px", color: "#003049" }} /> },
+  { title: "Hospitality", icon: <HospitalityIcon style={{ fontSize: "35px", color: "#003049" }} /> },
+  { title: "Real Estate", icon: <RealEstateIcon style={{ fontSize: "35px", color: "#003049" }} /> },
+  { title: "Retail & E-commerce", icon: <RetailIcon style={{ fontSize: "35px", color: "#003049" }} /> },
+  { title: "Telecommunications", icon: <TelecomIcon style={{ fontSize: "35px", color: "#003049" }} /> },
+  { title: "Agriculture & AgriTech", icon: <AgricultureIcon style={{ fontSize: "35px", color: "#003049" }} /> },
+  { title: "Energy & Utilities", icon: <EnergyIcon style={{ fontSize: "35px", color: "#003049" }} /> },
+  { title: "Automotive", icon: <AutomotiveIcon style={{ fontSize: "35px", color: "#003049" }} /> },
+  { title: "Logistics & Supply Chain", icon: <LogisticsIcon style={{ fontSize: "35px", color: "#003049" }} /> },
 ];
 
-function  IndustriesWeServe() {
+function IndustriesWeServe() {
   return (
-    <section
-      style={{
-        backgroundColor: "#FFFFFF",
-        color: "#333333",
-        padding: "60px 20px",
-        textAlign: "center",
-        marginBottom: "20px",
-      }}
-    >
+    <section className="industries-section">
       <div className="container">
-        {/* Heading */}
         <motion.h2
-          style={{
-            fontSize: "32px",
-            fontWeight: "700",
-            color: "#007BFF",
-            marginBottom: "20px",
-            textTransform: "uppercase",
-          }}
+          className="section-title"
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -116,15 +53,7 @@ function  IndustriesWeServe() {
         </motion.h2>
 
         <motion.p
-          style={{
-            color: "#000",
-            fontSize: "18px",
-            marginBottom: "40px",
-            maxWidth: "700px",
-            margin: "0 auto",
-            lineHeight: "1.6",
-            fontFamily: "Satoshi-Variable",
-          }}
+          className="section-description"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
@@ -133,45 +62,16 @@ function  IndustriesWeServe() {
           achieve their goals.
         </motion.p>
 
-        {/* Industries Icons and Titles */}
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(4, 1fr)", // Ensures exactly 4 items per row
-            gap: "30px",
-            justifyItems: "center",
-            alignItems: "center",
-          }}
-        >
+        <div className="industries-grid">
           {industries.map((industry, index) => (
             <motion.div
               key={index}
               whileHover={{ scale: 1.15 }}
-              style={{
-                textAlign: "center",
-                cursor: "pointer",
-              }}
+              className="industry-card"
               transition={{ duration: 0.2 }}
             >
-              <div
-                style={{
-                  fontSize: "48px",
-                  color: "#003049",
-                  marginBottom: "10px",
-                  transition: "color 0.2s ease",
-                }}
-              >
-                {industry.icon}
-              </div>
-              <h5
-                style={{
-                  fontSize: "21px",
-                  fontWeight: "600",
-                  color: "#333333",
-                }}
-              >
-                {industry.title}
-              </h5>
+              <div className="industry-icon" style={{color: "#003049"}}>{industry.icon}</div>
+              <h5 className="industry-title">{industry.title}</h5>
             </motion.div>
           ))}
         </div>

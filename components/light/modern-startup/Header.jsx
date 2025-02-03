@@ -46,13 +46,14 @@ function Header() {
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        backgroundImage: `url('/light/assets/imgs/background/img4.jpg')`,
+        backgroundImage: `linear-gradient(rgba(100, 100, 80, 0.5), rgba(0, 0, 0, 0.4)), url('/light/assets/imgs/background/img4.jpg')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         color: "#fff",
         padding: "20px",
         textAlign: "center",
+
       }}
     >
       <div style={{ marginBottom: "2rem" }} className="firstheading">
@@ -65,7 +66,7 @@ function Header() {
             color: "#f5f7f9",
           }}
         >
-          INNOVATING TOMORROW&apos;S
+          INNOVATING TOMORROW&apos;S  TECHNOLOGY TODAY
         </motion.h1>
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -77,7 +78,7 @@ function Header() {
             justifyContent: "center",
           }}
         >
-          <motion.h2
+          {/* <motion.h2
             style={{
               display: "flex",
               alignSelf: "center",
@@ -88,10 +89,10 @@ function Header() {
               textTransform: "uppercase",
             }}
           >
-            TECHNOLOGY TODAY
-          </motion.h2>
+           
+          </motion.h2> */}
         </motion.div>
-        <motion.p
+        {/* <motion.p
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
@@ -105,11 +106,10 @@ function Header() {
           }}
         >
           With a track record of over 150 successful projects, combined
-          experience of 200 years, expertise in 10 platforms and clients in 15
-          countries, Third Eye Info Technology transforms your businesses
+          experience of 200 years, Third Eye Info Technology transforms your businesses
           through innovative software solutions.
           <br />
-        </motion.p>
+        </motion.p> */}
       </div>
 
       {/* Animated Button */}
