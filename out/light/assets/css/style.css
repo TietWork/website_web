@@ -6124,7 +6124,7 @@ footer.clean-footer.crev:before {
   }
 
   .header-main h1 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     margin-top: 1.5rem;
   }
 
@@ -6154,6 +6154,86 @@ footer.clean-footer.crev:before {
     font-size: 1.1rem;
   }
 }
+
+/* Section Styling */
+.industries-section {
+  background-color: #ffffff;
+  color: #333333;
+  padding: 60px 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Heading */
+.section-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #007bff;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/* Description */
+.section-description {
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 40px;
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+  line-height: 1.6;
+  font-family: "Satoshi-Variable", sans-serif;
+}
+
+/* Grid Layout */
+.industries-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 items per row on large screens */
+  gap: 30px;
+  justify-items: center;
+  align-items: center;
+}
+
+/* Industry Card */
+.industry-card {
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.industry-icon {
+  margin-bottom: 10px;
+}
+
+.industry-title {
+  font-size: 21px;
+  font-weight: 600;
+  color: #333333;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .industries-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 items per row on tablets */
+  }
+}
+
+@media (max-width: 600px) {
+  .industries-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 items per row on mobile */
+    gap: 20px; /* Smaller gap for mobile */
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .section-description {
+    font-size: 16px;
+  }
+}
+
+
+
 
 /* For tablets and above */
 @media (max-width: 768px) {
@@ -6189,7 +6269,7 @@ footer.clean-footer.crev:before {
   }
 
   .header-main h1 {
-    font-size: 2.3rem; /* Smaller font size for mobile */
+    font-size: 3rem; /* Smaller font size for mobile */
     display: flex;
     justify-content: center;
     margin-top: 85px;
