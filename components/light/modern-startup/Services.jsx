@@ -4,6 +4,8 @@ import React from "react";
 import { Code, Hub, DevicesOther, BarChart } from "@mui/icons-material"; // Icons from MUI
 import data from "@/l-data/services.json";
 import { motion } from "framer-motion";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+
 // Map each service to a relevant Material-UI icon with consistent color
 const icons = {
   "Software Development": (
@@ -27,7 +29,7 @@ function Services() {
     <section className="services-boxs section-padding pb-60">
       <div className="container ">
         <div className="sec-head mb-20">
-          <div className="bord pt-25 bord-thin-top position-relative">
+          <div className=" pt-25  position-relative">
             {/* Heading */}
             <motion.h2
               style={{
@@ -47,20 +49,30 @@ function Services() {
             {/* Button */}
             <a
               href="/light/page-services"
-              className="btn btn-sm btn-outline-main"
               style={{
-                position: "absolute", // Positions the button relative to the parent container
-                right: "0", // Aligns the button to the right
-                top: "25%", // Centers it vertically relative to the container
-                transform: "translateY(-50%)", // Adjusts for perfect centering
-                padding: "5px 10px",
-                fontSize: "14px",
-                fontWeight: "600",
-                borderRadius: "5px",
+                position: "absolute",
+                right: "10px", // Space from the right
+                top: "25px", // Space from the top
+                width: "40px",
+                height: "40px",
+                borderRadius: "50%", // Circular shape
+                border: "4px solid #007BFF", // Circle border
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
                 textDecoration: "none",
+                backgroundColor: "transparent",
+                cursor: "pointer",
               }}
             >
-              Learn More
+              <ArrowForwardIcon
+                style={{
+                  fontSize: "20px",
+                  color: "#007BFF",
+                  fontWeight: "700",
+                  transform: "rotate(330deg)", // Rotating the arrow 45 degrees
+                }}
+              />
             </a>
           </div>
         </div>
@@ -70,7 +82,14 @@ function Services() {
               <div className="item-box bg rounded-xl">
                 <div className="icon mb-40 ">{getIcon(item.title)}</div>
                 <h5 className="mb-15 text-u">{item.title}</h5>
-                <p style={{ fontFamily: "Satoshi-Variable", color: "#000", fontSize: "16px", lineHeight: "1.6" }}>
+                <p
+                  style={{
+                    fontFamily: "Satoshi-Variable",
+                    color: "#000",
+                    fontSize: "16px",
+                    lineHeight: "1.6",
+                  }}
+                >
                   {item.desc}
                 </p>
               </div>
