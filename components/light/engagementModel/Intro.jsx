@@ -75,8 +75,8 @@ function EngagementModels() {
               description:
                 "Flexible approach for projects with evolving requirements and iterative development cycles.",
               keyFeatures: [
-                "Pay-as-you-go based on actual work hours and resources utilized.",
-                "Agile methodology for adaptive planning and continuous improvement.",
+                "Pay-as-you-go based on actual work hours.",
+                "Agile methodology for adaptive planning and implementation.",
                 "Transparent billing with detailed timesheets and progress reports.",
               ],
               bestFor:

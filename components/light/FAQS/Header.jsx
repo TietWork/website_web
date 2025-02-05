@@ -26,7 +26,7 @@ function Header() {
     <div
       className="header section-padding"
       style={{
-        backgroundImage: `url('/light/assets/imgs/background/img6.jpg')`,
+        backgroundImage: `url('/light/assets/imgs/background/img8.jpg')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',

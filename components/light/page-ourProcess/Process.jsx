@@ -65,7 +65,7 @@ function Process() {
         "AI/ML: Model validation and bias detection.",
         "Blockchain: Vulnerability analysis and consensus testing.",
         "IoT: Device Stress tests, Connectivity checks and performance validation.",
-        "Big Data: System load testing and anomaly detection.",
+        "Big Data: System load testing and anomaly detection validation.",
       ],
     },
     {

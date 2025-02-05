@@ -38,15 +38,11 @@ function Testimonials() {
     >
       <div className="container">
         <div className="row">
-          <div className="col-lg-12 mr-15">
-            <div className="section-title text-center">
-              <p style={{ fontSize: "22px", color: "#007BFF" }}>
+          <div className="col-lg-12" style={{ marginRight: "35px" }}>
+          <p style={{ fontSize: "22px", color: "#007BFF", alignContent: "center", textAlign: "center" , marginBottom: "-50px"}}>
               Here is what our clients have to say about their experiences with us.
               </p>
-            </div>
-          </div>
-          <div className="col-lg-12" style={{ marginRight: "35px" }}>
-            <div className="testim-swiper mb-15">
+            <div className="testim-swiper">
               <Swiper {...swiperOptions} className="swiper-container">
                 {data.slice(0, 5).map((item, i) => (
                   <SwiperSlide key={i}>

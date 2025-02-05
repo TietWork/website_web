@@ -43,14 +43,14 @@ const Interactive = () => {
     },
     {
       title: "AI in Hollywood Casting",
-      description: "AI-powered facial recognition for entertainment industry",
+      description: "AI-powered facial recognition for entertainment industry applications",
       icon: FaceIcon, // Reference to the icon
       color: "#003049",
       link: "/light/casestudy-faceDetection"
     },
     {
       title: "Real-time Skin Cancer Detection",
-      description: "Digital solutions transforming patient care and enhancing healthcare efficiency",
+      description: "Digital solutions transforming patient care in healthcare",
       icon: HealthAndSafetyIcon, // Reference to the icon
       color: "#003049",
       link: "/light/casestudy-healthcare"

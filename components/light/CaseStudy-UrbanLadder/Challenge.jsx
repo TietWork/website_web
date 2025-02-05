@@ -93,18 +93,18 @@ function Challenge() {
                       <strong>• Track and Trace Application:</strong>
                       <ul>
                         <li>
-                          Order lifecycle management with real-time tracking.
+                        ‣ Order lifecycle management with real-time tracking.
                         </li>
                         <li>
-                          Stage-wise production tracking (Cutting, CNC
+                        ‣ Stage-wise production tracking (Cutting, CNC
                           Processing, QA, Packing).
                         </li>
                         <li>
-                          Mobile application for factory floor staff to scan QR
+                        ‣ Mobile application for factory floor staff to scan QR
                           codes and update progress.
                         </li>
                         <li>
-                          Admin dashboard providing comprehensive production
+                        ‣ Admin dashboard providing comprehensive production
                           oversight.
                         </li>
                       </ul>
@@ -113,11 +113,11 @@ function Challenge() {
                       <strong>• ERP-Inventory Management System:</strong>
                       <ul>
                         <li>
-                          Material tracking for raw materials, in-process items,
+                        ‣ Material tracking for raw materials, in-process items,
                           and finished goods.
                         </li>
                         <li>
-                          Automated reordering to avoid material shortages.
+                        ‣ Automated reordering to avoid material shortages.
                         </li>
                       </ul>
                     </li>
@@ -125,10 +125,10 @@ function Challenge() {
                       <strong>Cutting Optimization Module:</strong>
                       <ul>
                         <li>
-                          Algorithms to minimize material waste by up to 30%.
+                        ‣ Algorithms to minimize material waste by up to 30%.
                         </li>
                         <li>
-                          Real-time dynamic cutting patterns for efficient ply
+                        ‣ Real-time dynamic cutting patterns for efficient ply
                           layouts.
                         </li>
                       </ul>
@@ -137,11 +137,11 @@ function Challenge() {
                       <strong>• Order Management and Logistics:</strong>
                       <ul>
                         <li>
-                          Seamless integration for tracking loading, unloading,
+                        ‣ Seamless integration for tracking loading, unloading,
                           and delivery activities.
                         </li>
                         <li>
-                          Real-time notifications for logistics teams and
+                        ‣ Real-time notifications for logistics teams and
                           clients.
                         </li>
                       </ul>
@@ -182,6 +182,8 @@ function Challenge() {
                       with logistics and production teams.
                     </li>
                   </p>
+                  <br/>
+                  <br/>
 
                   {/* Key Outcomes and Impact Section */}
                   <h6
