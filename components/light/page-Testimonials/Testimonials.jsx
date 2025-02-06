@@ -33,16 +33,16 @@ function Testimonials() {
 
   return (
     <section
-      className="testimonials section-padding"
+      className="section-padding"
       style={{ backgroundColor: "#f8f9fa" }}
     >
       <div className="container">
         <div className="row">
-          <div className="col-lg-12" style={{ marginRight: "35px" }}>
-          <p style={{ fontSize: "22px", color: "#007BFF", alignContent: "center", textAlign: "center" , marginBottom: "-50px"}}>
+          <div className="col-lg-12" >
+            <div className="testim-swiper">
+            <p style={{ fontSize: "22px", color: "#007BFF", alignContent: "center", textAlign: "center" , }}>
               Here is what our clients have to say about their experiences with us.
               </p>
-            <div className="testim-swiper">
               <Swiper {...swiperOptions} className="swiper-container">
                 {data.slice(0, 5).map((item, i) => (
                   <SwiperSlide key={i}>
@@ -53,17 +53,18 @@ function Testimonials() {
                         boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
                         borderRadius: "10px",
                         padding: "40px", // Increased padding for proper spacing
-                        margin: "30px 15px", // Adjust margin for better spacing between cards
+                        margin: "30px", // Adjust margin for better spacing between cards
                         minHeight: "300px", // Ensures no content gets cut off
                       }}
                     >
-                      <div className="content p-20">
+                      <div className="">
                         <p
                           className="fz-20"
                           style={{
                             color: "#000",
                             marginBottom: "20px",
-                            padding: "0 20px",
+                            textAlign: "center", 
+                            justifyContent: "center", // Ensures proper centering on all screen sizes
                           }}
                         >
                           {item.desc}
@@ -113,7 +114,7 @@ function Testimonials() {
                 ))}
               </Swiper>
             </div>
-            <div className="swiper-arrow-control justify-content-center d-flex ml-35">
+            <div className="swiper-arrow-control justify-content-center d-flex ">
               <div
                 className="swiper-button-prev"
                 style={{

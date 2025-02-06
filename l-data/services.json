@@ -23,7 +23,7 @@
   {
     "title": "AI/ML & Blockchain",
     "img": "/light/assets/imgs/serv-icons/Ai.png",
-    "desc": "Innovative AI analytics and secure blockchain for smarter and Decentralized Solutions.",
+    "desc": "Innovative AI analytics and secure blockchain for smarter Solutions.",
     "details": {
       "overview": "Harness the power of advanced technologies with our cutting-edge AI/ML and blockchain services. We help businesses transform operations, enhance decision-making, and ensure data integrity through innovative, scalable solutions.",
       "expertise": [
@@ -83,21 +83,22 @@
     "details": {
       "overview": "Unlock the power of your data to drive informed decisions and strategic growth. We specialize in Big Data and Business Intelligence (BI) solutions that empower organizations to turn complex data into actionable insights.",
       "expertise": [
-        "Data Integration: Consolidate data from diverse sources into a unified, analytics-ready platform.",
-        "Scalable Storage: Efficiently manage and process large volumes of structured and unstructured data.",
-        "Advanced Analytics: Leverage real-time and predictive analytics to uncover trends and enhance decision-making."
-      ],
+        "Data Integration: Seamlessly consolidate data from diverse sources into a unified, analytics-ready platform.",
+        "Scalable Storage: Efficiently manage, process, and optimize large volumes of structured and unstructured data.",
+        "Advanced Analytics: Leverage real-time and predictive analytics to uncover trends, optimize strategies, and enhance decision-making.",
+        "Data Governance & Security: Implement robust governance frameworks and security measures to ensure data integrity and compliance.",
+        "Cloud Data Management: Utilize cloud-based storage and computing solutions to enhance scalability, performance, cost-efficient Solutions."      ],
       "tools": [
-        "Power BI: Develop interactive dashboards and reports to track performance metrics and KPIs.",
-        "Tableau: Create intuitive, dynamic data visualizations for clear and compelling insights.",
-        "Custom BI Development: Tailor BI solutions to meet your specific industry and operational needs."
+        "Power BI: Develop highly interactive dashboards and detailed reports to track performance metrics, trends, and KPIs.",
+        "Tableau: Create intuitive, dynamic, and visually compelling data visualizations for in-depth insights and decision-making.",
+        "Custom BI Development: Design and implement tailored BI solutions to meet industry-specific operational needs, ensuring scalability and efficiency."
       ],
       "highlights": [
-        "Comprehensive Solutions: From ETL and data pipelines to BI and analytics, we cover the entire data lifecycle.",
-        "Expertise with Leading Tools: Our team has deep experience with Power BI, Tableau, and other top technologies.",
-        "Custom-Tailored Services: We design solutions that scale with your business, ensuring long-term value.",
-        "Proven Results: Extensive experience in data engineering and migration ensures reliable and impactful outcomes.",
-        "Actionable Insights: Transform raw data into strategic assets for enhanced efficiency and growth."
+        "Comprehensive Solutions: From ETL processes and data pipelines to BI, analytics, and reporting, we cover the entire data lifecycle.",
+        "Expertise with Leading Tools: Our team has deep experience with Power BI, Tableau, and other top data analytics technologies.",
+        "Custom-Tailored Services: We design scalable, adaptable solutions that grow with your business, ensuring long-term value and efficiency.",
+        "Proven Results: Extensive experience in data engineering, integration, and migration ensures reliable and impactful business outcomes.",
+        "Actionable Insights: Transform complex raw data into strategic, data-driven assets for enhanced efficiency, accuracy, and growth."
       ]
     },
     "link": "/light/page-services"

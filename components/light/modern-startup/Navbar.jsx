@@ -133,7 +133,7 @@ function Navbar() {
         <div className="container">
           <a className="logo icon-img-100 mr-30 mb-5" href="/">
             <img
-              src="/light/assets/imgs/logo-11.png"
+              src="/light/assets/imgs/logo-final-balck.png"
               alt="logo"
               style={{ width: "240px", height: "auto" }}
             />
@@ -226,7 +226,7 @@ function Navbar() {
                 </a>
                 <div className="dropdown-menu">
                   <a className="dropdown-item" href="/light/casestudy-alekton">
-                  Digitised Job Cards
+                    Digitised Job Cards
                   </a>
                   <a
                     className="dropdown-item"
@@ -621,7 +621,8 @@ function Navbar() {
                 <div className="item mb-50">
                   <h6 className="sub-title mb-15 opacity-7">Address</h6>
                   <h5>
-                  AE-176, Plot No. 2248 Ramkrubha, 11th Main Road Annanagar, Chennai-600040, India <br />
+                    AE-176, Plot No. 2248 Ram Krubha, 11th Main Road Anna Nagar,
+                    Chennai-600040, India{" "}
                   </h5>
                 </div>
                 <div className="item mb-50">
@@ -632,7 +633,12 @@ function Navbar() {
                         href="https://www.linkedin.com/company/third-eye-info-technology/"
                         target="_blank"
                       >
-                        <h5 className="" style={{fontFamily:"Satoshi-Variable"}}>LinkedIn</h5>
+                        <h5
+                          className=""
+                          style={{ fontFamily: "Satoshi-Variable" }}
+                        >
+                          LinkedIn
+                        </h5>
                       </a>
                     </li>
                     <li className="mb-10">
@@ -640,7 +646,12 @@ function Navbar() {
                         href="https://www.instagram.com/thirdeyeinfotechnology/profilecard/?igsh=d2Z3YXpoanZmZWI4"
                         target="_blank"
                       >
-                        <h5 className="" style={{fontFamily:"Satoshi-Variable"}}>Instagram</h5>
+                        <h5
+                          className=""
+                          style={{ fontFamily: "Satoshi-Variable" }}
+                        >
+                          Instagram
+                        </h5>
                       </a>
                     </li>
                   </ul>

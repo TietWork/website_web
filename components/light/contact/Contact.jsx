@@ -132,7 +132,7 @@ function Contact() {
                   Address
                 </h6>
                 <p style={{ fontFamily: "Satoshi-Variable", fontSize: "18px" ,color:"#000", textTransform:"uppercase"}} className="fw-500">
-                AE-176, Plot No. 2248, Ramkrubha, 11th Main Road, Annanagar, Chennai - 600040, India                  <br />
+                AE-176, Plot No. 2248, Ram Krubha, 11th Main Road, Anna Nagar, Chennai - 600040, India   
                 </p>
               </div>
               <div className="mt-30">
