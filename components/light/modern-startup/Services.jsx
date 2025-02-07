@@ -29,15 +29,17 @@ function Services() {
     <section className="services-boxs section-padding pb-60">
       <div className="container ">
         <div className="sec-head mb-20">
-          <div className=" pt-25  position-relative">
+          <div className="pt-25 position-relative text-center">
             {/* Heading */}
             <motion.h2
               style={{
                 fontSize: "32px",
                 fontWeight: "700",
                 color: "#333333",
-                textAlign: "center", // Centers the text
-                margin: 0, // Ensures proper vertical alignment
+                margin: 0,
+                position: "relative",
+                display: "inline-block",
+                paddingBottom: "10px",
               }}
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -45,37 +47,9 @@ function Services() {
             >
               <span style={{ color: "#007BFF" }}>WHAT WE OFFER</span>
             </motion.h2>
-
-            {/* Button */}
-            <a
-              href="/light/page-services"
-              style={{
-                position: "absolute",
-                right: "10px", // Space from the right
-                top: "25px", // Space from the top
-                width: "40px",
-                height: "40px",
-                borderRadius: "50%", // Circular shape
-                border: "4px solid #007BFF", // Circle border
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                textDecoration: "none",
-                backgroundColor: "transparent",
-                cursor: "pointer",
-              }}
-            >
-              <ArrowForwardIcon
-                style={{
-                  fontSize: "20px",
-                  color: "#007BFF",
-                  fontWeight: "700",
-                  transform: "rotate(330deg)", // Rotating the arrow 45 degrees
-                }}
-              />
-            </a>
           </div>
         </div>
+
         <div className="row pt-30">
           {data.map((item, i) => (
             <div key={i} className="col-lg-3 col-md-6 mb-20">
@@ -96,6 +70,37 @@ function Services() {
             </div>
           ))}
         </div>
+      </div>
+      {/* Button Below Services Section */}
+      <div className="mt-40 text-center">
+        <a
+          href="/light/page-services"
+          target="_blank"
+          style={{
+            display: "inline-flex",
+            alignItems: "center",
+            gap: "8px",
+            padding: "10px 20px",
+            fontSize: "16px",
+            fontWeight: "600",
+            color: "#007BFF",
+            textDecoration: "none",
+            border: "2px solid #007BFF",
+            borderRadius: "25px",
+            transition: "0.3s ease",
+          }}
+          onMouseOver={(e) => {
+            e.currentTarget.style.backgroundColor = "#007BFF";
+            e.currentTarget.style.color = "#fff";
+          }}
+          onMouseOut={(e) => {
+            e.currentTarget.style.backgroundColor = "transparent";
+            e.currentTarget.style.color = "#007BFF";
+          }}
+        >
+          Explore More
+          <ArrowForwardIcon style={{ fontSize: "18px" }} />
+        </a>
       </div>
     </section>
   );

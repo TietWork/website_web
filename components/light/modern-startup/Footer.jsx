@@ -144,7 +144,7 @@ function Footer() {
                     <a href="/light/page-ourClients">Our Clients</a>
                   </li>
                   <li>
-                    <a href="/light/page-FAQS">FAQS</a>
+                    <a href="/light/page-FAQS">FAQ</a>
                   </li>
                 </ul>
                 <ul className="rest fz-14">

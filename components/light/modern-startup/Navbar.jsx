@@ -162,7 +162,7 @@ function Navbar() {
                   <span className="rolling-text">Services</span>
                 </a>
                 <div className="dropdown-menu">
-                  <a className="dropdown-item" href="/light/page-services">
+                  <a className="dropdown-item" href="/light/page-services" target="_blank">
                     What We Offer
                   </a>
                   <a className="dropdown-item" href="/light/page-ourprocess">
@@ -390,7 +390,7 @@ function Navbar() {
                     <div className="sub-menu">
                       <ul>
                         <li>
-                          <a href="/light/page-services" className="sub-link">
+                          <a href="/light/page-services" className="sub-link" target="_blank">
                             What We Offer
                           </a>
                         </li>

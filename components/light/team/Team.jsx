@@ -36,11 +36,11 @@ function OurTeam() {
 
           {/* Founder's Vision */}
           <div className="col-lg-7">
-            <h2 className="mb-20 fw-600 mt-25 fz-30 main-color text-lg-start text-center text-uppercase">
+            <h2 className="mb-20 fw-600 mt-25 fz-30 main-color text-center text-uppercase">
               Founder&apos;s Vision
             </h2>
             <p
-              className="fz-18 text-lg-start text"
+              className="fz-18 text-responsive"
               style={{ color: "#000", lineHeight: "1.8" }}
             >
               At the heart of our success lies our commitment to innovation,

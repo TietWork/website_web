@@ -9014,6 +9014,17 @@ footer.clean-footer.crev:before {
   transition: none; /* Keep as none since no hover effect is needed */
 }
 
+.text-responsive {
+  text-align: center; /* Default: Center for small screens */
+}
+
+@media (min-width: 992px) { /* lg breakpoint */
+  .text-responsive {
+    text-align: left; /* Left-align for large screens */
+  }
+}
+
+
 
 .team .item .social {
   position: absolute;

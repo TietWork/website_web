@@ -48,7 +48,7 @@ function MapSection() {
           <span style={{ color: "#007BFF", fontWeight: "600" }}>Australia</span>
           , <span style={{ color: "#007BFF", fontWeight: "600" }}>USA</span>,{" "}
           <span style={{ color: "#007BFF", fontWeight: "600" }}>UAE</span> and 
-          {" "}<span style={{ color: "#007BFF", fontWeight: "600" }}>Malaysia</span>
+          {" "}<span style={{ color: "#007BFF", fontWeight: "600" }}>Malaysia, </span>
           {" "} we connect wtih clients and partners 
           across the the world.
         </p>

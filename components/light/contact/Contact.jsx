@@ -3,6 +3,7 @@ import React, { useState } from "react";
 
 function Contact() {
   const [result, setResult] = useState("");
+  const [showModal, setShowModal] = useState(false);
 
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -21,6 +22,7 @@ function Contact() {
 
       if (data.success) {
         setResult("Form Submitted Successfully");
+        setShowModal(true);
         event.target.reset();
       } else {
         console.error("Error:", data);
@@ -75,26 +77,6 @@ function Contact() {
                       className="full-width-input"
                     />
                   </div>
-                  {/* <div className="form-group mb-30">
-                    <select
-                      id="form_service_type"
-                      name="service_type"
-                      required
-                      className="custom-dropdown full-width-input"
-                    >
-                      <option value="" disabled selected>
-                        Select Type of Service
-                      </option>
-                      <option value="Software Development">
-                        Software Development
-                      </option>
-                      <option value="AI/ML & Blockchain">
-                        AI/ML & Blockchain
-                      </option>
-                      <option value="IoT Development">IoT Development</option>
-                      <option value="Big Data">Big Data</option>
-                    </select>
-                  </div> */}
 
                   <div className="form-group">
                     <textarea
@@ -116,7 +98,6 @@ function Contact() {
                   </div>
                 </div>
               </form>
-              {result && <p className="mt-20 text-center">{result}</p>}
             </div>
           </div>
 
@@ -131,7 +112,7 @@ function Contact() {
                 >
                   Address
                 </h6>
-                <p style={{ fontFamily: "Satoshi-Variable", fontSize: "18px" ,color:"#000", textTransform:"uppercase"}} className="fw-500">
+                <p style={{ fontFamily: "Satoshi-Variable", fontSize: "18px" ,color:"#000",}} className="fw-500">
                 AE-176, Plot No. 2248, Ram Krubha, 11th Main Road, Anna Nagar, Chennai - 600040, India   
                 </p>
               </div>
@@ -154,6 +135,56 @@ function Contact() {
           </div>
         </div>
       </div>
+
+      {/* Success Modal */}
+      {showModal && (
+        <div
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            backgroundColor: "rgba(0, 0, 0, 0.3)",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            zIndex: 1000,
+          }}
+        >
+          <div
+            style={{
+              background: "#fff",
+              padding: "20px",
+              borderRadius: "10px",
+              boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+              textAlign: "center",
+              width: "300px",
+            }}
+          >
+            <h3 style={{ color: "#000", marginBottom: "10px" }}>
+            Thank you for reaching out to us.
+            </h3>
+            <p style={{ color: "#000", fontSize: "16px" }}>
+             We will respond to your request with in 24 hours.
+            </p>
+            <button
+              onClick={() => setShowModal(false)}
+              style={{
+                backgroundColor: "#007BFF",
+                color: "#fff",
+                border: "none",
+                padding: "10px 20px",
+                borderRadius: "5px",
+                cursor: "pointer",
+                marginTop: "10px",
+              }}
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      )}
     </section>
   );
 }
