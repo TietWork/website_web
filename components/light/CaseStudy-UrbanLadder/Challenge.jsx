@@ -122,7 +122,7 @@ function Challenge() {
                       </ul>
                     </li>
                     <li>
-                      <strong>Cutting Optimization Module:</strong>
+                      <strong>• Cutting Optimization Module:</strong>
                       <ul>
                         <li>
                         ‣ Algorithms to minimize material waste by up to 30%.
