@@ -52,7 +52,7 @@ function Header() {
             fontSize: 'clamp(2.5rem, 5vw, 6rem)', // Responsive font size
             color: '#fff', // Ensures the title is visible
             wordWrap: 'break-word', // Prevents text overflow
-            lineHeight: '1.2', // Adjusts spacing between lines
+            lineHeight: '1.3', // Adjusts spacing between lines
           }}
         >
           PROCESS
