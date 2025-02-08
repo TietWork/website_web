@@ -9015,7 +9015,7 @@ footer.clean-footer.crev:before {
 }
 
 .text-responsive {
-  text-align: center; /* Default: Center for small screens */
+  text-align: center; 
 }
 
 @media (min-width: 992px) { /* lg breakpoint */
