@@ -162,7 +162,11 @@ function Navbar() {
                   <span className="rolling-text">Services</span>
                 </a>
                 <div className="dropdown-menu">
-                  <a className="dropdown-item" href="/light/page-services" target="_blank">
+                  <a
+                    className="dropdown-item"
+                    href="/light/page-services"
+                    target="_blank"
+                  >
                     What We Offer
                   </a>
                   <a className="dropdown-item" href="/light/page-ourprocess">
@@ -390,7 +394,11 @@ function Navbar() {
                     <div className="sub-menu">
                       <ul>
                         <li>
-                          <a href="/light/page-services" className="sub-link" target="_blank">
+                          <a
+                            href="/light/page-services"
+                            className="sub-link"
+                            target="_blank"
+                          >
                             What We Offer
                           </a>
                         </li>
@@ -622,7 +630,7 @@ function Navbar() {
                   <h6 className="sub-title mb-15 opacity-7">Address</h6>
                   <h5>
                     AE-176, Plot No. 2248 Ram Krubha, 11th Main Road Anna Nagar,
-                    Chennai-600040, India{" "}
+                    Chennai-600040 India{" "}
                   </h5>
                 </div>
                 <div className="item mb-50">
