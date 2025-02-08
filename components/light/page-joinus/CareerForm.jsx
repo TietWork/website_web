@@ -8,9 +8,10 @@ function CareerForm() {
     email: "",
     interest: "",
     message: "",
-    resume: null
+    resume: null,
   });
   const [result, setResult] = useState(null);
+  const [showModal, setShowModal] = useState(false);
 
   const handleChange = (e) => {
     const { name, value, files } = e.target;
@@ -37,6 +38,14 @@ function CareerForm() {
       );
       console.log(response.data);
       setResult(response.data.message);
+      setShowModal(true);
+      setFormData({
+        name: "",
+        email: "",
+        interest: "",
+        message: "",
+        resume: null,
+      });
     } catch (error) {
       console.error("Error submitting the form:", error);
       setResult("An error occurred while submitting the form.");
@@ -51,9 +60,8 @@ function CareerForm() {
             <div className="full-width">
               <div className="sec-head mb-50">
                 <h3 className="text-u ls1">
-                  
                   <span className="fw-600" style={{ color: "#007bff" }}>
-                  APPLY NOW!
+                    APPLY NOW!
                   </span>
                 </h3>
               </div>
@@ -67,6 +75,7 @@ function CareerForm() {
                         name="name"
                         placeholder="Full Name"
                         required
+                        value={formData.name}
                         onChange={handleChange}
                       />
                     </div>
@@ -79,6 +88,7 @@ function CareerForm() {
                         name="email"
                         placeholder="Email Address"
                         required
+                        value={formData.email}
                         onChange={handleChange}
                       />
                     </div>
@@ -91,6 +101,7 @@ function CareerForm() {
                         placeholder="Tell us about yourself"
                         rows="4"
                         required
+                        value={formData.message}
                         onChange={handleChange}
                       ></textarea>
                     </div>
@@ -124,17 +135,71 @@ function CareerForm() {
                         type="submit"
                         className="butn butn-full butn-bord radius-30 gradient-button"
                       >
-                        <span className="text ">SUBMIT APPLICATION</span>
+                        <span className="text">SUBMIT APPLICATION</span>
                       </button>
                     </div>
                   </div>
                 </div>
               </form>
-              {result && <p className="mt-20">{result}</p>}
             </div>
           </div>
         </div>
       </div>
+
+      {/* Success Modal */}
+      {showModal && (
+        <div
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            backgroundColor: "rgba(0, 0, 0, 0.3)",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            zIndex: 1000,
+          }}
+        >
+          <div
+            style={{
+              background: "#fff",
+              padding: "20px",
+              borderRadius: "10px",
+              boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+              textAlign: "center",
+              width: "300px",
+            }}
+          >
+            <h3
+              style={{
+                color: "#000",
+                marginBottom: "10px",
+                fontSize: "20px",
+                fontFamily: "Satoshi-Variable",
+              }}
+            >
+              Thank you for applying!
+            </h3>
+            <p
+              style={{
+                color: "#000",
+                fontSize: "16px",
+                fontFamily: "Satoshi-Variable",
+              }}
+            >
+              We will review your application and get back to you soon.
+            </p>
+            <button
+              onClick={() => setShowModal(false)}
+              className="butn butn-full butn-bord radius-30 mt-20"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      )}
     </section>
   );
 }
