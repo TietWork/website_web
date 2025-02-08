@@ -162,23 +162,15 @@ function Contact() {
               width: "300px",
             }}
           >
-            <h3 style={{ color: "#000", marginBottom: "10px" }}>
+            <h3 style={{ color: "#000", marginBottom: "10px", fontSize: "20px" , fontFamily: "Satoshi-Variable"}}>
             Thank you for reaching out to us.
             </h3>
-            <p style={{ color: "#000", fontSize: "16px" }}>
+            <p style={{ color: "#000", fontSize: "16px", fontFamily: "Satoshi-Variable"}}>
              We will respond to your request with in 24 hours.
             </p>
             <button
               onClick={() => setShowModal(false)}
-              style={{
-                backgroundColor: "#007BFF",
-                color: "#fff",
-                border: "none",
-                padding: "10px 20px",
-                borderRadius: "5px",
-                cursor: "pointer",
-                marginTop: "10px",
-              }}
+              className="butn butn-full butn-bord radius-30 mt-20"
             >
               Close
             </button>
