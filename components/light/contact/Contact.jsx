@@ -159,14 +159,14 @@ function Contact() {
               borderRadius: "10px",
               boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
               textAlign: "center",
-              width: "300px",
+              width: "380px",
             }}
           >
             <h3 style={{ color: "#000", marginBottom: "10px", fontSize: "20px" , fontFamily: "Satoshi-Variable"}}>
             Thank you for reaching out to us.
             </h3>
             <p style={{ color: "#000", fontSize: "16px", fontFamily: "Satoshi-Variable"}}>
-             We will respond to your request with in 24 hours.
+             We will respond to your request within 24 hours.
             </p>
             <button
               onClick={() => setShowModal(false)}

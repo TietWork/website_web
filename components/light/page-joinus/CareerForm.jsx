@@ -169,7 +169,7 @@ function CareerForm() {
               borderRadius: "10px",
               boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
               textAlign: "center",
-              width: "300px",
+              width: "380px",
             }}
           >
             <h3
