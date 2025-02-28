@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image';
 
 function Challenge() {
   return (
@@ -29,7 +30,7 @@ function Challenge() {
                 {/* video  */}
                 <div className="col-12 mb-4 videolpg">
                   <video
-                    src="/light/assets/imgs/works/lpg/lpgvideo.mp4"
+                    src="/light/assets/imgs/works/lpg/lpgVideo.mp4"
                     controls
                     // autoPlay
                     muted
@@ -54,27 +55,36 @@ function Challenge() {
                   }}>
                     <div className="col-lg-4 col-md-6 col-sm-12 col-12 img-1">
                       <div className="image-container">
-                        <img
-                          src="/light/assets/imgs/works/lpg/lpgimg2.jpeg"
-                          alt="Image 2"
+                        <Image
+                          src="/light/assets/imgs/works/lpg/lpgimg1.jpeg"
+                          alt="Image 1"
+                          width={300} // Add a width
+                          height={200} // Add a height
+                          style={{ borderRadius: '10px' }}
                         />
                         <div className="overlay"></div>
                       </div>
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12 col-12 img-2">
                       <div className="image-container">
-                        <img
-                          src="/light/assets/imgs/works/lpg/lpgimg1.jpeg"
-                          alt="Image 1"
+                        <Image
+                          src="/light/assets/imgs/works/lpg/lpgimg2.jpeg"
+                          alt="Image 2"
+                          width={300}
+                          height={200}
+                          style={{ borderRadius: '10px' }}
                         />
                         <div className="overlay"></div>
                       </div>
                     </div>
                     <div className="col-lg-4 col-md-12 col-sm-12 col-12 img-3">
                       <div className="image-container">
-                        <img
+                        <Image
                           src="/light/assets/imgs/works/lpg/lpgimg3.jpeg"
                           alt="Image 3"
+                          width={300}
+                          height={200}
+                          style={{ borderRadius: '10px' }}
                         />
                         <div className="overlay"></div>
                       </div>
@@ -87,18 +97,16 @@ function Challenge() {
                     className="fz-18"
                     style={{
                       color: "#000",
-                      textAlign: "left",
-                      fontFamily: "Satoshi-Variable",
-                      textAlign: 'center'
+                      textAlign: "center", // Fixed duplicate textAlign
+                      fontFamily: "Satoshi-Variable"
                     }}>
-                    "We’re proud to showcase our <b style={{ fontSize: '20px' }}>Automated LPG Vending Machine</b> at India Energy Week 2025, held from February 11–14
-                    at the Yashobhoomi Convention Centre in New Delhi, revolutionizing <b style={{ fontSize: '20px' }}>LPG distribution across India.</b>"
+                    &ldquo;We&rsquo;re proud to showcase our <b style={{ fontSize: '20px' }}>Automated LPG Vending Machine</b> at India Energy Week 2025, held from February 11–14
+                    at the Yashobhoomi Convention Centre in New Delhi, revolutionizing <b style={{ fontSize: '20px' }}>LPG distribution across India.</b>&rdquo;
                     <br />
                     <span style={{ fontSize: '17px', paddingTop: '10px' }}>
-                      "We’re also honored by PM Modi’s visit to our project at Advantage Assam 2.0 – Investment and Infrastructure Summit 2025,
-                      taking place in Assam, highlighting the national significance of this initiative."
+                      &ldquo;We&rsquo;re also honored by PM Modi&rsquo;s visit to our project at Advantage Assam 2.0 – Investment and Infrastructure Summit 2025,
+                      taking place in Assam, highlighting the national significance of this initiative.&rdquo;
                     </span>
-
                   </p>
                 </div>
               </div>
