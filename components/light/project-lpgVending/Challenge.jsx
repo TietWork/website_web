@@ -13,7 +13,7 @@ function Challenge() {
                 <div className="orangeround"></div>
                 <div className="voiletround"></div>
                 {/* headline-on media  */}
-                <div className="col-12">
+                {/* <div className="col-12">
                   <h3
                     className="mb-30 line-height-40"
                     style={{
@@ -26,7 +26,7 @@ function Challenge() {
                   >
                     On Media
                   </h3>
-                </div>
+                </div> */}
                 {/* video  */}
                 <div className="col-12 mb-4 videolpg">
                   <video
@@ -98,14 +98,15 @@ function Challenge() {
                     className="fz-18"
                     style={{
                       color: "#000",
-                      textAlign: "center",
+                      textAlign: "left",
                       fontFamily: "Satoshi-Variable"
                     }}>
-                    &ldquo;We were proud to showcase our <b style={{ fontSize: '20px' }}>Automated LPG Vending Machine</b> at India Energy Week 2025, held from February 11–14
-                    at the Yashobhoomi Convention Centre in New Delhi. This innovative solution is transforming <b style={{ fontSize: '20px' }}>LPG distribution across India.</b>&rdquo;
+                 &ldquo;
+                    Our Founder and Managing Director, Mr. Jayavasanth Jayaraman, led our team in showcasing the Automated LPG Vending Machine at India Energy Week 2025, held from February 11-14 at the Yashobhoomi Convention Centre in New Delhi. This innovative solution is transforming LPG distribution across India.
+                    &rdquo;
                     <br />
-                    <span style={{ fontSize: '17px', paddingTop: '10px' }}>
-                      &ldquo;We were also honored by Prime Minister Modi’s visit to our project at Advantage Assam 2.0 – the Investment and Infrastructure Summit 2025 in Assam, underscoring the national significance of this initiative.&rdquo;
+                    <span style={{ fontSize: '17px', paddingTop: '10px',textAlign: "left", }}>
+                      &ldquo;We were also honored by Prime Minister Modi’s visit to our project at Advantage Assam 2.0 - the Investment and Infrastructure Summit 2025 in Assam, underscoring the national significance of this initiative.&rdquo;
                     </span>
                   </p>
                 </div>
