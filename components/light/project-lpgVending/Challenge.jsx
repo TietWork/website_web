@@ -32,7 +32,8 @@ function Challenge() {
                   <video
                     src="/light/assets/imgs/works/lpg/lpgVideo.mp4"
                     controls
-                    // autoPlay
+                    autoPlay
+                    loop
                     muted
                     className="rounded w-100"
                   ></video>
