@@ -97,15 +97,14 @@ function Challenge() {
                     className="fz-18"
                     style={{
                       color: "#000",
-                      textAlign: "center", // Fixed duplicate textAlign
+                      textAlign: "center",
                       fontFamily: "Satoshi-Variable"
                     }}>
-                    &ldquo;We&rsquo;re proud to showcase our <b style={{ fontSize: '20px' }}>Automated LPG Vending Machine</b> at India Energy Week 2025, held from February 11–14
-                    at the Yashobhoomi Convention Centre in New Delhi, revolutionizing <b style={{ fontSize: '20px' }}>LPG distribution across India.</b>&rdquo;
+                    &ldquo;We were proud to showcase our <b style={{ fontSize: '20px' }}>Automated LPG Vending Machine</b> at India Energy Week 2025, held from February 11–14
+                    at the Yashobhoomi Convention Centre in New Delhi. This innovative solution is transforming <b style={{ fontSize: '20px' }}>LPG distribution across India.</b>&rdquo;
                     <br />
                     <span style={{ fontSize: '17px', paddingTop: '10px' }}>
-                      &ldquo;We&rsquo;re also honored by PM Modi&rsquo;s visit to our project at Advantage Assam 2.0 – Investment and Infrastructure Summit 2025,
-                      taking place in Assam, highlighting the national significance of this initiative.&rdquo;
+                      &ldquo;We were also honored by Prime Minister Modi’s visit to our project at Advantage Assam 2.0 – the Investment and Infrastructure Summit 2025 in Assam, underscoring the national significance of this initiative.&rdquo;
                     </span>
                   </p>
                 </div>
