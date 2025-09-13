@@ -81,7 +81,47 @@ function OurTeam() {
                       className="img"
                       style={{ alignContent: "center", borderRadius: "15px" }}
                     >
-                      <img src={item.img} alt="" />
+                      <div style={{
+                        position: "relative",
+                        width: "320px",
+                        height: "400px",
+                        overflow: "hidden",
+                        borderRadius: "15px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        margin: "0 auto"
+                      }}>
+                        {/* Blurred background */}
+                        <img
+                          src={item.img}
+                          alt=""
+                          style={{
+                            position: "absolute",
+                            top: 0,
+                            left: 0,
+                            width: "100%",
+                            height: "100%",
+                            objectFit: "cover",
+                            filter: "blur(24px) brightness(0.85)",
+                            zIndex: 1
+                          }}
+                        />
+                        {/* Main image */}
+                        <img
+                          src={item.img}
+                          alt=""
+                          style={{
+                            position: "relative",
+                            zIndex: 2,
+                            maxWidth: "90%",
+                            maxHeight: "90%",
+                            objectFit: "cover",
+                            borderRadius: "12px",
+                            boxShadow: "0 2px 16px 0 rgba(0,0,0,0.09)"
+                          }}
+                        />
+                      </div>
                       <div
                         style={{
                           display: "flex",
