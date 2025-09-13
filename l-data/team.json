@@ -18,6 +18,15 @@
     "img": "/light/assets/imgs/ourteam/raja.png",
     "name": "Raja Ramachandran",
     "subName": "Senior Testing Engineer"
+  },{
+    "img": "/light/assets/imgs/ourteam/mani.png",
+    "name": "Manikandan Arumugam",
+    "subName": "Senior Testing Engineer"
+  },
+  {
+    "img": "/light/assets/imgs/ourteam/Alex.png",
+    "name": "Alex Herbert",
+    "subName": "Senior Testing Engineer"
   },
   {
     "img": "/light/assets/imgs/ourteam/vignesh.png",
@@ -41,5 +50,22 @@
     "img": "/light/assets/imgs/ourteam/balaji.png",
     "name": "Balaji Ramesh",
     "subName": "Senior UI/UX Developer"
+  },{
+    "img": "/light/assets/imgs/ourteam/Sabari.png",
+    "name": "Sabarinathan Govindharaj",
+    "subName": "Associate Software Engineer"
+  },
+  {
+    "img": "/light/assets/imgs/ourteam/Johnsonraj.png",
+    "name": "Johnson Raj Savarimuthu",
+    "subName": "Associate Software Engineer"
+  },
+  
+  {
+    "img": "/light/assets/imgs/ourteam/vk.png",
+    "name": "Vasanthkumar Kannan",
+    "subName": "Associate Software Engineer"
   }
+  
+ 
 ]
